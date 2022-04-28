@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionIncrement" : "pre 4/15/2021 10:15",
+		"actionReset" : "pre 4/15/2021 10:12",
+		"buildButtonBarSpecWith:" : "pre 4/15/2021 10:10",
+		"buildValueLabelSpecWith:" : "pre 4/15/2021 10:05",
+		"buildWith:" : "pre 4/15/2021 10:16",
+		"counter" : "pre 4/15/2021 09:51",
+		"counter:" : "pre 4/15/2021 09:51",
+		"counterValueString" : "pre 4/15/2021 10:07",
+		"initialize" : "pre 4/15/2021 09:51" } }

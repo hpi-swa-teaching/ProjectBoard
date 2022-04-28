@@ -1,0 +1,14 @@
+{
+	"category" : "Counter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentValue" ],
+	"name" : "Counter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

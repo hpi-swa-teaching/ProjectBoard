@@ -1,0 +1,14 @@
+{
+	"category" : "Counter-Example",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CounterExample",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

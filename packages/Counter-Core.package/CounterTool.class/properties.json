@@ -1,0 +1,14 @@
+{
+	"category" : "Counter-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"counter" ],
+	"name" : "CounterTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

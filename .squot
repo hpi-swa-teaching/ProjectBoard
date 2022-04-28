@@ -1,0 +1,6 @@
+OrderedDictionary {
+	'packages/BaselineOfCounter.package' : #SquotCypressCodeSerializer,
+	'packages/Counter-Core.package' : #SquotCypressCodeSerializer,
+	'packages/Counter-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/Counter-Example.package' : #SquotCypressCodeSerializer
+}

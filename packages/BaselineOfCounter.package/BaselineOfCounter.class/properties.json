@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfCounter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfCounter",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
