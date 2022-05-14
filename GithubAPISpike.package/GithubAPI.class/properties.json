@@ -1,0 +1,15 @@
+{
+	"category" : "GithubAPISpike",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"token" ],
+	"name" : "GithubAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
