@@ -3,5 +3,6 @@ OrderedDictionary {
 	'packages/Counter-Core.package' : #SquotCypressCodeSerializer,
 	'packages/Counter-Tests.package' : #SquotCypressCodeSerializer,
 	'packages/Counter-Example.package' : #SquotCypressCodeSerializer,
-	'GithubAPISpike.package' : #SquotCypressCodeSerializer
+	'GithubAPISpike.package' : #SquotCypressCodeSerializer,
+	'Squello.package' : #SquotCypressCodeSerializer
 }
