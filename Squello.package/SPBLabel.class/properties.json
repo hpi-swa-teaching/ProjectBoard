@@ -1,0 +1,17 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"description",
+		"color",
+		"id" ],
+	"name" : "SPBLabel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

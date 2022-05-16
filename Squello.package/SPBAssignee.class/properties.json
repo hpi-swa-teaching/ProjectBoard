@@ -1,14 +1,15 @@
 {
-	"category" : "GithubAPISpike",
+	"category" : "Squello-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"id",
 		"username",
-		"token" ],
-	"name" : "GithubAPI",
+		"avatar" ],
+	"name" : "SPBAssignee",
 	"pools" : [
 		 ],
 	"super" : "Object",

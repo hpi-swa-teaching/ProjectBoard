@@ -3,7 +3,6 @@ queryCards: aNumber
 
 	"aNumber -> Column id"
 	| url |
-	
 	url := 'https://api.github.com/projects/columns/' , aNumber , '/cards'.
 	
-	^ self queryGithubAPI: url
+	^ self queryGithubAPI: url.

@@ -3,7 +3,6 @@ queryColumns: aNumber
 
 	"aNumber -> Project id"
 	| url |
-	
 	url := 'https://api.github.com/projects/' , aNumber , '/columns'.
 	
-	^ self queryGithubAPI: url
+	^ self queryGithubAPI: url.
