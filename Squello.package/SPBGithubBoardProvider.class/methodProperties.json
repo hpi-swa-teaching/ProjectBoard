@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"queryCardContent:" : "mcr 5/18/2022 16:28",
 		"token" : "lo 5/16/2022 20:48",
 		"token:" : "lo 5/16/2022 20:48",
 		"username" : "lo 5/16/2022 20:48",
@@ -22,7 +23,7 @@
 		"moveCard:ToColumn:" : "lo 5/16/2022 21:16",
 		"moveColumn:to:" : "NTK 5/18/2022 16:24",
 		"queryAssignees:user:repo:" : "lo 5/16/2022 22:35",
-		"queryCardContent:" : "mcr 5/18/2022 15:59",
+		"queryCardContent:" : "mcr 5/18/2022 16:27",
 		"queryCards:" : "mcr 5/18/2022 15:57",
 		"queryColumns:" : "mcr 5/18/2022 15:57",
 		"queryIssue:user:repo:" : "mcr 5/18/2022 15:57",
