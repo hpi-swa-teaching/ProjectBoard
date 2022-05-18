@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cardId",
-		"column",
 		"title",
-		"description" ],
+		"description",
+		"id" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }
