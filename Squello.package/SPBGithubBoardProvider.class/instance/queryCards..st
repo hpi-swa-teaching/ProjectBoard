@@ -5,4 +5,4 @@ queryCards: aNumber
 	| url |
 	url := 'https://api.github.com/projects/columns/' , aNumber , '/cards'.
 	
-	^ self createGetRequestTo: url.
+	^ self getApiWithUrl: url.

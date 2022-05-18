@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildContent:" : "mcr 5/18/2022 15:15",
+		"buildDescription:" : "mcr 5/18/2022 15:08",
+		"buildFromRemote:" : "mcr 5/18/2022 15:12",
+		"buildId:" : "mcr 5/18/2022 15:07",
+		"buildTitle:" : "mcr 5/18/2022 15:07",
+		"card" : "mcr 5/18/2022 15:10",
+		"card:" : "mcr 5/18/2022 15:10" } }

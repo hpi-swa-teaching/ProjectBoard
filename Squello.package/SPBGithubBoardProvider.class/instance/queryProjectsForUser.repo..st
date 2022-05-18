@@ -4,4 +4,4 @@ queryProjectsForUser: aString repo: anOtherString
 	| url |
 	url := 'https://api.github.com/repos/' , aString , '/', anOtherString , '/projects'.
 	
-	^ self createGetRequestTo: url.
+	^ self getApiWithUrl: url.
