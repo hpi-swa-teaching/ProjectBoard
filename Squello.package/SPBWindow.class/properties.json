@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPBWindow",
+	"pools" : [
+		 ],
+	"super" : "PluggableSystemWindow",
+	"type" : "normal" }
