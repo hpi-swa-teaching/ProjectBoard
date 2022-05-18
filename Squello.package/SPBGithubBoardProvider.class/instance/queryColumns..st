@@ -5,4 +5,4 @@ queryColumns: aNumber
 	| url |
 	url := 'https://api.github.com/projects/' , aNumber , '/columns'.
 	
-	^ self queryGithubAPI: url.
+	^ self createGetRequestTo: url.
