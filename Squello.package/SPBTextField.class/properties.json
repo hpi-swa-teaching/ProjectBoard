@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id",
-		"titleWindow",
-		"title" ],
-	"name" : "SPBLane",
+		 ],
+	"name" : "SPBTextField",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "PluggableTextMorphWithModel",
 	"type" : "normal" }

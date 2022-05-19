@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "NTK 5/18/2022 18:45" },
+		"newFrom:" : "NTK 5/19/2022 16:03" },
 	"instance" : {
 		"id" : "NTK 5/18/2022 17:33",
 		"id:" : "NTK 5/18/2022 17:33",
-		"initialize" : "NTK 5/18/2022 18:12",
-		"title" : "NTK 5/18/2022 17:11",
-		"title:" : "NTK 5/18/2022 17:11",
+		"initialize" : "NTK 5/19/2022 16:28",
+		"title" : "NTK 5/19/2022 16:01",
+		"title:" : "NTK 5/19/2022 16:01",
 		"titleWindow" : "NTK 5/18/2022 17:11",
-		"titleWindow:" : "NTK 5/18/2022 17:11" } }
+		"titleWindow:" : "NTK 5/18/2022 17:11",
+		"update:" : "NTK 5/19/2022 16:59" } }

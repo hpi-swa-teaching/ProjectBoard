@@ -1,5 +1,9 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "NTK 5/19/2022 12:16",
+		"scrollPaneSpec" : "NTK 5/19/2022 12:33",
+		"windowSpec" : "NTK 5/19/2022 12:33" },
 	"instance" : {
-		"initialize" : "NTK 5/18/2022 18:44" } }
+		"displayLanesOf:" : "NTK 5/19/2022 12:16",
+		"initialize" : "NTK 5/19/2022 12:13",
+		"initializeWindow" : "NTK 5/19/2022 12:34" } }

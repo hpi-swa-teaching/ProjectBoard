@@ -6,11 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id",
-		"titleWindow",
-		"title" ],
-	"name" : "SPBLane",
+		"builder",
+		"window",
+		"provider",
+		"boardID",
+		"lanes",
+		"scrollPane",
+		"boardArea" ],
+	"name" : "SPBConstructor",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Object",
 	"type" : "normal" }

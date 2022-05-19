@@ -15,6 +15,7 @@
 		"createGetRequestTo:" : "lo 5/16/2022 21:08",
 		"createIssue:user:repo:" : "lo 5/16/2022 22:33",
 		"createLabel:user:repo:" : "lo 5/16/2022 21:47",
+		"createPatchRequestTo:" : "NTK 5/19/2022 14:47",
 		"createPostRequestTo:" : "lo 5/16/2022 21:08",
 		"deleteColumn:" : "NTK 5/18/2022 16:36",
 		"getApiWithUrl:" : "mcr 5/18/2022 15:57",
@@ -27,4 +28,5 @@
 		"queryCards:" : "mcr 5/18/2022 15:57",
 		"queryColumns:" : "mcr 5/18/2022 15:57",
 		"queryIssue:user:repo:" : "mcr 5/18/2022 15:57",
-		"queryProjectsForUser:repo:" : "mcr 5/18/2022 15:57" } }
+		"queryProjectsForUser:repo:" : "mcr 5/18/2022 15:57",
+		"renameColumn:to:" : "NTK 5/19/2022 16:47" } }

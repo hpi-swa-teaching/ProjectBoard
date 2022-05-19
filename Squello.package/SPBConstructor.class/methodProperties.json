@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"newWith:" : "NTK 5/19/2022 13:38",
+		"scrollPaneSpec" : "NTK 5/19/2022 12:45",
+		"windowSpec" : "NTK 5/19/2022 12:45" },
+	"instance" : {
+		"boardArea" : "NTK 5/19/2022 13:10",
+		"boardArea:" : "NTK 5/19/2022 13:10",
+		"boardID" : "NTK 5/19/2022 12:57",
+		"boardID:" : "NTK 5/19/2022 12:57",
+		"buildArea" : "NTK 5/19/2022 13:50",
+		"buildLanes" : "NTK 5/19/2022 13:41",
+		"buildWindow" : "NTK 5/19/2022 13:06",
+		"builder" : "NTK 5/19/2022 12:44",
+		"builder:" : "NTK 5/19/2022 12:44",
+		"getLanes:" : "NTK 5/19/2022 12:59",
+		"initialize" : "NTK 5/19/2022 13:01",
+		"lanes" : "NTK 5/19/2022 12:58",
+		"lanes:" : "NTK 5/19/2022 12:58",
+		"provider" : "NTK 5/19/2022 12:56",
+		"provider:" : "NTK 5/19/2022 12:56",
+		"scrollPane" : "NTK 5/19/2022 13:06",
+		"scrollPane:" : "NTK 5/19/2022 13:06",
+		"window" : "NTK 5/19/2022 12:48",
+		"window:" : "NTK 5/19/2022 12:48" } }

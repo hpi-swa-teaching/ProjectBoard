@@ -3,10 +3,13 @@ initialize
 
 	super initialize.
 
-	self titleWindow: PluggableTextMorphPlus new.
-	self titleWindow vScrollBarPolicy: #never.
-	self titleWindow width: 300.
-	self titleWindow height: 50.
+	self titleWindow: SPBTextField new.
+	self titleWindow
+		vScrollBarPolicy: #never;
+		width: 300;
+		height: 50;
+		acceptOnCR: true;
+		addDependent: self.
 	
 	self
 		width: 300;
