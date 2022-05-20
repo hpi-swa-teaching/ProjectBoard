@@ -1,11 +1,12 @@
 as yet unclassified
-newWith: aNumber
-	|a|
-	a := self new.
-	a lanes: (a getLanes: aNumber).
-	a 
+newWith: aString
+	|board id|
+	board := self new.
+	id := board provider getBoardIDFromUrl: aString.
+	board lanes: (board getLanes: id).
+	board 
 		buildArea;
 		buildLanes;
 		yourself.
-	^a.
+	^board.
 	

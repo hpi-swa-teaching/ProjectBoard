@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"observer" ],
 	"name" : "SPBTextField",
 	"pools" : [
 		 ],

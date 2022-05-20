@@ -19,6 +19,8 @@
 		"createPostRequestTo:" : "lo 5/16/2022 21:08",
 		"deleteColumn:" : "NTK 5/18/2022 16:36",
 		"getApiWithUrl:" : "mcr 5/18/2022 15:57",
+		"getBoardID:fromRepo:byUser:" : "jh 5/20/2022 02:02",
+		"getBoardIDFromUrl:" : "jh 5/20/2022 02:17",
 		"listLabelsForIssue:user:repo:" : "lo 5/16/2022 22:32",
 		"listPossibleAssigneesForUser:repo:" : "lo 5/16/2022 22:37",
 		"moveCard:ToColumn:" : "lo 5/16/2022 21:16",

@@ -1,5 +1,5 @@
 accessing
-setText:  aText
-	"beware, wrong/bad implementation"
-	self dependents do: [:d | d class = SPBLane ifTrue: [d update]].
+setText: aText
+
+	self observer ifNotNil: [self observer updateText: self text].
 	super setText: aText.

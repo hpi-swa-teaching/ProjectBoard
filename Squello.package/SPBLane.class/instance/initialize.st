@@ -9,7 +9,7 @@ initialize
 		width: 300;
 		height: 50;
 		acceptOnCR: true;
-		addDependent: self.
+		observer: self.
 	
 	self
 		width: 300;
