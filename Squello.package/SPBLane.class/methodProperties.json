@@ -1,15 +1,17 @@
 {
 	"class" : {
-		"newFrom:" : "mcr 5/20/2022 11:49" },
+		"height" : "mcr 5/20/2022 13:18",
+		"newFrom:" : "mcr 5/20/2022 14:14",
+		"width" : "mcr 5/20/2022 13:18" },
 	"instance" : {
 		"fetchCards" : "mcr 5/20/2022 12:29",
 		"id" : "NTK 5/18/2022 17:33",
 		"id:" : "NTK 5/18/2022 17:33",
-		"initialize" : "mcr 5/20/2022 12:09",
+		"initialize" : "mcr 5/20/2022 13:19",
 		"provider" : "mcr 5/20/2022 11:56",
 		"provider:" : "mcr 5/20/2022 11:57",
-		"title" : "NTK 5/19/2022 16:01",
-		"title:" : "NTK 5/19/2022 16:01",
+		"title" : "mcr 5/20/2022 14:00",
+		"title:" : "mcr 5/20/2022 14:00",
 		"titleWindow" : "mcr 5/20/2022 12:23",
 		"titleWindow:" : "mcr 5/20/2022 12:23",
-		"updateText:" : "mcr 5/20/2022 12:25" } }
+		"updateText:" : "mcr 5/20/2022 14:12" } }

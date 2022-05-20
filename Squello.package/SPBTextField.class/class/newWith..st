@@ -1,8 +1,8 @@
 as yet unclassified
 newWith: anObserver
 
-	| field |
-	field := self new.
-	field observer: anObserver.
+	| instance |
+	instance := self new.
+	instance observer: anObserver.
 	
-	^ field.
+	^ instance.

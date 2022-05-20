@@ -12,8 +12,8 @@ initialize
 		observer: self.
 	
 	self
-		width: 300;
-		height: 700;
+		width: self class width;
+		height: self class height;
 		borderWidth: 0;
 		color: Color darkGray;
 		addMorph: self titleWindow.

@@ -1,11 +1,10 @@
-as yet unclassified
+instance creation
 newFrom: aJsonObject
 
-	| lane title |
+	| instance title |
+	instance := self new.
 	title := aJsonObject at: 'name'.
-	lane := self new.
-	lane title: title.
-	lane titleWindow setText: title.
-	lane id: (aJsonObject at: 'id').
-	
-	^ lane.
+	instance title: title.
+	instance titleWindow setText: title.
+	instance id: (aJsonObject at: 'id').
+	^ instance.

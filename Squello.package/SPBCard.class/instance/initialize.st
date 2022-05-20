@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self extent: 
-		280 @ 100;
+		(SPBLane width -20) @ 100;
 		color: Color lightGray.
