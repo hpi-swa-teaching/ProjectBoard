@@ -1,4 +1,4 @@
-as yet unclassified
+api calls
 addIssue: aNumber ToColumn: anOtherNumber
 
 	"aNumber -> Issue ID (NOT issue number #x)"

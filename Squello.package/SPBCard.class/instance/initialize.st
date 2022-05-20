@@ -2,4 +2,6 @@ accessing
 initialize
 
 	super initialize.
-	self extent: 100 @ 100.
+	self extent: 
+		280 @ 100;
+		color: Color lightGray.

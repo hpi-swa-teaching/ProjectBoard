@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"newWith:" : "NTK 5/19/2022 12:16",
-		"scrollPaneSpec" : "NTK 5/19/2022 12:33",
-		"windowSpec" : "NTK 5/19/2022 12:33" },
+		"newWith:" : "mcr 5/20/2022 10:51",
+		"scrollPaneSpec" : "mcr 5/20/2022 10:51",
+		"windowSpec" : "mcr 5/20/2022 10:51" },
 	"instance" : {
-		"displayLanesOf:" : "NTK 5/19/2022 12:16",
+		"displayLanesOf:" : "mcr 5/20/2022 11:03",
 		"initialize" : "NTK 5/19/2022 12:13",
 		"initializeWindow" : "NTK 5/19/2022 12:34" } }

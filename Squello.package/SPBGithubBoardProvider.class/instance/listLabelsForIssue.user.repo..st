@@ -1,4 +1,4 @@
-as yet unclassified
+api calls
 listLabelsForIssue: aNumber user: aString repo: anOtherString
 
 	| url |

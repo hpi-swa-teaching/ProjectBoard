@@ -1,6 +1,7 @@
 as yet unclassified
 newWith: aString
-	|board id|
+
+	| board id |
 	board := self new.
 	id := board provider getBoardIDFromUrl: aString.
 	board lanes: (board getLanes: id).
@@ -8,5 +9,5 @@ newWith: aString
 		buildArea;
 		buildLanes;
 		yourself.
-	^board.
+	^ board.
 	

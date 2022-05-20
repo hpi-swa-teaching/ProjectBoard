@@ -1,7 +1,7 @@
 as yet unclassified
 displayLanesOf: aNumber
-	|lanes frame name column|
-		
+
+	| lanes frame name column |		
 	lanes := SPBGithubBoardProvider new queryColumns: aNumber.
 	
 	1 to: lanes size do: 
@@ -14,7 +14,6 @@ displayLanesOf: aNumber
 		bottomFraction: 1.
 	name := (lanes at: i) at: 'name'.
 	column :=  SPBLane newWith: name.
-	self addMorph: column fullFrame: frame.
-	]
+	self addMorph: column fullFrame: frame].
 
 

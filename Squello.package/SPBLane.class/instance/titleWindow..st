@@ -1,3 +1,4 @@
 accessing
 titleWindow: anObject
-	titleWindow := anObject
+
+	titleWindow := anObject.

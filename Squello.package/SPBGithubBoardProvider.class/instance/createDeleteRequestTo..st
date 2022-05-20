@@ -1,4 +1,4 @@
-as yet unclassified
+request creation/sending
 createDeleteRequestTo: aString
 
 	| request |

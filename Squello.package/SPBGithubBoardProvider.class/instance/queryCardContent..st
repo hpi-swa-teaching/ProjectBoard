@@ -1,5 +1,5 @@
-as yet unclassified
+api calls
 queryCardContent: aString
 	
 	"aString -> content-url"
-	^ self getApiWithUrl: aString.
+	^ self getRequestToURL: aString.

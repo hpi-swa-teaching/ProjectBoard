@@ -1,4 +1,4 @@
-as yet unclassified
+api calls
 renameColumn: aNumber to: aString
 
 	| request response stream url |

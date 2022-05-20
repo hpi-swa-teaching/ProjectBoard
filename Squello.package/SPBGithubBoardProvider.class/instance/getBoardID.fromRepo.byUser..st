@@ -1,4 +1,4 @@
-as yet unclassified
+api calls
 getBoardID: aNumber fromRepo: aString byUser: anOtherString
 
 	| request response stream url lastSlashPos |

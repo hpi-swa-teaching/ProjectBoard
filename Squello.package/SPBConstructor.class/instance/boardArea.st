@@ -1,3 +1,4 @@
 accessing
 boardArea
-	^ boardArea
+
+	^ boardArea.

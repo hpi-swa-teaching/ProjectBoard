@@ -1,8 +1,9 @@
 as yet unclassified
 windowSpec
-	|spec|
+
+	| spec |
 	spec := PluggableWindowSpec new.
 	spec 
 		label: 'Project Board'.
 		
-	^spec.
+	^ spec.

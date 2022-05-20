@@ -1,3 +1,4 @@
 accessing
 titleWindow
-	^ titleWindow
+
+	^ titleWindow.

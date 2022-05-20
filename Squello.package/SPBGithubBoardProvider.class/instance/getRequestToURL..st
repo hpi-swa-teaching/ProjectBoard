@@ -1,5 +1,5 @@
-as yet unclassified
-getApiWithUrl: aString
+request creation/sending
+getRequestToURL: aString
 
 	| request response stream |
 	request := self createGetRequestTo: aString.

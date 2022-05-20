@@ -1,4 +1,4 @@
-as yet unclassified
+api calls
 addLabels: aCollection toIssue: aNumber user: aString repo: anOtherString
 
 	| request response stream url payload |

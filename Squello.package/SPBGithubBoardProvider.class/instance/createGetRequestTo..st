@@ -1,4 +1,4 @@
-as yet unclassified
+request creation/sending
 createGetRequestTo: aString
 
 	| request |

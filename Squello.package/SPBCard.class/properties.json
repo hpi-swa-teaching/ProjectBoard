@@ -12,5 +12,5 @@
 	"name" : "SPBCard",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Morph",
 	"type" : "normal" }

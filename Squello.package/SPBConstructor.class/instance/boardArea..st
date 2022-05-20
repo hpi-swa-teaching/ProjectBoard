@@ -1,3 +1,4 @@
 accessing
 boardArea: anObject
-	boardArea := anObject
+
+	boardArea := anObject.

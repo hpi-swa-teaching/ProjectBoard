@@ -1,5 +1,6 @@
-as yet unclassified
+api calls
 deleteColumn: aNumber
+
 	"missing return statement, fix with error handling"
 	| request response url |
 	url := 'https://api.github.com/projects/columns/' , aNumber asString.

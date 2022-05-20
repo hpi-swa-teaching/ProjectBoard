@@ -1,3 +1,4 @@
 accessing
-builder: anObject
-	builder := anObject
+builder: aMorphicToolBuilder
+	
+	builder := aMorphicToolBuilder.

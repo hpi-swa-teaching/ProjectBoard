@@ -1,4 +1,4 @@
-as yet unclassified
+api calls
 createLabel: aSPBLabel user: aString repo: anOtherString
 
 	| request response stream url |

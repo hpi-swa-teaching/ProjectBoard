@@ -1,6 +1,7 @@
 as yet unclassified
 newWith: aNumber
-	|a|
-	a := self new.
-	a displayLanesOf: aNumber.
-	^a.
+
+	| instance |
+	instance := self new.
+	instance displayLanesOf: aNumber.
+	^ instance.
