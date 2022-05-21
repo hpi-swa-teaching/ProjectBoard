@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"laneCardLinkage",
-		"editViewTitle",
-		"editViewDescription",
-		"activeCard" ],
-	"name" : "SPBBoard",
+		"board" ],
+	"name" : "SPBModel",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Model",
 	"type" : "normal" }

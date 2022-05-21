@@ -1,0 +1,3 @@
+accessing
+editArea
+	^ editArea

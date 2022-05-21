@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"observer" ],
+		"id",
+		"titleWindow",
+		"title",
+		"provider" ],
 	"name" : "SPBTextField",
 	"pools" : [
 		 ],
-	"super" : "PluggableTextMorphWithModel",
+	"super" : "PluggableTextMorphPlus",
 	"type" : "normal" }

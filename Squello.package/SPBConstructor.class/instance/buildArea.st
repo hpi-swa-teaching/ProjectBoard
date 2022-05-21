@@ -1,4 +1,4 @@
-accessing
+window construction
 buildArea
 
 	self boardArea: SPBBoard new.

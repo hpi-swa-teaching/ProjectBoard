@@ -1,4 +1,4 @@
-accessing
+window construction
 buildLanes
 
 	| areaPos lanePos lane|

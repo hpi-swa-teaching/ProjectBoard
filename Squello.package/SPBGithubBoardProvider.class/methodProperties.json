@@ -19,7 +19,7 @@
 		"createPostRequestTo:" : "lo 5/16/2022 21:08",
 		"deleteColumn:" : "mcr 5/20/2022 11:26",
 		"getBoardID:fromRepo:byUser:" : "jh 5/20/2022 02:02",
-		"getBoardIDFromUrl:" : "mcr 5/20/2022 11:39",
+		"getBoardIDFromUrl:" : "jh 5/21/2022 16:38",
 		"getRequestToURL:" : "mcr 5/20/2022 11:21",
 		"listLabelsForIssue:user:repo:" : "lo 5/16/2022 22:32",
 		"listPossibleAssigneesForUser:repo:" : "lo 5/16/2022 22:37",
@@ -31,4 +31,5 @@
 		"queryColumns:" : "mcr 5/20/2022 11:21",
 		"queryIssue:user:repo:" : "mcr 5/20/2022 11:21",
 		"queryProjectsForUser:repo:" : "mcr 5/20/2022 11:21",
-		"renameColumn:to:" : "NTK 5/19/2022 16:47" } }
+		"renameColumn:to:" : "NTK 5/19/2022 16:47",
+		"updateCard:" : "jh 5/21/2022 16:33" } }
