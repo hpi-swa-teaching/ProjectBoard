@@ -1,0 +1,4 @@
+accessing
+currentLane
+
+	^ self owner.

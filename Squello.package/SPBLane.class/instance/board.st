@@ -1,0 +1,4 @@
+accessing
+board
+
+	^ self owner.

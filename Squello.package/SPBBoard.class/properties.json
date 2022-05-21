@@ -6,11 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"description",
-		"id",
-		"lane" ],
-	"name" : "SPBCard",
+		"laneCardLinkage" ],
+	"name" : "SPBBoard",
 	"pools" : [
 		 ],
 	"super" : "Morph",
