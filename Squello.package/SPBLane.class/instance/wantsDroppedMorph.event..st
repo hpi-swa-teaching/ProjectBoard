@@ -1,4 +1,4 @@
-accessing
+card movement
 wantsDroppedMorph: aSPBCard event: anEvent
 	
 	"only accept SPBCards to drop into lane"

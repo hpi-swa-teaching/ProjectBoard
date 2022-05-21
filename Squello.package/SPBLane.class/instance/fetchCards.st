@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 fetchCards
 
 	| cards newCard builder |
@@ -10,4 +10,4 @@ fetchCards
 		newCard lane: self.
 		(self board laneCardLinkage at: self id) add: newCard.
 		self addMorph: newCard.
-		newCard position: (self position x + 10) @ (self position y + 60 + ((i-1) * 120))].
+		newCard position: (self position x + 10) @ (self position y + 70 + ((i-1) * 120))].

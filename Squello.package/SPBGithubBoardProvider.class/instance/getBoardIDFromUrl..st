@@ -1,13 +1,13 @@
 api calls
 getBoardIDFromUrl: aString
 
-	| response url projID pathComponents user repo |
+	| response url projID pathComponents |
 	url := aString asUrl.
 	pathComponents := url fullPath splitBy: '/'.
-	user := pathComponents at: 2.
-	repo := pathComponents at: 3.
+	self user: (pathComponents at: 2).
+	self repo: (pathComponents at: 3).
 	projID := url fileName asNumber.
-	url := 'https://api.github.com/repos/' , user , '/' , repo , '/projects'.
+	url := 'https://api.github.com/repos/' , self user , '/' , self repo , '/projects'.
 	
 	response := self getRequestToURL: url.
-	^ {user . repo . (response at: projID) at: 'id'}.
+	^ {self user . self repo . (response at: projID) at: 'id'}.

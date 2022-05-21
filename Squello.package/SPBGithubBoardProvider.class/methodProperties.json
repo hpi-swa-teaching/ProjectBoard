@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"queryCardContent:" : "mcr 5/20/2022 11:21",
 		"token" : "lo 5/16/2022 20:48",
 		"token:" : "lo 5/16/2022 20:48",
 		"username" : "lo 5/16/2022 20:48",
@@ -19,7 +18,7 @@
 		"createPostRequestTo:" : "lo 5/16/2022 21:08",
 		"deleteColumn:" : "mcr 5/20/2022 11:26",
 		"getBoardID:fromRepo:byUser:" : "jh 5/20/2022 02:02",
-		"getBoardIDFromUrl:" : "jh 5/21/2022 16:38",
+		"getBoardIDFromUrl:" : "mcr 5/22/2022 01:03",
 		"getRequestToURL:" : "mcr 5/20/2022 11:21",
 		"listLabelsForIssue:user:repo:" : "lo 5/16/2022 22:32",
 		"listPossibleAssigneesForUser:repo:" : "lo 5/16/2022 22:37",
@@ -32,4 +31,8 @@
 		"queryIssue:user:repo:" : "mcr 5/20/2022 11:21",
 		"queryProjectsForUser:repo:" : "mcr 5/20/2022 11:21",
 		"renameColumn:to:" : "NTK 5/19/2022 16:47",
-		"updateCard:" : "jh 5/21/2022 16:33" } }
+		"repo" : "mcr 5/22/2022 01:01",
+		"repo:" : "mcr 5/22/2022 01:02",
+		"updateCard:" : "jh 5/21/2022 16:33",
+		"user" : "mcr 5/22/2022 01:02",
+		"user:" : "mcr 5/22/2022 01:02" } }

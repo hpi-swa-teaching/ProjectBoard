@@ -1,4 +1,4 @@
 as yet unclassified
-buildId: aNumber
+buildID: aNumber
 
 	self card id: aNumber.

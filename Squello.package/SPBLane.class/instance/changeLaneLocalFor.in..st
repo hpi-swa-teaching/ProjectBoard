@@ -1,4 +1,4 @@
-accessing
+card movement
 changeLaneLocalFor: aSPBCard in: aSPBLane
 
 	| oldLaneCards oldLane currentLane |
