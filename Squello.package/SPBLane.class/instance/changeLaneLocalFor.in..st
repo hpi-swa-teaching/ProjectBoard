@@ -1,13 +1,14 @@
 accessing
-changeLaneLocalFor: aSPBCard in: anotherNumber
+changeLaneLocalFor: aSPBCard in: aSPBLane
 
-	| oldLane oldLaneID currentLane |
-	oldLaneID := anotherNumber.
-	oldLane := (self board laneCardLinkage at: oldLaneID).
-	oldLane removeAt: (oldLane indexOf: aSPBCard).
+	| oldLaneCards oldLane currentLane |
+	oldLane := aSPBLane.
+	oldLaneCards := (self board laneCardLinkage at: (oldLane id)).
+	oldLaneCards removeAt: (oldLaneCards indexOf: aSPBCard).
 	currentLane := self board laneCardLinkage at: self id.
 	currentLane add: aSPBCard.
-	aSPBCard lane: self id. 
+	aSPBCard lane: self. 
+	oldLane alignCards.
 
 	
 	

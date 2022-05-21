@@ -1,9 +1,7 @@
 accessing
 wantsDroppedMorph: aSPBCard event: anEvent
-
-	self changeLaneLocalFor: aSPBCard in: aSPBCard lane.
-	self changeLaneRemoteFor: aSPBCard id. 
-	aSPBCard lane: self id.
 	
+	"only accept SPBCards to drop into lane"
+	aSPBCard class = SPBCard ifFalse: [^ false].
 	^ true.
 	

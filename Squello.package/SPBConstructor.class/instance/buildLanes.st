@@ -11,4 +11,4 @@ buildLanes
 		lanePos := areaPos x + (i - 1) * 350.
 		lane position: lanePos @ (areaPos y).
 		lane provider: self provider.
-		lane fetchCardsFor: self board laneCardLinkage]. 
+		lane fetchCards]. 
