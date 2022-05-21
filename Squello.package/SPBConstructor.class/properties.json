@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"LastProject" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"builder",
@@ -12,7 +12,9 @@
 		"boardID",
 		"lanes",
 		"scrollPane",
-		"boardArea" ],
+		"model",
+		"board",
+		"sidebar" ],
 	"name" : "SPBConstructor",
 	"pools" : [
 		 ],

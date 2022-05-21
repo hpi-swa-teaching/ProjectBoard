@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"laneCardLinkage" ],
+		"laneCardLinkage",
+		"activeCard",
+		"sidbarTitle",
+		"sidebarDescription" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],

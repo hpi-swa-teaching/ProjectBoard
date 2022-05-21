@@ -1,13 +1,15 @@
-as yet unclassified
+instance creation
 newWith: aString
 
-	| board id |
+	| board id projData |
 	board := self new.
-	id := board provider getBoardIDFromUrl: aString.
+	projData := board provider getBoardIDFromUrl: aString.
+	id := projData at: 3.
 	board lanes: (board getLanes: id).
 	board 
-		buildArea;
+		buildBoard;
 		buildLanes;
+		buildSidebar;
 		yourself.
 	^ board.
 	

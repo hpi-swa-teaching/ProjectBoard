@@ -9,7 +9,11 @@
 		"title",
 		"description",
 		"id",
-		"lane" ],
+		"issueId",
+		"lane",
+		"provider",
+		"user",
+		"repo" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],

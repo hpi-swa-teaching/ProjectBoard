@@ -1,3 +1,4 @@
 accessing
-lanes: anObject
-	lanes := anObject
+lanes: anArray
+
+	lanes := anArray.

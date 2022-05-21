@@ -1,4 +1,4 @@
 accessing
-boardID: anObject
+boardID: aNumber
 
-	boardID := anObject.
+	boardID := aNumber.

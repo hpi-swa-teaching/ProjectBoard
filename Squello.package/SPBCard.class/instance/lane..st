@@ -1,3 +1,4 @@
 accessing
-lane: anObject
-	lane := anObject
+lane: aNumber
+
+	lane := aNumber.

@@ -8,8 +8,7 @@ initialize
 		vScrollBarPolicy: #never;
 		width: 300;
 		height: 50;
-		acceptOnCR: true;
-		observer: self.
+		acceptOnCR: true.
 	
 	self
 		width: self class width;

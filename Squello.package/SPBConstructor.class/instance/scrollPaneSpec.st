@@ -1,9 +1,9 @@
-as yet unclassified
+window construction
 scrollPaneSpec
 
 	| spec |
 	spec := PluggableScrollPaneSpec new.
 	spec 
-		frame: (0 @ 0 corner: 1 @ 1).
+		frame: (0@0 corner: 0.7@1).
 		
 	^ spec.

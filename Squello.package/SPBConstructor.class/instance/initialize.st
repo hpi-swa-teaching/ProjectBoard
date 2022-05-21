@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	
 	self
-		builder: MorphicToolBuilder new;
+		builder: ToolBuilder default;
 		provider: SPBGithubBoardProvider new;
 		buildWindow.
 	self builder open: self window.

@@ -1,5 +1,7 @@
 accessing
-updateText: aText
+update: aText
+
+	self titleWindow setText: aText.
 
 	aText == self title ifFalse: 
 		[self title: aText asString.

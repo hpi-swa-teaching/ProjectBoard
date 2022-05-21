@@ -1,4 +1,4 @@
 accessing
-laneCardLinkage: anObject
+laneCardLinkage: aDictionary
 
-	laneCardLinkage := anObject
+	laneCardLinkage := aDictionary.

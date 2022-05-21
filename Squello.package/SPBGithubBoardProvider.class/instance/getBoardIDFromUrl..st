@@ -1,10 +1,13 @@
 api calls
 getBoardIDFromUrl: aString
 
-	| response url lastSlashPos projID |
-	lastSlashPos := (aString asOrderedCollection lastIndexOf: $/) - 1.
-	url := (aString copyFrom: 1 to: 8) , 'api.' , (aString copyFrom: 9 to: 19) , 'repos/' , (aString copyFrom: 20 to: lastSlashPos).
-	projID := (aString copyFrom: (lastSlashPos + 2) to: aString size) asNumber.
+	| response url projID pathComponents user repo |
+	url := aString asUrl.
+	pathComponents := url fullPath splitBy: '/'.
+	user := pathComponents at: 2.
+	repo := pathComponents at: 3.
+	projID := url fileName asNumber.
+	url := 'https://api.github.com/repos/' , user , '/' , repo , '/projects'.
 	
 	response := self getRequestToURL: url.
-	^ (response at: projID) at: 'id'.
+	^ {user . repo . (response at: projID) at: 'id'}.
