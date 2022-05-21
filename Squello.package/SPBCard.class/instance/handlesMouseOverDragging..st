@@ -1,4 +1,0 @@
-accessing
-handlesMouseOverDragging: anEvent
-	
-	^ true.
