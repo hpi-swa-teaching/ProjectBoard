@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'Counter',
+      #baseline : 'Squello',
       #directory : 'packages',
       #platforms : [ #squeak ],
       #load : [ 'tests' ]
@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'Counter-Core' ]
+      #packages : [ 'Squello-Core' ]
     },
     #exclude : {
       #classes : [ #JsonTests ]
