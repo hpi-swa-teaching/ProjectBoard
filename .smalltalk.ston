@@ -11,5 +11,8 @@ SmalltalkCISpec {
     #coverage : {
       #packages : [ 'Counter-Core' ]
     }
+  },
+  #exclude : {
+    #classes : [ #JsonTests ]
   }
 }
