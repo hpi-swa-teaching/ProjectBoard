@@ -1,11 +1,11 @@
 api calls
-moveCard: aNumber ToColumn: anOtherNumber
+moveCardToTop: aNumber ToColumn: aThirdNumber
 
 	"aNumber -> CardID"
 	"anOtherNumber -> target column id"
 	| request response stream url payload |
 	url := 'https://api.github.com/projects/columns/cards/' , aNumber , '/moves'.
-	payload := '{"position": "top", "column_id": ' , anOtherNumber , '"}'.
+	payload := '{"position": "top", "column_id": ' , aThirdNumber , '"}'.
 	
 	request := self createPostRequestTo: url.
 	request headerAt: 'Content-Length' put: payload size.

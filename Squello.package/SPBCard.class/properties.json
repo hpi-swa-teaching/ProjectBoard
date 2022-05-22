@@ -13,7 +13,8 @@
 		"lane",
 		"provider",
 		"user",
-		"repo" ],
+		"repo",
+		"frontCardId" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],
