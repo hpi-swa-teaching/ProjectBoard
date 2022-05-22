@@ -1,4 +1,5 @@
 OrderedDictionary {
 	'GithubAPISpike.package' : #SquotCypressCodeSerializer,
-	'Squello.package' : #SquotCypressCodeSerializer
+	'Squello.package' : #SquotCypressCodeSerializer,
+	'BaselineOfSquello.package' : #SquotCypressCodeSerializer
 }
