@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"card" ],
+	"name" : "SPBMockGithubBoardProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
