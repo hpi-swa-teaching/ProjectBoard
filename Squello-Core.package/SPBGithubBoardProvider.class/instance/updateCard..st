@@ -2,7 +2,7 @@ api calls
 updateCard: anSPBCard
 
 	| request response stream url |
-	url := 'https://api.github.com/repos/' , anSPBCard user , '/' , anSPBCard repo , '/issues/', anSPBCard issueId.
+	url := 'https://api.github.com/repos/' , self user , '/' , self repo , '/issues/', anSPBCard issueId.
 	stream := WriteStream with: OrderedCollection new.
 	(Dictionary newFrom: {'title' -> anSPBCard title . 'body' -> anSPBCard description}) jsonWriteOn: stream.
 	

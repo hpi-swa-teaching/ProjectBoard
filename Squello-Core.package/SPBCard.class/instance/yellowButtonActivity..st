@@ -1,5 +1,5 @@
 event handling
 yellowButtonActivity: anObject
 	
-	self currentLane board changeActiveCardTo: self.
+	self lane board changeActiveCardTo: self.
 	super yellowButtonActivity: anObject.
