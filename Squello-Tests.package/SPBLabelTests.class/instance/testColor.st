@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testColor
 
 	self assert: nil equals: label color.

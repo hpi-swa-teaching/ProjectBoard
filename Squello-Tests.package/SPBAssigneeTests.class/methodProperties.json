@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "lo 5/23/2022 17:01",
+		"tearDown" : "lo 5/23/2022 17:01",
+		"testAvatar" : "lo 5/23/2022 17:03",
+		"testId" : "lo 5/23/2022 17:12",
+		"testUsername" : "lo 5/23/2022 17:05" } }

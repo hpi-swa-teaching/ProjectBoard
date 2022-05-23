@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	label := SPBLabel new.
