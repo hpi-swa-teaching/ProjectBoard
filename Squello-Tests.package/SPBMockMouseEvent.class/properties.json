@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"yellow" ],
+	"name" : "SPBMockMouseEvent",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

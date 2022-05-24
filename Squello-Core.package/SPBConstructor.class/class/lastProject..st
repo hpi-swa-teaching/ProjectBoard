@@ -1,3 +1,4 @@
 accessing
-lastProject: anObject
-	LastProject := anObject
+lastProject: aString
+
+	LastProject := aString.

@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"edits",
+		"text" ],
+	"name" : "SPBMockPluggableTextMorph",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

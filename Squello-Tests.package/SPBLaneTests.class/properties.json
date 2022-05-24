@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lane",
+		"observed" ],
+	"name" : "SPBLaneTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

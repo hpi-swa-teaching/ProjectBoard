@@ -1,3 +1,4 @@
 accessing
 token
-	^ Token
+
+	^ Token.

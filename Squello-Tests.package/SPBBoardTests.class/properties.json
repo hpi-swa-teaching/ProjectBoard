@@ -1,0 +1,16 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"board",
+		"description",
+		"title" ],
+	"name" : "SPBBoardTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
