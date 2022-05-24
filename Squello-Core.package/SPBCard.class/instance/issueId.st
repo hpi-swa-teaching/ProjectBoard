@@ -1,4 +1,4 @@
 accessing
 issueId
 
-	^ issueId
+	^ issueId.

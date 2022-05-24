@@ -1,4 +1,4 @@
 accessing
 frontCardId: anObject
 
-	frontCardId := anObject
+	frontCardId := anObject.

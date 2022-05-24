@@ -1,3 +1,4 @@
 accessing
 frontCardId
-	^ frontCardId
+
+	^ frontCardId.

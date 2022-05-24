@@ -1,4 +1,4 @@
 accessing
 issueId: anObject
 
-	issueId := anObject
+	issueId := anObject.
