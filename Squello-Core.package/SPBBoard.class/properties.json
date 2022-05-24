@@ -8,7 +8,7 @@
 	"instvars" : [
 		"laneCardLinkage",
 		"activeCard",
-		"sidbarTitle",
+		"sidebarTitle",
 		"sidebarDescription" ],
 	"name" : "SPBBoard",
 	"pools" : [

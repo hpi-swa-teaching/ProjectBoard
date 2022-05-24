@@ -1,4 +1,4 @@
 accessing
 sidebarTitle
 
-	^ sidbarTitle.
+	^ sidebarTitle.

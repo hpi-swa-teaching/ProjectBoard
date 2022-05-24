@@ -1,4 +1,4 @@
 accessing
 sidebarTitle: aPluggableTextField
 
-	sidbarTitle := aPluggableTextField.
+	sidebarTitle := aPluggableTextField.
