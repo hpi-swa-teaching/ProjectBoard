@@ -14,7 +14,13 @@ As a **user** I want to **do smth** in order to **achieve smth**.
 - [ ] acceptance criteria 3
 - [ ] acceptance criteria 4
 
+*Check boxes above in group-meeting!*
+
 ---
+### Before implementing
+- [ ] specify / reorder criteria
+  - [ ] Note thoughts
+
 ### Housekeeping
 - [ ] model updated
 - [ ] tests added
