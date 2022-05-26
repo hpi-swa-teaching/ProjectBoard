@@ -1,6 +1,6 @@
-update sidebar
-changeActiveCardTo: anSPBCard
+as yet unclassified
+changeActiveCardTo: aSPBCard
 
-	self activeCard: anSPBCard.
-	self sidebarTitle setText: anSPBCard title.
-	self sidebarDescription setText: (anSPBCard description ifNil:[''] ifNotNil: [anSPBCard description]).
+	self activeCard: aSPBCard.
+	(self usedBuilder widgetAt: #sidebarTitle) setText: aSPBCard title asText.
+	(self usedBuilder widgetAt: #sidebarDescription) setText: aSPBCard description asText.

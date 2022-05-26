@@ -16,5 +16,5 @@ moveCard: aNumber after: aSecondNumber ToColumn: aThirdNumber
 	
 	response := (WebClient new initializeFromUrl: url) sendRequest: request content: stream readStream size: stream size.
 	stream := ReadStream on: response content from: 1 to: response content byteSize.
-		
+			
 	^ Json readFrom: stream.

@@ -1,7 +1,7 @@
 creation
 addCard
 	
-	| cardTitle content response cardBuilder newCard cardsInLane cardJson |
+	| cardTitle content response cardBuilder newCard cardJson |
 	cardTitle := FillInTheBlank request: 'Enter title for new card:'.
 	cardTitle = '' ifTrue: [^ self].
 	content := Dictionary newFrom: {'title' -> cardTitle . 'body' -> ''}.
@@ -12,10 +12,10 @@ addCard
 	cardBuilder provider: self provider.
 	(newCard := cardBuilder buildFromRemote: cardJson) openInWorld.
 	newCard lane: self.
-	cardsInLane := self board laneCardLinkage at: self id.
-	cardsInLane add: newCard.
-	self setFrontCardFor: newCard in: cardsInLane.
-	self addMorph: newCard.
+	
+	self cards add: newCard.
+	self setFrontCardFor: newCard in: self cards.
+	self pasteup addMorph: newCard.
 	
 	self alignCards.
 	

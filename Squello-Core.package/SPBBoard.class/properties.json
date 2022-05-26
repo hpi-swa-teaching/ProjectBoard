@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"laneCardLinkage",
 		"activeCard",
-		"sidebarTitle",
-		"sidebarDescription" ],
+		"usedBuilder",
+		"lanes",
+		"provider" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Model",
 	"type" : "normal" }

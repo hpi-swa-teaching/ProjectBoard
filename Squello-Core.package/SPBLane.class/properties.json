@@ -8,9 +8,12 @@
 	"instvars" : [
 		"id",
 		"title",
-		"provider" ],
+		"provider",
+		"cards",
+		"pasteup",
+		"board" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Model",
 	"type" : "normal" }
