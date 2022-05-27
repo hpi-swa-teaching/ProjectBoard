@@ -1,3 +1,4 @@
 accessing
 assigneeSelected
-	^ assigneeSelected
+	
+	^ assigneeSelected.

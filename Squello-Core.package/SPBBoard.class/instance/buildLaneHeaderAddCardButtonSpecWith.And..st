@@ -6,4 +6,5 @@ buildLaneHeaderAddCardButtonSpecWith: aBuilder And: aSPBLane
 		model: aSPBLane;
 		action: #addCard;
 		label: '+ Add card';
+		help: 'add a new card to the lane';
 		yourself.

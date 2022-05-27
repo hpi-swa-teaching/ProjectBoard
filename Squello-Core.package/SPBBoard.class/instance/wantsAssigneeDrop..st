@@ -1,4 +1,4 @@
-as yet unclassified
+drag and drop
 wantsAssigneeDrop: anObject
 	
 	^ anObject isKindOf: SPBAssignee.

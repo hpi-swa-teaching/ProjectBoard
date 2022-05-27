@@ -8,7 +8,8 @@ buildSidebarAssigneeListSpecWith: aBuilder
 		list: #activeCardAssigneeList;
 		getSelected: #assigneeSelected;
 		setSelected: #assigneeSelected:;
+		dragItem: #dragFromAssignees:;
 		dropAccept: #wantsAssigneeDrop:;
-		dropItem: #dropOnAssigneeList:at:;
+		dropItem: #dropOnAssignees:at:;
 		yourself.
 		

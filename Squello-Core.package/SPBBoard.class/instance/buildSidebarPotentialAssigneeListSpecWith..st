@@ -8,7 +8,8 @@ buildSidebarPotentialAssigneeListSpecWith: aBuilder
 		list: #potentialAssigneesList;
 		getSelected: #potentialAssigneeSelected;
 		setSelected: #potentialAssigneeSelected:;
-		dragItem: #dragItem:;
-"		dragStarted: #dragStarted;"
+		dragItem: #dragFromPotentialAssignees:;
+		dropAccept: #wantsAssigneeDrop:;
+		dropItem: #dropOnPotentialAssignees:at:;
 		yourself.
 		
