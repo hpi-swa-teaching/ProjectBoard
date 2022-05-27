@@ -6,7 +6,9 @@ buildSidebarPotentialAssigneeListSpecWith: aBuilder
 		name: #sidebarPotentialAssigneeList;
 		frame: (0.5@0 corner: 1@1);
 		list: #potentialAssigneesList;
-		dragItem: #dragItem;
-		dragStarted: #dragStarted;
+		getSelected: #potentialAssigneeSelected;
+		setSelected: #potentialAssigneeSelected:;
+		dragItem: #dragItem:;
+"		dragStarted: #dragStarted;"
 		yourself.
 		

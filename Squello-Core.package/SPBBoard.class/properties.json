@@ -11,8 +11,8 @@
 		"lanes",
 		"provider",
 		"potentialAssignees",
-		"assigneeIndex",
-		"potentialAssigneeIndex" ],
+		"assigneeSelected",
+		"potentialAssigneeSelected" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],
