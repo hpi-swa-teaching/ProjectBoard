@@ -21,7 +21,7 @@
 		"getBoardIDFromUrl:" : "mcr 5/22/2022 01:03",
 		"getRequestToURL:" : "lo 5/22/2022 16:22",
 		"listLabelsForIssue:user:repo:" : "lo 5/16/2022 22:32",
-		"listPossibleAssigneesForUser:repo:" : "lo 5/16/2022 22:37",
+		"listPossibleAssigneesForUser:repo:" : "mcr 5/27/2022 13:27",
 		"moveCard:after:ToColumn:" : "lo 5/27/2022 00:31",
 		"moveCardToTop:ToColumn:" : "tk 5/22/2022 03:26",
 		"queryAssignees:user:repo:" : "lo 5/16/2022 22:35",

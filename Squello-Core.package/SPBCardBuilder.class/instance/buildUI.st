@@ -1,11 +1,20 @@
 as yet unclassified
 buildUI
-	
-	self card addMorph: 
-		(TextMorph new 
+
+	| title assignees |	
+	title := (TextMorph new 
 			contents: self card title;
 			lock).
+	assignees := (TextMorph new lock).
 	
+	self card 
+		titleMorph: title;
+		assigneeMorph: assignees;
+		addMorph: title;
+		addMorph: assignees;
+		updateAssigneeCount.
+		
+	self card assigneeMorph position: self card position x + (self card extent x - 180) @ self card position y + (self card extent y - assignees extent y)
 	
 	
 	

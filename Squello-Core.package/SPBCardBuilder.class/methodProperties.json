@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildContent:" : "lo 5/22/2022 16:30",
-		"buildFromRemote:" : "mcr 5/22/2022 01:40",
+		"buildContent:" : "mcr 5/27/2022 11:44",
+		"buildFromRemote:" : "mcr 5/27/2022 12:32",
 		"buildID:" : "mcr 5/22/2022 01:40",
-		"buildUI" : "mcr 5/25/2022 11:14",
+		"buildUI" : "mcr 5/27/2022 12:42",
 		"card" : "mcr 5/19/2022 09:30",
 		"card:" : "mcr 5/19/2022 09:30",
 		"provider" : "mcr 5/20/2022 12:06",

@@ -1,0 +1,4 @@
+accessing
+assigneeMorph
+
+	^ assigneeMorph.

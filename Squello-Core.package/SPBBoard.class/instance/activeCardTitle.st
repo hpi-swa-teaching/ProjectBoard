@@ -1,4 +1,4 @@
-as yet unclassified
+update sidebar
 activeCardTitle
 
 	self activeCard ifNil: [^ ''].

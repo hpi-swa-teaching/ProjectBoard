@@ -14,7 +14,10 @@
 		"provider",
 		"user",
 		"repo",
-		"frontCardId" ],
+		"frontCardId",
+		"assignees",
+		"titleMorph",
+		"assigneeMorph" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],

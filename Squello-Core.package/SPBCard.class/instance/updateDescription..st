@@ -1,4 +1,4 @@
-accessing
+updating
 updateDescription: aString
 
 	self description == aString ifFalse: 

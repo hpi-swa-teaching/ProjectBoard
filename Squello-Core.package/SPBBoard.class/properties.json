@@ -9,7 +9,10 @@
 		"activeCard",
 		"usedBuilder",
 		"lanes",
-		"provider" ],
+		"provider",
+		"potentialAssignees",
+		"assigneeIndex",
+		"potentialAssigneeIndex" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],

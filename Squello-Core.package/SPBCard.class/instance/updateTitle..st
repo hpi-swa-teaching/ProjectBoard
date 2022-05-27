@@ -1,4 +1,4 @@
-accessing
+updating
 updateTitle: aString
 
 	self title == aString ifFalse: 

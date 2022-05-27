@@ -5,6 +5,7 @@ buildSidebarSpecWith: aBuilder
 		frame: (0.75@0 corner: 1@1);
 		children: {
 			self buildSidebarTitleSpecWith: aBuilder.
+			self buildSidebarAssigneePanelSpecWith: aBuilder. 
 			self buildSidebarDescriptionSpecWith: aBuilder};
 		yourself.
 		

@@ -1,4 +1,4 @@
-as yet unclassified
+update sidebar
 updateActiveCardDescription: aText
 
 	(self usedBuilder widgetAt: #sidebarDescription) hasUnacceptedEdits: false.

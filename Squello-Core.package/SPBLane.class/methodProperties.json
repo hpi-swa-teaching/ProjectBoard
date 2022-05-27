@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"height" : "mcr 5/25/2022 10:28",
-		"newFrom:" : "mcr 5/22/2022 00:19",
-		"width" : "mcr 5/20/2022 13:18" },
+		"newFrom:" : "mcr 5/22/2022 00:19" },
 	"instance" : {
 		"addCard" : "lo 5/26/2022 23:21",
 		"alignCards" : "lo 5/27/2022 00:24",
