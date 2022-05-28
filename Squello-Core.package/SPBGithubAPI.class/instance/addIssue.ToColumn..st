@@ -11,5 +11,4 @@ addIssue: aDictionary ToColumn: anotherNumber
 	url := 'https://api.github.com/projects/columns/' , anotherNumber , '/cards'.
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
-	
 	^ self postRequestToURL: url withData: stream.
