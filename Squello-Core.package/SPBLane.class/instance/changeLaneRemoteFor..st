@@ -2,6 +2,6 @@ card movement
 changeLaneRemoteFor: aSPBCard
 	
 	aSPBCard frontCardId 
-		ifNil: [provider moveCardToTop: aSPBCard id ToColumn: self id]
-		ifNotNil: [provider moveCard: aSPBCard id after: aSPBCard frontCardId ToColumn: self id].
+		ifNil: [provider moveCardToTop: aSPBCard ToColumn: self]
+		ifNotNil: [provider moveCard: aSPBCard after: aSPBCard frontCardId ToColumn: self].
 	

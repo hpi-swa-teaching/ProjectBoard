@@ -1,5 +1,4 @@
-api calls
+cards
 queryCardContent: aString
 	
-	"aString -> content-url"
-	^ self getRequestToURL: aString.
+	^ self api queryCardContent: aString.

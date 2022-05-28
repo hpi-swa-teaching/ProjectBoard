@@ -7,4 +7,4 @@ dropOnAssignees: anSPBAssignee at: index
 	self activeCard assignees add: anSPBAssignee.
 	self changed: #potentialAssigneesList.
 	self changed: #activeCardAssigneeList.
-	self provider addAssignees: {anSPBAssignee} toIssue: self activeCard issueId user: self provider user repo: self provider repo.
+	self provider addAssignees: {anSPBAssignee} toCard: self activeCard.

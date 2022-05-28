@@ -1,6 +1,6 @@
 toolbuilder
 buildLaneBodySpecWith: aBuilder And: aSPBLane
-
+	
 	^ aBuilder pluggablePasteUpSpec new
 		model: aSPBLane;
 		name: aSPBLane id;

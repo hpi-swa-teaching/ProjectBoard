@@ -3,12 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Token",
-		"Username" ],
+		 ],
 	"commentStamp" : "lo 5/16/2022 20:46",
 	"instvars" : [
 		"user",
-		"repo" ],
+		"repo",
+		"projectID",
+		"api" ],
 	"name" : "SPBGithubBoardProvider",
 	"pools" : [
 		 ],

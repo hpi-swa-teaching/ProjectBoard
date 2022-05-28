@@ -6,15 +6,10 @@
 		"LastProject" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder",
-		"window",
 		"provider",
 		"boardID",
 		"lanes",
-		"scrollPane",
-		"model",
-		"board",
-		"sidebar" ],
+		"board" ],
 	"name" : "SPBConstructor",
 	"pools" : [
 		 ],

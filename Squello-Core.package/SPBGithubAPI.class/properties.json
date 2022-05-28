@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Token",
+		"Username" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPBGithubAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

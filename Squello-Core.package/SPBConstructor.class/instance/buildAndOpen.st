@@ -2,6 +2,8 @@ initialisation
 buildAndOpen
 
 	| board window |
+	self createLanes.
+	
 	board := SPBBoard new.
 	board
 		provider: self provider;
