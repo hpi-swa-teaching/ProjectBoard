@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "lo 5/28/2022 12:45",
+		"tearDown" : "lo 5/28/2022 12:45",
+		"testBuildWith" : "lo 5/28/2022 12:52",
+		"testDropped" : "lo 5/28/2022 12:46",
+		"testReject" : "lo 5/28/2022 12:47" } }

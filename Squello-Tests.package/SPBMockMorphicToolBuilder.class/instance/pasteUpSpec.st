@@ -1,0 +1,4 @@
+accessing
+pasteUpSpec
+
+	^ pasteUpSpec.

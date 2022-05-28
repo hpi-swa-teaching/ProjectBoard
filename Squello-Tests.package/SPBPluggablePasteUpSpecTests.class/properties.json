@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pasteUpSpec" ],
+	"name" : "SPBPluggablePasteUpSpecTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
