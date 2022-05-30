@@ -7,6 +7,7 @@ buildSidebarSpecWith: aBuilder
 		children: {
 			self buildSidebarTitleSpecWith: aBuilder.
 			self buildSidebarAssigneePanelSpecWith: aBuilder. 
-			self buildSidebarDescriptionSpecWith: aBuilder};
+			self buildSidebarDescriptionSpecWith: aBuilder.
+			self buildSyncButton: aBuilder};
 		yourself.
 		

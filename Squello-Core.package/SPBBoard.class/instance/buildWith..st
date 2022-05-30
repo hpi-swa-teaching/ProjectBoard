@@ -4,12 +4,11 @@ buildWith: aBuilder
 	| spec |
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Project Board';
+		label: 'Squello Project Board';
 		minimumExtent: 700@400;
 		children: {
 			self buildScrollpaneSpecWith: aBuilder.
-			self buildSidebarSpecWith: aBuilder.
-			self buildSyncButton: aBuilder};
+			self buildSidebarSpecWith: aBuilder};
 		yourself.
 		
 	self window: (aBuilder build: spec).
