@@ -12,7 +12,9 @@
 		"provider",
 		"potentialAssignees",
 		"assigneeSelected",
-		"potentialAssigneeSelected" ],
+		"potentialAssigneeSelected",
+		"window",
+		"constructor" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],

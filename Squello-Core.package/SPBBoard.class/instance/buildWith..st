@@ -1,22 +1,21 @@
 toolbuilder
 buildWith: aBuilder
 
-	| window spec |
+	| spec |
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Project Board';
 		minimumExtent: 700@400;
 		children: {
 			self buildScrollpaneSpecWith: aBuilder.
-			self buildSidebarSpecWith: aBuilder};
+			self buildSidebarSpecWith: aBuilder.
+			self buildSyncButton: aBuilder};
 		yourself.
 		
-	window := aBuilder build: spec.
-	
-	self lanes do: [:each | each pasteup: (aBuilder widgetAt: each id).
-		each fetchCards.
-		each board: self].
-	
+	self window: (aBuilder build: spec).
 	self usedBuilder: aBuilder.
-		
-	^ window
+	self showLanes.
+	
+	"test := (aBuilder build: (self buildScrollpaneSpecWith: aBuilder)).
+	aBuilder add: test to: window."
+	^ self window.

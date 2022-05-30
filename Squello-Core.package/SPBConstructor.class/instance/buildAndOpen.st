@@ -7,7 +7,8 @@ buildAndOpen
 	board := SPBBoard new.
 	board
 		provider: self provider;
-		lanes: self lanes.
+		lanes: self lanes;
+		constructor: self.
 	
 	window := board buildWith: SPBMorphicToolBuilder new.
 	window openInWorld.
