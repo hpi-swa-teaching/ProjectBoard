@@ -1,4 +1,4 @@
 columns
 deleteColumn: aSPBLane
 
-	self api deleteColumn: aSPBLane id.
+	^ self api deleteColumn: aSPBLane id.

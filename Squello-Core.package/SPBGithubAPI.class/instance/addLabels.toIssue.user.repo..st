@@ -2,7 +2,7 @@ api call post request
 addLabels: aDictionary toIssue: aNumber user: aString repo: anotherString
 	
 	" aDictionary Parameter:
-		label -> array of strings (title of labels)"
+		labels -> array of strings (title of labels)"
 	"aNumber => Issue Number"
 	
 	| stream url |

@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"provider" ],
+	"name" : "SPBGithubBoardProviderTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
