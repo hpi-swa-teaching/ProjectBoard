@@ -9,7 +9,9 @@
 		"user",
 		"repo",
 		"projectID",
-		"api" ],
+		"projectTitle",
+		"api",
+		"error" ],
 	"name" : "SPBGithubBoardProvider",
 	"pools" : [
 		 ],

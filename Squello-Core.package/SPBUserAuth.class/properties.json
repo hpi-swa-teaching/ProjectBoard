@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"EnableDragAndDrop" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"userToken",
+		"userName" ],
+	"name" : "SPBUserAuth",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

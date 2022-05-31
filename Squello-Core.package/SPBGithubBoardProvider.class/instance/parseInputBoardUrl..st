@@ -9,4 +9,6 @@ parseInputBoardUrl: aString
 	boardNr := url fileName asNumber.
 	
 	projects := self api queryProjectsForUser: self user repo: self repo.
+	projects isArray ifFalse: [(projects at: 'message') ifNotNil: [^ self error: (projects at: 'message')]].
 	self projectID: ((projects at: boardNr) at: 'id').
+	self projectTitle: ((projects at: boardNr) at: 'name').
