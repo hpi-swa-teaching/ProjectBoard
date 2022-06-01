@@ -1,4 +1,4 @@
-as yet unclassified
+setters
 setCardLane: aSPBLane
 
 	self card lane: aSPBLane.

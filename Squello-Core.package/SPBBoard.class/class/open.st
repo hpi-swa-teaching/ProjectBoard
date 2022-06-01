@@ -1,4 +1,4 @@
-instance creation
+startup
 open
 
 	| prompt |
@@ -6,3 +6,4 @@ open
 	prompt = '' ifTrue: [^ self].
 	self lastProject: prompt.
 	^self newWith: prompt.
+	

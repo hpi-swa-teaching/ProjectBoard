@@ -1,4 +1,0 @@
-accessing
-boardID
-
-	^ boardID.

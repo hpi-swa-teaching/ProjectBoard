@@ -1,4 +1,4 @@
-instance creation
+startup
 newWith: aString
 
 	| instance |

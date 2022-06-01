@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildFromRemote: aJsonObject into: aSPBLane
 
 	self
