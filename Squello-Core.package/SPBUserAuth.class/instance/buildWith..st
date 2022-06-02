@@ -3,8 +3,8 @@ buildWith: builder
 	^ builder build: (builder pluggableDialogSpec new
 		model: self;
 		label: #labelString;
-		autoCancel: true;
-		extent: 200@60;
+		extent: 600@60;
+		exclusive: false;
 		message: 'Insert GitHub authentication data:';
 		children: {self buildInputPanel: builder};
 		buttons: (self buildButtons: builder))

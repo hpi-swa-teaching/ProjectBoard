@@ -1,3 +1,3 @@
 actions
 actionUserToken
-	^ userToken ifNil: [SPBGithubAPI token]
+	^ self userToken ifNil: [SPBGithubAPI token]

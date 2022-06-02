@@ -2,4 +2,4 @@ toolbuilder
 checkUserValid
 	| provider |
 	provider := SPBGithubBoardProvider new.
-	^ (((provider checkUser: userName) at: 'message') = 'Not Found') not.
+	^ (((provider checkUser: self userName) at: 'message') = 'Not Found') not.
