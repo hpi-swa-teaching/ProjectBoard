@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"auth" ],
+	"name" : "SPBUserAuthTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
