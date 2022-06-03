@@ -1,4 +1,5 @@
 actions
 actionUserName: aName
+
 	userName := aName asString.
-	self changed: #actionUserName
+	self changed: #actionUserName.

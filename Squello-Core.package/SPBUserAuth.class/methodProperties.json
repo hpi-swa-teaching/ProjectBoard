@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"defaultTitle" : "jh 6/1/2022 00:04",
+		"defaultTitle" : "mcr 6/1/2022 13:00",
 		"open" : "jh 6/2/2022 11:11" },
 	"instance" : {
 		"actionCancel" : "fn 4/12/2017 10:29",
 		"actionSaveAndClose" : "jh 6/2/2022 12:34",
 		"actionUserName" : "jh 6/2/2022 12:12",
-		"actionUserName:" : "fn 4/12/2017 10:34",
+		"actionUserName:" : "mcr 6/1/2022 13:00",
 		"actionUserToken" : "jh 6/2/2022 12:12",
 		"actionUserToken:" : "jh 5/31/2022 23:16",
 		"buildButtons:" : "jh 6/2/2022 13:06",
@@ -14,8 +14,8 @@
 		"buildInputPanel:" : "fn 4/12/2017 11:25",
 		"buildWith:" : "jh 6/2/2022 13:13",
 		"checkUserValid" : "jh 6/2/2022 12:46",
-		"close" : "fn 4/12/2017 10:02",
-		"labelString" : "fn 4/12/2017 09:18",
+		"close" : "mcr 6/1/2022 13:01",
+		"labelString" : "mcr 6/1/2022 13:01",
 		"userName" : "jh 6/2/2022 12:05",
 		"userName:" : "jh 6/2/2022 12:05",
 		"userToken" : "jh 6/2/2022 12:05",

@@ -1,3 +1,4 @@
 as yet unclassified
 defaultTitle
-	^ 'GitHub Authentication'
+
+	^ 'GitHub Authentication'.
