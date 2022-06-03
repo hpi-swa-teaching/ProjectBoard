@@ -12,8 +12,8 @@ SmalltalkCISpec {
       #packages : [ 'Squello-Core' ]
     },
     #exclude : {
-      #classes : [ #JsonTests #AnimPathAnimationTest #AnimCompositeAnimationTest #AnimAnimationTest #AnimAnimationRegistryTest #
-AnimGraphicsAnimationTest #AnimVariantAnimationTest #AnimPropertyAnimationTest ]
+      #classes : [ #JsonTests, #AnimPathAnimationTest, #AnimCompositeAnimationTest, #AnimAnimationTest, #AnimAnimationRegistryTest, #
+AnimGraphicsAnimationTest, #AnimVariantAnimationTest, #AnimPropertyAnimationTest ]
     }
   }
 }
