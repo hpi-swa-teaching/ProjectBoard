@@ -7,7 +7,7 @@ baseline: spec
 			spec
 				package: 'JSON' with: [ spec repository: 'http://www.squeaksource.com/JSON' ];
 				package: 'Animations' with: [spec repository: 'github://hpi-swa/animations/repository'];
-				package: 'Squello-Core' with: [spec requires: #('JSON')];
+				package: 'Squello-Core' with: [spec requires: #('JSON' 'Animations')];
 				package: 'Squello-Tests' with: [spec requires: #('default')];
 				yourself.
 			spec
