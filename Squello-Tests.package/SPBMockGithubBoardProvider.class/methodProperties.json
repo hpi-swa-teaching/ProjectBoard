@@ -4,5 +4,8 @@
 	"instance" : {
 		"card" : "lo 5/22/2022 15:45",
 		"card:" : "lo 5/22/2022 15:45",
+		"moveCard:after:toColumn:" : "mcr 6/3/2022 13:16",
+		"moveCardToTop:toColumn:" : "mcr 6/3/2022 13:17",
 		"queryCardContent:" : "lo 5/22/2022 16:18",
+		"renameColumn:to:" : "mcr 6/3/2022 14:01",
 		"updateCard:" : "lo 5/22/2022 15:47" } }

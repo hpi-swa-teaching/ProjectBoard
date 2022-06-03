@@ -11,5 +11,6 @@ addToNewLane: aSPBCard
 	self cards add: aSPBCard before: nextCard.
 	index := self cards indexOf: aSPBCard.
 	nextCard frontCardId: aSPBCard id.
-	self cards first = aSPBCard ifFalse:
-		[aSPBCard frontCardId: (self cards at: index - 1) id].
+	self cards first = aSPBCard 
+		ifFalse: [aSPBCard frontCardId: (self cards at: index - 1) id]
+		ifTrue: [aSPBCard frontCardId: nil].

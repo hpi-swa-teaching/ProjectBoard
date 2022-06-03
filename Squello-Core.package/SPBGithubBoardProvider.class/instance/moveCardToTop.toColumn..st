@@ -1,5 +1,5 @@
 cards
-moveCardToTop: aSPBCard ToColumn: aSPBLane
+moveCardToTop: aSPBCard toColumn: aSPBLane
 
 	| payload |
 	payload := Dictionary newFrom: {'position' -> 'top' . 'column_id' -> aSPBLane id}.	

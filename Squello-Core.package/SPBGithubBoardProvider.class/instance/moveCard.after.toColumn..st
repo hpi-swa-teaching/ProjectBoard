@@ -1,5 +1,5 @@
 cards
-moveCard: aSPBCard after: aNumber ToColumn: aSPBLane
+moveCard: aSPBCard after: aNumber toColumn: aSPBLane
 
 	"move aSPBCard after card with ID = aNumber"
 	| payload |
