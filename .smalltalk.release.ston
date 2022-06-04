@@ -2,7 +2,7 @@ SmalltalkCISpec {
 
   #preLoading : 'scripts/preLoading.st',
   #loading : [
-    SCIMetacelloLoadSpec : {
+    SCIMetacelloLoadSpec {
       #baseline : 'Squello',
       #platforms : [ #squeak ],
       #directory : '',
