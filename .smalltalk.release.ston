@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+
+  #preLoading : 'scripts/preLoading.st',
+  #loading : [
+    SCIMetacelloLoadSpec : {
+      #baseline : 'Squello',
+      #platforms : [ #squeak ],
+      #directory : '',
+      #load : [ 'tests' ]
+    }
+  ],
+  #testing : {
+    #classes : [ #SPBSarFileGenerator ],
+    #defaultTimeout: 60
+  }
+}
