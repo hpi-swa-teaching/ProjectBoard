@@ -6,3 +6,5 @@ changeActiveCardTo: aSPBCard
 	(self usedBuilder widgetAt: #sidebarDescription) setText: aSPBCard description asText.
 	(self usedBuilder widgetAt: #sidebarAssigneeList) updateList.
 	(self usedBuilder widgetAt: #sidebarPotentialAssigneeList) updateList.
+	(self usedBuilder widgetAt: #sidebarLabelList) updateList.
+	(self usedBuilder widgetAt: #sidebarPotentialLabelList) updateList.

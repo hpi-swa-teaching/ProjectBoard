@@ -10,4 +10,5 @@ buildContent: aString
 		user: ((contentJson at: 'user') at: 'login');
 		repo: ((contentJson at: 'repository_url') asUrl fileName);
 		assignees: ((contentJson at: 'assignees') collect: 
-			[:each | SPBAssignee newFrom: each]) asOrderedCollection.
+			[:each | SPBAssignee newFrom: each]) asOrderedCollection;
+		labels: (self buildLabels: (contentJson at: 'labels')).

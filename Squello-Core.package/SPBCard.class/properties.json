@@ -16,6 +16,7 @@
 		"repo",
 		"frontCardId",
 		"assignees",
+		"labels",
 		"titleMorph",
 		"assigneeMorph" ],
 	"name" : "SPBCard",
