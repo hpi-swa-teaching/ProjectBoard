@@ -11,7 +11,8 @@
 		"provider",
 		"cards",
 		"pasteup",
-		"board" ],
+		"board",
+		"jsonCards" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

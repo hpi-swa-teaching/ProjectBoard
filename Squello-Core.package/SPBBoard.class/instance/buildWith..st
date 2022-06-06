@@ -2,19 +2,18 @@ toolbuilder
 buildWith: aBuilder
 
 	| spec |
+	self usedBuilder: aBuilder.
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Squello Project Board';
 		minimumExtent: 700@400;
 		children: {
-			self buildScrollpaneSpecWith: aBuilder.
+			self buildLaneAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
-		yourself.
+			yourself.
 		
 	self window: (aBuilder build: spec).
-	self usedBuilder: aBuilder.
-	self showLanes.
+
+	self updateLanes.
 	
-	"test := (aBuilder build: (self buildScrollpaneSpecWith: aBuilder)).
-	aBuilder add: test to: window."
 	^ self window.

@@ -1,7 +1,7 @@
 drag and drop
-showLanes
+updateLanes
 
 	self lanes do: [:each | each pasteup: (self usedBuilder widgetAt: each id).
-		"Transcript show: each jsonCards; cr; cr."
+		each fetchCards.
 		each buildCards.
 		each board: self].
