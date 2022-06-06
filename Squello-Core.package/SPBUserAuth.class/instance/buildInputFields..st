@@ -9,6 +9,7 @@ buildInputFields: builder
 		help: 'GitHub username.'.
 	builder pluggableInputFieldSpec new
 		model: self;
+		font: (StrikeFont passwordFontSize: 12);
 		getText: #actionUserToken;
 		editText: #actionUserToken:;
 		setText: #actionUserToken:;
