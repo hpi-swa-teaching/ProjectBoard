@@ -1,5 +1,5 @@
 api call post request
-addIssue: aDictionary ToColumn: anotherNumber 
+addIssue: aDictionary toColumn: anotherNumber 
 
 	"aDictionary Parameter: 
 		note -> string
