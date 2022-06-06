@@ -6,7 +6,7 @@ newFrom: aJsonObject
 	instance 
 		title: (aJsonObject at: 'name');
 		id: (aJsonObject at: 'id');
-		color: (aJsonObject at: 'color');
+		color: (Color fromString: (aJsonObject at: 'color'));
 		description: (aJsonObject at: 'description').
 		
 	^ instance.

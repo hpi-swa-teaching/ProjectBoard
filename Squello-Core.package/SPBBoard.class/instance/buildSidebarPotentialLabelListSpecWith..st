@@ -11,5 +11,6 @@ buildSidebarPotentialLabelListSpecWith: aBuilder
 		dragItem: #dragFromPotentialLabels:;
 		dropAccept: #wantsLabelDrop:;
 		dropItem: #dropOnPotentialLabels:at:;
+		icon: #potentialLabelIcon:;
 		yourself.
 		

@@ -11,5 +11,6 @@ buildSidebarLabelListSpecWith: aBuilder
 		dragItem: #dragFromLabels:;
 		dropAccept: #wantsLabelDrop:;
 		dropItem: #dropOnLabels:at:;
+		icon: #labelIcon:;
 		yourself.
 		
