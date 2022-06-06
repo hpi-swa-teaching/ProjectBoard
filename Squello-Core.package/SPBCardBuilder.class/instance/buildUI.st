@@ -13,7 +13,8 @@ buildUI
 		assigneeMorph: assignees;
 		addMorph: title;
 		addMorph: assignees;
-		updateAssigneeCount.
+		updateAssigneeCount;
+		updateLabelIcons.
 		
 	self card titleMorph extent: 280 @ 21.
 	self card assigneeMorph position: self card position x + (self card extent x - 180) @ self card position y + (self card extent y - assignees extent y)

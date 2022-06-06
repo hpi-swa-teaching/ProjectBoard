@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	self
-		extent: 280 @ 100;
+		extent: self extent;
 		color: Color lightGray.
 	
