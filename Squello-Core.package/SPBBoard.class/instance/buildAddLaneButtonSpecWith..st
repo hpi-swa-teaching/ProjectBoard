@@ -2,7 +2,7 @@ toolbuilder
 buildAddLaneButtonSpecWith: aBuilder 
 
     ^ aBuilder pluggableActionButtonSpec new
-	   frame: (0@0 corner: 1@0.1);
+	   frame: (0@0 corner: 1@0.05);
         model: self;
         action: #addLane;
         label: '+ Add lane';

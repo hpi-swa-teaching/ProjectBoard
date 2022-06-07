@@ -4,6 +4,7 @@ moveIn: aSPBCard
 	self reorderCards: aSPBCard.
 	self changeLaneRemoteFor: aSPBCard. 
 	aSPBCard lane = self ifTrue: [self alignCards. ^ self].
-	self changeLaneLocalFor: aSPBCard in: aSPBCard lane.
+	aSPBCard lane alignCards.
 	self alignCards.
+	aSPBCard lane: self.
 	

@@ -1,10 +1,9 @@
 toolbuilder
 buildLaneAreaChildren 
 	
-	    | children |
-
-    children := ((self buildLanesSpecWith: self usedBuilder) collect: 
+	| children |
+	children := ((self buildLanesSpecWith: self usedBuilder) collect: 
 		[:spec | self usedBuilder build: spec]) asOrderedCollection.
-    children add: ((self usedBuilder build: (self buildAddLaneButtonPanelSpecWith: self usedBuilder)) color: Color darkGray).
+	children add: ((self usedBuilder build: (self buildAddLaneButtonPanelSpecWith: self usedBuilder)) color: (Color lightGray)).
 
-    ^ children
+    ^ children.
