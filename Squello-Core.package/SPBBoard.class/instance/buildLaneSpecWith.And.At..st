@@ -7,5 +7,6 @@ buildLaneSpecWith: aBuilder And: aSPBLane At: aNumber
 			self buildLaneHeaderSpecWith: aBuilder And: aSPBLane.
 			self buildLaneBodySpecWith: aBuilder And: aSPBLane.
 		};
+		name: ('lane' , aSPBLane id asString) asSymbol;
 		verticalResizing: #spaceFill;
 		yourself.

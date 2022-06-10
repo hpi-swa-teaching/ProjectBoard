@@ -20,4 +20,3 @@ addLane
 	self changed: #buildLaneAreaChildren.
 	lane jsonCards: {} asOrderedCollection.
 	self showLanes.
-	

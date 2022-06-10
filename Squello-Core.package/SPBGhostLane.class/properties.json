@@ -6,16 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"id",
-		"title",
-		"provider",
-		"cards",
-		"pasteup",
-		"board",
-		"jsonCards",
-		"lane" ],
-	"name" : "SPBLane",
+		"sourceLane" ],
+	"name" : "SPBGhostLane",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Morph",
 	"type" : "normal" }
