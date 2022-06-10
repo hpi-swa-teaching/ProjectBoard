@@ -18,8 +18,7 @@
 		"assignees",
 		"labels",
 		"titleMorph",
-		"assigneeMorph",
-		"labelMorphs" ],
+		"assigneeMorph" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],

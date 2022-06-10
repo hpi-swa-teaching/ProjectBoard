@@ -1,4 +1,3 @@
 accessing
 potentialLabelSelected
-
-	^ potentialLabelSelected.
+	^ potentialLabelSelected
