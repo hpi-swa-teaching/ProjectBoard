@@ -5,13 +5,12 @@ wantsToBeDroppedInto: aMorph
 	(aMorph class = SPBPluggablePasteUpMorph) ifFalse: [^ false].
 	
 	laneIndex := aMorph actionModel board lanes indexOf: aMorph actionModel.
-	center := aMorph position x + (aMorph width // 2) + self owner position x.
-		
-	self position x > center
+	center := aMorph positionInWorld x + (aMorph width // 2).
+	self position x > center 
 		ifTrue: [
-			sourceLane changeIndex: laneIndex + 1
+			sourceLane changeIndexOfLane: laneIndex + 1
 		] ifFalse: [
-			sourceLane changeIndex: laneIndex
+			sourceLane changeIndexOfLane: laneIndex
 		].
 	
 	^ false.
