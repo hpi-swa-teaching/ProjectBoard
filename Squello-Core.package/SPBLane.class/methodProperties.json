@@ -23,7 +23,7 @@
 		"jsonCards:" : "NTK 6/6/2022 01:27",
 		"lane" : "lo 6/10/2022 19:53",
 		"lane:" : "lo 6/10/2022 19:54",
-		"moveIn:" : "mcr 6/4/2022 13:17",
+		"moveIn:" : "lo 6/11/2022 11:54",
 		"moveLane" : "tk 6/11/2022 01:34",
 		"pasteup" : "lo 5/26/2022 23:18",
 		"pasteup:" : "lo 5/26/2022 23:30",
@@ -34,6 +34,6 @@
 		"setFrontCardFor:in:" : "mcr 6/3/2022 11:35",
 		"title" : "mcr 5/20/2022 14:00",
 		"title:" : "mcr 5/22/2022 00:09",
-		"updateNewFrontLaneIdFor:In:" : "tk 6/11/2022 01:15",
+		"updateNewFrontLaneIdFor:In:" : "lo 6/11/2022 12:00",
 		"updateOldFrontLaneIdFor:In:" : "tk 6/11/2022 01:15",
 		"updateTitle:" : "mcr 5/28/2022 01:26" } }

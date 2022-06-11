@@ -7,4 +7,3 @@ moveIn: aSPBCard
 	aSPBCard lane alignCards.
 	self alignCards.
 	aSPBCard lane: self.
-	

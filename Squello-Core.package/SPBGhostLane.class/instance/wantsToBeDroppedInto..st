@@ -10,7 +10,9 @@ wantsToBeDroppedInto: aMorph
 		ifTrue: [
 			sourceLane changeIndexOfLane: laneIndex + 1
 		] ifFalse: [
+			self halt.
 			sourceLane changeIndexOfLane: laneIndex
 		].
+	
 	
 	^ false.
