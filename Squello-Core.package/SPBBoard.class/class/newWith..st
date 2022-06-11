@@ -7,7 +7,17 @@ newWith: aString
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [SPBUserAuth open].
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [^ UserDialogBoxMorph inform: 'Authentication dialog was dismissed' title: 'Operation canceled'].
 	
-	instance provider parseInputBoardUrl: aString.
+	
+	(aString includesSubstring: '/projects') 
+    ifTrue:
+        [instance provider parseInputBoardUrl: aString] 
+    ifFalse:
+        [instance projects: (instance provider getProjects: aString).
+		SPBProjectSelection currentProjects: instance getProjectNames.
+		SPBProjectSelection open.
+		instance provider parseInputBoardUrl: aString, '/projects/', SPBProjectSelection currentProject.
+		].
+	
 	instance provider error isString ifTrue: [
 		UserDialogBoxMorph inform: ('Getting the board failed with error: ' , instance provider error , '.<n>Do you have access to this project?<n>Is your access token correct and valid?' expandMacros) title: 'Board fetching error'.
 		^ SPBUserAuth open.

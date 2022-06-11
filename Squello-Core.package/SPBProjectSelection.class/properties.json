@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CurrentProject",
+		"CurrentProjects" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"projectSelected" ],
+	"name" : "SPBProjectSelection",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

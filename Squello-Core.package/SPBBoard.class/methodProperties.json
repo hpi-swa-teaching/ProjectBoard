@@ -2,7 +2,7 @@
 	"class" : {
 		"lastProject" : "NTK 6/1/2022 16:40",
 		"lastProject:" : "NTK 6/1/2022 16:40",
-		"newWith:" : "jh 6/2/2022 13:05",
+		"newWith:" : "NTK 6/11/2022 16:13",
 		"open" : "NTK 6/1/2022 16:41",
 		"registerInAppsMenu" : "lo 6/4/2022 23:19" },
 	"instance" : {
@@ -49,6 +49,7 @@
 		"dropOnLabels:at:" : "lo 6/6/2022 12:59",
 		"dropOnPotentialAssignees:at:" : "mcr 5/30/2022 21:47",
 		"dropOnPotentialLabels:at:" : "lo 6/6/2022 13:00",
+		"getProjectNames" : "NTK 6/11/2022 14:42",
 		"initialize" : "NTK 6/1/2022 16:39",
 		"labelIcon:" : "mcr 6/7/2022 16:25",
 		"labelSelected" : "lo 6/5/2022 14:56",
@@ -66,6 +67,8 @@
 		"potentialLabels" : "lo 6/5/2022 14:39",
 		"potentialLabels:" : "lo 6/5/2022 14:39",
 		"potentialLabelsList" : "mcr 6/7/2022 16:12",
+		"projects" : "NTK 6/11/2022 14:40",
+		"projects:" : "NTK 6/11/2022 14:40",
 		"provider" : "lo 5/26/2022 22:23",
 		"provider:" : "lo 5/26/2022 22:24",
 		"showLanes" : "mcr 6/6/2022 22:40",
