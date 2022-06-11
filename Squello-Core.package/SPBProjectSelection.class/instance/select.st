@@ -6,4 +6,4 @@ select
 		ifFalse: [
 			self class currentProject: self projectSelected.
 			self changed: #close
-		].
+		]. 
