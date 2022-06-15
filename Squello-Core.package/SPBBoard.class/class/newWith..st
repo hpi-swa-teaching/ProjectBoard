@@ -15,6 +15,7 @@ newWith: aString
         [instance projects: (instance provider getProjects: aString).
 		SPBProjectSelection currentProjects: instance getProjectNames.
 		SPBProjectSelection open.
+		(SPBProjectSelection currentProject) ifNil: [^self].
 		instance provider parseInputBoardUrl: aString, '/projects/', SPBProjectSelection currentProject.
 		].
 	
