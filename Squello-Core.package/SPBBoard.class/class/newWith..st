@@ -1,22 +1,21 @@
 startup
 newWith: aString
 
-	| instance |
+	| instance projectNames chosenProject |
 	instance := self new.
 	
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [SPBUserAuth open].
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [^ UserDialogBoxMorph inform: 'Authentication dialog was dismissed' title: 'Operation canceled'].
-	
 	
 	(aString includesSubstring: '/projects') 
     ifTrue:
         [instance provider parseInputBoardUrl: aString] 
     ifFalse:
         [instance projects: (instance provider getProjects: aString).
-		SPBProjectSelection currentProjects: instance getProjectNames.
-		SPBProjectSelection open.
-		(SPBProjectSelection currentProject) ifNil: [^self].
-		instance provider parseInputBoardUrl: aString, '/projects/', SPBProjectSelection currentProject.
+		projectNames := instance getProjectNames.
+		chosenProject := UIManager default chooseFrom: projectNames values: instance projects title: 'Choose your project:'.
+		chosenProject ifNil: [^self].
+		instance provider parseInputBoardUrl: aString, '/projects/', (chosenProject at: 'number') asString.
 		].
 	
 	instance provider error isString ifTrue: [
