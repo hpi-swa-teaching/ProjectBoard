@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSquello",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSquello",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
