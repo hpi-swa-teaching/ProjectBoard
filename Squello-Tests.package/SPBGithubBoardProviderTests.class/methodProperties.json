@@ -9,6 +9,7 @@
 		"testApi" : "mcr 5/31/2022 19:01",
 		"testCreateCardInto" : "mcr 5/31/2022 17:53",
 		"testDeleteAssigneesFromCard" : "mcr 5/31/2022 18:21",
+		"testGetProjects" : "NTK 6/17/2022 12:46",
 		"testMoveCardAfter" : "mcr 6/3/2022 13:14",
 		"testMoveCardToTop" : "mcr 6/3/2022 13:14",
 		"testParseInputURL" : "mcr 5/31/2022 12:01",

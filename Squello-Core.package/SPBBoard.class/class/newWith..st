@@ -12,6 +12,8 @@ newWith: aString
         [instance provider parseInputBoardUrl: aString] 
     ifFalse:
         [instance projects: (instance provider getProjects: aString).
+		(instance projects isArray) ifFalse: 
+			[^ UserDialogBoxMorph inform: 'Invalid repository url' asString title: 'Operation canceled'].
 		projectNames := instance getProjectNames.
 		chosenProject := UIManager default chooseFrom: projectNames values: instance projects title: 'Choose your project:'.
 		chosenProject ifNil: [^self].
@@ -24,4 +26,3 @@ newWith: aString
 	].
 	instance buildAndOpen.
 	^ instance.
-	

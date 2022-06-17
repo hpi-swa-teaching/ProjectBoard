@@ -8,6 +8,6 @@
 		"createIssue:user:repo:" : "mcr 5/31/2022 17:48",
 		"deleteAssignees:fromIssue:user:repo:" : "mcr 5/31/2022 18:19",
 		"moveCard:withPostData:" : "mcr 5/31/2022 16:59",
-		"queryProjectsForUser:repo:" : "mcr 5/31/2022 12:03",
+		"queryProjectsForUser:repo:" : "NTK 6/17/2022 12:55",
 		"updateColumn:withData:" : "mcr 5/31/2022 18:58",
 		"updateIssue:withData:user:repo:" : "mcr 5/31/2022 15:33" } }
