@@ -6,7 +6,7 @@ testUpdateLanes
 	pasteup := SPBPluggablePasteUpMorph new.
 
 	lane := SPBMockGithubBoardProvider new queryColumns at: 1.
-	builder fakeWidgets: { 1234 ->  pasteup. #lane1234 -> 'lane1234' } asDictionary.
+	builder fakeWidgets: (Dictionary newFrom: { 1234 ->  pasteup. #lane1234 -> 'lane1234' }).
 	
 	board usedBuilder: builder.
 	board lanes: { lane } asOrderedCollection.

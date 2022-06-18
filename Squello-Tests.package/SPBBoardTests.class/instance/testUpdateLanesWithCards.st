@@ -6,7 +6,7 @@ testUpdateLanesWithCards
 	lanes := SPBMockGithubBoardProvider new queryColumns.
 	(lanes at: 1) jsonCards: '{}' parseAsJson.
 	(lanes at: 2) jsonCards: '{}' parseAsJson.
-	builder fakeWidgets: { 1234 -> '1234' . #lane1234 -> 'lane1234' . 5678 -> '5678' . #lane5678 -> 'lane5678' } asDictionary.
+	builder fakeWidgets: (Dictionary newFrom: { 1234 -> '1234' . #lane1234 -> 'lane1234' . 5678 -> '5678' . #lane5678 -> 'lane5678' }).
 	
 	board usedBuilder: builder.
 	board lanes: lanes.
