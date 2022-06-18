@@ -1,5 +1,5 @@
 toolbuilder
-buildLaneSpecWith: aBuilder And: aSPBLane At: aNumber
+buildLaneSpecWith: aBuilder And: aSPBLane
 
 	^ aBuilder pluggablePanelSpec new
 		minimumExtent: (300@600);
