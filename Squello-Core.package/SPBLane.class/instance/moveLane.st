@@ -8,6 +8,3 @@ moveLane
 		yourself.
 		
 	ghost activeHand attachMorph: ghost.
-	
-	"self pasteup activeHand attachMorph: self pasteup duplicate."
-	

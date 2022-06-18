@@ -13,8 +13,7 @@
 		"pasteup",
 		"board",
 		"jsonCards",
-		"lane",
-		"frontLaneId" ],
+		"lane" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

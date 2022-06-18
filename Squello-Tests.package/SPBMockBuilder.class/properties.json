@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fakeWidgets",
+		"callOrder" ],
+	"name" : "SPBMockBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"board" ],
+		"board",
+		"provider",
+		"calledSymbols" ],
 	"name" : "SPBBoardTests",
 	"pools" : [
 		 ],

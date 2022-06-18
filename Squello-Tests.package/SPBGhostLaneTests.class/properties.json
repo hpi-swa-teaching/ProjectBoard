@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ghostLane" ],
+	"name" : "SPBGhostLaneTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
