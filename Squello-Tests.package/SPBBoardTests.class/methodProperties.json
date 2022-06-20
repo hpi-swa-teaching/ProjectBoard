@@ -35,6 +35,8 @@
 		"testBuildSyncButton" : "mcr 6/18/2022 13:02",
 		"testBuildWith" : "mcr 6/20/2022 19:00",
 		"testConstructor" : "jh 6/3/2022 20:12",
+		"testGetProjectNames" : "NTK 6/17/2022 12:57",
+		"testLanes" : "jh 6/3/2022 20:13",
 		"testCreateLanes" : "lo 6/18/2022 11:09",
 		"testLastProject" : "lo 6/18/2022 10:18",
 		"testPotentialAssigneeSelected" : "jh 6/3/2022 20:14",
