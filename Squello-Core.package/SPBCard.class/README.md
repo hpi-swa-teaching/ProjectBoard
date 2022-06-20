@@ -1,0 +1,1 @@
+Used for describing a single SPBCard on the SPBBoard
