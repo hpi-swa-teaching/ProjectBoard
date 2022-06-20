@@ -7,11 +7,14 @@ newWith: aString
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [SPBUserAuth open].
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [^ UserDialogBoxMorph inform: 'Authentication dialog was dismissed' title: 'Operation canceled'].
 	
+	(aString startsWith: 'https://github.com/') ifFalse: 
+		[^ UserDialogBoxMorph inform: 'Invalid repository url' asString title: 'Operation canceled'].
+	
 	(aString includesSubstring: '/projects') 
-    ifTrue:
-        [instance provider parseInputBoardUrl: aString] 
-    ifFalse:
-        [instance projects: (instance provider getProjects: aString).
+	ifTrue:
+        [instance provider parseInputBoardUrl: aString]
+	ifFalse:
+		[instance projects: (instance provider getProjects: aString).
 		(instance projects isArray) ifFalse: 
 			[^ UserDialogBoxMorph inform: 'Invalid repository url' asString title: 'Operation canceled'].
 		projectNames := instance getProjectNames.
