@@ -3,7 +3,9 @@ testBuildWith
 	
 	| builder lane1 window |
 	builder := SPBMorphicToolBuilder new.
-	lane1 := SPBLane new provider: board provider.
+	lane1 := SPBLane new 
+		provider: board provider;
+		id: 1337.
 	board lanes: {lane1}.
 	window := board buildWith: builder.
 	
