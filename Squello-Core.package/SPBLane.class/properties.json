@@ -12,7 +12,9 @@
 		"cards",
 		"pasteup",
 		"board",
-		"jsonCards" ],
+		"jsonCards",
+		"minimumHeight",
+		"lane" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

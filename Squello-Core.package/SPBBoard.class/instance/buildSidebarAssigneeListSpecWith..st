@@ -12,4 +12,3 @@ buildSidebarAssigneeListSpecWith: aBuilder
 		dropAccept: #wantsAssigneeDrop:;
 		dropItem: #dropOnAssignees:at:;
 		yourself.
-		

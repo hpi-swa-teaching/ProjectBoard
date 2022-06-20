@@ -6,4 +6,5 @@ newFrom: aJsonObject
 	title := aJsonObject at: 'name'.
 	instance title: title.
 	instance id: (aJsonObject at: 'id').
+	
 	^ instance.

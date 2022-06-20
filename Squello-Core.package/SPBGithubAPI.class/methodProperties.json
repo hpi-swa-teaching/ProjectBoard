@@ -28,6 +28,7 @@
 		"listPossibleAssigneesForUser:repo:" : "mcr 5/28/2022 00:47",
 		"listPossibleLabelsForUser:repo:" : "lo 6/5/2022 14:33",
 		"moveCard:withPostData:" : "mcr 5/28/2022 00:32",
+		"moveLane:withPostData:" : "tk 6/10/2022 22:17",
 		"patchRequestToURL:withData:" : "mcr 5/28/2022 03:00",
 		"postRequestToURL:withData:" : "mcr 5/31/2022 16:46",
 		"queryCardContent:" : "mcr 5/28/2022 02:33",

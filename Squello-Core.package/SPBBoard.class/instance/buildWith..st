@@ -10,7 +10,7 @@ buildWith: aBuilder
 		children: {
 			self buildLaneAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
-			yourself.
+		yourself.
 		
 	self window: (aBuilder build: spec).
 

@@ -10,3 +10,5 @@ removeFromOldLane: aSPBCard
 	(cards size > 1 and: [cards first = aSPBCard]) ifTrue: 
 		[( cards at: index + 1) frontCardId: nil].
 	cards remove: aSPBCard.
+	
+	aSPBCard lane resizeToFitCards.
