@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceLane" ],
+	"name" : "SPBGhostLane",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

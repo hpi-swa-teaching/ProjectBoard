@@ -8,6 +8,6 @@ buildSidebarLabelPanelSpecWith: aBuilder
 		minimumHeight: 20;
 		children: {
 			self buildSidebarLabelListSpecWith: aBuilder.
-			self buildSidebarPotentialLabelListSpecWith: aBuilder}
+			self buildSidebarPotentialLabelListSpecWith: aBuilder};
 		yourself.
 		

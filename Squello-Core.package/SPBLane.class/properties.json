@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "LW 6/20/2022 09:56",
 	"instvars" : [
 		"id",
 		"title",
@@ -13,7 +13,8 @@
 		"pasteup",
 		"board",
 		"jsonCards",
-		"minimumHeight" ],
+		"minimumHeight",
+		"lane" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

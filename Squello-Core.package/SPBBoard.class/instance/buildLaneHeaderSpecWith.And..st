@@ -6,5 +6,6 @@ buildLaneHeaderSpecWith: aBuilder And: aSPBLane
 		children: {
 			self buildLaneHeaderTitleSpecWith: aBuilder And: aSPBLane.
 			self buildLaneHeaderAddCardButtonSpecWith: aBuilder And: aSPBLane.
+			self buildLaneHeaderMoveLaneButtonSpecWith: aBuilder And: aSPBLane.
 		};
 		yourself.

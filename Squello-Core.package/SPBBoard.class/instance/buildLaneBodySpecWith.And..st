@@ -14,7 +14,7 @@ buildLaneBodySpecWith: aBuilder And: aSPBLane
 			name: aSPBLane id;
 "			frame: (0@0 corner: 1@1);"
 			dropped: #cardDropped:Event:;
-			reject: [:morph :event | (morph class = SPBCard) not];
+			reject: [:morph :event | ((morph class = SPBCard) or: [morph class = SPBGhostLane]) not];
 			yourself};
 		layout: #vertical;
 		"horizontalResizing: #spaceFill;"
