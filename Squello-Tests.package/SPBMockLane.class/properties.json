@@ -1,0 +1,16 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"lanes",
+		"newIndex" ],
+	"name" : "SPBMockLane",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

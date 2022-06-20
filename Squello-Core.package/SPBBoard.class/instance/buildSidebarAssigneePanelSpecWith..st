@@ -8,6 +8,6 @@ buildSidebarAssigneePanelSpecWith: aBuilder
 		minimumHeight: 20;
 		children: {
 			self buildSidebarAssigneeListSpecWith: aBuilder.
-			self buildSidebarPotentialAssigneeListSpecWith: aBuilder}
+			self buildSidebarPotentialAssigneeListSpecWith: aBuilder};
 		yourself.
 		

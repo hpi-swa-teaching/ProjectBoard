@@ -7,7 +7,9 @@ addToNewLane: aSPBCard
 		[:each | each position y > aSPBCard position y ifTrue: [nextCard ifNil: [nextCard := each]]].
 	nextCard ifNil: 
 		[self cards addLast: aSPBCard.
-		^ (self cards size > 1 ifTrue: [aSPBCard frontCardId: (self cards at: self cards size -1) id])].
+		^ (self cards size > 1 
+			ifTrue: [aSPBCard frontCardId: (self cards at: self cards size -1) id] 
+			ifFalse: [aSPBCard frontCardId: nil])].
 	self cards add: aSPBCard before: nextCard.
 	index := self cards indexOf: aSPBCard.
 	nextCard frontCardId: aSPBCard id.

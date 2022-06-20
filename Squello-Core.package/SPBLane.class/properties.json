@@ -12,7 +12,8 @@
 		"cards",
 		"pasteup",
 		"board",
-		"jsonCards" ],
+		"jsonCards",
+		"lane" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],
