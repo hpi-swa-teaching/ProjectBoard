@@ -3,4 +3,5 @@ setUp
 
 	provider := SPBMockGithubBoardProvider new.
 	board := SPBBoard new.
-	board provider: provider.
+	board provider: SPBMockGithubBoardProvider new.
+	board usedBuilder: SPBMorphicToolBuilder new.

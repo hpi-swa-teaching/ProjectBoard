@@ -16,3 +16,5 @@ addToNewLane: aSPBCard
 	self cards first = aSPBCard 
 		ifFalse: [aSPBCard frontCardId: (self cards at: index - 1) id]
 		ifTrue: [aSPBCard frontCardId: nil].
+		
+	self resizeToFitCards.

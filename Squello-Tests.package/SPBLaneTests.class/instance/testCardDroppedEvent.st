@@ -2,7 +2,7 @@ tests
 testCardDroppedEvent
 
 	| card oldLane|
-	oldLane := SPBLane new.
+	oldLane := SPBLane new pasteup: SPBPluggablePasteUpMorph new.
 	card := SPBCard new lane: oldLane. 
 	oldLane cards: (OrderedCollection newFrom: {card}).
 	card position: 50@50.
