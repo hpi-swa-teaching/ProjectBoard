@@ -6,3 +6,4 @@ testLastProject
 	lastProject := SPBBoard lastProject.
 	SPBBoard lastProject: url.
 	self assert: url equals: SPBBoard lastProject.
+	SPBBoard lastProject: lastProject.

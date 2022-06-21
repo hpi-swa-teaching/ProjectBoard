@@ -20,7 +20,9 @@ newWith: aString
 		projectNames := instance getProjectNames.
 		chosenProject := UIManager default chooseFrom: projectNames values: instance projects title: 'Choose your project:'.
 		chosenProject ifNil: [^self].
-		instance provider parseInputBoardUrl: aString, '/projects/', (chosenProject at: 'number') asString.
+		instance provider projectID: (chosenProject at: 'id').
+		instance provider projectTitle: (chosenProject at: 'name').
+"		instance provider parseInputBoardUrl: aString, '/projects/', (chosenProject at: 'number') asString."
 		].
 	
 	instance provider error isString ifTrue: [

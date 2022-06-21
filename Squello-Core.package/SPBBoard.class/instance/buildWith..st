@@ -6,7 +6,7 @@ buildWith: aBuilder
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Squello Project Board';
-		minimumExtent: 700@400;
+		minimumExtent: 1040@400;
 		children: {
 			self buildLaneAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
