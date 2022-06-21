@@ -7,10 +7,9 @@ wantsToBeDroppedInto: aMorph
 	laneIndex := aMorph actionModel board lanes indexOf: aMorph actionModel.
 	center := aMorph positionInWorld x + (aMorph width // 2).
 	self position x > center 
-		ifTrue: [
-			self sourceLane changeIndexOfLane: laneIndex + 1
-		] ifFalse: [
-			self sourceLane changeIndexOfLane: laneIndex
-		].
+		ifTrue: 
+			[self sourceLane changeIndexOfLane: laneIndex + 1]
+		 ifFalse: 
+			[self sourceLane changeIndexOfLane: laneIndex].
 	
 	^ false.

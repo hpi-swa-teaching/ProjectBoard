@@ -7,7 +7,7 @@ newWith: aString
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [SPBUserAuth open].
 	(SPBGithubAPI username isNil or: [SPBGithubAPI token isNil]) ifTrue: [^ UserDialogBoxMorph inform: 'Authentication dialog was dismissed' title: 'Operation canceled'].
 	
-	(aString startsWith: 'https://github.com/') ifFalse: 
+	(aString beginsWith: 'https://github.com/') ifFalse: 
 		[^ UserDialogBoxMorph inform: 'Invalid repository url' asString title: 'Operation canceled'].
 	
 	(aString includesSubstring: '/projects') 
