@@ -11,7 +11,8 @@
 		"projectID",
 		"projectTitle",
 		"api",
-		"error" ],
+		"error",
+		"webhookID" ],
 	"name" : "SPBGithubBoardProvider",
 	"pools" : [
 		 ],

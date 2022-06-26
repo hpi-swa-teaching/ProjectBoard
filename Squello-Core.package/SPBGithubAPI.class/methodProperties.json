@@ -24,6 +24,7 @@
 		"deleteRequestToURL:withData:" : "mcr 5/28/2022 00:28",
 		"getRequestToURL:" : "mcr 5/27/2022 23:08",
 		"getUser:" : "jh 6/1/2022 00:11",
+		"getWebhookChanges:" : "jh 6/26/2022 13:22",
 		"listLabelsForIssue:user:repo:" : "mcr 5/28/2022 02:32",
 		"listPossibleAssigneesForUser:repo:" : "mcr 5/28/2022 00:47",
 		"listPossibleLabelsForUser:repo:" : "lo 6/5/2022 14:33",

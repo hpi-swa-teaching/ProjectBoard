@@ -16,6 +16,7 @@
 		"labelSelected",
 		"potentialAssigneeSelected",
 		"potentialLabelSelected",
+		"projects",
 		"window",
 		"constructor" ],
 	"name" : "SPBBoard",
