@@ -18,7 +18,7 @@ buildUI
 		updateAssigneeCount;
 		updateLabelIcons.
 		
-	self card assigneeMorph position: self card position x + (self card extent x - 180) @ self card position y + (self card extent y - assignees extent y)
+	self card assigneeMorph position: (self card position x + (self card extent x - 100)) @ (self card position y + (self card extent y - 20)).
 	
 	
 	
