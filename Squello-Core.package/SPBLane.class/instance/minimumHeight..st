@@ -1,4 +1,4 @@
-creation
+geometry
 minimumHeight: aNumber
 
 	minimumHeight := aNumber.
