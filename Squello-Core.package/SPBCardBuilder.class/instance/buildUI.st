@@ -7,6 +7,7 @@ buildUI
 			wrapFlag: true;
 			lock).
 	assignees := (TextMorph new lock).
+	title width: 280.
 	
 	self card 
 		titleMorph: title;
@@ -15,9 +16,9 @@ buildUI
 		addMorph: assignees;
 		updateAssigneeCount;
 		updateLabelIcons.
-		
-	self card titleMorph extent: 280 @ 21.
-	self card assigneeMorph position: self card position x + (self card extent x - 180) @ self card position y + (self card extent y - assignees extent y)
+	
+	self card setCardHeight.
+	self card assigneeMorph position: (self card position x + (self card extent x - 100)) @ (self card position y + (self card extent y - 20)).
 	
 	
 	

@@ -9,5 +9,4 @@ resizeLaneArea
 		[:each | 
 		widgetName := ('lane', each id asString) asSymbol.
 		(self usedBuilder widgetAt: widgetName) minimumHeight: newMinHeight.
-		each minimumHeight: newMinHeight * 0.85. each resizeToFitCards.
-		].
+		each minimumHeight: newMinHeight * 0.85. each resizeToFitCards].

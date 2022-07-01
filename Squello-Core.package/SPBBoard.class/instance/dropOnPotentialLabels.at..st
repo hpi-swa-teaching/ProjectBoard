@@ -1,10 +1,10 @@
 drag and drop
-dropOnPotentialLabels: anSPBLabel at: index
+dropOnPotentialLabels: aSPBLabel at: index
 	
-	(anSPBLabel isKindOf: SPBLabel)
+	(aSPBLabel isKindOf: SPBLabel)
 		ifFalse: [^ self inform: 'Can only drop labels'].
-	self activeCard labels remove: anSPBLabel ifAbsent: [].
+	self activeCard labels remove: aSPBLabel ifAbsent: [].
 	self activeCard updateLabelIcons.
 	self changed: #potentialLabelsList.
 	self changed: #activeCardLabelList.
-	self provider deleteLabel: anSPBLabel fromCard: self activeCard.
+	self provider deleteLabel: aSPBLabel fromCard: self activeCard.

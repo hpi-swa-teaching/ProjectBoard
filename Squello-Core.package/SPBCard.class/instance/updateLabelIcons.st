@@ -3,9 +3,11 @@ updateLabelIcons
 
 	| newLabel |
 	self labelMorphs do: [:each | each abandon].
+	self labelMorphs removeAll.
+
 	self labels withIndexDo: [:label :i | 
-		newLabel := label asForm asMorph.
-		newLabel balloonText: label title.
+		newLabel := label asMorph.
 		self labelMorphs add: newLabel.
 		self addMorph: newLabel.
-		newLabel position: ((newLabel extent x + 1 * i) + 5 @ self extent y - newLabel extent y - 5) + self position].
+		self alignLabels].
+	self lane ifNotNil: [self resizeCard].

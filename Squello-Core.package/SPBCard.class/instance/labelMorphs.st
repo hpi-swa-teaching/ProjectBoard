@@ -1,5 +1,5 @@
 accessing
 labelMorphs
 	
-	labelMorphs ifNil: [self labelMorphs: (Set newFrom: {})].
+	labelMorphs ifNil: [self labelMorphs: (OrderedCollection newFrom: {})].
 	^ labelMorphs.
