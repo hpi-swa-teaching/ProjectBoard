@@ -4,7 +4,7 @@ testUpdateActiveCardDescription
 	| usedBuilder card |
 	usedBuilder := SPBMorphicToolBuilder new.
 	usedBuilder register: PluggableTextMorph new id: #sidebarDescription.
-	card := SPBCard new provider: SPBGithubBoardProvider new.
+	card := SPBCard new provider: SPBMockGithubBoardProvider new.
 	board usedBuilder: usedBuilder.
 	board activeCard: card.
 	
