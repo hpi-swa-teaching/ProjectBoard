@@ -1,4 +1,4 @@
 accessing
 webhookID
 
-	^ webhookID ifNil: [webhookID := (SPBGithubAPI username, '-', self projectID asString). ^ webhookID]
+	^ webhookID ifNil: [webhookID := (self projectID asString , '/' , SPBGithubAPI username). ^ webhookID]
