@@ -1,4 +1,4 @@
 as yet unclassified
 testLabelIcon
 
-	self deny: nil equals: (board labelIcon: 1).
+	self deny: nil = (board labelIcon: 1).
