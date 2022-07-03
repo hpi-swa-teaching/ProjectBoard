@@ -1,6 +1,7 @@
 update sidebar
 synchronizeBoard
 	
-	self updateLanesAndSidebar;
+	self 
+		updateLanesAndSidebar;
 		createLanes;
 		updateLanes.

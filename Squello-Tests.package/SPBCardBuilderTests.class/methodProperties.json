@@ -5,4 +5,5 @@
 		"setUp" : "lo 5/22/2022 16:09",
 		"tearDown" : "lo 5/22/2022 16:09",
 		"testBuildContent" : "lo 5/22/2022 16:34",
-		"testBuildFromRemote" : "mcr 5/28/2022 02:58" } }
+		"testBuildFromRemote" : "mcr 5/28/2022 02:58",
+		"testNewInto" : "mcr 7/3/2022 23:44" } }
