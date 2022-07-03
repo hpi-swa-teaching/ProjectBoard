@@ -1,3 +1,4 @@
 accessing
 userToken
-	^ userToken
+
+	^ userToken.

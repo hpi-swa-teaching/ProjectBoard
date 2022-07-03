@@ -1,3 +1,4 @@
 actions
 actionUserName
-	^ self userName ifNil: [SPBGithubAPI username]
+
+	^ self userName ifNil: [SPBGithubAPI username].

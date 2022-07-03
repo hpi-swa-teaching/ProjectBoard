@@ -1,5 +1,6 @@
 toolbuilder
 buildWith: builder
+
 	^ builder build: (builder pluggableDialogSpec new
 		model: self;
 		label: #labelString;
@@ -7,4 +8,4 @@ buildWith: builder
 		exclusive: false;
 		message: 'Insert GitHub authentication data:';
 		children: {self buildInputPanel: builder};
-		buttons: (self buildButtons: builder))
+		buttons: (self buildButtons: builder)).

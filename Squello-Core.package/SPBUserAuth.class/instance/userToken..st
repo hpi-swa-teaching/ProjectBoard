@@ -1,3 +1,4 @@
 accessing
 userToken: anObject
-	userToken := anObject
+
+	userToken := anObject.
