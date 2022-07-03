@@ -1,3 +1,4 @@
 accessing
 labelSelected
-	^ labelSelected
+
+	^ labelSelected.
