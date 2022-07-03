@@ -6,4 +6,3 @@ moveIn: aSPBCard
 	aSPBCard lane = self ifTrue: [self alignCards. ^ self].
 	self changeLaneLocalFor: aSPBCard in: aSPBCard lane.
 	self alignCards.
-	aSPBCard lane: self.

@@ -2,8 +2,6 @@ toolbuilder
 updateLanesAndSidebar
 
 	| newLaneArea oldLaneArea oldSidebar newSidebar currentWidth |
-	
-	
 	oldLaneArea := self window submorphs detect: [:morph | (morph extension externalName = 'laneArea')].
 	
 	currentWidth := oldLaneArea width / self window width.

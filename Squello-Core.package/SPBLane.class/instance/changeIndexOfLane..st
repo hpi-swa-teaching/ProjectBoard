@@ -7,12 +7,12 @@ changeIndexOfLane: aNumber
 	
 	index = aNumber ifTrue: [^ self].  "don't move"
 	index < aNumber 
-		ifTrue: [ "move ahead"
-			newIndex := aNumber - 1.
+		ifTrue:  "move ahead"
+			[newIndex := aNumber - 1.
 			lanes removeAt: index.
 			lanes add: self beforeIndex: aNumber - 1]
-		ifFalse: [ "move back"
-			newIndex := aNumber.
+		ifFalse:  "move back"
+			[newIndex := aNumber.
 			lanes removeAt: index.
 			lanes add: self beforeIndex: aNumber].
 	aNumber = 1 
