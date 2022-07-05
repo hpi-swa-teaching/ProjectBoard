@@ -4,5 +4,6 @@ asMorph
 	^ TextMorph new
 		backgroundColor: self color;
 		contents: self title;
-		balloonText: self description;
-		extent: 100 @ 21.
+		extent: 100 @ 21;
+		lock;
+		yourself.
