@@ -3,8 +3,9 @@
 		"newFrom:" : "mcr 6/11/2022 14:28" },
 	"instance" : {
 		"=" : "lo 6/18/2022 11:15",
-		"addCard" : "mcr 5/28/2022 03:38",
+		"addCard" : "tk 7/6/2022 00:33",
 		"addCard:" : "NTK 6/6/2022 01:24",
+		"addCardToTop:" : "tk 7/6/2022 00:26",
 		"addToNewLane:" : "mcr 6/11/2022 14:23",
 		"alignCards" : "mcr 7/1/2022 16:50",
 		"board" : "lo 5/26/2022 23:42",
