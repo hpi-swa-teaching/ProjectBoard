@@ -5,4 +5,5 @@ updateTitle: aString
 		[self title: aString.
 		self titleMorph contents: aString.
 		self provider updateCard: self.
+		self updateLabelIcons.
 		self resizeCard].
