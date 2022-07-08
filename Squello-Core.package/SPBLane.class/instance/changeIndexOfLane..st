@@ -15,7 +15,4 @@ changeIndexOfLane: aNumber
 			newIndex := aNumber.
 			lanes removeAt: index.
 			lanes add: self beforeIndex: aNumber].
-	aNumber = 1 
-		ifTrue: [self provider moveLaneToFront: self] 
-		ifFalse: [self provider moveLane: self after: (lanes at: (lanes indexOf: self) - 1)  id].
 	self board updateLanesWithCards.

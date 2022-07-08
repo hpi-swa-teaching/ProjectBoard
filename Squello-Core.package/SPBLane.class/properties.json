@@ -14,7 +14,8 @@
 		"board",
 		"jsonCards",
 		"minimumHeight",
-		"lane" ],
+		"lane",
+		"changeProvider" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

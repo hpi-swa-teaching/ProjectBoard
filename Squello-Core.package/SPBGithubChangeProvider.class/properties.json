@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"api",
+		"projectId" ],
+	"name" : "SPBGithubChangeProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

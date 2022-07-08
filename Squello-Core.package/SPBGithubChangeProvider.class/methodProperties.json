@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"api" : "lo 7/8/2022 11:43",
+		"api:" : "lo 7/8/2022 11:44",
+		"cardAssigned:" : "lo 7/8/2022 14:42",
+		"cardCreated:" : "lo 7/8/2022 15:22",
+		"cardDeleted:" : "lo 7/8/2022 14:42",
+		"cardEdited:" : "lo 7/8/2022 14:42",
+		"cardLabeled:" : "lo 7/8/2022 14:42",
+		"cardMoved:" : "lo 7/8/2022 15:43",
+		"cardUnassigned:" : "lo 7/8/2022 14:42",
+		"cardUnlabeled:" : "lo 7/8/2022 14:42",
+		"laneCreated:" : "lo 7/8/2022 15:18",
+		"laneDeleted:" : "lo 7/8/2022 15:34",
+		"laneEdited:" : "lo 7/8/2022 14:51",
+		"laneMoved:" : "lo 7/8/2022 15:03",
+		"manageChanges" : "lo 7/8/2022 13:47",
+		"parseChange:" : "lo 7/8/2022 15:20",
+		"projectId" : "lo 7/8/2022 13:46",
+		"projectId:" : "lo 7/8/2022 13:46",
+		"webhookId" : "lo 7/8/2022 13:45" } }

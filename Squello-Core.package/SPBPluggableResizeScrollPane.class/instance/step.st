@@ -2,4 +2,4 @@ as yet unclassified
 step
 
 	super step.
-	self model manageChanges.
+	self model changeProvider manageChanges.
