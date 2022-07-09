@@ -3,5 +3,5 @@ cardDeleted: aJsonObject
 
 	^ {
 		'action' -> #delete.
-		'id' -> (aJsonObject at: 'project_card') at: 'id'.
+		'id' -> ((aJsonObject at: 'project_card') at: 'id').
 	} asDictionary.

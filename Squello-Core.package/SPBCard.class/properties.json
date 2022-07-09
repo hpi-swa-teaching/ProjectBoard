@@ -15,7 +15,6 @@
 		"changeProvider",
 		"user",
 		"repo",
-		"frontCardId",
 		"assignees",
 		"labels",
 		"titleMorph",
