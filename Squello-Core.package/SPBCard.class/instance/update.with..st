@@ -8,7 +8,7 @@ update: aSymbol with: aDictionary
 	((aDictionary at: 'action') = #move) ifTrue: 
 		[board := self lane board.
 		newLane := board lanes detect: [:lane | lane id = (aDictionary at: 'laneId')].
-		self lane pasteup removeMorph: self.
+		self openInWorld.
 		newLane removeFromOldLane: self.
 		newLane pasteup addMorph: self.
 		(aDictionary at: 'after')
@@ -19,9 +19,8 @@ update: aSymbol with: aDictionary
 		newLane alignCards.
 		self lane: newLane].
 	((aDictionary at: 'action') = #delete) ifTrue: 
-		[].
+		[self lane deleteCard: self].
 	((aDictionary at: 'action') = #edit) ifTrue: 
-		[].
-	
-	((aDictionary at: 'action') = #create) ifTrue: 
-		[].
+		[self updateTitle: (aDictionary at: 'title').
+		self updateDescription: (aDictionary at: 'body').
+		self lane board activeCard = self ifTrue: [self lane board changeActiveCardTo: self]].

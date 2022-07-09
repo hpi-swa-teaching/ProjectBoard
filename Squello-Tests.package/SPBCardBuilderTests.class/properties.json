@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"builder",
-		"provider" ],
+		"provider",
+		"changeProvider" ],
 	"name" : "SPBCardBuilderTests",
 	"pools" : [
 		 ],

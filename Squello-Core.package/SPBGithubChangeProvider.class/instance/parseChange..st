@@ -5,6 +5,8 @@ parseChange: aJsonObject
 	| action change type |
 	
 	action := aJsonObject at: 'action'.
+	self halt.
+	Transcript show: action.
 	
 	(aJsonObject includesKey: 'project_card') ifTrue: [
 		type := #card.
