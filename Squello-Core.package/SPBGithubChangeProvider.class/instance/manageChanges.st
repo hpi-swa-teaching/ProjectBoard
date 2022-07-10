@@ -2,5 +2,9 @@ as yet unclassified
 manageChanges
 	
 	| changes |
-	changes := self api getWebhookChanges: self webhookId.
-	changes ifNotEmpty: [changes collect: [:each | self parseChange: (each parseAsJson)]].
+	self semaphore isSignaled ifTrue: [self semaphore wait].
+	[changes := self api getWebhookChanges: self webhookId.
+	self semaphore signal] fork.
+	self semaphore wait.
+	changes do: [:each | self parseChange: (each parseAsJson)].
+	self semaphore signal.

@@ -1,5 +1,5 @@
 building
-buildFromRemote: aJsonObject into: aSPBLane
+buildFromRemote: aJsonObject into: anSPBLane
 
 	self
 		card: SPBCard new;
@@ -9,5 +9,5 @@ buildFromRemote: aJsonObject into: aSPBLane
 	self card provider: self provider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.
-	self setCardLane: aSPBLane.	
+	self setCardLane: anSPBLane.	
 	^ self card.

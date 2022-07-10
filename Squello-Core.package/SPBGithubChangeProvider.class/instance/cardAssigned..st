@@ -3,6 +3,6 @@ cardAssigned: aJsonObject
 	
 	^ {
 		'action' -> #assign.
-		'id' -> ((aJsonObject at: 'issue') at: 'id').
-		'assignee' -> SPBAssignee newFrom: (aJsonObject at: 'assignee')
+		'id' -> ((aJsonObject at: 'issue') at: 'number').
+		'assignee' -> (aJsonObject at: 'assignee')
 	} asDictionary.

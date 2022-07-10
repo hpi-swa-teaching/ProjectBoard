@@ -1,7 +1,7 @@
 updating
 update: aSymbol with: aDictionary
 
-	| board newLane |
+	| board newLane label assignee |
 	aSymbol = #card ifFalse: [^ self].
 	(self id = (aDictionary at: 'id') or: [self issueId = (aDictionary at: 'id')]) ifFalse: [^ self].
 	
@@ -22,5 +22,22 @@ update: aSymbol with: aDictionary
 		[self lane deleteCard: self].
 	((aDictionary at: 'action') = #edit) ifTrue: 
 		[self updateTitle: (aDictionary at: 'title').
-		self updateDescription: (aDictionary at: 'body').
-		self lane board activeCard = self ifTrue: [self lane board changeActiveCardTo: self]].
+		self updateDescription: (aDictionary at: 'body')].
+	((aDictionary at: 'action') = #label) ifTrue: 
+		[label := SPBLabel newFrom: (aDictionary at: 'label').
+		self labels add: label.
+		self updateLabelIcons].
+	((aDictionary at: 'action') = #unlabel) ifTrue: 
+		[label := SPBLabel newFrom: (aDictionary at: 'label').
+		self labels remove: label.
+		self updateLabelIcons].
+	((aDictionary at: 'action') = #assign) ifTrue: 
+		[assignee := SPBAssignee newFrom: (aDictionary at: 'assignee').
+		self assignees add: assignee.
+		self updateAssigneeCount].
+	((aDictionary at: 'action') = #unassign) ifTrue: 
+		[assignee := SPBAssignee newFrom: (aDictionary at: 'assignee').
+		self assignees remove: assignee.
+		self updateAssigneeCount].
+	
+	self lane board activeCard = self ifTrue: [self lane board changeActiveCardTo: self]

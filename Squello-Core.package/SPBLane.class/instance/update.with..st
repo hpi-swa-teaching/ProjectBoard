@@ -1,6 +1,7 @@
 as yet unclassified
 update: aSymbol with: aDictionary
 
+	| cardJson |
 	aSymbol = #lane ifFalse: [^ self].
 	(self id = (aDictionary at: 'id')) ifFalse: [^ self].
 	
@@ -15,4 +16,5 @@ update: aSymbol with: aDictionary
 		[self title: (aDictionary at: 'title')].
 	
 	((aDictionary at: 'action') = #create) ifTrue: 
-		[].
+		[cardJson := self fetchSingleCard: (aDictionary at: 'card').
+		self buildSingleCard: cardJson].
