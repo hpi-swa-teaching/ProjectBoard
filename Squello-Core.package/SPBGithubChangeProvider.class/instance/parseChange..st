@@ -27,4 +27,6 @@ parseChange: aJsonObject
 		action = 'unassigned' ifTrue: [change := self cardUnassigned: aJsonObject].
 		action = 'edited' ifTrue: [change := self cardEdited: aJsonObject]].
 	
+	action = 'opened' ifTrue: [^ self].
+	
 	self changed: type with: change.
