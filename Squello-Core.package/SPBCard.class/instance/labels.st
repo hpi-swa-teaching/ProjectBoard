@@ -1,3 +1,4 @@
 accessing
 labels
-	^ labels
+
+	^ labels.

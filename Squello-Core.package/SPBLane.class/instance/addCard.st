@@ -8,7 +8,7 @@ addCard
 	cardBuilder := SPBCardBuilder new.
 	cardBuilder provider: self provider.
 	cardBuilder changeProvider: self changeProvider.
-	(newSPBCard := cardBuilder buildNew: content into: self).
+	newSPBCard := cardBuilder buildNew: content into: self.
 	
 	self alignCards.
 	

@@ -1,7 +1,7 @@
 toolbuilder
 buildInputFields: builder
-	^ {
-	builder pluggableInputFieldSpec new
+	
+	^ {builder pluggableInputFieldSpec new
 		model: self;
 		getText: #actionUserName;
 		editText: #actionUserName:;
@@ -13,5 +13,4 @@ buildInputFields: builder
 		getText: #actionUserToken;
 		editText: #actionUserToken:;
 		setText: #actionUserToken:;
-		help: 'GitHub access token'.
-	}
+		help: 'GitHub access token'}.

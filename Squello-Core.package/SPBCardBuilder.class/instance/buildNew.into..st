@@ -6,6 +6,7 @@ buildNew: aDictionary into: aSPBLane
 	self
 		card: SPBCard new;
 		setCardID: (cardJson at: 'id');
+		setupMouseEvents;
 		buildContent: (cardJson at: 'content_url');
 		buildUI.
 	self card provider: self provider.

@@ -1,4 +1,21 @@
 as yet unclassified
 queryCardContent: anUrl
 
-^'{"url":"https://api.github.com/repos/test/test/issues/3","repository_url":"https://api.github.com/repos/test/test","labels_url":"https://api.github.com/repos/test/test/issues/3/labels{/name}","comments_url":"https://api.github.com/repos/test/test/issues/3/comments","events_url":"https://api.github.com/repos/test/test/issues/3/events","html_url":"https://github.com/test/test/issues/3","id":1235941519,"node_id":"I_kwDOHRXsAc5JqviP","number":3,"title":"Found a bug","user":{"login":"test","id":37272151,"node_id":"MDQ6VXNlcjM3MjcyMTUx","avatar_url":"https://avatars.githubusercontent.com/u/37272151?v=4","gravatar_id":"","url":"https://api.github.com/users/test","html_url":"https://github.com/test","followers_url":"https://api.github.com/users/test/followers","following_url":"https://api.github.com/users/test/following{/other_user}","gists_url":"https://api.github.com/users/test/gists{/gist_id}","starred_url":"https://api.github.com/users/test/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/test/subscriptions","organizations_url":"https://api.github.com/users/test/orgs","repos_url":"https://api.github.com/users/test/repos","events_url":"https://api.github.com/users/test/events{/privacy}","received_events_url":"https://api.github.com/users/test/received_events","type":"User","site_admin":false},"labels":[],"state":"open","locked":false,"assignee":null,"assignees":[],"milestone":null,"comments":0,"created_at":"2022-05-14T10:47:09Z","updated_at":"2022-05-14T10:47:09Z","closed_at":null,"author_association":"OWNER","active_lock_reason":null,"body":null,"closed_by":null,"reactions":{"url":"https://api.github.com/repos/test/test/issues/3/reactions","total_count":0,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":0},"timeline_url":"https://api.github.com/repos/test/test/issues/3/timeline","performed_via_github_app":null,"state_reason":null}' parseAsJson.
+	| userJson |
+	userJson := JsonObject new
+		at: 'id' put: 37272151;
+		at: 'login' put: 'test';
+		at: 'url' put: 'https://api.github.com/users/test'.
+		
+	^ JsonObject new
+		at: 'id' put: 1235941519;
+		at: 'title' put: 'Found a bug';
+		at: 'body' put: nil;
+		at: 'number' put: 3;
+		at: 'url' put: 'https://api.github.com/repos/test/test/issues/3';
+		at: 'repository_url' put: 'https://api.github.com/repos/test/test';
+		at: 'assignees' put: #();
+		at: 'labels' put: #();
+		at: 'user' put: userJson
+	
+	

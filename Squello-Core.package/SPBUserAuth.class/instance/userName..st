@@ -1,3 +1,4 @@
 accessing
 userName: anObject
-	userName := anObject
+
+	userName := anObject.

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mcr 7/3/2022 21:33",
+		"tearDown" : "mcr 7/3/2022 21:33",
+		"testActionModel" : "mcr 7/3/2022 21:36",
+		"testDropped" : "mcr 7/3/2022 21:36",
+		"testReject" : "mcr 7/3/2022 21:42",
+		"testRepelsMorph" : "mcr 7/3/2022 21:43" } }

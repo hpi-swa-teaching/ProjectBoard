@@ -1,5 +1,6 @@
 actions
 actionSaveAndClose
+
 	| tempName |
 	self userName ifNil: [self userName: SPBGithubAPI username].
 	self userToken ifNil: [self userToken: SPBGithubAPI token].
@@ -9,8 +10,9 @@ actionSaveAndClose
 	tempName := SPBGithubAPI username.
 	SPBGithubAPI username: self userName.
 	self checkUserValid
-		ifTrue: [self changed: #close]
-		ifFalse: [
-			SPBGithubAPI username: tempName.
-			UserDialogBoxMorph inform: 'You entered a username that doesn''t exist on GitHub.' title: 'Invalid input'
-		].
+		ifTrue: 
+			[self changed: #close]
+		ifFalse: 
+			[SPBGithubAPI username: tempName.
+			UserDialogBoxMorph 
+				inform: 'You entered a username that doesn''t exist on GitHub.' title: 'Invalid input'].

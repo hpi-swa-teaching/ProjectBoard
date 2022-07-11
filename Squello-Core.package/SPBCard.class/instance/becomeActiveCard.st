@@ -1,4 +1,4 @@
 event handling
-yellowButtonActivity: anEvent
+becomeActiveCard
 	
 	self lane board changeActiveCardTo: self.
