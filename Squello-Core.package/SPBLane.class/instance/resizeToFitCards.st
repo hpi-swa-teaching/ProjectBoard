@@ -1,8 +1,7 @@
 card movement
 resizeToFitCards
 	
-	| cardHeightsSum |
-	cardHeightsSum := 0.
-	self cards do:
-		[:each | cardHeightsSum := cardHeightsSum + each height + self spaceBetweenCards].
-	self pasteup ifNotNil: [self pasteup extent: self width @ ((self minimumHeight max: cardHeightsSum) - 4)].
+	| height |
+	height := (self cards size + 1) * 10.
+	self cards do: [:card | height := height + card height].
+	self pasteup ifNotNil: [self pasteup extent: 300 @ ((self minimumHeight max: height) - 5)].

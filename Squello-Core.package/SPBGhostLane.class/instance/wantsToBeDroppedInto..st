@@ -8,8 +8,10 @@ wantsToBeDroppedInto: aMorph
 	center := aMorph positionInWorld x + (aMorph width // 2).
 	self position x > center 
 		ifTrue: 
-			[self sourceLane changeIndexOfLane: laneIndex + 1]
+			[self sourceLane changeIndexOfLane: laneIndex + 1.
+			self sourceLane changeRemoteIndexOfLane: laneIndex + 1]
 		 ifFalse: 
-			[self sourceLane changeIndexOfLane: laneIndex].
+			[self sourceLane changeIndexOfLane: laneIndex.
+			self sourceLane changeRemoteIndexOfLane: laneIndex].
 	
 	^ false.

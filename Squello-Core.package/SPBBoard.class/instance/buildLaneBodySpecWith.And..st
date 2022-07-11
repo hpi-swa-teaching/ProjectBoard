@@ -8,7 +8,7 @@ buildLaneBodySpecWith: aBuilder And: aSPBLane
 		hScrollBarPolicy: #never;
 		vScrollBarPolicy: #always;
 		children: 
-			{aBuilder pluggablePasteUpSpec new
+			{aBuilder pasteUpSpec new
 			minimumExtent: 300@290;
 			model: aSPBLane;
 			name: aSPBLane id;

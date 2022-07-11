@@ -10,6 +10,7 @@ buildNew: aDictionary into: aSPBLane
 		buildContent: (cardJson at: 'content_url');
 		buildUI.
 	self card provider: self provider.
+	self card changeProvider: self changeProvider.
 	self card openInWorld.
 	self setCardLane: aSPBLane.	
 	^ self card.

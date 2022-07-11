@@ -1,14 +1,14 @@
 toolbuilder
 addLane 
 	
-	| lane laneJson prompt |
-	prompt := FillInTheBlank request: 'Enter a lane name' initialAnswer:''.
-    prompt = '' ifTrue: [^ self].
-	laneJson := self provider createColumn: prompt.
-	lane := SPBLane newFrom: laneJson.
+	| lane prompt|
+	prompt := FillInTheBlankMorph request: 'Enter a lane name' initialAnswer:''.
+  prompt = '' ifTrue: [^ self].
+	lane := self provider createColumn: prompt.
+  
 	lane 
 		board: self;
-		provider: self provider.
+		provider: self provider;
+		changeProvider: self changeProvider.
 	self lanes add: lane.
-	lane jsonCards: {} asOrderedCollection.
  	self updateLanesWithCards.

@@ -6,6 +6,7 @@
 		"LastProject" ],
 	"commentStamp" : "LW 6/20/2022 09:44",
 	"instvars" : [
+		"changeProvider",
 		"activeCard",
 		"usedBuilder",
 		"lanes",
@@ -16,6 +17,7 @@
 		"labelSelected",
 		"potentialAssigneeSelected",
 		"potentialLabelSelected",
+		"projects",
 		"window",
 		"constructor" ],
 	"name" : "SPBBoard",

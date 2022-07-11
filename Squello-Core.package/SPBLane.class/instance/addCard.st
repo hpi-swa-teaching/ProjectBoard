@@ -7,7 +7,8 @@ addCard
 	content := Dictionary newFrom: {'title' -> cardTitle . 'body' -> ''}.
 	cardBuilder := SPBCardBuilder new.
 	cardBuilder provider: self provider.
-	newSPBCard := cardBuilder buildNew: content AtTop: self.
+	cardBuilder changeProvider: self changeProvider.
+	newSPBCard := cardBuilder buildNew: content into: self.
 	
 	self alignCards.
 	
