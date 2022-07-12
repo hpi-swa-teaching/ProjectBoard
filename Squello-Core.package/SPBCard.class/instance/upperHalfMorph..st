@@ -1,3 +1,4 @@
 accessing
 upperHalfMorph: anObject
-	upperHalfMorph := anObject
+
+	upperHalfMorph := anObject.

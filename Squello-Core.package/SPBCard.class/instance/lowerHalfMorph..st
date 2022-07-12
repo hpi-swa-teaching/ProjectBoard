@@ -1,3 +1,4 @@
 accessing
 lowerHalfMorph: anObject
-	lowerHalfMorph := anObject
+
+	lowerHalfMorph := anObject.
