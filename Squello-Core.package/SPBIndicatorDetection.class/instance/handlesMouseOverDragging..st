@@ -1,4 +1,5 @@
 as yet unclassified
 handlesMouseOverDragging: evt
 
-	^ true.
+	^ evt hand hasSubmorphs 
+		and: [evt hand firstSubmorph class == SPBCard].
