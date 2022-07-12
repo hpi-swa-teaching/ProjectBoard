@@ -6,7 +6,8 @@ buildFromRemote: aJsonObject into: anSPBLane
 		setCardID: (aJsonObject at: 'id');
 		setupMouseEvents;
 		buildContent: (aJsonObject at: 'content_url');
-		buildUI.
+		buildUI;
+		buildIndicatorDetection.
 	self card provider: self provider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.

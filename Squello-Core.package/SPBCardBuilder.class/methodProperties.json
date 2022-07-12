@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"buildContent:" : "lo 6/5/2022 14:42",
-		"buildFromRemote:into:" : "jh 6/10/2022 20:38",
+		"buildFromRemote:into:" : "mcr 7/12/2022 12:12",
+		"buildIndicatorDetection" : "mcr 7/12/2022 12:41",
 		"buildLabels:" : "lo 6/5/2022 14:51",
 		"buildNew:AtTop:" : "tk 7/6/2022 00:32",
-		"buildNew:into:" : "mcr 5/28/2022 03:02",
+		"buildNew:into:" : "mcr 7/12/2022 12:12",
 		"buildUI" : "mcr 7/1/2022 13:03",
 		"card" : "mcr 5/19/2022 09:30",
 		"card:" : "mcr 5/19/2022 09:30",

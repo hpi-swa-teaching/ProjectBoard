@@ -1,0 +1,15 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"location",
+		"card" ],
+	"name" : "SPBIndicatorDetection",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
