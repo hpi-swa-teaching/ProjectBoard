@@ -1,5 +1,5 @@
 accessing
 lowerHalfMorph
 
-	upperHalfMorph ifNil: [self upperHalfMorph: SPBIndicatorDetection new].
-	^ upperHalfMorph.
+	lowerHalfMorph ifNil: [self lowerHalfMorph: SPBIndicatorDetection new].
+	^ lowerHalfMorph.
