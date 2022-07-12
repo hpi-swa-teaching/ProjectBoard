@@ -8,8 +8,10 @@ buildNew: aDictionary AtTop: aSPBLane
 		setCardID: (cardJson at: 'id');
 		setupMouseEvents;
 		buildContent: (cardJson at: 'content_url');
-		buildUI.
+		buildUI;
+		buildIndicatorDetection.
 	self card provider: self provider.
+	self card changeProvider: self changeProvider.
 	self card openInWorld.
 	self setCardLaneAtTop: aSPBLane.	
 	^ self card.
