@@ -10,7 +10,6 @@ buildSidebarSpecWith: aBuilder aWidth: aNumber
 			self buildSidebarTitleSpecWith: aBuilder.
 			self buildSidebarAssigneePanelSpecWith: aBuilder. 
 			self buildSidebarLabelPanelSpecWith: aBuilder.
-			self buildSidebarDescriptionSpecWith: aBuilder.
-			self buildSyncButton: aBuilder};
+			self buildSidebarDescriptionSpecWith: aBuilder};
 		yourself.
 		

@@ -17,3 +17,4 @@ loadProject: aString
 			projectTitle: (chosenProject at: 'name')].
 		
 	self changeProvider projectId: self provider projectID.
+	self changeProvider api getWebhookChanges: self changeProvider webhookId.

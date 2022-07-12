@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'BaselineOfSquello.package' : #SquotCypressCodeSerializer,
 	'Squello-Core.package' : #SquotCypressCodeSerializer,
-	'Squello-Tests.package' : #SquotCypressCodeSerializer
+	'Squello-Tests.package' : #SquotCypressCodeSerializer,
+	'BaselineOfSquello.package' : #SquotCypressCodeSerializer
 }
