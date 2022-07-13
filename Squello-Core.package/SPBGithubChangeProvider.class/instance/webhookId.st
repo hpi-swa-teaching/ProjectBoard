@@ -1,4 +1,4 @@
 accessing
 webhookId
 
-	^ (self projectId asString , '/squello-' , SPBGithubAPI username).
+	^ (self projectId asString , '/' , SPBGithubAPI username).
