@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addAssignee:toIssue:user:repo:" : "lo 7/13/2022 18:53",
+		"addAssignee:toIssue:user:repo:" : "lo 7/13/2022 20:41",
 		"addIssue:toColumn:" : "mcr 5/31/2022 17:51",
-		"addLabel:toIssue:user:repo:" : "lo 7/13/2022 19:09",
+		"addLabel:toIssue:user:repo:" : "lo 7/13/2022 20:41",
 		"createIssue:user:repo:" : "mcr 5/31/2022 17:48",
-		"deleteAssignee:fromIssue:user:repo:" : "lo 7/13/2022 19:40",
+		"deleteAssignee:fromIssue:user:repo:" : "lo 7/13/2022 20:41",
 		"messages" : "lo 7/13/2022 18:43",
 		"messages:" : "lo 7/13/2022 18:42",
 		"moveCard:withPostData:" : "lo 7/13/2022 20:06",

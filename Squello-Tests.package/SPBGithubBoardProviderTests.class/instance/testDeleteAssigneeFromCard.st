@@ -5,12 +5,12 @@ testDeleteAssigneeFromCard
 	card := SPBCard new.
 	assignee := SPBAssignee new username: 'MatthiasCr'.
 		
-	target := {
+	target := Dictionary newFrom: {
 		#issue -> nil.
 		#user -> provider user.
 		#repo -> provider repo.
-		#assignee -> {'assignees' -> {assignee username}} asDictionary.
-	} asDictionary.
+		#assignee -> (Dictionary newFrom: {'assignees' -> {assignee username}}).
+	}.
 		
 	provider deleteAssignee: assignee fromCard: card.
 	self assert: target equals: provider api messages first.

@@ -1,5 +1,5 @@
 accessing
 fakeWidgets
 	
-	fakeWidgets ifNil: [self fakeWidgets: {} asDictionary].
+	fakeWidgets ifNil: [self fakeWidgets: (Dictionary newFrom: {})].
 	^ fakeWidgets.
