@@ -10,4 +10,4 @@ moveLane: aNumber withPostData: aDictionary
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	
-	^ self postRequestToURL: url withData: stream.
+	self postRequestToURL: url withData: stream.

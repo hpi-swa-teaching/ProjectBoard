@@ -1,8 +1,8 @@
 cards
-moveCard: aSPBCard after: aNumber toColumn: aSPBLane
+moveCard: anSPBCard after: anotherSPBCard toColumn: anSPBLane
 
 	"move aSPBCard after card with ID = aNumber"
 	| payload |
-	payload := Dictionary newFrom: {'position' -> ('after:', aNumber) . 'column_id' -> aSPBLane id}.
+	payload := Dictionary newFrom: {'position' -> ('after:' , anotherSPBCard id) . 'column_id' -> anSPBLane id}.
 	
-	^ self api moveCard: aSPBCard id withPostData: payload.
+	self api moveCard: anSPBCard id withPostData: payload.

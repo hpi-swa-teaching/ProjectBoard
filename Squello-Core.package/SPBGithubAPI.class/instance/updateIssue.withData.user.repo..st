@@ -13,4 +13,4 @@ updateIssue: aNumber withData: aDictionary user: aString repo: anotherString
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	
-	^ self patchRequestToURL: url withData: stream.
+	self patchRequestToURL: url withData: stream.

@@ -12,4 +12,4 @@ listPossibleAssignees
 		at: 'id' put: 2;
 		at: 'avatar_url' put: 'url'.
 		
-	^ OrderedCollection newFrom: {assignee1 . assignee2}.
+	^ {assignee1 . assignee2} collect: [:each | SPBAssignee newFrom: each].

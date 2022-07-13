@@ -7,4 +7,4 @@ dropOnPotentialAssignees: anSPBAssignee at: index
 	self activeCard updateAssigneeCount.
 	self changed: #potentialAssigneesList.
 	self changed: #activeCardAssigneeList.
-	self provider deleteAssignees: {anSPBAssignee} fromCard: self activeCard.
+	self provider deleteAssignee: anSPBAssignee fromCard: self activeCard.

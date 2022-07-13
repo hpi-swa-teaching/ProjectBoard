@@ -3,7 +3,7 @@ createColumn: aString
 
 	| payload errorMsg laneJson |
 	payload := Dictionary newFrom: {'name' -> aString}.
-	laneJson := self api createColumn: payload inProject: self projectID.
+	laneJson := self api createColumn: payload inProject: self projectId.
 	(laneJson includesKey: 'errors') ifTrue: 
 		[errorMsg := (laneJson at: 'errors') asString.
 		(DialogWindow new 

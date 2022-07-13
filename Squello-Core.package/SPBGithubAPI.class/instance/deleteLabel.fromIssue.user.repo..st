@@ -6,4 +6,4 @@ deleteLabel: aString fromIssue: aNumber user: anOtherString repo: aThirdString
 		
 	stream := WriteStream with: OrderedCollection new.
 	
-	^ self deleteRequestToURL: url withData: stream.
+	self deleteRequestToURL: url withData: stream.

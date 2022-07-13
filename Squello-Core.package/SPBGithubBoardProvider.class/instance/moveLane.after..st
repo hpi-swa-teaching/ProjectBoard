@@ -1,7 +1,7 @@
 cards
-moveLane: aSPBLane after: aNumber 
+moveLane: anSPBLane after: anotherSPBLane
 
 	"move aSPBLane after lane with ID = aNumber"
 	| payload |
-	payload := Dictionary newFrom: {'position' -> ('after:', aNumber)}.
-	^ self api moveLane: aSPBLane id withPostData: payload.
+	payload := Dictionary newFrom: {'position' -> ('after:' , anotherSPBLane id)}.
+	self api moveLane: anSPBLane id withPostData: payload.

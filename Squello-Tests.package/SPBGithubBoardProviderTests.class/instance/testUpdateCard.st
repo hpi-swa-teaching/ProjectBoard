@@ -1,16 +1,16 @@
 tests
 testUpdateCard
 
-	| card response |
+	| card data |
 	card := SPBCard new
 		issueId: 2;
 		title: 'toller Titel';
 		description: 'tolle Description'.
 		
-	response := provider updateCard: card.
+	provider updateCard: card.
 	
-	self assert: 'toller Titel' equals: (response at: 'title').
-	self assert: 'tolle Description' equals: (response at: 'body').
-	self assert: 2 equals: (response at: 'number').
+	data := provider api messages first.
 	
-	
+	self assert: 'toller Titel' equals: (data at: 'title').
+	self assert: 'tolle Description' equals: (data at: 'body').
+	self assert: 2 equals: (data at: 'number').

@@ -1,4 +1,4 @@
 toolbuilder
 labelString
 
-	^ self class defaultTitle.
+	^ 'GitHub Authentication'.

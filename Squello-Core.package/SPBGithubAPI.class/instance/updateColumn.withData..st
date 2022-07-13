@@ -10,4 +10,4 @@ updateColumn: aNumber withData: aDictionary
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	
-	^ self patchRequestToURL: url withData: stream.
+	self patchRequestToURL: url withData: stream.

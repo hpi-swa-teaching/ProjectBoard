@@ -2,7 +2,7 @@ columns
 queryColumns
 
 	| lane lanesJson |
-	lanesJson := self api queryColumns: self projectID.
+	lanesJson := self api queryColumns: self projectId.
 	
 	^ (lanesJson collect: 
 		[:each | lane := SPBLane newFrom: each. 

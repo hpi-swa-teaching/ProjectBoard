@@ -1,3 +1,4 @@
 accessing
-projectTitle: anObject
-	projectTitle := anObject
+projectTitle: aString
+
+	projectTitle := aString.

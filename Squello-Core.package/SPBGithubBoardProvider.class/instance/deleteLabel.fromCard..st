@@ -1,4 +1,4 @@
 assignees
-deleteLabel: aSPBLabel fromCard: aSPBCard
+deleteLabel: anSPBLabel fromCard: anSPBCard
 	
-	^ self api deleteLabel: aSPBLabel asString fromIssue: aSPBCard issueId user: self user repo: self repo.
+	self api deleteLabel: anSPBLabel asString fromIssue: anSPBCard issueId user: self user repo: self repo.

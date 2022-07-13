@@ -2,13 +2,13 @@ actions
 actionSaveAndClose
 
 	| tempName |
-	self userName ifNil: [self userName: SPBGithubAPI username].
-	self userToken ifNil: [self userToken: SPBGithubAPI token].
-	(self userName isNil or: [self userToken isNil])
+	self username ifNil: [self username: SPBGithubAPI username].
+	self token ifNil: [self token: SPBGithubAPI token].
+	(self username isNil or: [self token isNil])
 		ifTrue: [^ UserDialogBoxMorph inform: 'Please enter username and token.' title: 'Invalid input'].
-	SPBGithubAPI token: self userToken.
+	SPBGithubAPI token: self token.
 	tempName := SPBGithubAPI username.
-	SPBGithubAPI username: self userName.
+	SPBGithubAPI username: self username.
 	self checkUserValid
 		ifTrue: 
 			[self changed: #close]

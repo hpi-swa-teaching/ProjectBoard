@@ -6,8 +6,8 @@
 		"EnableDragAndDrop" ],
 	"commentStamp" : "LW 6/20/2022 09:59",
 	"instvars" : [
-		"userToken",
-		"userName" ],
+		"token",
+		"username" ],
 	"name" : "SPBUserAuth",
 	"pools" : [
 		 ],

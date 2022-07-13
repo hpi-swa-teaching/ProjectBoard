@@ -8,4 +8,4 @@ dropOnLabels: aSPBLabel at: index
 	self activeCard updateLabelIcons.
 	self changed: #potentialLabelsList.
 	self changed: #activeCardLabelList.
-	self provider addLabels: {aSPBLabel} toCard: self activeCard.
+	self provider addLabel: aSPBLabel toCard: self activeCard.

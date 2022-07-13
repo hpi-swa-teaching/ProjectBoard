@@ -13,8 +13,8 @@ loadProject: aString
 		chosenProject := UIManager default chooseFrom: projectNames values: projects title: 'Choose your project:'.
 		chosenProject ifNil: [^self].
 		self provider
-			projectID: (chosenProject at: 'id');
+			projectId: (chosenProject at: 'id');
 			projectTitle: (chosenProject at: 'name')].
 		
-	self changeProvider projectId: self provider projectID.
+	self changeProvider projectId: self provider projectId.
 	self changeProvider api getWebhookChanges: self changeProvider webhookId.

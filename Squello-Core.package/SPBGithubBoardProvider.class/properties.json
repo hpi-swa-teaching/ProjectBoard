@@ -8,11 +8,10 @@
 	"instvars" : [
 		"user",
 		"repo",
-		"projectID",
 		"projectTitle",
 		"api",
-		"error",
-		"webhookID" ],
+		"projectId",
+		"webhookId" ],
 	"name" : "SPBGithubBoardProvider",
 	"pools" : [
 		 ],
