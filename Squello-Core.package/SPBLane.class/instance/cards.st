@@ -1,4 +1,4 @@
 accessing
 cards
-
-	^ cards ifNil: [self cards: OrderedCollection new].
+	
+	^ cards ifNil: [cards := OrderedCollection new].
