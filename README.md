@@ -7,4 +7,4 @@ Manage your GitHub Project Boards directly from Squeak!
 
 ## Setup
 
-Download the latest `.sar` from the [releases section](https://github.com/hpi-swa-teaching/ProjectBoard/releases), drag it onto your open squeak-image and press `install sar`. The shortcut from the apps menu will be installed automagically.
+Download the latest `.sar` from the [releases section](https://github.com/hpi-swa-teaching/ProjectBoard/releases), drag it onto your open Squeak image and press `install sar`. The shortcut from the apps menu will be installed automatically.
