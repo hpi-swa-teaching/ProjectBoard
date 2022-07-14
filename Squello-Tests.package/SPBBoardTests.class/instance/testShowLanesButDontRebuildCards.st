@@ -10,7 +10,7 @@ testShowLanesButDontRebuildCards
 	
 	board usedBuilder: builder.
 	board lanes: lanes.
-	board showLanesButDontRebuildCards.
+	board rerenderLanes.
 	
 	self assert: { 1234 . #lane1234 . 5678 . #lane5678 } asOrderedCollection equals: builder callOrder.
 	self assert: '1234' equals: (lanes at: 1) pasteup.

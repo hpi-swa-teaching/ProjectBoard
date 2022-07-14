@@ -1,7 +1,7 @@
 accessing
 walkToPosition: aPoint
 
-		(AnimPropertyAnimation
+	(AnimPropertyAnimation
 		on: self
 		property: #position
 		start: self position

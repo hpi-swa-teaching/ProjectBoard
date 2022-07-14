@@ -1,4 +1,4 @@
 accessing
-provider: aSPBGitHubBoardProvider
+provider: anSPBGitHubBoardProvider
 
-	provider := aSPBGitHubBoardProvider.
+	provider := anSPBGitHubBoardProvider.

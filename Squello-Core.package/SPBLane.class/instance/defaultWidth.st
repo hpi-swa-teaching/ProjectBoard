@@ -1,4 +1,4 @@
 geometry
-width
+defaultWidth
 
 	^ 300.

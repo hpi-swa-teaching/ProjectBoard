@@ -2,5 +2,5 @@ accessing
 updateLanesWithCards
 
 	self changed: #buildLaneAreaChildren.
-	self showLanesButDontRebuildCards.
+	self rerenderLanes.
 	self resizeLaneArea.

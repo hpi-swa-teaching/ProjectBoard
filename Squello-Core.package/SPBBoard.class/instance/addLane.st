@@ -1,9 +1,10 @@
 toolbuilder
 addLane 
 	
-	| lane prompt|
+	| lane prompt |
 	prompt := FillInTheBlankMorph request: 'Enter a lane name' initialAnswer:''.
-  prompt = '' ifTrue: [^ self].
+	(prompt = '')
+		ifTrue: [^ self].
 	lane := self provider createColumn: prompt.
   
 	lane 

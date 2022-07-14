@@ -1,7 +1,7 @@
 setters
-setCardLane: aSPBLane
+setCardLane: anSPBLane
 
-	self card lane: aSPBLane.
-	aSPBLane addCard: self card.
-	aSPBLane pasteup addMorph: self card.
+	self card lane: anSPBLane.
+	anSPBLane addCard: self card.
+	anSPBLane pasteup addMorph: self card.
 	

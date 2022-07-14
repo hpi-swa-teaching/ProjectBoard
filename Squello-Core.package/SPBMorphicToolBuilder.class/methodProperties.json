@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildPluggablePasteUpMorph:" : "mcr 6/11/2022 13:08",
-		"buildResizeScrollPane:" : "jh 6/18/2022 12:13",
+		"buildPluggablePasteUpMorph:" : "LW 7/14/2022 11:19",
+		"buildResizeScrollPane:" : "LW 7/14/2022 12:10",
 		"pasteUpClass" : "lo 5/26/2022 21:48",
 		"pasteUpSpec" : "lo 7/11/2022 21:00",
 		"resizeScrollPaneClass" : "jh 6/18/2022 11:56",

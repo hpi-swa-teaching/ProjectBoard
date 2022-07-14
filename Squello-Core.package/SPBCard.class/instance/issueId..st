@@ -1,5 +1,5 @@
 accessing
 issueId: aNumber
 	
-	"local Issue NR. (eg. Issue #33)"
+	"local issue number (eg. Issue #33)"
 	issueId := aNumber.

@@ -11,5 +11,6 @@ buildFromRemote: aJsonObject into: anSPBLane
 	self card provider: self provider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.
-	self setCardLane: anSPBLane.	
+	self setCardLane: anSPBLane.
+	
 	^ self card.

@@ -1,5 +1,5 @@
 accessing
 id: aNumber
 	
-	"card ID, not Issue NR."
+	"card ID, not issue number"
 	id := aNumber.

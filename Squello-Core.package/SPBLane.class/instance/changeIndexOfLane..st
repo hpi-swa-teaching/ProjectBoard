@@ -5,14 +5,15 @@ changeIndexOfLane: aNumber
 	lanes := self board lanes.
 	index := lanes indexOf: self.
 	
-	index = aNumber ifTrue: [^ self].  "don't move"
+	index = aNumber 
+		ifTrue: [^ self]. 
 	index < aNumber 
-		ifTrue:  "move ahead"
-			[newIndex := aNumber - 1.
-			lanes removeAt: index.
-			lanes add: self beforeIndex: aNumber - 1]
-		ifFalse:  "move back"
-			[newIndex := aNumber.
-			lanes removeAt: index.
-			lanes add: self beforeIndex: aNumber].
+		ifTrue: [newIndex := aNumber - 1.
+			lanes 
+				removeAt: index;
+				add: self beforeIndex: aNumber - 1]
+		ifFalse: [newIndex := aNumber.
+			lanes
+				removeAt: index;
+				add: self beforeIndex: aNumber].
 	self board updateLanesWithCards.

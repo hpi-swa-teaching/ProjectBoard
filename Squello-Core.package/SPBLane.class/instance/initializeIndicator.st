@@ -1,7 +1,8 @@
 creation
 initializeIndicator
 	
-	self indicator: (LineMorph
+	self indicator: 
+		(LineMorph
 			from: 0 @ 0
 			to: 0 @ 0
 			color: Color orange

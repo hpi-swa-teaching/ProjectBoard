@@ -1,3 +1,4 @@
 accessing
 location
-	^ location
+
+	^ location.

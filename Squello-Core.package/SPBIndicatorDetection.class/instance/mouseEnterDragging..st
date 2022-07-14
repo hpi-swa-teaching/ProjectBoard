@@ -1,4 +1,4 @@
 as yet unclassified
-mouseEnterDragging: evt
+mouseEnterDragging: anEvent
 
 	self card indicateDroppointWith: self location.

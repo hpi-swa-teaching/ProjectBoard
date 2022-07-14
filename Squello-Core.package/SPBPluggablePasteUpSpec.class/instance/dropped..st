@@ -1,4 +1,4 @@
 accessing
 dropped: aSymbol
 
-	dropped := aSymbol
+	dropped := aSymbol.

@@ -3,7 +3,7 @@ comparing
 	"Answer whether the receiver and anObject represent the same object."
 
 	self == anObject
-		ifTrue: [ ^ true ].
+		ifTrue: [^ true].
 	self class = anObject class
-		ifFalse: [ ^ false ].
-	^ self id = anObject id
+		ifFalse: [^ false].
+	^ self id = anObject id.

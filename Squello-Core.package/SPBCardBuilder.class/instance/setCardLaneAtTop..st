@@ -1,8 +1,8 @@
 setters
-setCardLaneAtTop: aSPBLane
+setCardLaneAtTop: anSPBLane
 
-	self card lane: aSPBLane.
-	aSPBLane addCardToTop: self card.
-	aSPBLane setFrontCardFor: self card in: aSPBLane cards.
-	aSPBLane pasteup addMorph: self card.
+	self card lane: anSPBLane.
+	anSPBLane addCardToTop: self card.
+	anSPBLane setFrontCardFor: self card in: anSPBLane cards.
+	anSPBLane pasteup addMorph: self card.
 	

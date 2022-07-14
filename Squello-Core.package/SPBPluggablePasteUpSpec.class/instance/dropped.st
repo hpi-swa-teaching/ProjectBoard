@@ -1,4 +1,4 @@
 accessing
 dropped
 
-	^ dropped
+	^ dropped.

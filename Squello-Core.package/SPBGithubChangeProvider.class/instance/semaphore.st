@@ -1,3 +1,4 @@
 accessing
 semaphore
-	^ semaphore
+
+	^ semaphore.

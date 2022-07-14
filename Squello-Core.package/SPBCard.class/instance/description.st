@@ -1,5 +1,4 @@
 accessing
 description
 
-	description ifNil: [self description: ''].
-	^ description.
+	^ description ifNil: [self description: ''].

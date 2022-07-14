@@ -1,8 +1,8 @@
 building
-buildNew: aDictionary AtTop: aSPBLane
+buildNew: aDictionary AtTop: anSPBLane
 
 	| cardJson |
-	cardJson := self provider createCard: aDictionary into: aSPBLane.
+	cardJson := self provider createCard: aDictionary into: anSPBLane.
 	self
 		card: SPBCard new;
 		setCardID: (cardJson at: 'id');
@@ -13,5 +13,5 @@ buildNew: aDictionary AtTop: aSPBLane
 	self card provider: self provider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.
-	self setCardLaneAtTop: aSPBLane.	
+	self setCardLaneAtTop: anSPBLane.	
 	^ self card.

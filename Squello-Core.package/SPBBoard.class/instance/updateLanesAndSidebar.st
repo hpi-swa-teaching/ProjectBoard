@@ -4,7 +4,7 @@ updateLanesAndSidebar
 	| newLaneArea oldLaneArea oldSidebar newSidebar currentWidth |
 	oldLaneArea := self usedBuilder widgetAt: #laneArea.
 	
-	currentWidth := oldLaneArea width / self window width.
+	currentWidth := oldLaneArea defaultWidth / self window width.
 	
 	oldLaneArea abandon.
 	newLaneArea := (self usedBuilder build: (self buildLaneAreaSpecWith: self usedBuilder aWidth: currentWidth)).

@@ -1,3 +1,4 @@
 accessing
-semaphore: anObject
-	semaphore := anObject
+semaphore: aSemaphore
+
+	semaphore := aSemaphore.

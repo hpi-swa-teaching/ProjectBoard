@@ -1,3 +1,4 @@
 accessing
 scrollBarThickness
-	^ scrollBarThickness
+
+	^ scrollBarThickness.
