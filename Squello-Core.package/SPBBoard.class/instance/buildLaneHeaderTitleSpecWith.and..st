@@ -1,5 +1,5 @@
 toolbuilder
-buildLaneHeaderTitleSpecWith: aBuilder And: aSPBLane
+buildLaneHeaderTitleSpecWith: aBuilder and: aSPBLane
 
 	^ aBuilder pluggableTextSpec new
 			frame: (0@0 corner: 1@0.6);

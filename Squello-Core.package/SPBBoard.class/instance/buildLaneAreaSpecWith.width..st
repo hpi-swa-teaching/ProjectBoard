@@ -1,5 +1,5 @@
 toolbuilder
-buildLaneAreaSpecWith: aBuilder aWidth: aNumber
+buildLaneAreaSpecWith: aBuilder width: aNumber
 
 	^ aBuilder resizeScrollPaneSpec new
 			frame: (0@0 corner: aNumber@1);

@@ -1,5 +1,5 @@
 toolbuilder
-buildLaneBodySpecWith: aBuilder And: aSPBLane
+buildLaneBodySpecWith: aBuilder and: aSPBLane
 	
 	^aBuilder pluggableScrollPaneSpec new
 			frame: (0@0.15 corner: 1@1);

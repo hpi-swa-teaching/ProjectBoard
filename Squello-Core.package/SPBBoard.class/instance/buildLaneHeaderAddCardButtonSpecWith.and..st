@@ -1,5 +1,5 @@
 toolbuilder
-buildLaneHeaderAddCardButtonSpecWith: aBuilder And: aSPBLane
+buildLaneHeaderAddCardButtonSpecWith: aBuilder and: aSPBLane
 
 	^ aBuilder pluggableActionButtonSpec new
 			frame: (0@0.6 corner: 0.85@1);

@@ -1,5 +1,5 @@
 toolbuilder
-buildSidebarSpecWith: aBuilder aWidth: aNumber
+buildSidebarSpecWith: aBuilder witdh: aNumber
 
 	^ aBuilder pluggablePanelSpec new
 			name: #sidebar;

@@ -5,7 +5,7 @@ testBuildLaneHeaderSpecWith
 	lane := SPBLane new
 		id: 187;
 		title: 'Lane1'.
-	spec := board buildLaneHeaderSpecWith: board usedBuilder And: lane.
+	spec := board buildLaneHeaderSpecWith: board usedBuilder and: lane.
 	title := spec children first.
 	button := spec children last.
 	

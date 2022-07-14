@@ -1,5 +1,5 @@
 building
-buildNew: aDictionary AtTop: anSPBLane
+buildNew: aDictionary atTop: anSPBLane
 
 	| cardJson |
 	cardJson := self provider createCard: aDictionary into: anSPBLane.

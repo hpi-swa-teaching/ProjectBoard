@@ -1,4 +1,4 @@
 toolbuilder
 buildLaneAreaSpecWith: aBuilder
 
-	^ self buildLaneAreaSpecWith: aBuilder aWidth: 0.75.
+	^ self buildLaneAreaSpecWith: aBuilder width: 0.75.

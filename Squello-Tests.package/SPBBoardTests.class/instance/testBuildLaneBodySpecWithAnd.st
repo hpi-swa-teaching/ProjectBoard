@@ -5,7 +5,7 @@ testBuildLaneBodySpecWithAnd
 	lane := SPBLane new
 		id: 187;
 		title: 'Lane1'.
-	spec := board buildLaneBodySpecWith: board usedBuilder And: lane.
+	spec := board buildLaneBodySpecWith: board usedBuilder and: lane.
 	pasteup := spec children first.
 	
 	self assert: true equals: (spec isKindOf: PluggableScrollPaneSpec).
