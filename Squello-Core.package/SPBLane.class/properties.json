@@ -17,7 +17,8 @@
 		"lane",
 		"changeProvider",
 		"indicator",
-		"bottomDetection" ],
+		"bottomDetection",
+		"cardPositions" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

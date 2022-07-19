@@ -2,8 +2,8 @@ building
 buildIndicatorDetection
 	
 	self card upperHalfMorph:
-		(SPBIndicatorDetectionCard new position: self card position; 
-			extent: self card extent x @ (self card extent y / 2);
+		(SPBIndicatorDetectionCard new position: self card position x @ (self card position y - SPBLane defaultSpaceBetweenCards); 
+			extent: self card extent x @ ((self card extent y / 2) + SPBLane defaultSpaceBetweenCards);
 			color: Color transparent;
 			location: #upper;
 			card: self card).

@@ -2,6 +2,6 @@ accessing
 bottomDetection
 	
 	 bottomDetection ifNil: 
-		[bottomDetection := SPBIndicatorDetectionLane new color: Color green; lane: self].
+		[bottomDetection := SPBIndicatorDetectionLane new lane: self; color: Color transparent].
 	
 	^ bottomDetection.

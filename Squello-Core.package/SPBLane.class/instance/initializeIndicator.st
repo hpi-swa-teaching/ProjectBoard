@@ -1,13 +1,11 @@
 accessing
-indicator
+initializeIndicator
 	
-	indicator 
-		ifNil: [self indicator: 
+	self indicator: 
 			(LineMorph
 				from: 0 @ 0
 				to: 0 @ 0
 				color: Color orange
 				width: 5).
 			self pasteup addMorph: self indicator.
-			self indicator hide].
-	^ indicator.
+			self indicator hide.

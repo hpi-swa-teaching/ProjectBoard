@@ -1,4 +1,4 @@
-geometry
+instance creation
 defaultSpaceBetweenCards
 	
 	^ 10.
