@@ -7,4 +7,5 @@ updateLanes
 			each fetchCards.
 			each buildCards.
 			each board: self.
-			each resizeToFitCards].
+			each resizeToFitCards.
+			self resizeLaneArea].

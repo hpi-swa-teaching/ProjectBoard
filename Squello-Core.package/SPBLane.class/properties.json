@@ -16,7 +16,8 @@
 		"minimumHeight",
 		"lane",
 		"changeProvider",
-		"indicator" ],
+		"indicator",
+		"bottomDetection" ],
 	"name" : "SPBLane",
 	"pools" : [
 		 ],

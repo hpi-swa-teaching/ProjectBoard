@@ -1,4 +1,4 @@
 accessing
 upperHalfMorph
 	
-	^ upperHalfMorph ifNil: [upperHalfMorph := SPBIndicatorDetection new].
+	^ upperHalfMorph ifNil: [upperHalfMorph := SPBIndicatorDetectionCard new].

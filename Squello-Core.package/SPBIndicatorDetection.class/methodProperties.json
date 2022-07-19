@@ -2,11 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"card" : "LW 7/14/2022 11:08",
-		"card:" : "LW 7/14/2022 11:08",
 		"handlesMouseOverDragging:" : "LW 7/14/2022 11:34",
 		"initialize" : "LW 7/14/2022 11:08",
 		"location" : "LW 7/14/2022 11:09",
 		"location:" : "LW 7/14/2022 11:09",
-		"mouseEnterDragging:" : "LW 7/14/2022 11:09",
-		"mouseLeaveDragging:" : "LW 7/14/2022 11:09" } }
+		"mouseEnterDragging:" : "mcr 7/19/2022 12:32",
+		"mouseLeaveDragging:" : "mcr 7/19/2022 12:35" } }

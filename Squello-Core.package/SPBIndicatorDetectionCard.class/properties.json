@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mcr 7/12/2022 16:49",
+	"commentStamp" : "",
 	"instvars" : [
-		"location" ],
-	"name" : "SPBIndicatorDetection",
+		"card" ],
+	"name" : "SPBIndicatorDetectionCard",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SPBIndicatorDetection",
 	"type" : "normal" }
