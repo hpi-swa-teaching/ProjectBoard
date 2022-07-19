@@ -9,5 +9,4 @@ updateLanes
 			each buildCards.
 			each board: self.
 			each resizeToFitCards.
-			each initializeBottomDetection.
-			self resizeLaneArea].
+			each initializeBottomDetection].
