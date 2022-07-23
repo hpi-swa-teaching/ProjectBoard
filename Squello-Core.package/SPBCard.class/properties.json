@@ -12,6 +12,7 @@
 		"issueId",
 		"lane",
 		"provider",
+		"changeProvider",
 		"assignees",
 		"labels",
 		"titleMorph",
