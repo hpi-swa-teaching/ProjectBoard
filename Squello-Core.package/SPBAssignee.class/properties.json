@@ -7,8 +7,7 @@
 	"commentStamp" : "LW 6/20/2022 10:00",
 	"instvars" : [
 		"id",
-		"username",
-		"avatar" ],
+		"username" ],
 	"name" : "SPBAssignee",
 	"pools" : [
 		 ],

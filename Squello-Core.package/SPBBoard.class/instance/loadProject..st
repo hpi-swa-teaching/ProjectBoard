@@ -17,8 +17,7 @@ loadProject: aString
 				ifNil: [^self].
 				
 			self provider
-				projectId: (chosenProject at: 'id');
-				projectTitle: (chosenProject at: 'name')].
+				projectId: (chosenProject at: 'id')].
 		
 	self changeProvider projectId: self provider projectId.
 	self changeProvider api getWebhookChanges: self changeProvider webhookId.

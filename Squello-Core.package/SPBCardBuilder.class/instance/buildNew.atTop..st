@@ -11,7 +11,6 @@ buildNew: aDictionary atTop: anSPBLane
 		buildUI;
 		buildIndicatorDetection.
 	self card provider: self provider.
-	self card changeProvider: self changeProvider.
 	self card openInWorld.
 	self setCardLaneAtTop: anSPBLane.	
 	^ self card.

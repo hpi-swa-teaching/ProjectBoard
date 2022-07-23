@@ -5,4 +5,3 @@ setUp
 	provider := SPBMockGithubBoardProvider new.
 	changeProvider := SPBGithubChangeProvider new.
 	builder provider: provider.
-	builder changeProvider: changeProvider.
