@@ -1,9 +1,9 @@
 as yet unclassified
 testProvider
 
-	| provider |
+	| boardProvider |
 	
-	provider := SPBGithubBoardProvider new.
-	board provider: provider.
+	boardProvider := SPBGithubBoardProvider new.
+	board boardProvider: boardProvider.
 	
-	self assert: provider equals: board provider.
+	self assert: boardProvider equals: board boardProvider.

@@ -3,7 +3,7 @@ setUp
 
 	card := SPBCard new.
 	provider := SPBMockGithubBoardProvider new.
-	card provider: provider.
+	card boardProvider: provider.
 	card titleMorph: TextMorph new.
 	card labels: OrderedCollection new.
 	card assigneeMorph: TextMorph new.

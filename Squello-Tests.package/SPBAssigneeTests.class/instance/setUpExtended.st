@@ -3,4 +3,5 @@ setUpExtended
 
 	assignee
 		id: 42;
-		username: 'octocat'.
+		username: 'octocat';
+		avatar: 'https://github.com/bla'.

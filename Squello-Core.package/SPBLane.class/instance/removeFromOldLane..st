@@ -1,6 +1,6 @@
 card movement
-removeFromOldLane: aSPBCard
+removeFromOldLane: anSPBCard
 	
-	aSPBCard lane cards remove: aSPBCard 
+	anSPBCard lane cards remove: anSPBCard 
 		ifAbsent: [].
-	aSPBCard lane resizeToFitCards.
+	anSPBCard lane resizeToFitCards.

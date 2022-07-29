@@ -1,6 +1,6 @@
 cards
-moveLaneToFront: aSPBLane
+moveLaneToFront: anSPBLane
 
 	| payload |
 	payload := Dictionary newFrom: {'position' -> 'first'}.	
-	self api moveLane: aSPBLane id withPostData: payload.
+	self api moveLane: anSPBLane id withPostData: payload.

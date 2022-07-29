@@ -1,4 +1,4 @@
 creation
 fetchSingleCard: aNumber
 
-	^ self provider queryCard: aNumber.
+	^ self boardProvider queryCard: aNumber.

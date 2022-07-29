@@ -1,7 +1,7 @@
 cards
-createCard: aDictionary into: aSPBLane
+createCard: aDictionary into: anSPBLane
 	
 	| cardJson payload |
 	cardJson := self api createIssue: aDictionary user: self user repo: self repo.
 	payload := Dictionary newFrom: {'content_id' -> (cardJson at: 'id') . 'content_type' -> 'Issue'}.
-	^ self api addIssue: payload toColumn: aSPBLane id.
+	^ self api addIssue: payload toColumn: anSPBLane id.

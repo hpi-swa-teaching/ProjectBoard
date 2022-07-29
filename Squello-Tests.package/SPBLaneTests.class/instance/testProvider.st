@@ -1,8 +1,8 @@
 tests
 testProvider
 
-	| provider |
-	provider := SPBMockGithubBoardProvider new.
+	| boardProvider |
+	boardProvider := SPBMockGithubBoardProvider new.
 
-	lane provider: provider.
-	self assert: provider equals: lane provider.
+	lane boardProvider: boardProvider.
+	self assert: boardProvider equals: lane boardProvider.

@@ -1,6 +1,6 @@
 card movement
-reorderCards: aSPBCard with: anEvent
+reorderCards: anSPBCard with: anEvent
 	
 	self 
-		removeFromOldLane: aSPBCard;
-		addToNewLane: aSPBCard with: anEvent.
+		removeFromOldLane: anSPBCard;
+		addToNewLane: anSPBCard with: anEvent.

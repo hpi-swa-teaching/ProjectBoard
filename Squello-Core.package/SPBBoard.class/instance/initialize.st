@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		provider: SPBGithubBoardProvider new;
+		boardProvider: SPBGithubBoardProvider new;
 		changeProvider: SPBGithubChangeProvider new.
 		
-	self changeProvider api: self provider api.
+	self changeProvider api: self boardProvider api.

@@ -10,4 +10,5 @@ parseInputBoardUrl: aString
 		ifTrue: [^ #invalidNumber].
 	
 	self
-		projectId: ((projects at: boardNr) at: 'id').
+		projectId: ((projects at: boardNr) at: 'id');
+		projectTitle: ((projects at: boardNr) at: 'name').

@@ -1,6 +1,6 @@
 card movement
-changeLaneRemoteFor: aSPBCard
+changeLaneRemoteFor: anSPBCard
 		
-	aSPBCard = self cards first
-		ifTrue: [provider moveCardToTop: aSPBCard toColumn: self]
-		ifFalse: [provider moveCard: aSPBCard after: (self cards at: (self cards indexOf: aSPBCard) - 1) toColumn: self].
+	anSPBCard = self cards first
+		ifTrue: [self boardProvider moveCardToTop: anSPBCard toColumn: self]
+		ifFalse: [self boardProvider moveCard: anSPBCard after: (self cards at: (self cards indexOf: anSPBCard) - 1) toColumn: self].

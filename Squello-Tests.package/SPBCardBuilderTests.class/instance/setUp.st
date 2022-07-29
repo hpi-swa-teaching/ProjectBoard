@@ -4,4 +4,5 @@ setUp
 	builder := SPBCardBuilder new.
 	provider := SPBMockGithubBoardProvider new.
 	changeProvider := SPBGithubChangeProvider new.
-	builder provider: provider.
+	builder boardProvider: provider.
+	builder changeProvider: changeProvider.

@@ -8,6 +8,7 @@
 	"instvars" : [
 		"user",
 		"repo",
+		"projectTitle",
 		"api",
 		"projectId",
 		"webhookId" ],

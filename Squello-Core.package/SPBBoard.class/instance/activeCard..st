@@ -1,4 +1,4 @@
 accessing
-activeCard: aSPBCard
+activeCard: anSPBCard
 
-	activeCard := aSPBCard.
+	activeCard := anSPBCard.

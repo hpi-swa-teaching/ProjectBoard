@@ -11,7 +11,7 @@
 		"id",
 		"issueId",
 		"lane",
-		"provider",
+		"boardProvider",
 		"changeProvider",
 		"assignees",
 		"labels",

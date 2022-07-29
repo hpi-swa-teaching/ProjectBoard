@@ -1,4 +1,4 @@
 accessing
-pasteup: aSPBPluggablePasteUpMorph
+pasteup: anSPBPluggablePasteUpMorph
 
-	pasteup := aSPBPluggablePasteUpMorph.
+	pasteup := anSPBPluggablePasteUpMorph.

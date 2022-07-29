@@ -10,4 +10,4 @@ dropOnAssignees: anSPBAssignee at: index
 	self activeCard updateAssigneeCount.
 	self changed: #potentialAssigneesList.
 	self changed: #activeCardAssigneeList.
-	self provider addAssignee: anSPBAssignee toCard: self activeCard.
+	self boardProvider addAssignee: anSPBAssignee toCard: self activeCard.

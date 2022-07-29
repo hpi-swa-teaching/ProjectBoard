@@ -1,4 +1,4 @@
 accessing
-sourceLane: aSPBLane
+sourceLane: anSPBLane
 
-	sourceLane := aSPBLane.
+	sourceLane := anSPBLane.

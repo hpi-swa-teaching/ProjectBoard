@@ -1,4 +1,4 @@
 accessing
-addCard: aSPBCard
+addCard: anSPBCard
 
-	self cards add: aSPBCard.
+	self cards add: anSPBCard.

@@ -1,11 +1,11 @@
 toolbuilder
-buildLaneSpecWith: aBuilder and: aSPBLane
+buildLaneSpecWith: aBuilder and: anSPBLane
 
 	^ aBuilder pluggablePanelSpec new
 			minimumExtent: (300@600);
 			children: {
-				self buildLaneHeaderSpecWith: aBuilder and: aSPBLane.
-				self buildLaneBodySpecWith: aBuilder and: aSPBLane.
+				self buildLaneHeaderSpecWith: aBuilder and: anSPBLane.
+				self buildLaneBodySpecWith: aBuilder and: anSPBLane.
 			};
-			name: ('lane', aSPBLane id asString) asSymbol;
+			name: ('lane', anSPBLane id asString) asSymbol;
 			yourself.

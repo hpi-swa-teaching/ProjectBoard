@@ -1,9 +1,9 @@
 toolbuilder
-buildLaneHeaderTitleSpecWith: aBuilder and: aSPBLane
+buildLaneHeaderTitleSpecWith: aBuilder and: anSPBLane
 
 	^ aBuilder pluggableTextSpec new
 			frame: (0@0 corner: 1@0.6);
-			model: aSPBLane;
+			model: anSPBLane;
 			getText: #title;
 			setText: #updateTitle:;
 			yourself.

@@ -1,6 +1,6 @@
 columns
-renameColumn: aSPBLane to: aString
+renameColumn: anSPBLane to: aString
 
 	| payload |
 	payload := Dictionary newFrom: {'name' -> aString}.
-	self api updateColumn: aSPBLane id withData: payload.
+	self api updateColumn: anSPBLane id withData: payload.

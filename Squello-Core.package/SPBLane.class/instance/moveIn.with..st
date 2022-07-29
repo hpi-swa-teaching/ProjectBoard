@@ -1,18 +1,18 @@
 card movement
-moveIn: aSPBCard with: anEvent
+moveIn: anSPBCard with: anEvent
 	
 	| oldLane |
-	self reorderCards: aSPBCard with: anEvent.
-	self changeLaneRemoteFor: aSPBCard.
+	self reorderCards: anSPBCard with: anEvent.
+	self changeLaneRemoteFor: anSPBCard.
 	self indicator hide.
-	aSPBCard lane = self 
+	anSPBCard lane = self 
 		ifTrue: [self alignCards. 
 			^ self].
-	oldLane := aSPBCard lane.
+	oldLane := anSPBCard lane.
 	oldLane 
 		alignCards;
 		resizeBottomDetection.
-	aSPBCard lane: self.
+	anSPBCard lane: self.
 	self 
 		alignCards;
 		resizeBottomDetection.

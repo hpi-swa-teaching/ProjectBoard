@@ -1,7 +1,7 @@
 assignees
-addAssignee: anSPBAssignee toCard: aSPBCard
+addAssignee: anSPBAssignee toCard: anSPBCard
 	
 	"aCollection => Collection of SPBAssignees"
 	| payload |
 	payload := Dictionary newFrom: { 'assignees' -> {anSPBAssignee username} }.
-	self api addAssignee: payload toIssue: aSPBCard issueId user: self user repo: self repo.
+	self api addAssignee: payload toIssue: anSPBCard issueId user: self user repo: self repo.

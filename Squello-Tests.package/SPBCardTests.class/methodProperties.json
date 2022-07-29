@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "mcr 6/30/2022 20:26",
+		"setUp" : "jh 7/29/2022 12:45",
 		"tearDown" : "lo 5/22/2022 15:36",
 		"testBecomeActiveCard" : "mcr 7/4/2022 00:17",
 		"testCurrentLane" : "mcr 7/4/2022 00:19",
@@ -11,7 +11,9 @@
 		"testDontUpdateTitle" : "lo 5/22/2022 16:35",
 		"testId" : "lo 5/23/2022 17:39",
 		"testIssueId" : "lo 5/23/2022 17:40",
-		"testProvider" : "lo 5/23/2022 17:45",
+		"testProvider" : "jh 7/29/2022 11:39",
+		"testRepo" : "lo 5/23/2022 17:43",
 		"testTitle" : "lo 5/22/2022 16:35",
 		"testUpdateDescription" : "lo 5/22/2022 16:37",
-		"testUpdateTitle" : "mcr 6/30/2022 20:25" } }
+		"testUpdateTitle" : "mcr 6/30/2022 20:25",
+		"testUser" : "lo 5/23/2022 17:44" } }

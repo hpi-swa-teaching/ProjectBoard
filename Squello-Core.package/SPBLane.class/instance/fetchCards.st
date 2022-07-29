@@ -1,4 +1,4 @@
 creation
 fetchCards
 	
-	self jsonCards: (self provider queryCardsForLane: self) asOrderedCollection.
+	self jsonCards: (self boardProvider queryCardsForLane: self) asOrderedCollection.

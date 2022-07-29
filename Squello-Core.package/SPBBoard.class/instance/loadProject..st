@@ -3,8 +3,8 @@ loadProject: aString
 
 	| chosenProject projectNames projects |
 	(aString includesSubstring: '/projects')  
-		ifTrue: [self provider parseInputBoardUrl: aString]
-		ifFalse: [projects := (self provider getProjects: aString).
+		ifTrue: [self boardProvider parseInputBoardUrl: aString]
+		ifFalse: [projects := (self boardProvider getProjects: aString).
 			(projects isArray) 
 				ifFalse: [^ UserDialogBoxMorph inform: 'Invalid repository url' asString title: 'Operation canceled'].
 			projectNames := projects 
@@ -16,8 +16,9 @@ loadProject: aString
 			chosenProject 
 				ifNil: [^self].
 				
-			self provider
-				projectId: (chosenProject at: 'id')].
+			self boardProvider
+				projectId: (chosenProject at: 'id');
+				projectTitle: (chosenProject at: 'name')].
 		
-	self changeProvider projectId: self provider projectId.
+	self changeProvider projectId: self boardProvider projectId.
 	self changeProvider api getWebhookChanges: self changeProvider webhookId.

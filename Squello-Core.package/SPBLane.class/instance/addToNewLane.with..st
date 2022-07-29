@@ -1,14 +1,14 @@
 card movement
-addToNewLane: aSPBCard with: anEvent
+addToNewLane: anSPBCard with: anEvent
 	
 	| nextCard |
 	nextCard := nil.
 	
 	self cards
-		do: [:each | ((each position y + (each extent y / 2)) > aSPBCard center y) 
+		do: [:each | ((each position y + (each extent y / 2)) > anSPBCard center y) 
 			ifTrue: [nextCard ifNil: [nextCard := each]]].
 	nextCard
-		ifNil: [self cards addLast: aSPBCard]
-		ifNotNil: [self cards add: aSPBCard before: nextCard].
+		ifNil: [self cards addLast: anSPBCard]
+		ifNotNil: [self cards add: anSPBCard before: nextCard].
 		
 	self resizeToFitCards.

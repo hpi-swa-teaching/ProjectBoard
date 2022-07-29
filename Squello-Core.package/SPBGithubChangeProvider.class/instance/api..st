@@ -1,4 +1,4 @@
 accessing
-api: aSPBGithubAPI
+api: anSPBGithubAPI
 
-	api := aSPBGithubAPI.
+	api := anSPBGithubAPI.

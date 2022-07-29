@@ -1,4 +1,4 @@
 accessing
-board: aSPBBoard
+board: anSPBBoard
 
-	board := aSPBBoard.
+	board := anSPBBoard.

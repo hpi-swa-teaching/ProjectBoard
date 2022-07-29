@@ -1,4 +1,4 @@
 tests
 testProvider
 
-	self assert: provider equals: card provider.
+	self assert: provider equals: card boardProvider.

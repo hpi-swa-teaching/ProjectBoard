@@ -8,7 +8,7 @@ buildFromRemote: aJsonObject into: anSPBLane
 		buildContent: (aJsonObject at: 'content_url');
 		buildUI;
 		buildIndicatorDetection.
-	self card provider: self provider.
+	self card boardProvider: self boardProvider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.
 	self setCardLane: anSPBLane.

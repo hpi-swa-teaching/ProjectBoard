@@ -7,6 +7,7 @@ testNewInto
 	card := builder card.
 	
 	self assert: 'Found a bug' equals: card title.
+	self assert: 'test' equals: card repo.
 	self assert: 3 equals: card issueId.
 	self assert: '' equals: card description.
 	

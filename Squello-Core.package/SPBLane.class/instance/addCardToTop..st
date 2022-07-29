@@ -1,4 +1,4 @@
 accessing
-addCardToTop: aSPBCard
+addCardToTop: anSPBCard
 
-	self cards addFirst: aSPBCard.
+	self cards addFirst: anSPBCard.

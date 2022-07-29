@@ -9,7 +9,7 @@ update: aSymbol with: aDictionary
 		ifTrue: [lane := SPBLane newFrom: aDictionary.
 			lane
 				board: self;
-				provider: self provider;
+				boardProvider: self boardProvider;
 				changeProvider: self changeProvider.
 			self lanes add: lane.
 			self updateLanesWithCards].

@@ -5,11 +5,11 @@ addLane
 	prompt := FillInTheBlankMorph request: 'Enter a lane name' initialAnswer:''.
 	(prompt = '')
 		ifTrue: [^ self].
-	lane := self provider createColumn: prompt.
+	lane := self boardProvider createColumn: prompt.
   
 	lane 
 		board: self;
-		provider: self provider;
+		boardProvider: self boardProvider;
 		changeProvider: self changeProvider.
 	self lanes add: lane.
  	self updateLanesWithCards.

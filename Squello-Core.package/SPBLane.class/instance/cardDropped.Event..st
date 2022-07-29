@@ -1,4 +1,4 @@
 card movement
-cardDropped: aSPBCard Event: anEvent
+cardDropped: anSPBCard Event: anEvent
 	
-	self moveIn: aSPBCard with: anEvent.
+	self moveIn: anSPBCard with: anEvent.

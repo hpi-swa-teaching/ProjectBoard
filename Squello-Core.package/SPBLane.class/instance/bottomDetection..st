@@ -1,4 +1,4 @@
 accessing
-bottomDetection: aSPBIndicatorDetection
+bottomDetection: anSPBIndicatorDetection
 
-	bottomDetection := aSPBIndicatorDetection.
+	bottomDetection := anSPBIndicatorDetection.

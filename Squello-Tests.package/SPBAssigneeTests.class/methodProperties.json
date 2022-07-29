@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"setUp" : "lo 5/28/2022 12:21",
-		"setUpExtended" : "NTK 7/23/2022 10:57",
+		"setUpExtended" : "lo 5/28/2022 12:22",
 		"tearDown" : "lo 5/23/2022 17:01",
 		"testAsString" : "lo 5/28/2022 12:34",
-		"testClassNewFrom" : "NTK 7/23/2022 10:57",
+		"testAvatar" : "lo 5/23/2022 17:03",
+		"testClassNewFrom" : "lo 5/28/2022 12:41",
 		"testEquals" : "lo 5/28/2022 12:22",
 		"testHash" : "lo 5/28/2022 12:33",
 		"testId" : "lo 5/23/2022 17:12",

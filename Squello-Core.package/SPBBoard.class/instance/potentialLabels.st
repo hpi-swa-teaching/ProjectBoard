@@ -1,4 +1,4 @@
 accessing
 potentialLabels
 	
-	^ potentialLabels ifNil: [potentialLabels := self provider listPossibleLabels].
+	^ potentialLabels ifNil: [potentialLabels := self boardProvider listPossibleLabels].

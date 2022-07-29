@@ -12,7 +12,8 @@ testUpdateLanes
 	board lanes: { lane } asOrderedCollection.
 	board updateLanes.
 	
-	self assert: { 1234 } asOrderedCollection equals: builder callOrder.
+	self assert: { 1234 . #lane1234 } asOrderedCollection equals: builder callOrder.
 	self assert: pasteup equals: lane pasteup.
+	self assert: 'lane1234' equals: lane lane.
 	
 	self assert: board equals: lane board.

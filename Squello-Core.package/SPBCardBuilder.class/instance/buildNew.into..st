@@ -2,7 +2,7 @@ building
 buildNew: aDictionary into: anSPBLane
 
 	| cardJson |
-	cardJson := self provider createCard: aDictionary into: anSPBLane.
+	cardJson := self boardProvider createCard: aDictionary into: anSPBLane.
 	self
 		card: SPBCard new;
 		setCardID: (cardJson at: 'id');
@@ -10,7 +10,7 @@ buildNew: aDictionary into: anSPBLane
 		buildContent: (cardJson at: 'content_url');
 		buildUI;
 		buildIndicatorDetection.
-	self card provider: self provider.
+	self card boardProvider: self boardProvider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.
 	self setCardLane: anSPBLane.	
