@@ -1,11 +1,13 @@
 update sidebar
 potentialAssigneesList
 	
-	| assignees |
-	assignees := self potentialAssignees deepCopy.
+	| potentialAssignees assignees |
+	potentialAssignees := self potentialAssignees deepCopy.
 	self activeCard
 		ifNil: [^ {}].
-	assignees
+	assignees := self activeCard assignees.
+	potentialAssignees
 		ifNil: [^ {#('---unassigned---')}].
-	^ #('---unassigned---'), assignees select: [:each | (self activeCard assignees anySatisfy: [:elem | elem = each]) not].
+	^ #('---unassigned---'), 
+		potentialAssignees select: [:each | (assignees anySatisfy: [:elem | elem = each]) not].
 	

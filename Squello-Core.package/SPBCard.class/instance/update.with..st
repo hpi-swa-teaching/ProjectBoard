@@ -49,5 +49,5 @@ update: aSymbol with: aDictionary
 			self assignees remove: assignee.
 			self updateAssigneeCount].
 	
-	self lane board activeCard = self 
-		ifTrue: [self lane board changeActiveCardTo: self].
+	self lane activeCard = self 
+		ifTrue: [self lane changeActiveCardTo: self].

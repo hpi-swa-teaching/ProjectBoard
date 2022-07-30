@@ -2,7 +2,7 @@ updating
 updateBalloonText
 	
 	| text |
-	self assignees size = 0
+	self assignees isEmpty
 		ifTrue: [self balloonText: nil. 
 			^ self].
 	text := 'Assignees:', Character cr.

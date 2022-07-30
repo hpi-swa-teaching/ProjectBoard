@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indicatorDetection" ],
+	"name" : "SPBIndicatorDetectionCardTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

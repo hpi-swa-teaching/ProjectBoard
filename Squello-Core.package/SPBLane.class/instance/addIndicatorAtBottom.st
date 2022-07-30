@@ -1,7 +1,7 @@
 card movement
 addIndicatorAtBottom
 
-	| bottomCard bottomPoint globalBottomPoint |
+	| bottomCard bottomPoint globalBottomPoint cursorPosition |
 	self cards isEmpty
 		ifFalse:
 			[bottomCard := self cards last.
@@ -11,5 +11,6 @@ addIndicatorAtBottom
 			[bottomPoint := 0 @ 0.
 			globalBottomPoint := self pasteup positionInWorld].
 	
-	ActiveHand position y > globalBottomPoint  y ifTrue:
+	cursorPosition := ActiveHand position.
+	cursorPosition y > globalBottomPoint  y ifTrue:
 		[self addIndicatorAt: bottomPoint].

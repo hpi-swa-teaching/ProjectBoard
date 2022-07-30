@@ -1,4 +1,6 @@
 accessing
 webhookId
 
-	^ (self projectId asString , '/' , SPBGithubAPI username).
+	| projectId |
+	projectId := self projectId asString.
+	^ (projectId , '/' , SPBGithubAPI username).

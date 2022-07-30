@@ -1,10 +1,12 @@
 update sidebar
 potentialLabelsList
 	
-	| labels |
-	labels := self potentialLabels deepCopy.
+	| potentialLabels labels |
+	potentialLabels := self potentialLabels deepCopy.
 	self activeCard
 		ifNil: [^ {}].
-	labels
+	labels := self activeCard labels.
+	potentialLabels
 		ifNil: [^ {#('---not used labels---')}].
-	^ #('---not used labels---'), labels select: [:each | (self activeCard labels anySatisfy: [:elem | elem = each]) not].
+	^ #('---not used labels---'), 
+		potentialLabels select: [:each | (labels anySatisfy: [:elem | elem = each]) not].

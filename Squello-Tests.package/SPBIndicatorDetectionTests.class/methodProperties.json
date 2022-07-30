@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "NTK 7/30/2022 13:35",
+		"tearDown" : "NTK 7/30/2022 13:35",
+		"testHandlesMouseOverDragging" : "NTK 7/30/2022 13:40" } }

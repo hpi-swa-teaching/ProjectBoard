@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indicatorDetection" ],
+	"name" : "SPBIndicatorDetectionLaneTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

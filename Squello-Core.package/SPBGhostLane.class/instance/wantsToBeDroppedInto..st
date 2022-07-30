@@ -1,13 +1,15 @@
 dropping/grabbing
 wantsToBeDroppedInto: aMorph
 
-	| laneIndex center |
+	| laneIndex center model xPosition |
 	(aMorph class = SPBPluggablePasteUpMorph or: [aMorph class = SPBMockLane]) 
 		ifFalse: [^ false].
 	
-	laneIndex := aMorph actionModel board lanes indexOf: aMorph actionModel.
+	model := aMorph actionModel.
+	laneIndex := model board lanes indexOf: model.
 	center := aMorph positionInWorld x + (aMorph width // 2).
-	self position x > center 
+	xPosition := self position x.
+	xPosition > center 
 		ifTrue: [self sourceLane changeIndexOfLane: laneIndex + 1.
 			self sourceLane changeRemoteIndexOfLane: laneIndex + 1]
 		 ifFalse: [self sourceLane changeIndexOfLane: laneIndex.

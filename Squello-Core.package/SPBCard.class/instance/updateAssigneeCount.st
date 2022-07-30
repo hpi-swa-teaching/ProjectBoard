@@ -1,6 +1,8 @@
 updating
 updateAssigneeCount
-
-	self assigneeMorph contents: self assignees size asString , ' assigned'.
+	
+	| count |
+	count := self assignees size.
+	self assigneeMorph contents: count asString , ' assigned'.
 	self updateBalloonText.
 	
