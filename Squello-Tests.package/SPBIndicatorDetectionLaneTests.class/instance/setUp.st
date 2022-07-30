@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	indicatorDetection := SPBIndicatorDetectionLane new.
+	indicatorDetection := SPBIndicatorDetectionColumn new.
