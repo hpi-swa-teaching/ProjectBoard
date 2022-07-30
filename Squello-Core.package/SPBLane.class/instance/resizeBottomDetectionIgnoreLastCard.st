@@ -4,11 +4,9 @@ resizeBottomDetectionIgnoreLastCard
 	| bottomCard bottomPoint pasteupExtent cardCount |
 	cardCount := self cards size.
 	cardCount > 1
-		ifTrue: 
-			[bottomCard := self cards last.
+		ifTrue: [bottomCard := self cards last.
 			bottomPoint := (self cardPositions at: self cards size) - (0 @ SPBLane defaultSpaceBetweenCards)]
-		ifFalse:
-			[bottomPoint := 0 @ 0].
+		ifFalse: [bottomPoint := 0 @ 0].
 
 	pasteupExtent := self pasteup extent.
 	self bottomDetection position: bottomPoint.

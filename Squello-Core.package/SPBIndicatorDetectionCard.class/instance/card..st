@@ -1,4 +1,4 @@
 accessing
-card: aSPBCard
+card: anSPBCard
 
-	card := aSPBCard.
+	card := anSPBCard.

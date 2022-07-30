@@ -1,17 +1,6 @@
 building
 buildNew: aDictionary into: anSPBLane
 
-	| cardJson |
-	cardJson := self boardProvider createCard: aDictionary into: anSPBLane.
-	self
-		card: SPBCard new;
-		setCardID: (cardJson at: 'id');
-		setupMouseEvents;
-		buildContent: (cardJson at: 'content_url');
-		buildUI;
-		buildIndicatorDetection.
-	self card boardProvider: self boardProvider.
-	self card changeProvider: self changeProvider.
-	self card openInWorld.
+	self buildNew: aDictionary with: anSPBLane.
 	self setCardLane: anSPBLane.	
 	^ self card.

@@ -14,7 +14,7 @@ buildResizeScrollPane: spec
 				horizontalResizing: (spec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
 				verticalResizing: (spec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
 				buildWith: self.
-				widget morph: panel]
+			widget morph: panel]
 		ifNil: [spec morph
 			ifNotNil: [:m | widget morph: m]
 			ifNil: [widget morphClass: spec morphClass]].

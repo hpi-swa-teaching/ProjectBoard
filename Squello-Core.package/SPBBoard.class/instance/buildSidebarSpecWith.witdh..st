@@ -6,8 +6,7 @@ buildSidebarSpecWith: aBuilder witdh: aNumber
 			frame: (aNumber@0 corner: 1@1);
 			wantsResizeHandles: true;
 			minimumWidth: 250;
-			children: {
-				self buildSidebarTitleSpecWith: aBuilder.
+			children: {self buildSidebarTitleSpecWith: aBuilder.
 				self buildSidebarAssigneePanelSpecWith: aBuilder. 
 				self buildSidebarLabelPanelSpecWith: aBuilder.
 				self buildSidebarDescriptionSpecWith: aBuilder};

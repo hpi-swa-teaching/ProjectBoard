@@ -7,8 +7,7 @@ buildWith: aBuilder
 		model: self;
 		label: 'Squello Project Board';
 		minimumExtent: 1040@400;
-		children: {
-			self buildLaneAreaSpecWith: aBuilder.
+		children: {self buildLaneAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
 		yourself.
 		
