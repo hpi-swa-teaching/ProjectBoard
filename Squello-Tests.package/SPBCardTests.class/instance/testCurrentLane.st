@@ -5,4 +5,4 @@ testCurrentLane
 	lane := SPBPluggablePasteUpMorph new.
 	lane addMorph: card.
 	
-	self assert: lane equals: card currentLane.
+	self assert: lane equals: card currentColumn.

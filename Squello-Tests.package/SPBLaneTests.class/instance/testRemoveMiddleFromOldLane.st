@@ -4,18 +4,18 @@ testRemoveMiddleFromOldLane
 	| card1 card2 card3 |
 	card1 := SPBCard new
 		position: 0@0;
-		lane: lane;
+		column: lane;
 		id: 1337.
 	card2 := SPBCard new
 		position: 0@50;
-		lane: lane;
+		column: lane;
 		id: 187.
 	card3 := SPBCard new
 		position: 0@100;
-		lane: lane;
+		column: lane;
 		id: 42.
 	lane cards: (OrderedCollection newFrom: {card1 . card2 . card3}). 
-	lane removeFromOldLane: card2.
+	lane removeFromOldColumn: card2.
 	
 	self assert: card1 equals: (lane cards at: 1).
 	self assert: card3 equals: (lane cards at: 2).

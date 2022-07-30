@@ -10,10 +10,10 @@ testChangeIndexOfLane
 	usedBuilder register: PluggablePanelMorph new id: #lane1337.
 	usedBuilder register: PluggablePanelMorph new id: #lane420.
 	board := SPBBoard new 
-		lanes: (OrderedCollection newFrom: {lane . otherLane});
+		columns: (OrderedCollection newFrom: {lane . otherLane});
 		usedBuilder: usedBuilder.
 	lane board: board.
 	
-	lane changeIndexOfLane: 3.
-	self assert: 2 equals: (lane board lanes indexOf: lane).
-	self assert: 1 equals: (lane board lanes indexOf: otherLane).
+	lane changeIndexOfColumn: 3.
+	self assert: 2 equals: (lane board columns indexOf: lane).
+	self assert: 1 equals: (lane board columns indexOf: otherLane).

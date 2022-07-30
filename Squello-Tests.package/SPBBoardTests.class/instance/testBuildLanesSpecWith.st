@@ -1,16 +1,16 @@
 as yet unclassified
 testBuildLanesSpecWith
 
-	| specs lane1 lane2 |
-	lane1 := SPBLane new
+	| specs column1 column2 |
+	column1 := SPBColumn new
 		id: 187;
-		title: 'Lane1'. 
-	lane2 := SPBLane new
+		title: 'column1'. 
+	column2 := SPBColumn new
 		id: 42;
-		title: 'Lane2'.
-	board lanes: {lane1 . lane2} asOrderedCollection.
+		title: 'column2'.
+	board columns: {column1 . column2} asOrderedCollection.
 	
-	specs := board buildLanesSpecWith: board usedBuilder.
+	specs := board buildColumnsSpecWith: board usedBuilder.
 	
 	self assert: true equals: (specs isKindOf: OrderedCollection).
-	specs do: [:each | self assert: true equals: (self isLane: each)].
+	specs do: [:each | self assert: true equals: (self isColumn: each)].

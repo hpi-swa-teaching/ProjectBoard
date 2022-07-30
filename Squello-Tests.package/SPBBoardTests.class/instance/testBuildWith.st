@@ -1,13 +1,13 @@
 as yet unclassified
 testBuildWith
 	
-	| builder lane1 window |
+	| builder column1 window |
 	builder := SPBMorphicToolBuilder new.
-	lane1 := SPBLane new 
+	column1 := SPBColumn new 
 		boardProvider: board boardProvider;
 		changeProvider: board changeProvider;
 		id: 1337.
-	board lanes: {lane1}.
+	board columns: {column1}.
 	window := board buildWith: builder.
 	
 	self assert: true equals: (window isKindOf: PluggableSystemWindow).

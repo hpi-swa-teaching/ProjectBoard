@@ -1,6 +1,6 @@
 cards
-moveCardToTop: anSPBCard toColumn: anSPBLane
+moveCardToTop: anSPBCard toColumn: anSPBColumn
 
 	| payload |
-	payload := Dictionary newFrom: {'position' -> 'top' . 'column_id' -> anSPBLane id}.	
+	payload := Dictionary newFrom: {'position' -> 'top' . 'column_id' -> anSPBColumn id}.	
 	self api moveCard: anSPBCard id withPostData: payload.

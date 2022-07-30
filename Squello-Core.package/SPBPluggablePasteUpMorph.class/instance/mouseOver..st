@@ -1,4 +1,4 @@
 accessing
-mouseOver: evt
+mouseOver: anEvent
 
 	self actionModel addIndicatorAtBottom.

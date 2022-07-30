@@ -1,4 +1,4 @@
 accessing
-handlesMouseOver: evt
+handlesMouseOver: anEvent
 
 	^ true.

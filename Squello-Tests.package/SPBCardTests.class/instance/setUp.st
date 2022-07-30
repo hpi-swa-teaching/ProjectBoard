@@ -7,4 +7,4 @@ setUp
 	card titleMorph: TextMorph new.
 	card labels: OrderedCollection new.
 	card assigneeMorph: TextMorph new.
-	card lane: SPBLane new.
+	card column: SPBLane new.

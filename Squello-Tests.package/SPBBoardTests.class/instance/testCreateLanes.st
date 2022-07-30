@@ -2,6 +2,6 @@ as yet unclassified
 testCreateLanes
 
 	| columns |
-	board createLanes.
+	board createColumns.
 	columns := provider queryColumns.
-	self assert: columns equals: board lanes.
+	self assert: columns equals: board columns.

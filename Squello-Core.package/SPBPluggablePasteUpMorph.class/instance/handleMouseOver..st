@@ -1,4 +1,0 @@
-accessing
-handleMouseOver: evt
-
-	^ true.

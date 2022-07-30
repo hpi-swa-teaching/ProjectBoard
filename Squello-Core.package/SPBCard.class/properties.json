@@ -10,7 +10,6 @@
 		"description",
 		"id",
 		"issueId",
-		"lane",
 		"boardProvider",
 		"changeProvider",
 		"assignees",
@@ -19,7 +18,8 @@
 		"labelMorphs",
 		"assigneeMorph",
 		"upperHalfMorph",
-		"lowerHalfMorph" ],
+		"lowerHalfMorph",
+		"column" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],

@@ -10,20 +10,20 @@ parseChange: aJsonObject
 			action = 'moved' 
 				ifTrue: [change := self cardMoved: aJsonObject].
 			action = 'created'
-				ifTrue: [type := #lane. change := self cardCreated: aJsonObject].
+				ifTrue: [type := #column. change := self cardCreated: aJsonObject].
 			action = 'deleted'
 				ifTrue: [change := self cardDeleted: aJsonObject]].
 
 	(aJsonObject includesKey: 'project_column') 
-		ifTrue: [type := #lane.
+		ifTrue: [type := #column.
 			action = 'moved'
-				ifTrue: [change := self laneMoved: aJsonObject].
+				ifTrue: [change := self columnMoved: aJsonObject].
 			action = 'created'
-				ifTrue: [type := #board. change := self laneCreated: aJsonObject].
+				ifTrue: [type := #board. change := self columnCreated: aJsonObject].
 			action = 'deleted'
-				ifTrue: [change := self laneDeleted: aJsonObject].
+				ifTrue: [change := self columnDeleted: aJsonObject].
 			action = 'edited'
-				ifTrue: [change := self laneEdited: aJsonObject]].
+				ifTrue: [change := self columnEdited: aJsonObject]].
 	
 	(aJsonObject includesKey: 'issue')
 		ifTrue: [type := #card.

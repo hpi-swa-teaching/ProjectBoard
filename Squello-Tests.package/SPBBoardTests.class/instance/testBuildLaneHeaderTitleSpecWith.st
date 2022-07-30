@@ -1,11 +1,11 @@
 as yet unclassified
 testBuildLaneHeaderTitleSpecWith
 
-	| lane spec |
-	lane := SPBLane new
+	| column spec |
+	column := SPBColumn new
 		id: 187;
-		title: 'Lane1'.
-	spec := board buildLaneHeaderTitleSpecWith: board usedBuilder and: lane.
+		title: 'column1'.
+	spec := board buildColumnHeaderTitleSpecWith: board usedBuilder and: column.
 	
 	self assert: true equals: (spec isKindOf: PluggableTextSpec).
-	self assert: lane equals: spec model.
+	self assert: column equals: spec model.

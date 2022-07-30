@@ -1,3 +1,4 @@
 accessing
 lastProject
-	^ LastProject
+
+	^ LastProject.

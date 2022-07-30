@@ -1,10 +1,10 @@
 as yet unclassified
 testBuildLaneSpecWithAnd
 
-	| spec lane |
-	lane := SPBLane new
+	| spec column |
+	column := SPBColumn new
 		id: 187;
-		title: 'Lane1'.
-	spec := board buildLaneSpecWith: board usedBuilder and: lane.
-	self assert: true equals: (self isLane: spec).
-	self assert: #lane187 equals: spec name.
+		title: 'column1'.
+	spec := board buildColumnSpecWith: board usedBuilder and: column.
+	self assert: true equals: (self isColumn: spec).
+	self assert: #column187 equals: spec name.

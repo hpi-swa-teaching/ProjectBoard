@@ -4,8 +4,8 @@ buildIndicatorDetection
 	| cardExtent |
 	cardExtent := self card extent.
 	self card upperHalfMorph:
-		(SPBIndicatorDetectionCard new position: self card position - (0 @  SPBLane defaultSpaceBetweenCards); 
-			extent: cardExtent x @ ((cardExtent y / 2) + SPBLane defaultSpaceBetweenCards);
+		(SPBIndicatorDetectionCard new position: self card position - (0 @  SPBColumn defaultSpaceBetweenCards); 
+			extent: cardExtent x @ ((cardExtent y / 2) + SPBColumn defaultSpaceBetweenCards);
 			color: Color transparent;
 			location: #upper;
 			card: self card).

@@ -4,7 +4,7 @@ testMouseEnterDragging
 	| card lane |
 	lane := SPBLane new.
 	card := SPBCard new
-		lane: lane;
+		column: lane;
 		position: 10 @ 10.
 		
 	indicatorDetection 

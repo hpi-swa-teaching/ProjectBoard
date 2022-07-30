@@ -1,20 +1,20 @@
 as yet unclassified
 testShowLanes
 
-	| builder lanes |
+	| builder columns |
 	builder := SPBMockBuilder new.
-	lanes := SPBMockGithubBoardProvider new queryColumns.
-	(lanes at: 1) jsonCards: '{}' parseAsJson.
-	(lanes at: 2) jsonCards: '{}' parseAsJson.
-	builder fakeWidgets: (Dictionary newFrom: { 1234 -> '1234' . #lane1234 -> 'lane1234' . 5678 -> '5678' . #lane5678 -> 'lane5678' }).
+	columns := SPBMockGithubBoardProvider new queryColumns.
+	(columns at: 1) jsonCards: '{}' parseAsJson.
+	(columns at: 2) jsonCards: '{}' parseAsJson.
+	builder fakeWidgets: (Dictionary newFrom: { 1234 -> '1234' . #column1234 -> 'column1234' . 5678 -> '5678' . #column5678 -> 'lane5678' }).
 	
 	board usedBuilder: builder.
-	board lanes: lanes.
-	board showLanes.
+	board columns: columns.
+	board showColumns.
 	
 
-	self assert: '1234' equals: (lanes at: 1) pasteup.
-	self assert: '5678' equals: (lanes at: 2) pasteup.
+	self assert: '1234' equals: (columns at: 1) pasteup.
+	self assert: '5678' equals: (columns at: 2) pasteup.
 	
-	self assert: board equals: (lanes at: 1) board.
-	self assert: board equals: (lanes at: 2) board.
+	self assert: board equals: (columns at: 1) board.
+	self assert: board equals: (columns at: 2) board.

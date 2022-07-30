@@ -1,6 +1,6 @@
 building
-buildNew: aDictionary into: anSPBLane
+buildNew: aDictionary into: anSPBColumn
 
-	self buildNew: aDictionary with: anSPBLane.
-	self setCardLane: anSPBLane.	
+	self buildNew: aDictionary with: anSPBColumn.
+	self setCardColumn: anSPBColumn.	
 	^ self card.

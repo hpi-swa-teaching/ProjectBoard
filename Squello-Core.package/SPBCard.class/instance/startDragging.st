@@ -2,5 +2,5 @@ event handling
 startDragging
 	
 	ActiveHand attachMorph: self.
-	(self lane isLastCard: self) 
-		ifTrue: [self lane resizeBottomDetectionIgnoreLastCard].
+	(self column isLastCard: self) 
+		ifTrue: [self column resizeBottomDetectionIgnoreLastCard].

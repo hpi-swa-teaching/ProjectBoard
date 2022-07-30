@@ -9,7 +9,7 @@ testUpdateActiveCardTitle
 		titleMorph: TextMorph new;
 		assigneeMorph: TextMorph new;
 		labels: (OrderedCollection newFrom: {});
-		lane: SPBLane new.
+		column: SPBColumn new.
 	board usedBuilder: usedBuilder.
 	board activeCard: card.
 	

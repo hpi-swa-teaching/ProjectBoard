@@ -3,5 +3,5 @@ testLane
 
 	| lane |
 	lane := SPBLane new.
-	indicatorDetection lane: lane.
-	self assert: lane equals: indicatorDetection lane.
+	indicatorDetection column: lane.
+	self assert: lane equals: indicatorDetection column.

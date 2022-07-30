@@ -1,3 +1,4 @@
 accessing
 lastProject: anObject
-	LastProject := anObject
+
+	LastProject := anObject.

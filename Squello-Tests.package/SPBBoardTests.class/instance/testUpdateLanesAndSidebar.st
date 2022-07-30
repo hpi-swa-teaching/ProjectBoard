@@ -3,13 +3,13 @@ testUpdateLanesAndSidebar
 
 	| usedBuilder |
 	usedBuilder := SPBMorphicToolBuilder new.
-	usedBuilder register: SPBPluggableResizeScrollPane new id: #laneArea.
+	usedBuilder register: SPBPluggableResizeScrollPane new id: #columnArea.
 	usedBuilder register: PluggablePanelMorph new id: #sidebar.
 	board window: PluggableSystemWindow new.
 	board usedBuilder: usedBuilder.
-	board lanes: (OrderedCollection newFrom: {}).
+	board columns: (OrderedCollection newFrom: {}).
 	
-	board updateLanesAndSidebar.
+	board updateColumnsAndSidebar.
 	
-	self assert: (board usedBuilder widgetAt: #laneArea) isNil not.
+	self assert: (board usedBuilder widgetAt: #columnArea) isNil not.
 	self assert: (board usedBuilder widgetAt: #sidebar) isNil not.

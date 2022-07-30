@@ -1,11 +1,11 @@
 as yet unclassified
 testBuildLaneHeaderAddCardButtonSpecWith
 
-	| lane spec |
-	lane := SPBLane new
+	| column spec |
+	column := SPBColumn new
 		id: 187;
-		title: 'Lane1'.
-	spec := board buildLaneHeaderAddCardButtonSpecWith: board usedBuilder and: lane.
+		title: 'Column1'.
+	spec := board buildColumnHeaderAddCardButtonSpecWith: board usedBuilder and: column.
 	
 	self assert: true equals: (spec isKindOf: PluggableActionButtonSpec).
-	self assert: lane equals: spec model.
+	self assert: column equals: spec model.

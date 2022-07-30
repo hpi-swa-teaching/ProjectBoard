@@ -11,5 +11,5 @@ updateLabelIcons
 			self labelMorphs add: newLabel.
 			self addMorph: newLabel.
 			self alignLabels].
-	self lane
-		ifNotNil: [self resizeCard. self lane resizeToFitCards].
+	self column
+		ifNotNil: [self resizeCard. self column resizeToFitCards].

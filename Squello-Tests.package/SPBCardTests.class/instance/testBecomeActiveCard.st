@@ -12,8 +12,8 @@ testBecomeActiveCard
 	board := SPBBoard new activeCard: nil.
 	board usedBuilder: usedBuilder.
 	lane := SPBLane new board: board.
-	card lane: lane.
+	card column: lane.
 	card title: 'title'.
 	
 	card becomeActiveCard.
-	self assert: card equals: card lane board activeCard.
+	self assert: card equals: card column board activeCard.

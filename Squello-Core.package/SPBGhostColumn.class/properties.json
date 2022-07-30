@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceColumn" ],
+	"name" : "SPBGhostColumn",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

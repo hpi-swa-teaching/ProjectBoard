@@ -1,0 +1,4 @@
+accessing
+currentColumn
+
+	^ self owner.

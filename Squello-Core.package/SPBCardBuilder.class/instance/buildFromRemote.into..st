@@ -1,9 +1,9 @@
 building
-buildFromRemote: aJsonObject into: anSPBLane
+buildFromRemote: aJsonObject into: anSPBColumn
 
 	self buildCardWith: aJsonObject.
 	self card boardProvider: self boardProvider.
 	self card changeProvider: self changeProvider.
 	self card openInWorld.
-	self setCardLane: anSPBLane.
+	self setCardColumn: anSPBColumn.
 	^ self card.

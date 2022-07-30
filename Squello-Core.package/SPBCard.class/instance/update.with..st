@@ -1,29 +1,29 @@
 updating
 update: aSymbol with: aDictionary
 
-	| board newLane label assignee |
+	| board newColumn label assignee |
 	aSymbol = #card
 		ifFalse: [^ self].
 	(self id = (aDictionary at: 'id') or: [self issueId = (aDictionary at: 'id')])
 		ifFalse: [^ self].
 	
 	((aDictionary at: 'action') = #move)
-		ifTrue: [board := self lane board.
-			newLane := board lanes 
+		ifTrue: [board := self column board.
+			newColumn := board columns 
 				detect: [:lane | lane id = (aDictionary at: 'laneId')].
 			self openInWorld.
-			newLane removeFromOldLane: self.
-			newLane pasteup addMorph: self.
+			newColumn removeFromOldColumn: self.
+			newColumn pasteup addMorph: self.
 			(aDictionary at: 'after')
-				ifNil: [newLane cards addFirst: self]
-				ifNotNil: [newLane cards add: self after: (newLane cards detect: [:card | card id = (aDictionary at: 'after')])].
-			newLane resizeToFitCards.
-			self lane alignCards.
-			newLane alignCards.
-			self lane: newLane].
+				ifNil: [newColumn cards addFirst: self]
+				ifNotNil: [newColumn cards add: self after: (newColumn cards detect: [:card | card id = (aDictionary at: 'after')])].
+			newColumn resizeToFitCards.
+			self column alignCards.
+			newColumn alignCards.
+			self column: newColumn].
 		
 	((aDictionary at: 'action') = #delete) 
-		ifTrue: [self lane deleteCard: self].
+		ifTrue: [self column deleteCard: self].
 		
 	((aDictionary at: 'action') = #edit) 
 		ifTrue: [self updateTitle: (aDictionary at: 'title').
@@ -49,5 +49,5 @@ update: aSymbol with: aDictionary
 			self assignees remove: assignee.
 			self updateAssigneeCount].
 	
-	self lane activeCard = self 
-		ifTrue: [self lane changeActiveCardTo: self].
+	self column activeCard = self 
+		ifTrue: [self column changeActiveCardTo: self].

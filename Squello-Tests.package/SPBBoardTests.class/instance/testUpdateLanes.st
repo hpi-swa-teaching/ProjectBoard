@@ -1,18 +1,18 @@
 as yet unclassified
 testUpdateLanes
 
-	| builder lane pasteup |
+	| builder column pasteup |
 	builder := SPBMockBuilder new.
 	pasteup := SPBPluggablePasteUpMorph new.
 
-	lane := SPBMockGithubBoardProvider new queryColumns at: 1.
-	builder fakeWidgets: (Dictionary newFrom: { 1234 ->  pasteup. #lane1234 -> 'lane1234' }).
+	column := SPBMockGithubBoardProvider new queryColumns at: 1.
+	builder fakeWidgets: (Dictionary newFrom: { 1234 ->  pasteup. #column1234 -> 'column1234' }).
 	
 	board usedBuilder: builder.
-	board lanes: { lane } asOrderedCollection.
-	board updateLanes.
+	board columns: { column } asOrderedCollection.
+	board updateColumns.
 	
 	self assert: { 1234 } asOrderedCollection equals: builder callOrder.
-	self assert: pasteup equals: lane pasteup.
+	self assert: pasteup equals: column pasteup.
 	
-	self assert: board equals: lane board.
+	self assert: board equals: column board.

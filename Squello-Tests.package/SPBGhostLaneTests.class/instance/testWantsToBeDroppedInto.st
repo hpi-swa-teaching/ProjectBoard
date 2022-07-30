@@ -9,12 +9,12 @@ testWantsToBeDroppedInto
 	sourceLane := SPBMockLane new.
 	lanes := {sourceLane . targetLane} asOrderedCollection.
 	
-	ghostLane sourceLane: sourceLane.
+	ghostLane sourceColumn: sourceLane.
 	ghostLane position: (100@15).
 	sourceLane position: (500@1).
 	targetLane position: (90@10).
-	targetLane lanes: lanes.
-	sourceLane lanes: lanes.
+	targetLane columns: lanes.
+	sourceLane columns: lanes.
 	
 	self deny: (ghostLane wantsToBeDroppedInto: targetLane).
 	self assert: 2 equals: sourceLane newIndex.

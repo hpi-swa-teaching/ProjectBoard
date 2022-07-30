@@ -1,0 +1,25 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LW 6/20/2022 09:56",
+	"instvars" : [
+		"id",
+		"title",
+		"boardProvider",
+		"cards",
+		"pasteup",
+		"board",
+		"jsonCards",
+		"minimumHeight",
+		"changeProvider",
+		"indicator",
+		"bottomDetection",
+		"cardPositions" ],
+	"name" : "SPBColumn",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
