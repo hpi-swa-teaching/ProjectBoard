@@ -4,7 +4,7 @@ testTitle
 	| title |
 	title := 'hi squeak!'.
 	
-	self assert: nil equals: lane title.
-	lane title: title.
-	self assert: title equals: lane title.
+	self assert: nil equals: column title.
+	column title: title.
+	self assert: title equals: column title.
 	self assert: #title equals: (observed at: 1).

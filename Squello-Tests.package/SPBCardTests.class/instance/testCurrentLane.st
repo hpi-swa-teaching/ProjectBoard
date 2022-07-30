@@ -1,8 +1,8 @@
 tests
 testCurrentLane
 	
-	| lane |
-	lane := SPBPluggablePasteUpMorph new.
-	lane addMorph: card.
+	| column |
+	column := SPBPluggablePasteUpMorph new.
+	column addMorph: card.
 	
-	self assert: lane equals: card currentColumn.
+	self assert: column equals: card currentColumn.

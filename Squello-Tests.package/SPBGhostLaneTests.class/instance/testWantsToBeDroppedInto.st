@@ -1,20 +1,20 @@
 as yet unclassified
 testWantsToBeDroppedInto
 
-	| targetLane sourceLane lanes |
-	targetLane := Morph new.
-	self deny: (ghostLane wantsToBeDroppedInto: targetLane).
+	| targetColumn sourceColumn lanes |
+	targetColumn := Morph new.
+	self deny: (ghostColumn wantsToBeDroppedInto: targetColumn).
 	
-	targetLane := SPBMockLane new.
-	sourceLane := SPBMockLane new.
-	lanes := {sourceLane . targetLane} asOrderedCollection.
+	targetColumn := SPBMockLane new.
+	sourceColumn := SPBMockLane new.
+	lanes := {sourceColumn . targetColumn} asOrderedCollection.
 	
-	ghostLane sourceColumn: sourceLane.
-	ghostLane position: (100@15).
-	sourceLane position: (500@1).
-	targetLane position: (90@10).
-	targetLane columns: lanes.
-	sourceLane columns: lanes.
+	ghostColumn sourceColumn: sourceColumn.
+	ghostColumn position: (100@15).
+	sourceColumn position: (500@1).
+	targetColumn position: (90@10).
+	targetColumn columns: lanes.
+	sourceColumn columns: lanes.
 	
-	self deny: (ghostLane wantsToBeDroppedInto: targetLane).
-	self assert: 2 equals: sourceLane newIndex.
+	self deny: (ghostColumn wantsToBeDroppedInto: targetColumn).
+	self assert: 2 equals: sourceColumn newIndex.

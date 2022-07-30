@@ -1,19 +1,19 @@
 tests
 testChangeIndexOfLane
 	
-	| board usedBuilder otherLane |
-	otherLane := SPBLane new id: 1337.
-	lane id: 420.
+	| board usedBuilder otherColumn |
+	otherColumn := SPBColumn new id: 1337.
+	column id: 420.
 	
 	usedBuilder := SPBMorphicToolBuilder new.
-	usedBuilder register: SPBPluggableResizeScrollPane new id: #laneArea.
-	usedBuilder register: PluggablePanelMorph new id: #lane1337.
-	usedBuilder register: PluggablePanelMorph new id: #lane420.
+	usedBuilder register: SPBPluggableResizeScrollPane new id: #columnArea.
+	usedBuilder register: PluggablePanelMorph new id: #column1337.
+	usedBuilder register: PluggablePanelMorph new id: #column420.
 	board := SPBBoard new 
-		columns: (OrderedCollection newFrom: {lane . otherLane});
+		columns: (OrderedCollection newFrom: {column . otherColumn});
 		usedBuilder: usedBuilder.
-	lane board: board.
+	column board: board.
 	
-	lane changeIndexOfColumn: 3.
-	self assert: 2 equals: (lane board columns indexOf: lane).
-	self assert: 1 equals: (lane board columns indexOf: otherLane).
+	column changeIndexOfColumn: 3.
+	self assert: 2 equals: (column board columns indexOf: column).
+	self assert: 1 equals: (column board columns indexOf: otherColumn).

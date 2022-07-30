@@ -1,10 +1,10 @@
 tests
 testNewFrom
 
-	| json jsonLane |
+	| json jsonColumn |
 	json := Json readFromString: '{"name": "test lane", "id": "123456789"}'.
 	
-	jsonLane := SPBLane newFrom: json.
+	jsonColumn := SPBColumn newFrom: json.
 	
-	self assert: 'test lane' equals: jsonLane title.
-	self assert: '123456789' equals: jsonLane id.
+	self assert: 'test lane' equals: jsonColumn title.
+	self assert: '123456789' equals: jsonColumn id.

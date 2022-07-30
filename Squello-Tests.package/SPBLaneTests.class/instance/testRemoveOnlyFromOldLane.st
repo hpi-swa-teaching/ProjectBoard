@@ -4,9 +4,9 @@ testRemoveOnlyFromOldLane
 	| card1 |
 	card1 := SPBCard new
 		position: 0@0;
-		column: lane;
+		column: column;
 		id: 1337.
-	lane cards: (OrderedCollection newFrom: {card1}). 
-	lane removeFromOldColumn: card1.
+	column cards: (OrderedCollection newFrom: {card1}). 
+	column removeFromOldColumn: card1.
 	
-	self assert: 0 equals: (lane cards size).
+	self assert: 0 equals: (column cards size).

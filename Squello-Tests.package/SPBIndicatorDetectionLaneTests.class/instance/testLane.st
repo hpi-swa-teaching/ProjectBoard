@@ -1,7 +1,7 @@
 as yet unclassified
 testLane
 
-	| lane |
-	lane := SPBLane new.
-	indicatorDetection column: lane.
-	self assert: lane equals: indicatorDetection column.
+	| column |
+	column := SPBColumn new.
+	indicatorDetection column: column.
+	self assert: column equals: indicatorDetection column.

@@ -1,4 +1,4 @@
 as yet unclassified
 tearDown
 
-	ghostLane := nil.
+	ghostColumn := nil.

@@ -4,5 +4,5 @@ testProvider
 	| boardProvider |
 	boardProvider := SPBMockGithubBoardProvider new.
 
-	lane boardProvider: boardProvider.
-	self assert: boardProvider equals: lane boardProvider.
+	column boardProvider: boardProvider.
+	self assert: boardProvider equals: column boardProvider.

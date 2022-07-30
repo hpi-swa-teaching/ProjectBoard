@@ -1,6 +1,6 @@
 tests
 testId
 
-	self assert: nil equals: lane id.
-	lane id: 42.
-	self assert: 42 equals: lane id.
+	self assert: nil equals: column id.
+	column id: 42.
+	self assert: 42 equals: column id.

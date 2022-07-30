@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	ghostLane := SPBGhostLane new.
+	ghostColumn := SPBGhostColumn new.

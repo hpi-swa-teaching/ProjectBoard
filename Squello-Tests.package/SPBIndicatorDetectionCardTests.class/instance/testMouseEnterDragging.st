@@ -2,7 +2,7 @@ as yet unclassified
 testMouseEnterDragging
 	
 	| card lane |
-	lane := SPBLane new.
+	lane := SPBColumn new.
 	card := SPBCard new
 		column: lane;
 		position: 10 @ 10.

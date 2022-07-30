@@ -1,8 +1,8 @@
 tests
 testRenameColumn
 
-	| lane |
-	lane := SPBLane new title: 'lane lane lane'.
+	| column |
+	column := SPBColumn new title: 'lane lane lane'.
 	
-	provider renameColumn: lane to: 'toller neuer Name'.
+	provider renameColumn: column to: 'toller neuer Name'.
 	self assert: 'toller neuer Name' equals: provider api messages first.

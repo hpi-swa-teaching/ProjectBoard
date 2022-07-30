@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lane",
-		"observed" ],
+		"observed",
+		"column" ],
 	"name" : "SPBLaneTests",
 	"pools" : [
 		 ],

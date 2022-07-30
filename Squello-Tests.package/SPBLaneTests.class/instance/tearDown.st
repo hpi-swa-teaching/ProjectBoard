@@ -1,6 +1,6 @@
 running
 tearDown
 
-	lane removeDependent: self.
-	lane := nil.
+	column removeDependent: self.
+	column := nil.
 	observed := nil.

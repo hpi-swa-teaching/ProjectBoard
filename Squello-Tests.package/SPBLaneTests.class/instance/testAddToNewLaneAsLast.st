@@ -11,9 +11,9 @@ testAddToNewLaneAsLast
 	card2 := SPBCard new
 		position: 0@100;
 		id: 42.
-	lane cards: (OrderedCollection newFrom: {card1 . card2}).	
-	lane addToNewColumn: newCard with: DropEvent new.
+	column cards: (OrderedCollection newFrom: {card1 . card2}).	
+	column addToNewColumn: newCard with: DropEvent new.
 	
-	self assert: card1 equals: (lane cards at: 1).
-	self assert: card2 equals: (lane cards at: 2).
-	self assert: newCard equals: (lane cards at: 3).
+	self assert: card1 equals: (column cards at: 1).
+	self assert: card2 equals: (column cards at: 2).
+	self assert: newCard equals: (column cards at: 3).

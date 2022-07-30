@@ -3,5 +3,5 @@ testUpdateTitle
 	
 	| newTitle |
 	newTitle := 'ESSENJA'.
-	lane updateTitle: newTitle.
-	self assert: newTitle equals: lane title.
+	column updateTitle: newTitle.
+	self assert: newTitle equals: column title.

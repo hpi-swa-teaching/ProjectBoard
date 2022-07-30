@@ -1,10 +1,10 @@
 as yet unclassified
 testMouseLeaveDragging
 
-	| lane card |
-	lane := SPBLane new.
+	| column card |
+	column := SPBColumn new.
 	card := SPBCard new 
-		column: lane.
+		column: column.
 	indicatorDetection card: card.
 	indicatorDetection mouseLeaveDragging: MouseEvent new.
-	self assert: false equals: lane indicator visible. 
+	self assert: false equals: column indicator visible. 

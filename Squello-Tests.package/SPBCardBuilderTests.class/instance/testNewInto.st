@@ -3,7 +3,7 @@ testNewInto
 
 	| dictionary card |
 	dictionary := Dictionary newFrom: {'title' -> 'Found a bug'}.
-	builder buildNew: dictionary into: ((SPBLane new) pasteup: PasteUpMorph new).
+	builder buildNew: dictionary into: ((SPBColumn new) pasteup: PasteUpMorph new).
 	card := builder card.
 	
 	self assert: 'Found a bug' equals: card title.

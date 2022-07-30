@@ -1,7 +1,7 @@
 tests
 testBecomeActiveCard
 	
-	| board usedBuilder lane |
+	| board usedBuilder column |
 	usedBuilder := SPBMorphicToolBuilder new.
 	usedBuilder register: PluggableTextMorph new id: #sidebarTitle.
 	usedBuilder register: PluggableTextMorph new id: #sidebarDescription.
@@ -11,8 +11,8 @@ testBecomeActiveCard
 	usedBuilder register: PluggableListMorphPlus new id: #sidebarPotentialLabelList.
 	board := SPBBoard new activeCard: nil.
 	board usedBuilder: usedBuilder.
-	lane := SPBLane new board: board.
-	card column: lane.
+	column := SPBColumn new board: board.
+	card column: column.
 	card title: 'title'.
 	
 	card becomeActiveCard.

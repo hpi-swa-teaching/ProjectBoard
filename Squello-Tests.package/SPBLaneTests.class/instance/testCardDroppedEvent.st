@@ -1,12 +1,12 @@
 tests
 testCardDroppedEvent
 
-	| card oldLane|
-	oldLane := SPBLane new pasteup: SPBPluggablePasteUpMorph new.
-	card := SPBCard new column: oldLane. 
-	oldLane cards: (OrderedCollection newFrom: {card}).
+	| card oldColumn|
+	oldColumn := SPBColumn new pasteup: SPBPluggablePasteUpMorph new.
+	card := SPBCard new column: oldColumn. 
+	oldColumn cards: (OrderedCollection newFrom: {card}).
 	card position: 50@50.
 	
-	lane cardDropped: card Event: MouseEvent new.
+	column cardDropped: card Event: MouseEvent new.
 	
-	self assert: true equals: (lane cards contains: [:each | each = card]).
+	self assert: true equals: (column cards contains: [:each | each = card]).
