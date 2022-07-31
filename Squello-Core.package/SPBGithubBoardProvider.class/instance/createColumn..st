@@ -11,5 +11,5 @@ createColumn: aString
 				title: 'Error: Cannot add lane';
 				position: ActiveHand cursorPoint) 
 			openInWorld.
-			^ self].
+			^ #error].
 	^ SPBColumn newFrom: columnJson.

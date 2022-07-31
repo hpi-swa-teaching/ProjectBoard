@@ -3,10 +3,12 @@ addColumn
 	
 	| column prompt |
 	prompt := FillInTheBlankMorph request: 'Enter a lane name' initialAnswer:''.
-	(prompt = '')
+	prompt = ''
 		ifTrue: [^ self].
 	column := self boardProvider createColumn: prompt.
-  
+	column = #error
+		ifTrue: [^ self].
+	
 	column 
 		board: self;
 		boardProvider: self boardProvider;
