@@ -2,12 +2,12 @@ toolbuilder
 addColumn 
 	
 	| column prompt |
-	prompt := FillInTheBlankMorph request: 'Enter a lane name' initialAnswer:''.
+	prompt := FillInTheBlankMorph request: 'Enter a column name' initialAnswer:''.
 	prompt = ''
 		ifTrue: [^ self].
-	column := self boardProvider createColumn: prompt.
-	column = #error
-		ifTrue: [^ self].
+	[column := self boardProvider createColumn: prompt]
+		on: Error
+		do: [:ex | ^ self errorCannotAddColumn: ex messageText].
 	
 	column 
 		board: self;

@@ -6,7 +6,7 @@ parseInputBoardUrl: aString
 	projects := self getProjects: aString.
 	
 	boardNr := url fileName asNumber.
-	(projects size < boardNr) 
-		ifTrue: [^ #invalidNumber].
+	(projects size < boardNr or: [boardNr < 1])
+		ifTrue: [Error signal].
 	
 	self projectId: ((projects at: boardNr) at: 'id').

@@ -43,4 +43,4 @@ buildResizeScrollPane: spec
 			[#whenNeeded] -> [widget showVScrollBarOnlyWhenNeeded] }
 		otherwise: [widget showVScrollBarOnlyWhenNeeded].
 	
-	^ widget
+	^ widget.

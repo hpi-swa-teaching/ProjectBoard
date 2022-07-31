@@ -1,11 +1,8 @@
 creation
 buildSingleCard: aJsonObject
 
-	| builder card |
-	builder := SPBCardBuilder new.
-	builder boardProvider: self boardProvider.
-	builder changeProvider: self changeProvider.
-	card := builder buildFromRemote: aJsonObject into: self.
+	| card |
+	card := self cardBuilder buildFromRemote: aJsonObject into: self.
 	self cards remove: card.
 	(aJsonObject at: 'card')
 		ifNil: [self cards addFirst: card. self alignCards. ^ self].
