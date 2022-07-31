@@ -1,4 +1,4 @@
 updating-remote
 updateTitle: aString
 
-	DialogWindow inform: 'No Card selected!'.
+	self inform: 'No card selected!'.

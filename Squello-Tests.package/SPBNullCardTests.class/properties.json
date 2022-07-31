@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"card" ],
+	"name" : "SPBNullCardTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
