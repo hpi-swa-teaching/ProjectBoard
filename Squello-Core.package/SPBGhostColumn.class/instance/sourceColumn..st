@@ -1,4 +1,4 @@
 accessing
-sourceColumn: anSPBLane
+sourceColumn: anSPBColumn
 
-	sourceColumn := anSPBLane.
+	sourceColumn := anSPBColumn.
