@@ -6,8 +6,6 @@ testUpdateActiveCardTitle
 	usedBuilder register: PluggableTextMorph new id: #sidebarTitle.
 	card := SPBCard new 
 		boardProvider: SPBMockGithubBoardProvider new;
-		titleMorph: TextMorph new;
-		assigneeMorph: TextMorph new;
 		labels: (OrderedCollection newFrom: {});
 		column: SPBColumn new.
 	board usedBuilder: usedBuilder.

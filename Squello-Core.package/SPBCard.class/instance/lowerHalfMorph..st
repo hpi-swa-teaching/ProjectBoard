@@ -1,4 +1,4 @@
 accessing
-lowerHalfMorph: anObject
+lowerHalfMorph: anSPBIndicatorDetectionCard
 
-	lowerHalfMorph := anObject.
+	lowerHalfMorph := anSPBIndicatorDetectionCard.

@@ -1,4 +1,4 @@
-updating
+updating-local
 updateBalloonText
 	
 	| text |

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"card" ],
+		"card",
+		"assignee",
+		"label" ],
 	"name" : "SPBMockGithubBoardProvider",
 	"pools" : [
 		 ],

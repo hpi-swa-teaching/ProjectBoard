@@ -1,6 +1,20 @@
 initialization
 initialize
 
+	| titleMorph assigneeMorph |
 	super initialize.
-	self color: Color lightGray.
 	
+	titleMorph := TextMorph new 
+			wrapFlag: true;
+			lock;
+			width: 280;
+			yourself.
+	assigneeMorph := TextMorph new
+		lock;
+		yourself.
+		
+	self
+		titleMorph: titleMorph;
+		assigneeMorph: assigneeMorph;
+		addMorph: titleMorph;
+		addMorph: assigneeMorph.

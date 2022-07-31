@@ -1,4 +1,4 @@
 accessing
-labels: anObject
+labels: aCollection
 
-	labels := anObject
+	labels := aCollection.

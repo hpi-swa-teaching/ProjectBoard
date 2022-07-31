@@ -1,4 +1,6 @@
 as yet unclassified
-deleteLabel: aSPBLabel fromCard: aSPBCard
+deleteLabel: anSPBLabel fromCard: anSPBCard
 
-	^ self.
+	self
+		label: anSPBLabel;
+		card: anSPBCard.

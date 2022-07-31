@@ -1,4 +1,6 @@
 as yet unclassified
 addAssignee: anSPBAssignee toCard: anSPBCard
 
-	^ self.
+	self 
+		assignee: anSPBAssignee;
+		card: anSPBCard.

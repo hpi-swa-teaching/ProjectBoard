@@ -1,4 +1,4 @@
-updating
+updating-remote
 updateTitle: aString
 
 	self title == aString 

@@ -1,4 +1,4 @@
 accessing
 labels
 
-	^ labels.
+	^ labels ifNil: [labels := #() asCollection].

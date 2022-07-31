@@ -23,5 +23,5 @@
 	"name" : "SPBCard",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SPBAbstractCard",
 	"type" : "normal" }

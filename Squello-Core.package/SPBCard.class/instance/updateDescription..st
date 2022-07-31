@@ -1,4 +1,4 @@
-updating
+updating-remote
 updateDescription: aString
 
 	self description == aString 

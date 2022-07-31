@@ -2,12 +2,12 @@ as yet unclassified
 testActiveCardLabelList
 
 	| label |
-	self assert: {} equals: board activeCardLabelList.
+	self assert: board activeCardLabelListHeader equals: board activeCardLabelList.
 	
 	board activeCard: SPBCard new.
-	self assert: {#('---used labels---')} equals: board activeCardLabelList.
+	self assert: board activeCardLabelListHeader equals: board activeCardLabelList.
 	
 	label := SPBLabel new.
 	
-	board activeCard labels: { label }.
-	self assert: {'---used labels---' . label } equals: board activeCardLabelList.
+	board activeCard labels: {label}.
+	self assert: board activeCardLabelListHeader , {label} equals: board activeCardLabelList.

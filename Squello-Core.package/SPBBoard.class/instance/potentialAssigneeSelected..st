@@ -1,7 +1,7 @@
 accessing
-potentialAssigneeSelected: anObject
+potentialAssigneeSelected: anSPBAssignee
 	
-	(anObject isKindOf: SPBAssignee)
+	(anSPBAssignee isKindOf: SPBAssignee)
 		ifFalse: [^ self].
-	potentialAssigneeSelected := anObject.
+	potentialAssigneeSelected := anSPBAssignee.
 	self changed: #potentialAssigneeSelected.

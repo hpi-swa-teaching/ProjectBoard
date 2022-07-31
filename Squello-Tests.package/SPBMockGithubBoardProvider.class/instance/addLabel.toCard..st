@@ -1,4 +1,6 @@
 as yet unclassified
 addLabel: anSPBLabel toCard: anSPBCard
 
-	^ self.
+	self 
+		label: anSPBLabel; 
+		card: anSPBCard.

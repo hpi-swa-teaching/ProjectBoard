@@ -1,4 +1,4 @@
 accessing
-boardProvider: anObject
+boardProvider: anSPBGithubBoardProvider
 
-	boardProvider := anObject.
+	boardProvider := anSPBGithubBoardProvider.

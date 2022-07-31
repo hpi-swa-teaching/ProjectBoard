@@ -1,6 +1,7 @@
 accessing
 updateColumnsWithCards
 
-	self changed: #buildColumnAreaChildren.
-	self rerenderColumns.
-	self resizeColumnArea.
+	self 
+		changed: #buildColumnAreaChildren;
+		rerenderColumns;
+		resizeColumnArea.

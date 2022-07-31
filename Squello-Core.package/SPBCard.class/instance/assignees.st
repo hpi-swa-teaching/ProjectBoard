@@ -1,4 +1,4 @@
 accessing
 assignees
 
-	^ assignees.
+	^ assignees ifNil: [assignees := #() asCollection].

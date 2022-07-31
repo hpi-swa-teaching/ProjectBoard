@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAssignee:" : "lo 7/31/2022 17:03",
+		"addAssigneeLocal:" : "lo 7/31/2022 17:03",
+		"addLabel:" : "lo 7/31/2022 17:04",
+		"addLabelLocal:" : "lo 7/31/2022 17:04",
+		"assignees" : "lo 7/31/2022 16:04",
+		"description" : "lo 7/31/2022 16:06",
+		"initialize" : "lo 7/31/2022 16:02",
+		"isRealCard" : "lo 7/31/2022 17:03",
+		"labels" : "lo 7/31/2022 16:06",
+		"removeAssignee:" : "lo 7/31/2022 17:04",
+		"removeAssigneeLocal:" : "lo 7/31/2022 17:04",
+		"removeLabel:" : "lo 7/31/2022 17:04",
+		"removeLabelLocal:" : "lo 7/31/2022 17:04",
+		"title" : "lo 7/31/2022 16:06",
+		"updateDescription:" : "lo 7/31/2022 17:04",
+		"updateTitle:" : "lo 7/31/2022 17:04" } }

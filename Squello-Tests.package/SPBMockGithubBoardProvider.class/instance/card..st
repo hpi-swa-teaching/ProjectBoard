@@ -1,3 +1,4 @@
 accessing
-card: anObject
-	card := anObject
+card: anSPBCard
+
+	card := anSPBCard.

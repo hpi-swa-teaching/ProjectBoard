@@ -3,11 +3,11 @@ potentialAssigneesList
 	
 	| potentialAssignees assignees |
 	potentialAssignees := self potentialAssignees deepCopy.
-	self activeCard
-		ifNil: [^ {}].
 	assignees := self activeCard assignees.
+	self activeCard isRealCard
+		ifFalse: [^ self potentialAssigneesListHeader].
 	potentialAssignees
-		ifNil: [^ {#('---unassigned---')}].
-	^ #('---unassigned---'), 
+		ifNil: [^ self potentialAssigneesListHeader].
+	^ self potentialAssigneesListHeader, 
 		potentialAssignees select: [:each | (assignees anySatisfy: [:elem | elem = each]) not].
 	
