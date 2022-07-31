@@ -1,4 +1,4 @@
-as yet unclassified
+classes
 pasteUpClass
 
 	^ SPBPluggablePasteUpMorph.

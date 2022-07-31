@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update: aSymbol with: aDictionary
 
 	| cardJson |
@@ -8,7 +8,7 @@ update: aSymbol with: aDictionary
 		ifFalse: [^ self].
 	
 	((aDictionary at: 'action') = #move)
-		ifTrue: [((aDictionary at: 'after') = nil)
+		ifTrue: [((aDictionary at: 'after') isNil)
 			ifTrue: [self changeIndexOfColumn: 1]
 			ifFalse: [self changeIndexOfColumn: 
 				(self board columns 

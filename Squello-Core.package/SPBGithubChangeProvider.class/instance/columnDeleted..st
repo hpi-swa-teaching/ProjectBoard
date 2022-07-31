@@ -1,4 +1,4 @@
-as yet unclassified
+column changes
 columnDeleted: aJsonObject
 
 	^ Dictionary newFrom: {

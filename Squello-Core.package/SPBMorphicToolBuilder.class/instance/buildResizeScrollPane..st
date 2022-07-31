@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildResizeScrollPane: spec
 
 	| widget panel |
@@ -22,8 +22,8 @@ buildResizeScrollPane: spec
 	self setFrame: spec frame in: widget.
 	self setLayoutHintsFor: widget spec: spec.
 	
-	parent
-		ifNotNil: [self add: widget to: parent].
+	self parent
+		ifNotNil: [self add: widget to: self parent].
 	
 	spec borderWidth
 		ifNotNil: [:w | widget borderWidth: w].

@@ -1,4 +1,4 @@
-as yet unclassified
+general changes
 parseChange: aJsonObject
 
 	| action change type |

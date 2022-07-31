@@ -1,4 +1,4 @@
-as yet unclassified
+card changes
 cardUnassigned: aJsonObject
 
 	^ Dictionary newFrom: {

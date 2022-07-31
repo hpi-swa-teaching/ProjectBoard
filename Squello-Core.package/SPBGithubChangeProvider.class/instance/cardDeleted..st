@@ -1,4 +1,4 @@
-as yet unclassified
+card changes
 cardDeleted: aJsonObject
 
 	^ Dictionary newFrom: {

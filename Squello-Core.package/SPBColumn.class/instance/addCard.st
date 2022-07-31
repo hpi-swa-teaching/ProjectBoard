@@ -1,7 +1,7 @@
 creation
 addCard
 	
-	| cardTitle content cardBuilder newSPBCard |
+	| cardTitle content cardBuilder |
 	cardTitle := FillInTheBlank request: 'Enter title for new card:'.
 	cardTitle = '' 
 		ifTrue: [^ self].
@@ -9,7 +9,7 @@ addCard
 	cardBuilder := SPBCardBuilder new.
 	cardBuilder boardProvider: self boardProvider.
 	cardBuilder changeProvider: self changeProvider.
-	newSPBCard := cardBuilder buildNew: content atTop: self.
+	cardBuilder buildNew: content atTop: self.
 	
 	self alignCards.
 	
