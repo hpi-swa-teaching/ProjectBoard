@@ -1,0 +1,1 @@
+Used for visually aiding the movement of an SPBColumn to its new position

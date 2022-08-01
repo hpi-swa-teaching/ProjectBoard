@@ -1,4 +1,4 @@
-*Squello-Core
+*Squello-Core-testing
 isCard
 
 	^ false.

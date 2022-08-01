@@ -1,0 +1,1 @@
+Used when there is no SPBCard selected

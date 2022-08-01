@@ -1,0 +1,1 @@
+Interface for SPBCards visible or not visible on the SPBBoard
