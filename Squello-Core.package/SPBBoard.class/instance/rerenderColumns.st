@@ -1,4 +1,4 @@
-drag and drop
+update window
 rerenderColumns
 
 	self columns

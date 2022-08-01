@@ -11,7 +11,7 @@ updateColumnsAndSidebar
 	
 	oldSidebar := self usedBuilder widgetAt: #sidebar.
 	oldSidebar abandon.
-	newSidebar := (self usedBuilder build: (self buildSidebarSpecWith: self usedBuilder witdh: currentWidth)). 
+	newSidebar := (self usedBuilder build: (self buildSidebarSpecWith: self usedBuilder width: currentWidth)). 
 	
 	self usedBuilder add: newColumnArea to: self window.
 	self usedBuilder add: newSidebar to: self window.

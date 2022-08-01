@@ -14,4 +14,4 @@ changeIndexOfColumn: aNumber
 		ifFalse: [columns
 						removeAt: index;
 						add: self beforeIndex: aNumber].
-	self board updateColumnsWithCards.
+	self board updateColumns.

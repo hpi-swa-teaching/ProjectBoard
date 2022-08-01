@@ -17,7 +17,7 @@ update: aSymbol with: aDictionary
 			
 	((aDictionary at: 'action') = #delete) 
 		ifTrue: [self board columns remove: self.
-			self board updateColumnsWithCards].
+			self board updateColumns].
 		
 	((aDictionary at: 'action') = #edit)
 		ifTrue: [self title: (aDictionary at: 'title')].

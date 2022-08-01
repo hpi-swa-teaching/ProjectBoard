@@ -13,6 +13,6 @@ buildWith: aBuilder
 		
 	self window: (aBuilder build: spec).
 
-	self updateColumns.
+	self setupColumns.
 	
 	^ self window.

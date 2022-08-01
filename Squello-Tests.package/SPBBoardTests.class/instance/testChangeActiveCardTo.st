@@ -13,9 +13,8 @@ testChangeActiveCardTo
 	usedBuilder register: PluggableListMorphPlus new id: #sidebarLabelList.
 	usedBuilder register: PluggableListMorphPlus new id: #sidebarPotentialLabelList.
 	board usedBuilder: usedBuilder.
-	board activeCard: nil.
 	
 	board changeActiveCardTo: card.
-	self assert: card equals: board activeCard.
+	self assert: card equals: board sidebar activeCard.
 	self assert: 'tolleKarte' equals: ((usedBuilder widgetAt: #sidebarTitle) textMorph text string).
 	self assert: 'desc' equals: ((usedBuilder widgetAt: #sidebarDescription) textMorph text string).

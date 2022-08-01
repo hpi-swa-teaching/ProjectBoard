@@ -5,7 +5,6 @@ testBuildSidebarPotentialAssigneeListSpecWith
 	spec := board buildSidebarPotentialAssigneeListSpecWith: board usedBuilder.
 
 	self assert: true equals: (spec isKindOf: PluggableListSpec).
-	self assert: board equals: spec model.
 	self assert: #sidebarPotentialAssigneeList equals: spec name.
 	self assert: #potentialAssigneesList equals: spec list.
 	self assert: #potentialAssigneeSelected equals: spec getSelected.

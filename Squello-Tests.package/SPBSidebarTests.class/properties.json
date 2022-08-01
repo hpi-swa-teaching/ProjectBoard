@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sidebar" ],
+	"name" : "SPBSidebarTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

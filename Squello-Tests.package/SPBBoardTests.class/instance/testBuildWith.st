@@ -8,6 +8,7 @@ testBuildWith
 		changeProvider: board changeProvider;
 		id: 1337.
 	board columns: {column1}.
+	
 	window := board buildWith: builder.
 	
 	self assert: true equals: (window isKindOf: PluggableSystemWindow).

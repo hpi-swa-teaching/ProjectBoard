@@ -1,7 +1,7 @@
 tests
 testBecomeActiveCard
 	
-	| board usedBuilder column |
+	| board usedBuilder column sidebar |
 	usedBuilder := SPBMorphicToolBuilder new.
 	usedBuilder register: PluggableTextMorph new id: #sidebarTitle.
 	usedBuilder register: PluggableTextMorph new id: #sidebarDescription.
@@ -9,11 +9,14 @@ testBecomeActiveCard
 	usedBuilder register: PluggableListMorphPlus new id: #sidebarPotentialAssigneeList.
 	usedBuilder register: PluggableListMorphPlus new id: #sidebarLabelList.
 	usedBuilder register: PluggableListMorphPlus new id: #sidebarPotentialLabelList.
-	board := SPBBoard new activeCard: nil.
-	board usedBuilder: usedBuilder.
+	sidebar := SPBSidebar new activeCard: nil.
+	board := SPBBoard new 
+		usedBuilder: usedBuilder;
+		sidebar: sidebar.
 	column := SPBColumn new board: board.
-	card column: column.
-	card title: 'title'.
+	card 
+		column: column;
+		title: 'title'.
 	
 	card becomeActiveCard.
-	self assert: card equals: card column board activeCard.
+	self assert: card equals: sidebar activeCard.

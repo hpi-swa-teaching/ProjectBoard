@@ -14,4 +14,4 @@ addColumn
 		boardProvider: self boardProvider;
 		changeProvider: self changeProvider.
 	self columns add: column.
- 	self updateColumnsWithCards.
+ 	self updateColumns.

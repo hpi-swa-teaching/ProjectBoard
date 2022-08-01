@@ -7,7 +7,6 @@ testBuildSidebarAssigneePanelSpecWith
 	child2 := spec children at: 2.
 	
 	self assert: true equals: (spec isKindOf: PluggablePanelSpec).
-	self assert: board equals: spec model.
 	self assert: #sidebarAssigneeList equals: spec name.
 	self assert: true equals: (child1 isKindOf: PluggableListSpec).
 	self assert: true equals: (child2 isKindOf: PluggableListSpec).

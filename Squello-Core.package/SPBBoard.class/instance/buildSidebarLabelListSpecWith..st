@@ -2,7 +2,7 @@ toolbuilder
 buildSidebarLabelListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
-			model: self;
+			model: self sidebar;
 			name: #sidebarLabelList;
 			frame: (0@0 corner: 0.5@1);
 			list: #activeCardLabelList;

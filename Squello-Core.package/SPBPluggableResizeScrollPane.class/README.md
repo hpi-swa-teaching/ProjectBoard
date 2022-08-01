@@ -1,0 +1,1 @@
+ScrollPane that resizes it's submorphs (columns) everytime it's own extent changes. Used to contain other ScrollPanes.

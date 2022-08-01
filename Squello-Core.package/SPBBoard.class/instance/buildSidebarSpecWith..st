@@ -1,5 +1,5 @@
 toolbuilder
 buildSidebarSpecWith: aBuilder
 
-	^ self buildSidebarSpecWith: aBuilder witdh: 0.75.
+	^ self buildSidebarSpecWith: aBuilder width: 0.75.
 		

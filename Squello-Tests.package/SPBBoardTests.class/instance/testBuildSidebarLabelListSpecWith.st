@@ -5,7 +5,6 @@ testBuildSidebarLabelListSpecWith
 	spec := board buildSidebarLabelListSpecWith: board usedBuilder.
 
 	self assert: true equals: (spec isKindOf: PluggableListSpec).
-	self assert: board equals: spec model.
 	self assert: #sidebarLabelList equals: spec name.
 	self assert: #activeCardLabelList equals: spec list.
 	self assert: #labelSelected equals: spec getSelected.

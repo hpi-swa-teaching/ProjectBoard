@@ -2,7 +2,7 @@ toolbuilder
 buildSidebarDescriptionSpecWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
-			model: self;
+			model: self sidebar;
 			name: #sidebarDescription;
 			setText: #updateActiveCardDescription:;
 			getText: #activeCardDescription;

@@ -21,6 +21,6 @@ testUpdateLanesWithCards
 	board columns: columns.
 
 	board addDependent: self.
-	board updateColumnsWithCards.
+	board updateColumns.
 	
 	self assert: { #buildColumnAreaChildren } asOrderedCollection equals: self calledSymbols.

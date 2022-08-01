@@ -10,7 +10,7 @@ testUpdateLanes
 	
 	board usedBuilder: builder.
 	board columns: { column } asOrderedCollection.
-	board updateColumns.
+	board setupColumns.
 	
 	self assert: { 1234 } asOrderedCollection equals: builder callOrder.
 	self assert: pasteup equals: column pasteup.

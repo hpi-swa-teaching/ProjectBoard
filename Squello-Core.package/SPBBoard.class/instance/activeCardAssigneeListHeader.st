@@ -1,4 +1,0 @@
-update sidebar
-activeCardAssigneeListHeader
-
-	^ #('---assigned---').

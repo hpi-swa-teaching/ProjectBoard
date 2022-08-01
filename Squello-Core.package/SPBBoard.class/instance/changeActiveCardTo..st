@@ -1,7 +1,7 @@
 update sidebar
 changeActiveCardTo: anSPBCard
 
-	self activeCard: anSPBCard.
+	self sidebar activeCard: anSPBCard.
 	(self usedBuilder widgetAt: #sidebarTitle) setText: anSPBCard title asText.
 	(self usedBuilder widgetAt: #sidebarDescription) setText: anSPBCard description asText.
 	(self usedBuilder widgetAt: #sidebarAssigneeList) updateList.

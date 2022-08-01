@@ -6,3 +6,4 @@ setUp
 	board boardProvider: SPBMockGithubBoardProvider new.
 	board changeProvider: SPBGithubChangeProvider new.
 	board usedBuilder: SPBMorphicToolBuilder new.
+	board sidebar: (SPBSidebar new boardProvider: board boardProvider).

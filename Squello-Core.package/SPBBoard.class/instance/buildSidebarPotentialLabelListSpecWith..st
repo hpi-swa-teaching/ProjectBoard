@@ -2,7 +2,7 @@ toolbuilder
 buildSidebarPotentialLabelListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
-			model: self;
+			model: self sidebar;
 			name: #sidebarPotentialLabelList;
 			frame: (0.5@0 corner: 1@1);
 			list: #potentialLabelsList;
