@@ -1,4 +1,4 @@
 event handling
 becomeActiveCard
 	
-	self column board changeActiveCardTo: self.
+	self column changeActiveCardTo: self.
