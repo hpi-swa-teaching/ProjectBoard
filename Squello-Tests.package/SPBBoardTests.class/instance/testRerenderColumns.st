@@ -1,5 +1,5 @@
 as yet unclassified
-testShowLanesButDontRebuildCards
+testRerenderColumns
 
 	| builder columns |
 	builder := SPBMockBuilder new.

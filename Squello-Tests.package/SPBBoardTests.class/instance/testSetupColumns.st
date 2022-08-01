@@ -1,5 +1,5 @@
 as yet unclassified
-testUpdateLanes
+testSetupColumns
 
 	| builder column pasteup |
 	builder := SPBMockBuilder new.

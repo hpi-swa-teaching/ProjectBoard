@@ -1,5 +1,5 @@
 tests
-testAddToNewLaneInMiddle
+testAddToNewColumnInMiddle
 
 	| newCard card1 card2 |
 	newCard := SPBCard new

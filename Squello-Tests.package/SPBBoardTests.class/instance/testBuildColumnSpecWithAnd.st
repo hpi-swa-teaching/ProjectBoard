@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildLaneSpecWithAnd
+testBuildColumnSpecWithAnd
 
 	| spec column |
 	column := SPBColumn new

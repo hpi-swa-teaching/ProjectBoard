@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildAddLaneButtonSpecWith
+testBuildAddColumnButtonSpecWith
 	
 	| spec |
 	spec := board buildAddColumnButtonSpecWith: board usedBuilder.

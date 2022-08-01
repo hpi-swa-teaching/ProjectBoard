@@ -8,7 +8,7 @@
 	"instvars" : [
 		"observed",
 		"column" ],
-	"name" : "SPBLaneTests",
+	"name" : "SPBColumnTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

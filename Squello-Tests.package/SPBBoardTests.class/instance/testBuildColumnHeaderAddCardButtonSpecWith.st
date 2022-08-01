@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildLaneHeaderAddCardButtonSpecWith
+testBuildColumnHeaderAddCardButtonSpecWith
 
 	| column spec |
 	column := SPBColumn new

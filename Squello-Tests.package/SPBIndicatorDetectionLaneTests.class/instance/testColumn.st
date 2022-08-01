@@ -1,5 +1,5 @@
 as yet unclassified
-testLane
+testColumn
 
 	| column |
 	column := SPBColumn new.

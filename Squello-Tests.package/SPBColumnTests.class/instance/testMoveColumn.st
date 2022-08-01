@@ -1,5 +1,5 @@
 tests
-testMoveLane
+testMoveColumn
 
 	| ghosts |
 	ghosts := ActiveHand submorphs select: [:each | each class = SPBGhostLane].

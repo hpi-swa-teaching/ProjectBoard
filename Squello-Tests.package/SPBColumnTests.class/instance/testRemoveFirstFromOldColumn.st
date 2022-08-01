@@ -1,5 +1,5 @@
 tests
-testRemoveFirstFromOldLane
+testRemoveFirstFromOldColumn
 
 	| card1 card2 card3 |
 	card1 := SPBCard new

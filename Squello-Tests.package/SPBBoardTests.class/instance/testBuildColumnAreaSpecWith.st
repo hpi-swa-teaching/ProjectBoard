@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildLaneAreaSpecWith
+testBuildColumnAreaSpecWith
 
 	| spec |
 	

@@ -1,5 +1,5 @@
 as yet unclassified
-testUpdateLanesWithCards
+testUpdateColumns
 
 	| builder columns column1 column2 pasteup1 pasteup2 columnArea |
 	builder := SPBMockBuilder new.

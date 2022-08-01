@@ -1,5 +1,5 @@
 as yet unclassified
-testUpdateLanesAndSidebar
+testUpdateColumnsAndSidebar
 
 	| usedBuilder |
 	usedBuilder := SPBMorphicToolBuilder new.

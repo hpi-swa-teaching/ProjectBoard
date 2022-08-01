@@ -1,5 +1,5 @@
 tests
-testRemoveMiddleFromOldLane
+testRemoveLastFromOldColumn
 
 	| card1 card2 card3 |
 	card1 := SPBCard new
@@ -15,8 +15,8 @@ testRemoveMiddleFromOldLane
 		column: column;
 		id: 42.
 	column cards: (OrderedCollection newFrom: {card1 . card2 . card3}). 
-	column removeFromOldColumn: card2.
+	column removeFromOldColumn: card3.
 	
 	self assert: card1 equals: (column cards at: 1).
-	self assert: card3 equals: (column cards at: 2).
+	self assert: card2 equals: (column cards at: 2).
 	self assert: 2 equals: (column cards size).

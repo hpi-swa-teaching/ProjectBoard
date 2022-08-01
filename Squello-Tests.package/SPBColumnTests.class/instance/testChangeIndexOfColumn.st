@@ -1,5 +1,5 @@
 tests
-testChangeIndexOfLane
+testChangeIndexOfColumn
 	
 	| board usedBuilder otherColumn |
 	otherColumn := SPBColumn new id: 1337.

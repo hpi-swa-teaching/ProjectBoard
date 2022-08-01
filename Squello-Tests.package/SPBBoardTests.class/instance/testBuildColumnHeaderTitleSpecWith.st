@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildLaneHeaderTitleSpecWith
+testBuildColumnHeaderTitleSpecWith
 
 	| column spec |
 	column := SPBColumn new

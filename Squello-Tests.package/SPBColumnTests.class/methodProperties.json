@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "tk 7/30/2022 23:35",
+		"tearDown" : "tk 7/30/2022 23:34",
+		"testAddToNewColumnAsFirst" : "mcr 8/1/2022 02:09",
+		"testAddToNewColumnAsLast" : "mcr 8/1/2022 02:09",
+		"testAddToNewColumnEmptyLane" : "mcr 8/1/2022 02:09",
+		"testAddToNewColumnInMiddle" : "mcr 8/1/2022 02:09",
+		"testBoard" : "tk 7/30/2022 23:34",
+		"testCardDroppedEvent" : "tk 7/30/2022 23:35",
+		"testCards" : "tk 7/30/2022 23:34",
+		"testChangeIndexOfColumn" : "mcr 8/1/2022 02:10",
+		"testId" : "tk 7/30/2022 23:34",
+		"testMoveColumn" : "mcr 8/1/2022 02:10",
+		"testNewFrom" : "tk 7/30/2022 23:36",
+		"testProvider" : "tk 7/30/2022 23:34",
+		"testRemoveFirstFromOldColumn" : "mcr 8/1/2022 02:10",
+		"testRemoveLastFromOldColumn" : "mcr 8/1/2022 02:10",
+		"testRemoveMiddleFromOldColumn" : "mcr 8/1/2022 02:10",
+		"testRemoveOnlyFromOldColumn" : "mcr 8/1/2022 02:10",
+		"testTitle" : "tk 7/30/2022 23:34",
+		"testUpdateTitle" : "tk 7/30/2022 23:34",
+		"update:" : "lo 5/24/2022 23:18" } }

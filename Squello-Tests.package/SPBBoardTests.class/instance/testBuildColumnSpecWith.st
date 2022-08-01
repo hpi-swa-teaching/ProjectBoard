@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildLanesSpecWith
+testBuildColumnSpecWith
 
 	| specs column1 column2 |
 	column1 := SPBColumn new
@@ -10,7 +10,7 @@ testBuildLanesSpecWith
 		title: 'column2'.
 	board columns: {column1 . column2} asOrderedCollection.
 	
-	specs := board buildColumnsSpecWith: board usedBuilder.
+	specs := board buildColumnSpecWith: board usedBuilder.
 	
 	self assert: true equals: (specs isKindOf: OrderedCollection).
 	specs do: [:each | self assert: true equals: (self isColumn: each)].

@@ -1,5 +1,5 @@
 as yet unclassified
-testCreateLanes
+testCreateColumns
 
 	| columns |
 	board createColumns.

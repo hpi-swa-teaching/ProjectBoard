@@ -1,5 +1,5 @@
 as yet unclassified
-testBuildLaneBodySpecWithAnd
+testBuildColumnBodySpecWithAnd
 
 	| column spec pasteup |
 	column := SPBColumn new
