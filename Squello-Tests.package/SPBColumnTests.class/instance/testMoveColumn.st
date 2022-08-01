@@ -3,7 +3,7 @@ testMoveColumn
 
 	| ghosts |
 	column moveColumn.
-	ghosts := ActiveHand submorphs select: [:each | each isColumn].
+	ghosts := ActiveHand submorphs select: [:each | each isCard].
 	
 	self assert: 1 equals: ghosts size.
 	ghosts := ghosts at: 1.
