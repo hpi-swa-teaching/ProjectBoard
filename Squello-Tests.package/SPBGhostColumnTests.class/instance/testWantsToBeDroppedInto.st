@@ -5,8 +5,8 @@ testWantsToBeDroppedInto
 	targetColumn := Morph new.
 	self deny: (ghostColumn wantsToBeDroppedInto: targetColumn).
 	
-	targetColumn := SPBMockLane new.
-	sourceColumn := SPBMockLane new.
+	targetColumn := SPBMockColumn new.
+	sourceColumn := SPBMockColumn new.
 	lanes := {sourceColumn . targetColumn} asOrderedCollection.
 	
 	ghostColumn sourceColumn: sourceColumn.

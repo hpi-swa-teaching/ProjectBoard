@@ -1,5 +1,5 @@
 as yet unclassified
-testSourceLane
+testSourceColumn
 
 	| sourceColumn |
 	sourceColumn := Morph new.

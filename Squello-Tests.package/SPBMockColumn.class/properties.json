@@ -9,7 +9,7 @@
 		"position",
 		"lanes",
 		"newIndex" ],
-	"name" : "SPBMockLane",
+	"name" : "SPBMockColumn",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -7,7 +7,7 @@ testMoveColumn
 	
 	self assert: 1 equals: ghosts size.
 	ghosts := ghosts at: 1.
-	self deny: nil equals: ghosts.
+	self assert: (nil = ghosts) not.
 	self assert: column equals: ghosts sourceColumn.
 	
 	ActiveHand submorphs do: [:each | each abandon].

@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indicatorDetection" ],
-	"name" : "SPBIndicatorDetectionLaneTests",
+		"ghostColumn" ],
+	"name" : "SPBGhostColumnTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
