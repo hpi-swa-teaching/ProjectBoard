@@ -6,6 +6,6 @@ indicateDroppointWith: aSymbol
 	aSymbol = #upper 
 		ifTrue: [indicatorPosition := self position x @ (self position y - self class indicatorCardEdgeOffset)].
 	aSymbol = #lower 
-		ifTrue: [indicatorPosition := self position x @ (self position y + self extent y + self indicatorCardEdgeOffset)].
+		ifTrue: [indicatorPosition := self position x @ (self position y + self extent y + self class indicatorCardEdgeOffset)].
 	
 	self column addIndicatorAt: indicatorPosition.
