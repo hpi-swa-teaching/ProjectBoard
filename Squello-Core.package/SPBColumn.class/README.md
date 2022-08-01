@@ -1,1 +1,1 @@
-Used for showing SPBLanes in an SPBBoard
+Used for showing SPBColumns in an SPBBoard

@@ -1,1 +1,1 @@
-Used for displaying the application
+Used for displaying Squello application

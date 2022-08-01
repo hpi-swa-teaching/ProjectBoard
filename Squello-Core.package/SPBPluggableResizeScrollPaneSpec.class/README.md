@@ -1,0 +1,1 @@
+Spec used for PluggableResizeScrollPane to build PluggableResizeScrollPane.

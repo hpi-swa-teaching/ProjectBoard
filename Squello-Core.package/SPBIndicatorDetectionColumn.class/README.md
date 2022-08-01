@@ -1,0 +1,1 @@
+Used for the indicator detection for columns.

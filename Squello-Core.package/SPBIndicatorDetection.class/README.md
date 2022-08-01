@@ -1,1 +1,1 @@
-dummy morph to catch drag events over cards
+dummy morph to catch drag events over cards.
