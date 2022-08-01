@@ -1,4 +1,4 @@
 accessing
-reject: aBlock
+reject: aBlockClosure
 
-	reject := aBlock.
+	reject := aBlockClosure.

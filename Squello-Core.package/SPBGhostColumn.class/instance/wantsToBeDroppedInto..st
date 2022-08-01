@@ -2,7 +2,7 @@ dropping/grabbing
 wantsToBeDroppedInto: aMorph
 
 	| columnIndex center model xPosition |
-	(aMorph class = SPBPluggablePasteUpMorph or: [aMorph class = SPBMockLane]) 
+	aMorph isColumn
 		ifFalse: [^ false].
 	
 	model := aMorph actionModel.

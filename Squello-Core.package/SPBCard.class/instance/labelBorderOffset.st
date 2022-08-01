@@ -1,0 +1,4 @@
+accessing
+labelBorderOffset
+
+	^ 4.

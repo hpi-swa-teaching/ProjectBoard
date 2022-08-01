@@ -9,9 +9,9 @@ changeIndexOfColumn: aNumber
 		ifTrue: [^ self]. 
 	index < aNumber 
 		ifTrue: [columns 
-						removeAt: index;
-						add: self beforeIndex: aNumber - 1]
+					removeAt: index;
+					add: self beforeIndex: aNumber - 1]
 		ifFalse: [columns
-						removeAt: index;
-						add: self beforeIndex: aNumber].
+					removeAt: index;
+					add: self beforeIndex: aNumber].
 	self board updateColumns.

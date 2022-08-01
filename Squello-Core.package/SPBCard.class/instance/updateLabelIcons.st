@@ -4,7 +4,7 @@ updateLabelIcons
 	| newLabel |
 	self labelMorphs
 		do: [:each | each abandon].
-	self labelMorphs removeAll.
+	self labelMorphs: OrderedCollection new.
   
 	self labels 
 		do: [:label | newLabel := label asMorph.

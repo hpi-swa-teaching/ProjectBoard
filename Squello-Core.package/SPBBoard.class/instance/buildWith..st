@@ -11,8 +11,7 @@ buildWith: aBuilder
 			self buildSidebarSpecWith: aBuilder};
 		yourself.
 		
-	self window: (aBuilder build: spec).
-
-	self setupColumns.
-	
-	^ self window.
+	^ self
+		window: (aBuilder build: spec);
+		setupColumns;
+		window.

@@ -1,0 +1,4 @@
+accessing
+indicatorCardEdgeOffset
+
+	^ 5.

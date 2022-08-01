@@ -4,6 +4,5 @@ setCardHeight
 	| labelHeightsSum |
 	labelHeightsSum := 0.
 	self labelMorphs
-		do: [:each | labelHeightsSum := labelHeightsSum + each extent y + 2].
-	self extent: 280 @ ((self titleMorph extent y + labelHeightsSum + 10) max: 100).
-	
+		do: [:label | labelHeightsSum := labelHeightsSum + label extent y + self inbetweenLabelOffset].
+	self extent: self class defaultCardExtent x @ ((self titleMorph extent y + labelHeightsSum + self labelTitleOffset) max: self class defaultCardExtent y).

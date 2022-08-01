@@ -1,0 +1,4 @@
+*Squello-Core
+isAssignee
+
+	^ false.

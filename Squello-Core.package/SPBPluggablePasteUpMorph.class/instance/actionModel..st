@@ -1,4 +1,4 @@
 accessing
-actionModel: aModel
+actionModel: anSPBColumn
 
-	actionModel := aModel.
+	actionModel := anSPBColumn.

@@ -1,4 +1,4 @@
-accessing
+startup
 registerInAppsMenu
 	
 	TheWorldMenu registerOpenCommand: {

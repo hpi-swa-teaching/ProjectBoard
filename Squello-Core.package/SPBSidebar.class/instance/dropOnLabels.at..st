@@ -1,7 +1,7 @@
 drag and drop
 dropOnLabels: anSPBLabel at: aNumber
 	
-	(anSPBLabel isKindOf: SPBLabel)
+	anSPBLabel isLabel
 		ifFalse: [^ self inform: 'Can only drop labels'].
 		
 	self activeCard addLabel: anSPBLabel.

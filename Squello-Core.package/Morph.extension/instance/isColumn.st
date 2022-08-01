@@ -1,0 +1,4 @@
+*Squello-Core
+isColumn
+
+	^ false.

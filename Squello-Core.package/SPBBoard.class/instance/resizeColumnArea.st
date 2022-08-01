@@ -8,6 +8,7 @@ resizeColumnArea
 	self columns
 		do: [:column | widgetName := ('column', column id asString) asSymbol.
 			(self usedBuilder widgetAt: widgetName) minimumHeight: newMinHeight.
-			column minimumHeight: newMinHeight * 0.85.
-			column resizeBottomDetection.
-			column resizeToFitCards].
+			column 
+				minimumHeight: newMinHeight * 0.85;
+				resizeBottomDetection;
+				resizeToFitCards].

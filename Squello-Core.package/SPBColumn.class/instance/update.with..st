@@ -16,8 +16,7 @@ update: aSymbol with: aDictionary
 						detect: [:column | column id = (aDictionary at: 'after')])) + 1]].
 			
 	((aDictionary at: 'action') = #delete) 
-		ifTrue: [self board columns remove: self.
-			self board updateColumns].
+		ifTrue: [self board removeColumn: self].
 		
 	((aDictionary at: 'action') = #edit)
 		ifTrue: [self title: (aDictionary at: 'title')].

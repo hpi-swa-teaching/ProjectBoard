@@ -2,7 +2,7 @@ initialize-release
 loadProject: aString
 
 	| chosenProject projectNames projects |
-	(aString includesSubstring: '/projects')  
+	(aString includesSubstring: '/projects')
 		ifTrue: [[self boardProvider parseInputBoardUrl: aString]
 						on: Error
 						do: [^ self errorInvalidUrl]]
@@ -10,7 +10,7 @@ loadProject: aString
 						on: Error
 						do: [^ self errorInvalidUrl].
 			projectNames := projects 
-				collect: [:each | each at: 'name'].
+				collect: [:project | project at: 'name'].
 			chosenProject := UIManager default 
 				chooseFrom: projectNames
 				values: projects

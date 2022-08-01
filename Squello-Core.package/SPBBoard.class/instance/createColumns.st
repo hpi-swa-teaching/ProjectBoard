@@ -2,5 +2,5 @@ toolbuilder
 createColumns
 
 	self columns: self boardProvider queryColumns.
-	(self columns)
+	self columns
 		do: [:column | column changeProvider: self changeProvider].

@@ -1,4 +1,4 @@
 drag and drop
-wantsAssigneeDrop: anObject
+wantsAssigneeDrop: anSPBAssignee
 	
-	^ anObject isKindOf: SPBAssignee.
+	^ anSPBAssignee isAssignee.

@@ -3,9 +3,10 @@ initializeIndicator
 	
 	self indicator: 
 			(LineMorph
-				from: 0 @ 0
-				to: 0 @ 0
+				from: 0@0
+				to: 0@0
 				color: Color orange
 				width: 5).
-			self pasteup addMorph: self indicator.
-			self indicator hide.
+	self pasteup addMorph: self indicator.
+	self indicator hide.
+	^ self indicator.

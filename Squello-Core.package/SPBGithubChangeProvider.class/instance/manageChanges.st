@@ -10,5 +10,5 @@ manageChanges
 	self semaphore wait.
 	
 	changes 
-		do: [:each | self parseChange: (each parseAsJson)].
+		do: [:change | self parseChange: (change parseAsJson)].
 	self semaphore signal.

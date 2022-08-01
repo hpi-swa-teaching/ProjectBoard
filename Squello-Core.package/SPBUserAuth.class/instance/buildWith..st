@@ -8,4 +8,5 @@ buildWith: builder
 			exclusive: false;
 			message: 'Insert GitHub authentication data:';
 			children: {self buildInputPanel: builder};
-			buttons: (self buildButtons: builder)).
+			buttons: (self buildButtons: builder);
+			yourself).

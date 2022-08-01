@@ -1,0 +1,4 @@
+accessing
+borderOffset
+
+	^ 4.

@@ -10,7 +10,7 @@ update: aSymbol with: aDictionary
 	((aDictionary at: 'action') = #move)
 		ifTrue: [board := self column board.
 			newColumn := board columns 
-				detect: [:lane | lane id = (aDictionary at: 'laneId')].
+				detect: [:lane | lane id = (aDictionary at: 'columnId')].
 			self openInWorld.
 			newColumn removeFromOldColumn: self.
 			newColumn pasteup addMorph: self.

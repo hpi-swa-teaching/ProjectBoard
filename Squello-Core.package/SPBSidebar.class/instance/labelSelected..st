@@ -1,7 +1,7 @@
 accessing
 labelSelected: anSPBLabel
 
-	(anSPBLabel isKindOf: SPBLabel)
+	anSPBLabel isLabel
 		ifFalse: [^ self].
 	labelSelected := anSPBLabel.
 	self changed: #labelSelected.

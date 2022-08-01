@@ -40,5 +40,7 @@ parseChange: aJsonObject
 	
 	action = 'opened'
 		ifTrue: [^ self].
+	change 
+		ifNil: [^ self].
 	
 	self changed: type with: change.

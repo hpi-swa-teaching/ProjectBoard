@@ -1,4 +1,4 @@
 accessing
-dropped: aSymbol
+dropped: aBlockClosure
 
-	dropped := aSymbol.
+	dropped := aBlockClosure.

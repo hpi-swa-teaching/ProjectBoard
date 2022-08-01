@@ -1,4 +1,4 @@
 drag and drop
-wantsLabelDrop: anObject
+wantsLabelDrop: anSPBLabel
 	
-	^ anObject isKindOf: SPBLabel.
+	^ anSPBLabel isLabel.

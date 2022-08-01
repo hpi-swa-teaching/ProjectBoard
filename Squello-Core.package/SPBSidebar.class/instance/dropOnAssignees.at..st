@@ -1,7 +1,7 @@
 drag and drop
 dropOnAssignees: anSPBAssignee at: aNumber
 	
-	(anSPBAssignee isKindOf: SPBAssignee)
+	anSPBAssignee isAssignee
 		ifFalse: [^ self inform: 'Can only drop assignees'].
 	
 	self activeCard addAssignee: anSPBAssignee.

@@ -2,4 +2,4 @@ actions
 close
 
 	self topView
-		ifNotNil: #delete.
+		ifNotNil: [#delete].

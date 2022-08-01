@@ -1,4 +1,4 @@
 accessing
-indicator: anObject
+indicator: aLineMorph
 
-	indicator := anObject
+	indicator := aLineMorph.

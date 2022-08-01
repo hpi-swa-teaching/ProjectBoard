@@ -5,8 +5,8 @@ addToNewColumn: anSPBCard with: anEvent
 	nextCard := nil.
 	
 	self cards
-		do: [:each | ((each position y + (each extent y / 2)) > anSPBCard center y) 
-			ifTrue: [nextCard ifNil: [nextCard := each]]].
+		do: [:card | ((card position y + (card extent y / 2)) > anSPBCard center y) 
+			ifTrue: [nextCard ifNil: [nextCard := card]]].
 	nextCard
 		ifNil: [self cards addLast: anSPBCard]
 		ifNotNil: [self cards add: anSPBCard before: nextCard].

@@ -1,4 +1,4 @@
 accessing
 labelMorphs
 	
-	^ labelMorphs ifNil: [labelMorphs := (OrderedCollection newFrom: {})].
+	^ labelMorphs ifNil: [labelMorphs := OrderedCollection new].
