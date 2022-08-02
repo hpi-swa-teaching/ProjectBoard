@@ -10,5 +10,6 @@ resizeColumnArea
 			(self usedBuilder widgetAt: widgetName) minimumHeight: newMinHeight.
 			column 
 				minimumHeight: newMinHeight * 0.85;
+				alignCards;
 				resizeBottomDetection;
 				resizeToFitCards].

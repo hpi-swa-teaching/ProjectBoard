@@ -10,7 +10,6 @@
 		"title",
 		"boardProvider",
 		"cards",
-		"cardBuilder",
 		"pasteup",
 		"board",
 		"jsonCards",

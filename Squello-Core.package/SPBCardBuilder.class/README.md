@@ -1,1 +1,0 @@
-Used for building all SPBCards into SPBColumns which are in the SPBBoard

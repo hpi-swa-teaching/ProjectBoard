@@ -5,8 +5,7 @@ setupColumns
 		do: [:column | column pasteup: (self usedBuilder widgetAt: column id).
 			column
 				initializeIndicator;
-				fetchCards;
-				buildCards;
+				fetchAndBuildCards;
 				board: self;
 				resizeToFitCards;
 				initializeBottomDetection].

@@ -6,6 +6,6 @@ addCard
 	cardTitle = '' 
 		ifTrue: [^ self].
 	content := Dictionary newFrom: {'title' -> cardTitle . 'body' -> ''}.
-	self cardBuilder buildNew: content atTop: self.
+	SPBCard buildNew: content into: self.
 	self alignCards.
 	
