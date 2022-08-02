@@ -18,8 +18,6 @@
 		"deleteLabel:fromIssue:user:repo:" : "lo 7/13/2022 19:45",
 		"deleteRequestToURL:withData:" : "mcr 5/28/2022 00:28",
 		"getRequestToURL:" : "mcr 8/2/2022 18:21",
-		"getRequestToURLHeaderOnly:" : "mcr 8/2/2022 18:21",
-		"getRequestToURLWithoutAuth:" : "mcr 8/2/2022 20:01",
 		"getUser:" : "jh 6/1/2022 00:11",
 		"getWebhookChanges:" : "jh 6/26/2022 13:22",
 		"listPossibleAssigneesForUser:repo:" : "mcr 5/28/2022 00:47",

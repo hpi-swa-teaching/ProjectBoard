@@ -1,0 +1,1 @@
+Checks if github token is valid
