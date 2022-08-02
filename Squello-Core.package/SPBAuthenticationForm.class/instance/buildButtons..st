@@ -3,7 +3,7 @@ buildButtons: builder
 
 	^ {builder pluggableButtonSpec new
 			model: self; 
-			label: 'Change';
+			label: 'Submit';
 			action: #actionSaveAndClose;
 			yourself.
 		builder pluggableButtonSpec new

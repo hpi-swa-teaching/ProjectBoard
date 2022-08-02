@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"columnMinimumExtent" : "lo 8/1/2022 13:40",
+		"errorParsingUrl" : "mcr 8/2/2022 22:23",
 		"lastProject" : "tk 7/30/2022 21:54",
 		"lastProject:" : "tk 7/30/2022 21:54",
-		"newWith:" : "NTK 7/30/2022 11:50",
-		"open" : "NTK 6/1/2022 16:41",
+		"newWith:" : "mcr 8/2/2022 22:48",
+		"open" : "mcr 8/2/2022 22:32",
 		"registerInAppsMenu" : "lo 6/4/2022 23:19" },
 	"instance" : {
 		"activeCard" : "mcr 8/1/2022 02:31",
@@ -44,9 +45,11 @@
 		"createColumns" : "lo 8/1/2022 11:11",
 		"createSidebar" : "lo 8/1/2022 11:11",
 		"errorCannotAddColumn:" : "jh 7/31/2022 14:28",
-		"errorInvalidUrl" : "jh 7/31/2022 14:28",
+		"errorInvalidUrl" : "mcr 8/2/2022 22:17",
+		"errorNoProjects" : "mcr 8/2/2022 22:15",
 		"initialize" : "jh 7/29/2022 11:36",
-		"loadProject:" : "lo 8/1/2022 14:22",
+		"loadProject:" : "mcr 8/2/2022 22:15",
+		"parseRepoFromUrl:" : "mcr 8/2/2022 21:15",
 		"removeColumn:" : "lo 8/1/2022 14:09",
 		"rerenderColumns" : "lo 7/31/2022 16:42",
 		"resizeColumnArea" : "lo 8/1/2022 11:12",

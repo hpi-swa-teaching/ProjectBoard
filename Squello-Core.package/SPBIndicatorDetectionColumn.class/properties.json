@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tk 8/1/2022 16:21",
+	"commentStamp" : "mcr 8/1/2022 17:18",
 	"instvars" : [
 		"column" ],
 	"name" : "SPBIndicatorDetectionColumn",

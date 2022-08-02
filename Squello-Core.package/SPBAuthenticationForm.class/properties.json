@@ -8,7 +8,7 @@
 	"instvars" : [
 		"token",
 		"username" ],
-	"name" : "SPBUserAuth",
+	"name" : "SPBAuthenticationForm",
 	"pools" : [
 		 ],
 	"super" : "Model",

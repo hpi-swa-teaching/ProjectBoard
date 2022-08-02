@@ -1,1 +1,1 @@
-dummy morph to catch drag events over cards.
+dummy morph to catch drag events over cards. Used to locate where to draw the incicator line (which indicates where a card will be inserted into the column).

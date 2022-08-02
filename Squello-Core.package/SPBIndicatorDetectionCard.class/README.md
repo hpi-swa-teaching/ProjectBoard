@@ -1,1 +1,1 @@
-Used for the indicator detection on cards.
+Used for the indicator detection when dragging over cards.

@@ -1,1 +1,1 @@
-Used for the indicator detection for columns.
+Used for the indicator detection when dragging over empty columns.

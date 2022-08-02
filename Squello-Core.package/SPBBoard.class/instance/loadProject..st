@@ -5,10 +5,11 @@ loadProject: aString
 	(aString includesSubstring: '/projects')
 		ifTrue: [[self boardProvider parseInputBoardUrl: aString]
 						on: Error
-						do: [^ self errorInvalidUrl]]
+						do: [^ self errorInvalidUrl.]]
 		ifFalse: [[projects := (self boardProvider getProjects: aString)]
 						on: Error
 						do: [^ self errorInvalidUrl].
+			projects isEmpty ifTrue: [self errorNoProjects].
 			projectNames := projects 
 				collect: [:project | project at: 'name'].
 			chosenProject := UIManager default 

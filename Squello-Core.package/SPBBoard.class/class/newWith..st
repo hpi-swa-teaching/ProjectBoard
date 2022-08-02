@@ -1,18 +1,18 @@
 startup
 newWith: aString
 
-	| instance username token |
+	| instance authenticator |
 	instance := self new.
-	username := SPBGithubAPI username.
-	token := SPBGithubAPI token.
+	
+	[instance parseRepoFromUrl: aString]
+		on: Error do: [self errorParsingUrl. ^ self].
+		
+	authenticator := SPBAuthenticator newWith: instance boardProvider.
+	[authenticator authenticate]
+		on: Error do: [^ self].
+		
+	[instance loadProject: aString]
+		on: Error do: [^ self].
 
-	(username isNil or: [token isNil]) ifTrue: [SPBUserAuth open].
-	(username isNil or: [token isNil]) ifTrue: [^ UserDialogBoxMorph inform: 'Authentication dialog was dismissed' title: 'Operation canceled'].
-	
-	(aString beginsWith: 'https://github.com/') ifFalse: 
-		[^ UserDialogBoxMorph inform: 'Invalid repository url' asString title: 'Operation canceled'].
-	
-	instance
-		loadProject: aString;
-		buildAndOpen.
+	instance buildAndOpen.
 	^ instance.

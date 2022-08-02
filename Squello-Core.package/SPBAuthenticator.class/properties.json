@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SquelloCoreServiceProvider",
+		"boardProvider",
+		"token",
+		"username" ],
+	"name" : "SPBAuthenticator",
 	"pools" : [
 		 ],
-	"super" : "ServiceProvider",
+	"super" : "Object",
 	"type" : "normal" }

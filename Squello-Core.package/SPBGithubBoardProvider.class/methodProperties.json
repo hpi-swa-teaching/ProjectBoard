@@ -13,6 +13,8 @@
 		"deleteAssignee:fromCard:" : "LW 7/30/2022 15:42",
 		"deleteLabel:fromCard:" : "lo 7/13/2022 19:44",
 		"getProjects:" : "jh 7/31/2022 14:13",
+		"getRepo" : "mcr 8/2/2022 19:38",
+		"getTokenOAuthScopes" : "mcr 8/2/2022 21:23",
 		"initialize" : "jh 7/31/2022 13:56",
 		"listPossibleAssignees" : "LW 7/14/2022 11:05",
 		"listPossibleLabels" : "tk 7/30/2022 23:08",
