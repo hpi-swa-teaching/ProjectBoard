@@ -8,5 +8,5 @@ buildContent: aString
 		description: (contentJson at: 'body');
 		issueId: (contentJson at: 'number');
 		assignees: ((contentJson at: 'assignees') collect: 
-			[:each | SPBAssignee newFrom: each]) asOrderedCollection;
+			[:assigne | SPBAssignee newFrom: assigne]) asOrderedCollection;
 		labels: (self buildLabels: (contentJson at: 'labels')).

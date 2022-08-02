@@ -7,6 +7,6 @@ updateBalloonText
 			^ self].
 	text := 'Assignees:', Character cr.
 	self assignees 
-		do: [:each | text := text, each asString, Character cr].
+		do: [:assignee | text := text, assignee asString, Character cr].
 	self balloonText: text.
 	

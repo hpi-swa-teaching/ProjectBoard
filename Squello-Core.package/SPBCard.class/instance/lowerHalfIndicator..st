@@ -1,0 +1,4 @@
+accessing
+lowerHalfIndicator: anSPBIndicatorDetectionCard
+
+	lowerHalfIndicator := anSPBIndicatorDetectionCard.

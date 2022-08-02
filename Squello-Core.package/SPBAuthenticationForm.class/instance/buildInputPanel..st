@@ -1,9 +1,9 @@
 toolbuilder
-buildInputPanel: builder
+buildInputPanel: aBuilder
 	
-	^ builder pluggablePanelSpec new
+	^ aBuilder pluggablePanelSpec new
 		model: self;
 		layout: #vertical;
-		children: (self buildInputFields: builder);
+		children: (self buildInputFields: aBuilder);
 		frame: (0@0 corner: 1@1);
 		yourself.

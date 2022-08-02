@@ -1,42 +1,42 @@
 building
-buildResizeScrollPane: spec
+buildResizeScrollPane: aSpec
 
 	| widget panel |
 	widget := self resizeScrollPaneClass new.
-	widget model: spec model.
-	self register: widget id: spec name.
+	widget model: aSpec model.
+	self register: widget id: aSpec name.
 	
-	spec children
-		ifNotNil: [:obj | panel := self pluggablePanelSpec new
-				model: spec model;
-				children: obj;
-				layout: spec layout;
-				horizontalResizing: (spec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
-				verticalResizing: (spec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
+	aSpec children
+		ifNotNil: [:child | panel := self pluggablePanelSpec new
+				model: aSpec model;
+				children: child;
+				layout: aSpec layout;
+				horizontalResizing: (aSpec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
+				verticalResizing: (aSpec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
 				buildWith: self.
 			widget morph: panel]
-		ifNil: [spec morph
-			ifNotNil: [:m | widget morph: m]
-			ifNil: [widget morphClass: spec morphClass]].
+		ifNil: [aSpec morph
+			ifNotNil: [:morph | widget morph: morph]
+			ifNil: [widget morphClass: aSpec morphClass]].
 	
-	self setFrame: spec frame in: widget.
-	self setLayoutHintsFor: widget spec: spec.
+	self setFrame: aSpec frame in: widget.
+	self setLayoutHintsFor: widget spec: aSpec.
 	
 	self parent
 		ifNotNil: [self add: widget to: self parent].
 	
-	spec borderWidth
+	aSpec borderWidth
 		ifNotNil: [:w | widget borderWidth: w].
 	
 	"Set scroll bar policies. By default, use scroll bars only when needed. Do not follow system-wide preferences here."
-	widget scrollBarThickness: spec scrollBarThickness.
-	spec hScrollBarPolicy
+	widget scrollBarThickness: aSpec scrollBarThickness.
+	aSpec hScrollBarPolicy
 		caseOf: {
 			[#always] -> [widget alwaysShowHScrollBar].
 			[#never] -> [widget hideHScrollBarIndefinitely].
 			[#whenNeeded] -> [widget showHScrollBarOnlyWhenNeeded] }
 		otherwise: [widget showHScrollBarOnlyWhenNeeded].
-	spec vScrollBarPolicy
+	aSpec vScrollBarPolicy
 		caseOf: {
 			[#always] -> [widget alwaysShowVScrollBar].
 			[#never] -> [widget hideVScrollBarIndefinitely].

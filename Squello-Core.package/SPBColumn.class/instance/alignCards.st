@@ -3,7 +3,7 @@ alignCards
 	
 	self cardPositions: OrderedCollection new.
 	self cards 
-		withIndexDo: [:each :index | index = 1 
+		withIndexDo: [:card :index | index = 1 
 			ifTrue: [self cardPositions add: 
 				self pasteup position + (self borderOffset @ self class defaultSpaceBetweenCards)]
 			ifFalse: [self cardPositions add:

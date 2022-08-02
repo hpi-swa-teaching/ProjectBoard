@@ -1,14 +1,14 @@
 toolbuilder
-buildInputFields: builder
+buildInputFields: aBuilder
 	
-	^ {builder pluggableInputFieldSpec new
+	^ {aBuilder pluggableInputFieldSpec new
 			model: self;
 			getText: #actionUsername;
 			editText: #actionUsername:;
 			setText: #actionUsername:;
 			help: 'GitHub username.';
 			yourself.
-		builder pluggableInputFieldSpec new
+		aBuilder pluggableInputFieldSpec new
 			model: self;
 			font: (StrikeFont passwordFontSize: 12);
 			getText: #actionToken;

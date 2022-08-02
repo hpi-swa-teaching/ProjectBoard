@@ -1,8 +1,8 @@
 updating-local
 resizeIndicatorFields
 	
-	self upperHalfMorph 
+	self upperHalfIndicator 
 		extent: self cardIndicatorExtent.
-	self lowerHalfMorph 
-		position: self position + (0 @ self extent y / 2);
+	self lowerHalfIndicator 
+		position: self position + (0@ self extent y / 2);
 		extent: self cardIndicatorExtent.

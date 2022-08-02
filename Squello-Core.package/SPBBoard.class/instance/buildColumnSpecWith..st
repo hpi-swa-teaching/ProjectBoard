@@ -1,4 +1,4 @@
 toolbuilder
 buildColumnSpecWith: aBuilder
 	
-	^ self columns collect: [:each | self buildColumnSpecWith: aBuilder and: each].
+	^ self columns collect: [:column | self buildColumnSpecWith: aBuilder and: column].

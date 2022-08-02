@@ -7,7 +7,7 @@ addColumn
 		ifTrue: [^ self].
 	[column := self boardProvider createColumn: prompt]
 		on: Error
-		do: [:ex | ^ self errorCannotAddColumn: ex messageText].
+		do: [:error | ^ self errorCannotAddColumn: error messageText].
 	
 	column 
 		board: self;

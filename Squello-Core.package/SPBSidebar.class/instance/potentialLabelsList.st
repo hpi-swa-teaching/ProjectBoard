@@ -9,4 +9,4 @@ potentialLabelsList
 	potentialLabels
 		ifNil: [^ self potentialLabelsListHeader].
 	^ self potentialLabelsListHeader, 
-		potentialLabels select: [:each | (labels anySatisfy: [:elem | elem = each]) not].
+		potentialLabels select: [:potentialLabel | (labels anySatisfy: [:label | label = potentialLabel]) not].

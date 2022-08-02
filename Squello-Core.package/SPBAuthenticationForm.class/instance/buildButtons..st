@@ -1,12 +1,12 @@
 toolbuilder
-buildButtons: builder
+buildButtons: aBuilder
 
-	^ {builder pluggableButtonSpec new
+	^ {aBuilder pluggableButtonSpec new
 			model: self; 
 			label: 'Submit';
 			action: #actionSaveAndClose;
 			yourself.
-		builder pluggableButtonSpec new
+		aBuilder pluggableButtonSpec new
 			model: self; 
 			label: 'Cancel';
 			action: #actionCancel;

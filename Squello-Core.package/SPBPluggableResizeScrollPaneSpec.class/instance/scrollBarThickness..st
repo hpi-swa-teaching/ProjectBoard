@@ -1,4 +1,4 @@
 accessing
-scrollBarThickness: anObject
+scrollBarThickness: aNumber
 
-	scrollBarThickness := anObject.
+	scrollBarThickness := aNumber.

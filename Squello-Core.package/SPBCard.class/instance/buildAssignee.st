@@ -8,4 +8,4 @@ buildAssignee
 		
 	self
 		addMorph: assigneeMorph;
-		assigneeMorph: assigneeMorph.
+		assigneeModel: assigneeMorph.

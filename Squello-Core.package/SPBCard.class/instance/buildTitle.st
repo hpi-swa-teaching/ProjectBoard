@@ -9,5 +9,5 @@ buildTitle
 		yourself.
 		
 	self
-		titleMorph: titleMorph;
+		titleModel: titleMorph;
 		addMorph: titleMorph.

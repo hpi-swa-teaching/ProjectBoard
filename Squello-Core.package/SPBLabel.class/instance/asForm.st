@@ -9,4 +9,4 @@ asForm
 			extent: self extent
 			depth: self formDepth
 			fromArray: array
-			offset: (0@0).
+			offset: 0@0.

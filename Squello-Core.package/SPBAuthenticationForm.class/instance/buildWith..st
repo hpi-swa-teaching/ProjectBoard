@@ -1,12 +1,12 @@
 toolbuilder
-buildWith: builder
+buildWith: aBuilder
 
-	^ builder build: (builder pluggableDialogSpec new
+	^ aBuilder build: (aBuilder pluggableDialogSpec new
 			model: self;
 			label: #labelString;
 			extent: 600@60;
 			exclusive: false;
 			message: 'Insert GitHub authentication data:';
-			children: {self buildInputPanel: builder};
-			buttons: (self buildButtons: builder);
+			children: {self buildInputPanel: aBuilder};
+			buttons: (self buildButtons: aBuilder);
 			yourself).

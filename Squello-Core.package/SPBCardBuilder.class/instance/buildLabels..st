@@ -1,4 +1,4 @@
 building
 buildLabels: aJsonObject
 	
-	^ (aJsonObject collect: [:each | SPBLabel newFrom: each]) asOrderedCollection.
+	^ (aJsonObject collect: [:label | SPBLabel newFrom: label]) asOrderedCollection.

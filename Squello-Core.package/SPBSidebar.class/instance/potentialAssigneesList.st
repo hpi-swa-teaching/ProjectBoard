@@ -9,4 +9,4 @@ potentialAssigneesList
 	potentialAssignees
 		ifNil: [^ self potentialAssigneesListHeader].
 	^ self potentialAssigneesListHeader, 
-		potentialAssignees select: [:each | (assignees anySatisfy: [:elem | elem = each]) not].
+		potentialAssignees select: [:potentialAssignee | (assignees anySatisfy: [:assignee | assignee = potentialAssignee ]) not].

@@ -2,13 +2,13 @@ updating-local
 updateLabelIcons
 
 	| newLabel |
-	self labelMorphs
-		do: [:each | each abandon].
-	self labelMorphs: OrderedCollection new.
+	self labelModels
+		do: [:label | label abandon].
+	self labelModels: OrderedCollection new.
   
 	self labels 
 		do: [:label | newLabel := label asMorph.
-			self labelMorphs add: newLabel.
+			self labelModels add: newLabel.
 			self addMorph: newLabel.
 			self alignLabels].
 	self column

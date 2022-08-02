@@ -1,4 +1,4 @@
 accessing
-boardProvider: anObject
+boardProvider: aProvider
 
-	boardProvider := anObject.
+	boardProvider := aProvider.

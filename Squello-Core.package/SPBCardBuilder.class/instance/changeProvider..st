@@ -1,4 +1,4 @@
 accessing
-changeProvider: anObject
+changeProvider: aProvider
 
-	changeProvider := anObject
+	changeProvider := aProvider
