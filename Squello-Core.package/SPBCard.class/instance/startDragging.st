@@ -3,4 +3,6 @@ startDragging
 	
 	ActiveHand attachMorph: self.
 	(self column isLastCard: self) 
-		ifTrue: [self column resizeBottomDetectionIgnoreLastCard].
+		ifTrue: [self column 
+								removeFromOldColumn: self;
+								resizeBottomDetection].
