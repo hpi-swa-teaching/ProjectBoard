@@ -1,5 +1,5 @@
 authentication
-checkIfTokenValidFor
+checkIfTokenValid
 	
 	| tokenScopes repo |
 	[tokenScopes := self getTokenScopes]

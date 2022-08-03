@@ -7,5 +7,5 @@ authenticate
 	self checkIfCredentialsMissing 
 		ifTrue: [self errorAuthenticationCanceled. Error signal].
 		
-	[self checkIfTokenValidFor]
+	[self checkIfTokenValid]
 		on: Error do: [Error signal].
