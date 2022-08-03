@@ -5,3 +5,4 @@ removeFromOldColumn: anSPBCard
 		remove: anSPBCard 
 			ifAbsent: [].
 	anSPBCard column resizeToFitCards.
+	anSPBCard column alignCards.

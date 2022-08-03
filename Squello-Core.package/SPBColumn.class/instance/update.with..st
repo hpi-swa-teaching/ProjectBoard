@@ -11,9 +11,7 @@ update: aSymbol with: aDictionary
 		ifTrue: [((aDictionary at: 'after') isNil)
 			ifTrue: [self changeIndexOfColumn: 1]
 			ifFalse: [self changeIndexOfColumn: 
-				(self board columns 
-					indexOf: (self board columns 
-						detect: [:column | column id = (aDictionary at: 'after')])) + 1]].
+				(self board indexOfColumn: (aDictionary at: 'after')) + 1]].
 			
 	((aDictionary at: 'action') = #delete) 
 		ifTrue: [self board removeColumn: self].

@@ -1,26 +1,14 @@
 updating
 update: aSymbol with: aDictionary
 
-	| board newColumn label assignee |
+	| label assignee |
 	aSymbol = #card
 		ifFalse: [^ self].
 	(self id = (aDictionary at: 'id') or: [self issueId = (aDictionary at: 'id')])
 		ifFalse: [^ self].
 	
 	((aDictionary at: 'action') = #move)
-		ifTrue: [board := self column board.
-			newColumn := board columns 
-				detect: [:lane | lane id = (aDictionary at: 'columnId')].
-			self openInWorld.
-			newColumn removeFromOldColumn: self.
-			newColumn pasteup addMorph: self.
-			(aDictionary at: 'after')
-				ifNil: [newColumn cards addFirst: self]
-				ifNotNil: [newColumn cards add: self after: (newColumn cards detect: [:card | card id = (aDictionary at: 'after')])].
-			newColumn resizeToFitCards.
-			self column alignCards.
-			newColumn alignCards.
-			self column: newColumn].
+		ifTrue: [self moveCardWith: aDictionary].
 		
 	((aDictionary at: 'action') = #delete) 
 		ifTrue: [self column deleteCard: self].
