@@ -16,3 +16,7 @@ Download the latest `.sar` from the [releases section](https://github.com/hpi-sw
 Squello needs a *Personal Access Token* to access the Github api. The scope of the token is dependent on your use case:
 - If you are using *only* public repositories / project boards, the `public_repo` scope is sufficient ([Click here to generate a token with the proper scope](https://github.com/settings/tokens/new?description=Squello&scopes=public_repo))
 - If you are using one or more private repositories / project boards, the `public_repo` scope is *not* sufficient. Instead you need to grant squello full access to your repositories (`repo` scope). ([Click here to generate a token with the proper scope](https://github.com/settings/tokens/new?description=Squello&scopes=repo))
+
+### please note:
+
+At the moment squello can only display cards that are issues or pull requests. If you open a board that has notes on it, they won't be displayed in Squello. If you create a new card inside Squello, this will open an issue on github.
