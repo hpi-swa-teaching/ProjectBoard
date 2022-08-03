@@ -1,7 +1,6 @@
 updating
 update: aSymbol with: aDictionary
 
-	| cardJson |
 	aSymbol = #column 
 		ifFalse: [^ self].
 	(self id = (aDictionary at: 'id')) 
@@ -20,5 +19,4 @@ update: aSymbol with: aDictionary
 		ifTrue: [self title: (aDictionary at: 'title')].
 	
 	((aDictionary at: 'action') = #create) 
-		ifTrue: [cardJson := self fetchSingleCard: (aDictionary at: 'card').
-			self buildSingleCard: cardJson].
+		ifTrue: [self fetchAndBuildSingleCard: (aDictionary at: 'card')].

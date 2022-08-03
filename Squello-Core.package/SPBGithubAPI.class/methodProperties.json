@@ -26,12 +26,12 @@
 		"moveColum:withPostData:" : "tk 7/30/2022 21:58",
 		"patchRequestToURL:withData:" : "mcr 5/28/2022 03:00",
 		"postRequestToURL:withData:" : "mcr 5/31/2022 16:46",
-		"queryCard:" : "jh 7/10/2022 12:51",
 		"queryCardContent:" : "mcr 5/28/2022 02:33",
 		"queryCards:" : "mcr 5/28/2022 02:31",
 		"queryColumns:" : "mcr 5/28/2022 02:31",
 		"queryProjectsForUser:repo:" : "jh 6/1/2022 00:56",
 		"queryScopeHeaderOnly:" : "mcr 8/2/2022 21:23",
+		"querySingleCard:" : "mcr 8/3/2022 14:18",
 		"queryUser:repo:" : "mcr 8/2/2022 21:06",
 		"updateColumn:withData:" : "lo 7/13/2022 20:28",
 		"updateIssue:withData:user:repo:" : "lo 7/13/2022 20:29" } }

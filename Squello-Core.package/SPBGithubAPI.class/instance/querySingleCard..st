@@ -1,5 +1,5 @@
 api calls get request
-queryCard: aNumber
+querySingleCard: aNumber
 
 	"aNumber => Card ID"
 	| url |

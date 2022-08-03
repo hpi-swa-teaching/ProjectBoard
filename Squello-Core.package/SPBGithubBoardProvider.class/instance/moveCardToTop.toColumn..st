@@ -1,4 +1,4 @@
-cards
+columns
 moveCardToTop: anSPBCard toColumn: anSPBColumn
 
 	| payload |

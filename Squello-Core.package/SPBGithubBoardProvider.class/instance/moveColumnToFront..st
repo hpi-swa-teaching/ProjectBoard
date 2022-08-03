@@ -1,4 +1,4 @@
-cards
+columns
 moveColumnToFront: anSPBColumn
 
 	| payload |

@@ -8,7 +8,8 @@
 		"assignee:" : "lo 7/31/2022 17:35",
 		"card" : "lo 7/31/2022 17:35",
 		"card:" : "lo 7/31/2022 17:35",
-		"createCard:into:" : "mcr 7/3/2022 23:42",
+		"createCardsFromColumn:" : "mcr 8/3/2022 13:59",
+		"createNewCard:into:" : "mcr 8/3/2022 13:59",
 		"deleteAssignee:fromCard:" : "lo 7/31/2022 17:46",
 		"deleteLabel:fromCard:" : "lo 7/31/2022 17:47",
 		"label" : "lo 7/31/2022 17:55",
@@ -19,7 +20,6 @@
 		"moveCardToTop:toColumn:" : "mcr 6/3/2022 13:17",
 		"moveColumn:after:" : "tk 7/30/2022 22:00",
 		"queryCardContent:" : "mcr 7/3/2022 23:36",
-		"queryCardsForColumn:" : "tk 7/30/2022 22:01",
 		"queryColumns" : "tk 7/30/2022 23:31",
 		"renameColumn:to:" : "mcr 6/3/2022 14:01",
 		"updateCard:" : "lo 5/22/2022 15:47" } }

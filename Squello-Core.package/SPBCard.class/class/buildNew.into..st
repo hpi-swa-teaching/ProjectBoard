@@ -1,9 +1,10 @@
-accessing
+instance creation
 buildNew: aDictionary into: anSPBColumn
-
-	| instance cardJson boardProvider |
+	"called when a card is added local on squello"
+	
+	| instance boardProvider |
 	boardProvider := anSPBColumn boardProvider.
-	cardJson := boardProvider createCard: aDictionary into: anSPBColumn.
-	instance := self newFrom: cardJson with: anSPBColumn.
+	instance := boardProvider createNewCard: aDictionary into: anSPBColumn.
 	instance setCardColumnAtTop: anSPBColumn.
+	
 	^ instance.

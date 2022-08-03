@@ -1,4 +1,4 @@
-cards
+columns
 moveColumn: anSPBColumn after: anotherSPBColumn
 
 	"move anSPBColumn after column with ID = aNumber"

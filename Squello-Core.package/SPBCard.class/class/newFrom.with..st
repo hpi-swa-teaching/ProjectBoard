@@ -1,4 +1,4 @@
-accessing
+instance creation
 newFrom: aJsonObject with: anSPBColumn
 
 	^ self new

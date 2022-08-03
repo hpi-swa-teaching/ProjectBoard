@@ -1,4 +1,4 @@
-accessing
+initialization
 buildUI
 	
 	self titleModel contents: self title.
