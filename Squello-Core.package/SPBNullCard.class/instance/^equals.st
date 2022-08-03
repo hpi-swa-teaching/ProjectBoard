@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anSPBAbstractCard
 	"Answer whether the receiver and anObject represent the same object."
 

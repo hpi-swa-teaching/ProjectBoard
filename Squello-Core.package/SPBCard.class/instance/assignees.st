@@ -1,4 +1,4 @@
 accessing
 assignees
 
-	^ assignees ifNil: [assignees := #() asCollection].
+	^ assignees ifNil: [assignees := OrderedCollection new].

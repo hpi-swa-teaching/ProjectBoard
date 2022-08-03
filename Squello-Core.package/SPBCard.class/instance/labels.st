@@ -1,4 +1,4 @@
 accessing
 labels
 
-	^ labels ifNil: [labels := #() asCollection].
+	^ labels ifNil: [labels := OrderedCollection new].
