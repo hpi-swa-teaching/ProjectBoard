@@ -1,4 +1,4 @@
-toolbuilder
+building
 createSidebar
 
 	self sidebar: 

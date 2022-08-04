@@ -1,4 +1,4 @@
-initialize-release
+errors
 errorNoProjects
 	
 	UserDialogBoxMorph 

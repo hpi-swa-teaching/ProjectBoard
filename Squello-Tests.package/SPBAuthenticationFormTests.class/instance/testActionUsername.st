@@ -3,9 +3,9 @@ testActionUsername
 
 	| user |
 	
-	self assert: SPBGithubAPI username equals: auth actionUsername.
+	self assert: SPBGithubAPI username equals: auth username.
 	
 	user := 'Username'.
-	auth actionUsername: user.
+	auth updateUsername: user.
 	
-	self assert: user equals: auth actionUsername.
+	self assert: user equals: auth username.

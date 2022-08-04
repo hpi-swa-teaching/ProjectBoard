@@ -4,7 +4,7 @@ buildButtons: aBuilder
 	^ {aBuilder pluggableButtonSpec new
 			model: self; 
 			label: 'Submit';
-			action: #actionSaveAndClose;
+			action: #actionSubmit;
 			yourself.
 		aBuilder pluggableButtonSpec new
 			model: self; 

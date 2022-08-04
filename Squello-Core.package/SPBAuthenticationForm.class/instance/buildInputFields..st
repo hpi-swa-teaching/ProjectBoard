@@ -3,16 +3,16 @@ buildInputFields: aBuilder
 	
 	^ {aBuilder pluggableInputFieldSpec new
 			model: self;
-			getText: #actionUsername;
-			editText: #actionUsername:;
-			setText: #actionUsername:;
+			getText: #username;
+			editText: #updateUsername:;
+			setText: #updateUsername:;
 			help: 'GitHub username.';
 			yourself.
 		aBuilder pluggableInputFieldSpec new
 			model: self;
 			font: (StrikeFont passwordFontSize: 12);
-			getText: #actionToken;
-			editText: #actionToken:;
-			setText: #actionToken:;
+			getText: #token;
+			editText: #updateToken:;
+			setText: #updateToken:;
 			help: 'GitHub access token';
 			yourself}.

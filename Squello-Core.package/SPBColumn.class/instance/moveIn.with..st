@@ -6,8 +6,7 @@ moveIn: anSPBCard with: anEvent
 	self changeColumnRemoteFor: anSPBCard.
 	self indicator hide.
 	anSPBCard column = self 
-		ifTrue: [self alignCards. 
-			^ self].
+		ifTrue: [self alignCards. ^ self].
 	oldColumn := anSPBCard column.
 	oldColumn 
 		alignCards;

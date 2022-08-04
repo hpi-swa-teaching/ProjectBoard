@@ -5,7 +5,8 @@ addIndicatorAtBottom
 	self cards isEmpty
 		ifFalse:
 			[bottomCard := self cards last.
-			bottomPoint := bottomCard position x @ (bottomCard position y + bottomCard extent y + SPBCard indicatorCardEdgeOffset).
+			bottomPoint := bottomCard position x @ 
+				(bottomCard position y + bottomCard extent y + SPBCard indicatorCardEdgeOffset).
 			globalBottomPoint := bottomCard positionInWorld]
 		ifTrue:
 			[bottomPoint := 0@0.

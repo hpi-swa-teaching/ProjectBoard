@@ -1,5 +1,5 @@
 actions
-actionUsername: aText
+updateUsername: aText
 
 	self
 		username: aText asString;

@@ -2,8 +2,7 @@ updating-local
 updateLabelIcons
 
 	| newLabel |
-	self labelModels
-		do: [:label | label abandon].
+	self labelModels do: [:label | label abandon].
 	self labelModels: OrderedCollection new.
   
 	self labels 
@@ -11,5 +10,4 @@ updateLabelIcons
 			self labelModels add: newLabel.
 			self addMorph: newLabel.
 			self alignLabels].
-	self column
-		ifNotNil: [self resizeCard. self column resizeToFitCards].
+	self column ifNotNil: [self resizeCard. self column resizeToFitCards].

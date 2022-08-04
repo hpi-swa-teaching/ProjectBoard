@@ -1,4 +1,4 @@
-initialize-release
+errors
 errorInvalidUrl
 	
 	UserDialogBoxMorph 

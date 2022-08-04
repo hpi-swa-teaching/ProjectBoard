@@ -6,8 +6,7 @@ buildTitle
 		wrapFlag: true;
 		lock;
 		width: self extent x;
-		yourself.
-		
+		yourself.	
 	self
 		titleModel: titleMorph;
 		addMorph: titleMorph.

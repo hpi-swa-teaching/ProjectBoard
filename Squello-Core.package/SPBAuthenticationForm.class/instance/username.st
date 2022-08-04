@@ -1,4 +1,4 @@
 accessing
 username
 
-	^ username.
+	^ username ifNil: [username := SPBGithubAPI username].

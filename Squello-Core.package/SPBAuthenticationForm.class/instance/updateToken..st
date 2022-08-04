@@ -1,5 +1,5 @@
 actions
-actionToken: aText
+updateToken: aText
 
 	self
 		token: aText asString;

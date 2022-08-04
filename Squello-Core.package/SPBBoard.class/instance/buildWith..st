@@ -7,11 +7,11 @@ buildWith: aBuilder
 		model: self;
 		label: 'Squello Project Board';
 		minimumExtent: 1040@400;
-		children: {self buildColumnAreaSpecWith: aBuilder.
+		children: 
+			{self buildColumnAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
 		yourself.
 		
 	^ self
 		window: (aBuilder build: spec);
-		setupColumns;
 		window.

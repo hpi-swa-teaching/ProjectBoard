@@ -2,9 +2,9 @@ tests
 testActionToken
 
 	| token |
-	self assert: SPBGithubAPI token equals: auth actionToken.
+	self assert: SPBGithubAPI token equals: auth token.
 	
 	token := 'SeCrEtToKeN'.
-	auth actionToken: token.
+	auth updateToken: token.
 	
-	self assert: token equals: auth actionToken.
+	self assert: token equals: auth token.

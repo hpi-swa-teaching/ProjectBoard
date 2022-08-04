@@ -4,8 +4,7 @@ indicateDroppointWith: aSymbol
 	"aSymbol \in {#upper, #lower}"
 	| indicatorPosition |
 	aSymbol = #upper 
-		ifTrue: [indicatorPosition := self position x @ (self position y - self class indicatorCardEdgeOffset)].
+		ifTrue: [indicatorPosition := self defaultUpperIndicatorPosition].
 	aSymbol = #lower 
-		ifTrue: [indicatorPosition := self position x @ (self position y + self extent y + self class indicatorCardEdgeOffset)].
-	
+		ifTrue: [indicatorPosition := self defaultLowerIndicatorPosition].
 	self column addIndicatorAt: indicatorPosition.
