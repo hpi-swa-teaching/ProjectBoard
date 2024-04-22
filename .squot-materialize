@@ -1,0 +1,20 @@
+[
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfSquello'
+		},
+		#path : FSAbsolutePath [ ]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Squello-Tests'
+		},
+		#path : FSAbsolutePath [ ]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Squello-Core'
+		},
+		#path : FSAbsolutePath [ ]
+	}
+]
