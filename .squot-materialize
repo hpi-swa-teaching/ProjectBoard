@@ -1,4 +1,44 @@
 [
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'LICENSE'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'fly.toml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Squello-Core'
+		},
+		#path : FSAbsolutePath [ ]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'release.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.release.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'config.ru'
+		],
+		#encoding : 'TXT'
+	},
 	SquotCypressMapper {
 		#package : MCPackage {
 			#name : 'BaselineOfSquello'
@@ -11,10 +51,73 @@
 		},
 		#path : FSAbsolutePath [ ]
 	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'Squello-Core'
-		},
-		#path : FSAbsolutePath [ ]
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'hook.rb'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'Gemfile.lock'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'ISSUE_TEMPLATE',
+			'new-user-story.md'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'packages',
+			'.filetree'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.squot'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'README.md'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'Gemfile'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'scripts',
+			'preLoading.st'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'ci.yml'
+		],
+		#encoding : 'TXT'
 	}
 ]
