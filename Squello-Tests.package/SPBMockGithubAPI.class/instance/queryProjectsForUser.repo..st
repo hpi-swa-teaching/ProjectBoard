@@ -5,9 +5,11 @@ queryProjectsForUser: aString repo: anotherString
 	^	{
 		JsonObject new
 			at: 'id' put: 14427987;
-			at: 'name' put: 'test1'.
+			at: 'name' put: 'test1';
+			yourself.
 			
 		JsonObject new
 			at: 'id' put: 100000;
-			at: 'name' put: 'test2'
+			at: 'name' put: 'test2';
+			yourself.
 		}

@@ -5,7 +5,8 @@ queryCardContent: anUrl
 	userJson := JsonObject new
 		at: 'id' put: 37272151;
 		at: 'login' put: 'test';
-		at: 'url' put: 'https://api.github.com/users/test'.
+		at: 'url' put: 'https://api.github.com/users/test';
+		yourself.
 		
 	^ JsonObject new
 		at: 'id' put: 1235941519;
@@ -16,6 +17,7 @@ queryCardContent: anUrl
 		at: 'repository_url' put: 'https://api.github.com/repos/test/test';
 		at: 'assignees' put: #();
 		at: 'labels' put: #();
-		at: 'user' put: userJson
+		at: 'user' put: userJson;
+		yourself.
 	
 	

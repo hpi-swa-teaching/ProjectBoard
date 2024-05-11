@@ -2,4 +2,5 @@ as yet unclassified
 renameColumn: aSPBLane to: aString
 
 	^ JsonObject new
-		at: 'name' put: aString.
+		at: 'name' put: aString;
+		yourself.

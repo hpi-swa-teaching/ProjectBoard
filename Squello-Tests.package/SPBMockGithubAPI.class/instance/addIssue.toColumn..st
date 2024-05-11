@@ -9,4 +9,5 @@ addIssue: aDictionary toColumn: aNumber
 	
 	^	JsonObject new
 			at: 'column_url' put: column_url;
-			at: 'content_url' put: content_url.
+			at: 'content_url' put: content_url;
+			yourself.
