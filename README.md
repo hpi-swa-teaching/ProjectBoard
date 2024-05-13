@@ -19,4 +19,4 @@ Squello needs a *Personal Access Token* to access the Github api. The scope of t
 
 ### please note:
 
-At the moment Squello can only display cards that are issues or pull requests. If you open a board that has notes on it, they won't be displayed in Squello. If you create a new card inside Squello, this will open an issue on github.
+At the moment Squello can only display cards that are issues or pull requests. If you open a board that has notes on it, they won't be displayed in Squello. If you create a new card inside Squello, this will open an issue on GitHub.
