@@ -1,7 +1,7 @@
 general changes
 manageChanges
 	
-	| changes |
+	"| changes |
 	self semaphore isSignaled
 		ifTrue: [self semaphore wait].
 	
@@ -11,4 +11,4 @@ manageChanges
 	
 	changes 
 		do: [:change | self parseChange: (change parseAsJson)].
-	self semaphore signal.
+	self semaphore signal."
