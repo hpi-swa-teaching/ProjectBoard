@@ -19,7 +19,8 @@
 		"upperHalfIndicator",
 		"titleModel",
 		"assigneeModel",
-		"labelModels" ],
+		"labelModels",
+		"isNote" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],

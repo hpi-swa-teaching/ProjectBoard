@@ -8,7 +8,7 @@
 		"api:" : "tk 7/30/2022 22:20",
 		"checkForError:" : "jh 7/31/2022 13:54",
 		"checkIfUserExists:" : "NTK 7/30/2022 12:45",
-		"createCardsFromColumn:" : "mcr 8/3/2022 15:41",
+		"createCardsFromColumn:" : "FP 5/20/2024 20:01",
 		"createColumn:" : "jh 7/31/2022 13:54",
 		"createNewCard:into:" : "mcr 8/3/2022 13:59",
 		"createSingleCard:into:" : "mcr 8/4/2022 02:10",
@@ -33,7 +33,7 @@
 		"renameColumn:to:" : "tk 7/30/2022 22:22",
 		"repo" : "mcr 5/22/2022 01:01",
 		"repo:" : "mcr 5/22/2022 01:02",
-		"updateCard:" : "lo 7/13/2022 20:29",
+		"updateCard:" : "FP 5/21/2024 11:22",
 		"user" : "mcr 5/22/2022 01:02",
 		"user:" : "mcr 5/22/2022 01:02",
 		"webhookId" : "NTK 7/30/2022 12:46" } }

@@ -6,7 +6,7 @@ newFrom: aJsonObject with: anSPBColumn
 		boardProvider: anSPBColumn boardProvider;
 		changeProvider: anSPBColumn changeProvider;
 		setupMouseEvents;
-		buildContent: (aJsonObject at: 'content_url');
+		buildCard: aJsonObject;
 		buildUI;
 		openInWorld;
 		yourself.

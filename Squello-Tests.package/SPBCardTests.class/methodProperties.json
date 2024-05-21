@@ -5,6 +5,8 @@
 		"setUp" : "lo 7/31/2022 17:47",
 		"tearDown" : "lo 5/22/2022 15:36",
 		"testBecomeActiveCard" : "mcr 8/1/2022 01:35",
+		"testBuildIssueFromJson" : "FP 5/21/2024 11:51",
+		"testBuildNoteFromJson" : "FP 5/21/2024 12:07",
 		"testCurrentLane" : "tk 7/30/2022 23:24",
 		"testDescription" : "lo 5/22/2022 16:34",
 		"testDontUpdateDescription" : "lo 5/22/2022 16:35",

@@ -1,13 +1,8 @@
 cards
 createCardsFromColumn: anSPBColumn
 	
-	| cardsJson onlyIssueCardsJson |
+	| cardsJson |
 	cardsJson := (self api queryCards: anSPBColumn id) asOrderedCollection.
 	
-	"at the moment we can just display issues and pull requests. 
-	If a card is a note (than it has no content_url) it will be skipped"
-	onlyIssueCardsJson := cardsJson
-		reject: [:cardJson | (cardJson at: 'content_url') isNil].
-	
-	onlyIssueCardsJson
+	cardsJson
 		do: [:cardJson | SPBCard buildFromRemote: cardJson into: anSPBColumn].
