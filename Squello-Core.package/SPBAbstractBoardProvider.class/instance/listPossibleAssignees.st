@@ -1,0 +1,4 @@
+assignees
+listPossibleAssignees
+
+	self subclassResponsibility.

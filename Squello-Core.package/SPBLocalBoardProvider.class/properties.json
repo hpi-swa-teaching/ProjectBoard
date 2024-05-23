@@ -4,14 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lo 5/16/2022 20:46",
+	"commentStamp" : "",
 	"instvars" : [
 		"user",
 		"repo",
-		"api",
-		"projectId",
-		"webhookId" ],
-	"name" : "SPBGithubBoardProvider",
+		"currentId" ],
+	"name" : "SPBLocalBoardProvider",
 	"pools" : [
 		 ],
 	"super" : "SPBAbstractBoardProvider",

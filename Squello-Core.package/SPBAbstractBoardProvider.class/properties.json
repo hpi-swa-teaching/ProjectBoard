@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPBAbstractBoardProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

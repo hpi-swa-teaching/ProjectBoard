@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"newFrom:" : "mcr 8/4/2022 02:14" },
+		"newFrom:" : "mcr 8/4/2022 02:14",
+		"newWithName:id:color:" : "FP 5/23/2024 10:08" },
 	"instance" : {
 		"=" : "jh 7/31/2022 13:05",
 		"asForm" : "tk 8/2/2022 23:37",

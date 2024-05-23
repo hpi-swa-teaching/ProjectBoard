@@ -5,7 +5,8 @@
 		"buildNewFromRemote:into:" : "mcr 8/3/2022 14:56",
 		"defaultCardExtent" : "lo 8/1/2022 12:18",
 		"indicatorCardEdgeOffset" : "lo 8/1/2022 12:23",
-		"newFrom:with:" : "FP 5/20/2024 19:15" },
+		"newFrom:with:" : "FP 5/20/2024 19:15",
+		"newWithTitle:body:id:into:" : "FP 5/23/2024 10:26" },
 	"instance" : {
 		"=" : "lo 7/31/2022 18:14",
 		"addAssignee:" : "lo 7/31/2022 16:22",
