@@ -5,6 +5,6 @@ open
 	prompt := self promptUrl.
 	prompt = '' ifTrue: [^ self].
 	self lastProject: prompt.
-	(prompt beginsWith: 'local') ifTrue: [^ self newLocalWith: prompt].
+	(prompt beginsWith: self localPrefix) ifTrue: [^ self openLocal: prompt].
 	^ self newWith: prompt.
 	

@@ -1,14 +1,13 @@
 {
 	"category" : "Squello-Core",
 	"classinstvars" : [
-		 ],
+		"boards" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"user",
-		"repo" ],
-	"name" : "SPBAbstractBoardProvider",
+		 ],
+	"name" : "SPBBoardSaver",
 	"pools" : [
 		 ],
 	"super" : "Object",

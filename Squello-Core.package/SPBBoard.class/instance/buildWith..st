@@ -10,6 +10,7 @@ buildWith: aBuilder
 		children: 
 			{self buildColumnAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
+		closeAction: #saveBoard;
 		yourself.
 		
 	^ self

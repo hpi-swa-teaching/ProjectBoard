@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "lo 5/16/2022 20:46",
 	"instvars" : [
-		"user",
-		"repo",
 		"api",
 		"projectId",
 		"webhookId" ],

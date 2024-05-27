@@ -1,15 +1,14 @@
 {
-	"category" : "Squello-Core",
+	"category" : "Squello-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"user",
-		"repo" ],
-	"name" : "SPBAbstractBoardProvider",
+		 ],
+	"name" : "SPBLocalSaveTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"copyableObject" : "FP 5/27/2024 16:03",
+		"defaultKey" : "FP 5/27/2024 15:57",
+		"defaultValue" : "FP 5/27/2024 15:57",
+		"setUp" : "FP 5/27/2024 16:16",
+		"tearDown" : "FP 5/27/2024 16:17",
+		"testDeleteReturnsNil" : "FP 5/27/2024 16:17",
+		"testLoadCreatesCopy" : "FP 5/27/2024 16:18",
+		"testLoadIsCopyOfSave" : "FP 5/27/2024 16:17",
+		"testSaveIsSameAsLoad" : "FP 5/27/2024 16:17" } }
