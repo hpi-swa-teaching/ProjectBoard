@@ -1,6 +1,6 @@
 accessing
 getCloseButtonLabel
 
-	activeCard isNote ifTrue: [^ 'Cannot close this card'].
-	activeCard isClosed ifTrue: [^ 'Reopen'].
-	^ 'Close'
+	self activeCard isNote ifTrue: [^ 'Cannot close this card'].
+	self activeCard isClosed ifTrue: [^ 'Reopen'].
+	^ 'Close'.

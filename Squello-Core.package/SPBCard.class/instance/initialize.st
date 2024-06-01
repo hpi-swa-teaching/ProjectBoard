@@ -9,3 +9,5 @@ initialize
 		buildAssigneeText;
 		buildStatusText;
 		buildIndicatorDetection.
+		
+	self isClosed ifNil: [self isClosed: false].
