@@ -3,7 +3,7 @@ testLoadIsCopyOfSave
 	
 	| insertedObject loadedObject |
 	insertedObject := self copyableObject.
-	SPBBoardSaver save: insertedObject as: self defaultKey.
-	loadedObject := SPBBoardSaver load: self defaultKey.
+	saver save: insertedObject as: self defaultKey.
+	loadedObject := saver load: self defaultKey.
 	
 	self assert: (insertedObject hash = loadedObject hash) not.

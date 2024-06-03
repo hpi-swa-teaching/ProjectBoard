@@ -2,7 +2,7 @@ tests
 testSaveIsSameAsLoad
 	
 	| valueAfterInsertion|
-	SPBBoardSaver save: self defaultValue as: self defaultKey.
-	valueAfterInsertion := SPBBoardSaver load: self defaultKey.
+	saver save: self defaultValue as: self defaultKey.
+	valueAfterInsertion := saver load: self defaultKey.
 	
 	self assert: valueAfterInsertion = self defaultValue.

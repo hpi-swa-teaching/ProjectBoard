@@ -5,9 +5,10 @@
 		"copyableObject" : "FP 5/27/2024 16:03",
 		"defaultKey" : "FP 5/27/2024 15:57",
 		"defaultValue" : "FP 5/27/2024 15:57",
-		"setUp" : "FP 5/27/2024 16:16",
-		"tearDown" : "FP 5/27/2024 16:17",
-		"testDeleteReturnsNil" : "FP 5/27/2024 16:17",
-		"testLoadCreatesCopy" : "FP 5/27/2024 16:18",
-		"testLoadIsCopyOfSave" : "FP 5/27/2024 16:17",
-		"testSaveIsSameAsLoad" : "FP 5/27/2024 16:17" } }
+		"setUp" : "FP 6/3/2024 11:18",
+		"tearDown" : "FP 6/3/2024 11:18",
+		"testClear" : "FP 6/3/2024 11:21",
+		"testDeleteReturnsNil" : "FP 6/3/2024 11:20",
+		"testLoadCreatesCopy" : "FP 6/3/2024 11:19",
+		"testLoadIsCopyOfSave" : "FP 6/3/2024 11:19",
+		"testSaveIsSameAsLoad" : "FP 6/3/2024 11:19" } }

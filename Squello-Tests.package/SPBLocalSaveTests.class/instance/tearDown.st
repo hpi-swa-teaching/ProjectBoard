@@ -1,4 +1,4 @@
 setup
 tearDown
-
-	SPBBoardSaver delete: self defaultKey.
+	
+	saver := nil.

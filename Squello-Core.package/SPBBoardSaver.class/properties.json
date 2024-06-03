@@ -1,12 +1,12 @@
 {
 	"category" : "Squello-Core",
 	"classinstvars" : [
-		"boards" ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"boards" ],
 	"name" : "SPBBoardSaver",
 	"pools" : [
 		 ],

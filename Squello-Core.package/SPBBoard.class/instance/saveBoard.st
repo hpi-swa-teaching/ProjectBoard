@@ -1,4 +1,4 @@
 updating
 saveBoard
 	
-	SPBBoardSaver save: self as: self boardProvider repo.
+	SPBBoardSaver defaultSaver save: self as: self boardProvider repo.

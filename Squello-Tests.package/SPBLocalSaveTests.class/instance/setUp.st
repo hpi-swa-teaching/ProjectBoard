@@ -1,4 +1,4 @@
 setup
 setUp
 
-	SPBBoardSaver delete: self defaultKey.
+	saver := SPBBoardSaver new.
