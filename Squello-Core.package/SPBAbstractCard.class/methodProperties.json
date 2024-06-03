@@ -10,6 +10,7 @@
 		"description" : "lo 7/31/2022 16:06",
 		"initialize" : "lo 7/31/2022 16:02",
 		"isCard" : "lo 8/1/2022 14:48",
+		"isClosed" : "AH 5/25/2024 15:31",
 		"isRealCard" : "lo 7/31/2022 17:03",
 		"labels" : "lo 7/31/2022 16:06",
 		"removeAssignee:" : "lo 7/31/2022 17:04",
@@ -17,5 +18,6 @@
 		"removeLabel:" : "lo 7/31/2022 17:04",
 		"removeLabelLocal:" : "lo 7/31/2022 17:04",
 		"title" : "lo 7/31/2022 16:06",
+		"toggleClosed" : "AH 5/25/2024 16:50",
 		"updateDescription:" : "lo 7/31/2022 17:04",
 		"updateTitle:" : "lo 7/31/2022 17:04" } }

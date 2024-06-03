@@ -1,0 +1,4 @@
+accessing
+isClosed
+
+	^ self subclassResponsibility.

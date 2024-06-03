@@ -20,7 +20,9 @@
 		"titleModel",
 		"assigneeModel",
 		"labelModels",
-		"isNote" ],
+		"isNote",
+		"isClosed",
+		"statusModel" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],
