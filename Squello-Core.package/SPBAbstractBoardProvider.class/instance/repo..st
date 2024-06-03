@@ -1,3 +1,4 @@
 accessing
 repo: anObject
-	repo := anObject
+
+	repo := anObject.

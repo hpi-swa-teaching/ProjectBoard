@@ -17,6 +17,7 @@
 		"testChangeIndexOfColumn" : "mcr 8/1/2022 02:10",
 		"testId" : "tk 7/30/2022 23:34",
 		"testIsLastCard" : "mcr 8/1/2022 02:40",
+		"testLastCardInEmpty" : "FP 5/28/2024 12:01",
 		"testMoveColumn" : "lo 8/1/2022 16:34",
 		"testNewFrom" : "tk 7/30/2022 23:36",
 		"testProvider" : "tk 7/30/2022 23:34",
