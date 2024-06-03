@@ -2,7 +2,10 @@
 	"class" : {
 		"open" : "Haru 6/1/2024 12:28" },
 	"instance" : {
-		"buildWith:" : "Haru 6/1/2024 12:36",
+		"buildRecentBoardsSpecWith:" : "Haru 6/1/2024 13:24",
+		"buildSidebarSpecWith:" : "Haru 6/1/2024 13:27",
+		"buildSidebarSpecWith:width:" : "Haru 6/1/2024 13:28",
+		"buildWith:" : "Haru 6/1/2024 14:05",
 		"initialize" : "Haru 5/31/2024 14:57",
 		"open" : "Haru 6/1/2024 12:22",
 		"usedBuilder" : "Haru 6/1/2024 12:39",

@@ -8,8 +8,11 @@ buildWith: aBuilder
 		model: self;
 		label: 'Landing Page';
 		minimumExtent: 1040@400;
-		children:  {
-		}
+		children: 
+			{self buildSidebarSpecWith: aBuilder.
+			"self buildRecentBoardsSpecWith: aBuilder."
+		};
+		"work notiz: children has to be implementet already or programm hangs up at window build, because there it expect all that will be builded is a spec already"
 		yourself.
 		
 	^ self
