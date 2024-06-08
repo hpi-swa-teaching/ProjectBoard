@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"usedBuilder",
-		"window" ],
+		"window",
+		"lastSidebarPart",
+		"RecentLocalBoards",
+		"RecentGitHubBoards" ],
 	"name" : "SPBLandingPage",
 	"pools" : [
 		 ],
