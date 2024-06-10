@@ -1,5 +1,5 @@
 accessing
 RecentGitHubBoards
 
-	RecentGitHubBoards ifNil: [RecentGitHubBoards := Array new.].
+	RecentGitHubBoards ifNil: [RecentGitHubBoards := OrderedCollection new.].
 	^ RecentGitHubBoards

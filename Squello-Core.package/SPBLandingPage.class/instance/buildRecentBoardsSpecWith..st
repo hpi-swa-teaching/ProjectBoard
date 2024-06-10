@@ -9,7 +9,7 @@ buildRecentBoardsSpecWith: aBuilder
 		layout: #vertical;
 		children: 
 			{self buildRecentLocalBoardsSpecWith: aBuilder.
-			"self buildRecentGitHubBoardsSpecWith: aBuilder."
+			self buildRecentGitHubBoardsSpecWith: aBuilder.
 		};
 		yourself.
 	^ spec.
