@@ -2,8 +2,8 @@ toolbuilder
 buildRecentLocalBoardsChildren
 
 	|children|
-	children := ( self class RecentLocalBoards: [:NameOfRecentLocalBoard | self buildRecentLocalBoardsButtonSpecWith: self usedBuilder withName: NameOfRecentLocalBoard] )asOrderedCollection
-	
+	children := ( self class RecentLocalBoards collect: [:NameOfRecentLocalBoard | self buildRecentLocalBoardsButtonSpecWith: self usedBuilder withName: NameOfRecentLocalBoard] )asOrderedCollection.
+	^ children.
 	 "pluggableButtonSpec new
 		model: self;
 		label: 

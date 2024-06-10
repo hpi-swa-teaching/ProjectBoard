@@ -2,8 +2,8 @@ toolbuilder
 buildRecentLocalBoardsButtonSpecWith: aBuilder withName: aName
 
 
-	^ aBuilder pluggableButtonSpec new
+	^ aBuilder build: (aBuilder pluggableButtonSpec new
 		model: self;
 		label: aName;
-		yourself.
+		yourself).
 		

@@ -1,7 +1,6 @@
 toolbuilder
 buildWith: aBuilder
 
-	
 	| spec |
 	self usedBuilder: aBuilder.
 	spec := aBuilder pluggableWindowSpec new
@@ -9,9 +8,7 @@ buildWith: aBuilder
 		label: 'Landing Page';
 		minimumExtent: 500px @200px;
 		children: 
-			{self buildSidebarSpecWith: aBuilder.
-			"self buildRecentBoardsSpecWith: aBuilder."
-			
+			{self buildMainLayoutPanelSpecWith: aBuilder.
 		};
 		
 		yourself.
