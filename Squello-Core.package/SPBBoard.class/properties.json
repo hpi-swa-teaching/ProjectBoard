@@ -11,7 +11,8 @@
 		"usedBuilder",
 		"columns",
 		"window",
-		"sidebar" ],
+		"sidebar",
+		"isLocal" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],

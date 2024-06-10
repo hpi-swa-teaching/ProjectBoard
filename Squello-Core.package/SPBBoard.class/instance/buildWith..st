@@ -3,9 +3,10 @@ buildWith: aBuilder
 
 	| spec |
 	self usedBuilder: aBuilder.
+	Transcript showln: 'dhhdhab'.
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Squello Project Board';
+		label: self boardProvider queryBoardName;
 		minimumExtent: 1040@400;
 		children: 
 			{self buildColumnAreaSpecWith: aBuilder.
