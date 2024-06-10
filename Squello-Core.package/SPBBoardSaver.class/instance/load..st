@@ -1,4 +1,4 @@
 save/load
 load: anObject
 
-	^ (self loadReadonly: anObject) veryDeepCopy.
+	^ (self boards at: anObject ifAbsent: nil) veryDeepCopy.
