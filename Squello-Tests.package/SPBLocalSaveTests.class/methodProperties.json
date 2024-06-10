@@ -11,4 +11,5 @@
 		"testDeleteReturnsNil" : "FP 6/3/2024 11:20",
 		"testLoadCreatesCopy" : "FP 6/3/2024 11:19",
 		"testLoadIsCopyOfSave" : "FP 6/3/2024 11:19",
+		"testReadonlyLoad" : "FP 6/8/2024 11:58",
 		"testSaveIsSameAsLoad" : "FP 6/3/2024 11:19" } }
