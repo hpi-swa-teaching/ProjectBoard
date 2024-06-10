@@ -3,7 +3,8 @@ buildRecentLocalBoardsButtonSpecWith: aBuilder withName: aName
 
 
 	^ aBuilder build: (aBuilder pluggableButtonSpec new
-		model: self;
+		model: [SPBBoard openFromPrompt: aName];
+		action: #value;
 		label: aName;
 		yourself).
 		
