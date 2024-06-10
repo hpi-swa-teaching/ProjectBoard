@@ -3,7 +3,7 @@ list
  	"returns #() with strings"
 	
 	
-	^ #('Recent Boards' 'Open Board' 'New local Board' 'Manage local Boards' 'Reset User Account' 'Authentification' )
+	^ #('Recent Boards' 'Open Board' 'New Local Board' 'Manage Local Boards' 'Reset User Account' 'Authentification' )
 	
 
 	"^ #( apple tree )"

@@ -1,15 +1,13 @@
 toolbuilder
 buildRecentLocalBoardsSpecWith: aBuilder
 
-	| spec |
-	self usedBuilder: aBuilder.
-	spec := aBuilder pluggableWindowSpec new
-		model: self;
-		label: 'Recent Local Boards';
-		layout: #horizontal:;
-		"frame: (0@0.2 corner: 1@1);"
-		children: 
-			{self RecentLocalBoards: [:each | self buildRecentLocalBoardsButtonSpecWith: aBuilder]
-		};
-		yourself.
-	^ aBuilder build: spec.
+	^ aBuilder pluggableScrollPaneSpec new
+			frame: (0@0 corner: 0.2@1);
+			name: #RecentLocalBoards;
+			model: self;
+			"scrollBarThickness: 20;"
+			vScrollBarPolicy: #never;
+			children: #buildRecentLocalBoardsChildren;
+			layout: #horizontal;
+			yourself.
+	

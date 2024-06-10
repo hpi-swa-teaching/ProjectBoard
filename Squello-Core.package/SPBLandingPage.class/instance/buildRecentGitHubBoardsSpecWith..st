@@ -3,13 +3,14 @@ buildRecentGitHubBoardsSpecWith: aBuilder
 
 	| spec |
 	self usedBuilder: aBuilder.
-	spec := aBuilder pluggableWindowSpec new
+	spec := aBuilder pluggablePanelSpec new
 		model: self;
-		label: 'Recent Local Boards';
-		layout: #horizontal:;
+		"label: 'Recent Local Boards';"
+		
 		"frame: (0@0.2 corner: 1@1);"
 		children: 
-			{self RecentGitHubBoards: [:each | self buildRecentGitHubBoardsButtonSpecWith: aBuilder]
-		};
+			{"self class RecentGitHubBoards: [:recentGitHubBoard | self buildRecentGitHubBoardsButtonSpecWith: aBuilder withBoardInfo: recentGitHubBoard] 
+		"};
+		layout: #horizontal;
 		yourself.
 	^ aBuilder build: spec.

@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"RecentGitHubBoards",
+		"RecentLocalBoards" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"usedBuilder",
-		"window",
-		"lastSidebarPart",
-		"RecentLocalBoards",
-		"RecentGitHubBoards" ],
+		"lastSidebarPart" ],
 	"name" : "SPBLandingPage",
 	"pools" : [
 		 ],
