@@ -3,7 +3,6 @@ buildWith: aBuilder
 
 	| spec |
 	self usedBuilder: aBuilder.
-	Transcript showln: 'dhhdhab'.
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
 		label: self boardProvider queryBoardName;

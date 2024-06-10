@@ -1,9 +1,8 @@
-backgroundLogic
+recentboards
 changeRecentLocalBoards: lastLocalBoard
 
 	RecentLocalBoards addFirst: lastLocalBoard.
 	
-	(RecentLocalBoards size > self class numberOfRecentLocalBoards) 
+	(RecentLocalBoards size > self numberOfRecentLocalBoards) 
 		ifTrue: [RecentLocalBoards removeLast.].
 		
-	
