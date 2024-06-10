@@ -12,7 +12,8 @@
 		"columns",
 		"window",
 		"sidebar",
-		"isLocal" ],
+		"isLocal",
+		"boardName" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],
