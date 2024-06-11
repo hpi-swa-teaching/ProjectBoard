@@ -19,6 +19,7 @@
 		"moveCard:after:toColumn:" : "mcr 6/3/2022 13:16",
 		"moveCardToTop:toColumn:" : "mcr 6/3/2022 13:17",
 		"moveColumn:after:" : "tk 7/30/2022 22:00",
+		"queryBoardName" : "FP 6/11/2024 11:04",
 		"queryCardContent:" : "FP 5/11/2024 14:57",
 		"queryColumns" : "tk 7/30/2022 23:31",
 		"renameColumn:to:" : "FP 5/11/2024 15:01",
