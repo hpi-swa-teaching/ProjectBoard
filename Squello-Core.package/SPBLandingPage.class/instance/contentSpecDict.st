@@ -1,7 +1,7 @@
 toolbuilder
 contentSpecDict
 
-	^ {'Recent Boards' -> {
-			self buildRecentLocalBoardsSpecWith: self usedBuilder.
-			self buildRecentGitHubBoardsSpecWith: self usedBuilder.}.
-		} asDictionary.
+	^ (self contentPanels collect: 
+		[:each| each first -> (each second collect: 
+			[:eachSymbol| self perform: eachSymbol with: self usedBuilder])]) 
+	asDictionary.
