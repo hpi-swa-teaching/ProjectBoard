@@ -1,4 +1,4 @@
 content-panels
 openBoardPanel
 
-	^ {'Open Board'. {}}.
+	^ {'Open Board'. {#buildOpenButtonSpecWith:}}.
