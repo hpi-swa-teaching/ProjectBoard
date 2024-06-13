@@ -1,6 +1,5 @@
-toolbuilder
+toolbuilder-recent boards
 buildRecentLocalBoardsChildren
 
-	|children|
-	children := ( self class RecentLocalBoards collect: [:NameOfRecentLocalBoard | self buildRecentLocalBoardsButtonSpecWith: self usedBuilder withName: NameOfRecentLocalBoard] )asOrderedCollection.
-	^ children.
+	^ ( self class RecentLocalBoards collect: 
+		[:aString | self buildRecentLocalBoardsButtonSpecWith: self usedBuilder withName: aString] ) asOrderedCollection.

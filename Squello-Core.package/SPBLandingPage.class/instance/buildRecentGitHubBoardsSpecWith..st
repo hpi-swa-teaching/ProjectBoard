@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-recent boards
 buildRecentGitHubBoardsSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new

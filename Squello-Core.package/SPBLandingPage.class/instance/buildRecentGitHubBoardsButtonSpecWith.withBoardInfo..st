@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-recent boards
 buildRecentGitHubBoardsButtonSpecWith: aBuilder withBoardInfo: aDictionary
 	
 	| name |

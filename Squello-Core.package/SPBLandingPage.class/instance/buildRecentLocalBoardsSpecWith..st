@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-recent boards
 buildRecentLocalBoardsSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
