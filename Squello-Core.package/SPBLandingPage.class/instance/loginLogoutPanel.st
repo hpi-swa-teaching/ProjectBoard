@@ -1,4 +1,4 @@
 content-panels
 loginLogoutPanel
 
-	^ {'Login/Logout'. {}}.
+	^ {'Login/Logout'. {#buildAuthButtonSpecWith:}}.
