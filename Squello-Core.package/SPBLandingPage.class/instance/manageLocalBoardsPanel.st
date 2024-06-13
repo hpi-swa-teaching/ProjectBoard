@@ -1,4 +1,4 @@
 content-panels
 manageLocalBoardsPanel
 
-	^ {'Manage Local Boards'. {}}.
+	^ {'Manage Local Boards'. {#buildManageLocalBoardPanelSpecWith:}}.
