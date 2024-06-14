@@ -22,7 +22,8 @@
 		"labelModels",
 		"isNote",
 		"isClosed",
-		"statusModel" ],
+		"statusModel",
+		"isHighlighted" ],
 	"name" : "SPBCard",
 	"pools" : [
 		 ],

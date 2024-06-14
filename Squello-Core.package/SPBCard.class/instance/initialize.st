@@ -8,6 +8,7 @@ initialize
 		buildTitle;
 		buildAssigneeText;
 		buildStatusText;
-		buildIndicatorDetection.
+		buildIndicatorDetection;
+		isHighlighted: false.
 		
 	self isClosed ifNil: [self isClosed: false].
