@@ -8,8 +8,11 @@ applyUserInterfaceTheme
 		borderColor: ((self userInterfaceTheme get: #borderColor for: PluggableButtonMorph) ifNil: [Color red]).
 	textColor := (self userInterfaceTheme get: #textColor for: PluggableButtonMorph) ifNil: [Color white].
 	self isHighlighted ifTrue: [
-		self color: ((self color luminance <= 0.5) ifTrue: [self color alphaMixed: 0.75 with: Color white] ifFalse: [self color alphaMixed: 0.75 with: Color black]).
-		self borderColor: ((self borderColor luminance <= 0.5) ifTrue: [self borderColor alphaMixed: 0.75 with: Color white] ifFalse: [self borderColor alphaMixed: 0.75 with: Color black]).
+		"make color and borderColor darker or lighter depending on color"
+		"if color is dark, make it lighter, else darker"
+		"this is what color makeForegroundColor is taking care of - it returns white or black"
+		self color: (self color alphaMixed: 0.75 with: self color makeForegroundColor).
+		self borderColor: (self color alphaMixed: 0.75 with: self color makeForegroundColor).
 		textColor := self color makeForegroundColor.
 		].
 	font := (self userInterfaceTheme get: #font for: PluggableButtonMorph).
