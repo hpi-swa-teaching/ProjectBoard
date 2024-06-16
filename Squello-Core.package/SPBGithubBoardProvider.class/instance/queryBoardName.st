@@ -1,4 +1,4 @@
 board
 queryBoardName
 
-	^ (self api queryProject: projectId) at: 'name'.
+	^ (self api queryProject: self projectId) at: 'name'.
