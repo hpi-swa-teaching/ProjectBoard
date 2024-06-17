@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"buildFromRemote:into:" : "mcr 8/3/2022 14:56",
+		"buildFromRemoteProject:intoColumns:" : "FP 6/17/2024 17:51",
 		"buildNew:into:" : "mcr 8/3/2022 14:53",
 		"buildNewFromRemote:into:" : "mcr 8/3/2022 14:56",
 		"defaultCardExtent" : "lo 8/1/2022 12:18",

@@ -54,12 +54,12 @@ getQueryColumnQuery: aString
               closed
             }
           }
-          fieldValueByName(name: "Status")
+          fieldValueByName(name: \"Status\")
           {
             ... on ProjectV2ItemFieldSingleSelectValue
             {
               name
-              id
+              optionId
             }
           }
         }
