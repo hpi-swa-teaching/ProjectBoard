@@ -22,6 +22,8 @@ buildFromRemoteProject: aJsonObject intoColumns: aDictionairy
 		isClosed: (isDraftIssue not and: [content at: 'closed']).
 	isIssueOrPR ifTrue: [
 		instance labels: (((content at: 'labels') at: 'nodes') collect: [:each| SPBLabel newFrom: each.]) asOrderedCollection].
+	instance buildUI.
+	instance openInWorld.
 	
 	instance setCardColumnAtTop: column.
 	^ instance.
