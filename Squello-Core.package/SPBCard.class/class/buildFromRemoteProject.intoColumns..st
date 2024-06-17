@@ -17,11 +17,11 @@ buildFromRemoteProject: aJsonObject intoColumns: aDictionairy
 	isDraftIssue ifTrue: [instance isNote: true.].
 	isIssueOrPR := (contentType = 'ISSUE') or: [contentType = 'PULL_REQUEST'].
 	instance 
-		assignees: (((content at: 'assignees') at: 'nodes') collect: [:each| SPBAssignee newFrom: each.]);
+		assignees: (((content at: 'assignees') at: 'nodes') collect: [:each| SPBAssignee newFrom: each.]) asOrderedCollection;
 		labels: OrderedCollection new;
 		isClosed: (isDraftIssue not and: [content at: 'closed']).
 	isIssueOrPR ifTrue: [
-		instance labels: (((content at: 'labels') at: 'nodes') collect: [:each| SPBLabel newFrom: each.])].
+		instance labels: (((content at: 'labels') at: 'nodes') collect: [:each| SPBLabel newFrom: each.]) asOrderedCollection].
 	
 	instance setCardColumnAtTop: column.
 	^ instance.

@@ -17,11 +17,14 @@ getQueryColumnQuery: aString
               assignees(first: 100){
                 nodes{
                   id
+                  login
                 }
               }
               labels (first: 100){
                 nodes{
                   id
+                  name
+                  color
                 }
               }
               closed
@@ -33,6 +36,7 @@ getQueryColumnQuery: aString
               assignees(first: 100){
                 nodes{
                   id
+                  login
                 }
               }
               id
@@ -43,11 +47,14 @@ getQueryColumnQuery: aString
               assignees (first: 100){
                 nodes{
                   id
+                  login
                 }
               }
               labels(first: 100){
                 nodes{
                   id
+                  name
+                  color
                 }
               }
               id
