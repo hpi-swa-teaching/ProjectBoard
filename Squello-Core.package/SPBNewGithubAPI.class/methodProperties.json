@@ -5,6 +5,9 @@
 		"url" : "FP 6/15/2024 13:47" },
 	"instance" : {
 		"createPostRequestTo:" : "FP 6/13/2024 16:58",
+		"deleteAssignee:fromIssue:" : "FP 6/18/2024 11:18",
+		"getDeleteAssigneeMutation:fromDraft:" : "FP 6/18/2024 11:28",
+		"getDeleteAssigneeMutation:fromIssue:" : "FP 6/18/2024 11:13",
 		"getPossibleAssigneesQuery:" : "FP 6/16/2024 17:34",
 		"getPossibleLabelsQuery:" : "FP 6/16/2024 17:49",
 		"getQueryColumnQuery:" : "FP 6/17/2024 17:57",
@@ -19,4 +22,5 @@
 		"queryColumns:" : "FP 6/16/2024 15:18",
 		"queryProject:" : "FP 6/16/2024 15:40",
 		"queryProjectID:user:" : "FP 6/16/2024 15:28",
+		"updateAssignees:fromDraft:" : "FP 6/18/2024 12:05",
 		"userString" : "FP 6/15/2024 13:59" } }

@@ -12,6 +12,7 @@
 		"createNewCard:into:" : "mcr 8/3/2022 13:59",
 		"deleteAssignee:fromCard:" : "lo 7/31/2022 17:46",
 		"deleteLabel:fromCard:" : "lo 7/31/2022 17:47",
+		"fetchCardsIntoColumns:" : "FP 6/18/2024 12:04",
 		"label" : "lo 7/31/2022 17:55",
 		"label:" : "lo 7/31/2022 17:56",
 		"listPossibleAssignees" : "FP 5/11/2024 14:43",
