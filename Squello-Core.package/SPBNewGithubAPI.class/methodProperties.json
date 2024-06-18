@@ -4,9 +4,10 @@
 		"token:" : "FP 6/13/2024 16:49",
 		"url" : "FP 6/15/2024 13:47" },
 	"instance" : {
+		"addAssignee:toIssue:" : "FP 6/18/2024 12:12",
 		"createPostRequestTo:" : "FP 6/13/2024 16:58",
 		"deleteAssignee:fromIssue:" : "FP 6/18/2024 11:18",
-		"getDeleteAssigneeMutation:fromDraft:" : "FP 6/18/2024 11:28",
+		"getAddAssigneeMutation:toIssue:" : "FP 6/18/2024 12:17",
 		"getDeleteAssigneeMutation:fromIssue:" : "FP 6/18/2024 11:13",
 		"getPossibleAssigneesQuery:" : "FP 6/16/2024 17:34",
 		"getPossibleLabelsQuery:" : "FP 6/16/2024 17:49",
@@ -14,6 +15,7 @@
 		"getQueryColumnsQuery:" : "FP 6/16/2024 17:34",
 		"getQueryProjectIDQuery:user:" : "FP 6/16/2024 15:28",
 		"getQueryProjectQuery:" : "FP 6/16/2024 15:36",
+		"getUpdateAssigneesMutation:fromDraft:" : "FP 6/18/2024 12:15",
 		"listPossibleAssigneesForProject:" : "FP 6/16/2024 17:40",
 		"listPossibleLabelsForProject:" : "FP 6/16/2024 17:50",
 		"postRequestToURL:withData:" : "FP 6/13/2024 18:08",
@@ -22,5 +24,5 @@
 		"queryColumns:" : "FP 6/16/2024 15:18",
 		"queryProject:" : "FP 6/16/2024 15:40",
 		"queryProjectID:user:" : "FP 6/16/2024 15:28",
-		"updateAssignees:fromDraft:" : "FP 6/18/2024 12:05",
+		"updateAssignees:fromDraft:" : "FP 6/18/2024 12:15",
 		"userString" : "FP 6/15/2024 13:59" } }

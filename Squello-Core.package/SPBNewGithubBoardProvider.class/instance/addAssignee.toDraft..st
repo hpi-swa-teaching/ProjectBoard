@@ -1,9 +1,9 @@
 assignees
-deleteAssignee: anSPBAssignee fromDraft: anSPBCard
+addAssignee: anSPBAssignee toDraft: anSPBCard
 	
-	"the Assignee is probably already removed, so just forward current list to server"
+	"the Assignee is probably already in the list, so just forward current list to server"
 	| newAssignees assigneeString |
 	newAssignees := anSPBCard assignees collect: [:each| each id].
-	newAssignees remove: anSPBAssignee id ifAbsent: [].
+	(newAssignees includes: anSPBAssignee id) ifFalse: [newAssignees add: anSPBAssignee id].
 	assigneeString := self getAssigneeString: newAssignees.
 	^ self api updateAssignees: assigneeString fromDraft: anSPBCard id.

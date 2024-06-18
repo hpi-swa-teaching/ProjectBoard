@@ -1,5 +1,5 @@
 mutations
-getDeleteAssigneeMutation: aString fromDraft: anotherString
+getUpdateAssigneesMutation: aString fromDraft: anotherString
 
 	"aString is a Json Array of all assignees except the removed one"
 	^ '{"query": "mutation{
