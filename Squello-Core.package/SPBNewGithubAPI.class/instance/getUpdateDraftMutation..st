@@ -1,13 +1,10 @@
 mutations
-getUpdateIssueMutation: aSPBCard
+getUpdateDraftMutation: aSPBCard
 	
-	| state |
-	state := aSPBCard isClosed ifTrue: ['CLOSED'] ifFalse: ['OPEN'].
 	^ '{"query": "mutation{
-		updateIssue(input:{
+		updateProjectV2DraftIssue(input:{
 			clientMutationId:\"Squello\"
-			id: \"', aSPBCard id, '\"
-			state: ', state ,'
+			draftIssueId: \"', aSPBCard id, '\"
 			title: \"', aSPBCard title, '\"
 			body: \"', aSPBCard description, '\"
 			})
