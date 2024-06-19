@@ -6,7 +6,7 @@ getUpdateIssueMutation: aSPBCard
 	^ '{"query": "mutation{
 		updateIssue(input:{
 			clientMutationId:\"Squello\"
-			id: \"', aSPBCard id, '\"
+			id: \"', aSPBCard issueId, '\"
 			state: ', state ,'
 			title: \"', aSPBCard title, '\"
 			body: \"', aSPBCard description, '\"

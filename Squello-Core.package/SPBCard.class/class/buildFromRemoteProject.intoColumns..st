@@ -1,7 +1,7 @@
 instance creation
 buildFromRemoteProject: aJsonObject intoColumns: aDictionairy
 
-	| columnID column contentType body id instance title content isIssueOrPR isDraftIssue |
+	| columnID column contentType body instance title content isIssueOrPR isDraftIssue cardId |
 	self flag: #TODO.
 	"TODO: refactor this into smaller methods!"
 	columnID := (aJsonObject at: 'fieldValueByName') at: 'optionId'.
@@ -11,12 +11,13 @@ buildFromRemoteProject: aJsonObject intoColumns: aDictionairy
 	content := aJsonObject at: 'content'.
 	title := content at: 'title'.
 	body := content at: 'body'.
-	id := content at: 'id'.
-	instance := self newWithTitle: title body: body id: id into: column.
+	cardId := aJsonObject at: 'id'.
+	instance := self newWithTitle: title body: body id: cardId into: column.
 	isDraftIssue := contentType = 'DRAFT_ISSUE'.
 	isDraftIssue ifTrue: [instance isNote: true.].
 	isIssueOrPR := (contentType = 'ISSUE') or: [contentType = 'PULL_REQUEST'].
 	instance 
+		issueId: (content at: 'id');
 		assignees: (((content at: 'assignees') at: 'nodes') collect: [:each| SPBAssignee newFrom: each.]) asOrderedCollection;
 		labels: OrderedCollection new;
 		isClosed: (isDraftIssue not and: [content at: 'closed']).

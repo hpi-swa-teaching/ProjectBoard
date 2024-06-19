@@ -6,4 +6,4 @@ addAssignee: anSPBAssignee toDraft: anSPBCard
 	newAssignees := anSPBCard assignees collect: [:each| each id].
 	(newAssignees includes: anSPBAssignee id) ifFalse: [newAssignees add: anSPBAssignee id].
 	assigneeString := self getAssigneeString: newAssignees.
-	^ self api updateAssignees: assigneeString fromDraft: anSPBCard id.
+	^ self api updateAssignees: assigneeString fromDraft: anSPBCard issueId.

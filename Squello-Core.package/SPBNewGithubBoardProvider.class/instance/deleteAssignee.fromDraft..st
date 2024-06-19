@@ -6,4 +6,4 @@ deleteAssignee: anSPBAssignee fromDraft: anSPBCard
 	newAssignees := anSPBCard assignees collect: [:each| each id].
 	newAssignees remove: anSPBAssignee id ifAbsent: [].
 	assigneeString := self getAssigneeString: newAssignees.
-	^ self api updateAssignees: assigneeString fromDraft: anSPBCard id.
+	^ self api updateAssignees: assigneeString fromDraft: anSPBCard issueId.
