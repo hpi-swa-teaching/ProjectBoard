@@ -26,5 +26,5 @@ buildFromRemoteProject: aJsonObject intoColumns: aDictionairy
 	instance buildUI.
 	instance openInWorld.
 	
-	instance setCardColumnAtTop: column.
+	instance setCardColumn: column.
 	^ instance.

@@ -1,4 +1,5 @@
 cards
 moveCardToTop: aSPBCard toColumn: aSPBColumn 
 	
-	^ self api moveCard: aSPBCard cardId toColumn: aSPBColumn id fieldId: self columnFieldId inProject: self projectId.
+	self moveCard: aSPBCard toColumn: aSPBColumn.
+	^ self api updateCardPosition: aSPBCard cardId after: nil inProject: self projectId.
