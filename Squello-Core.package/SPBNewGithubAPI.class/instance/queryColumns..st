@@ -2,11 +2,9 @@ columns
 queryColumns: aString
 	"aString => Project ID"
 	
-	| data responseJson noneEmptyNodes nodes |
+	| data responseJson node |
 	data := (self getQueryColumnsQuery: aString) parseAsJson.
 	responseJson := self postRequestwithData: data.
-	nodes := ((((responseJson at: 'data') at: 'node') at: 'fields') at: 'nodes').
-	noneEmptyNodes := nodes select: [:each| (each at: 'name') = 'Status'].
-	noneEmptyNodes isEmpty 
-		ifTrue: [^ OrderedCollection new.].
-	^ (noneEmptyNodes first at: 'options').
+	node := (((responseJson at: 'data') at: 'node') at: 'field').
+	node ifNil: [^ self error: 'No Status Field in Project'].
+	^ (node at: 'options').

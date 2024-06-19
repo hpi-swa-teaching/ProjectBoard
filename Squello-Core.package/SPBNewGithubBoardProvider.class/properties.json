@@ -8,7 +8,8 @@
 	"instvars" : [
 		"api",
 		"projectId",
-		"boardNr" ],
+		"boardNr",
+		"columnFieldId" ],
 	"name" : "SPBNewGithubBoardProvider",
 	"pools" : [
 		 ],

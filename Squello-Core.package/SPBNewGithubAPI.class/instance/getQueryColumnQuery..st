@@ -8,6 +8,7 @@ getQueryColumnQuery: aString
       {
         nodes
         {
+          id
           type
           content
           {
