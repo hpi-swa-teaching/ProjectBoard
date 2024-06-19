@@ -1,4 +1,4 @@
-cards
+columns
 moveCard: aSPBCard after: anotherSPBCard toColumn: aSPBColumn
 
 	self moveCard: aSPBCard toColumn: aSPBColumn.

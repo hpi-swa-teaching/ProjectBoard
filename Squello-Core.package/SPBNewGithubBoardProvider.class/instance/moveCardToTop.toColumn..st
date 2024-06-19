@@ -1,4 +1,4 @@
-cards
+columns
 moveCardToTop: aSPBCard toColumn: aSPBColumn 
 	
 	self moveCard: aSPBCard toColumn: aSPBColumn.
