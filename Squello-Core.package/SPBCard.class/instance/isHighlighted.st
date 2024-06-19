@@ -1,0 +1,4 @@
+accessing
+isHighlighted
+
+	^ isHighlighted.

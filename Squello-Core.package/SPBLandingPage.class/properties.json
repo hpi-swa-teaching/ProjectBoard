@@ -1,0 +1,16 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RecentGitHubBoards",
+		"RecentLocalBoards" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"usedBuilder",
+		"lastSidebarPart" ],
+	"name" : "SPBLandingPage",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

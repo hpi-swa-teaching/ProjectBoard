@@ -1,0 +1,4 @@
+recentboards
+numberOfRecentLocalBoards
+
+	^ 5
