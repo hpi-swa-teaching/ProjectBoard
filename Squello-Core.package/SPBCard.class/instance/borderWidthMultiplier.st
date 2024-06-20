@@ -1,0 +1,4 @@
+constants
+borderWidthMultiplier
+
+	^ 3.

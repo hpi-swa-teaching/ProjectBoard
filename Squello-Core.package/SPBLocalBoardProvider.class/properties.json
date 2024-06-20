@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"user",
-		"repo",
 		"currentId" ],
 	"name" : "SPBLocalBoardProvider",
 	"pools" : [

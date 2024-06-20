@@ -1,0 +1,4 @@
+values
+copyableObject
+
+	^ Object new.

@@ -9,5 +9,6 @@ buildSidebarSpecWith: aBuilder width: aNumber
 		children: {self buildSidebarTitleSpecWith: aBuilder.
 			self buildSidebarAssigneePanelSpecWith: aBuilder. 
 			self buildSidebarLabelPanelSpecWith: aBuilder.
-			self buildSidebarDescriptionSpecWith: aBuilder};
+			self buildSidebarDescriptionSpecWith: aBuilder.
+			self buildSidebarCloseButtonSpecWith: aBuilder.};
 		yourself.

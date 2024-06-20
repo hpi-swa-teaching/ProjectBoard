@@ -1,0 +1,4 @@
+accessing
+api
+
+	^ self subclassResponsibility.

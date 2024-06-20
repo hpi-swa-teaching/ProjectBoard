@@ -1,0 +1,4 @@
+constants
+defaultCornerRadius
+
+	^ 8.

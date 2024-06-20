@@ -7,4 +7,8 @@ initialize
 		extent: self class defaultCardExtent;
 		buildTitle;
 		buildAssigneeText;
-		buildIndicatorDetection.
+		buildStatusText;
+		buildIndicatorDetection;
+		isHighlighted: false.
+		
+	self isClosed ifNil: [self isClosed: false].

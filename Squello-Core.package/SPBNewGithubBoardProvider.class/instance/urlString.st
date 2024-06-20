@@ -1,0 +1,4 @@
+accessing
+urlString
+
+	^ self subclassResponsibility.

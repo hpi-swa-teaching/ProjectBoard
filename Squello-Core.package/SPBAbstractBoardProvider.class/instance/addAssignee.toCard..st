@@ -1,4 +1,4 @@
 assignees
-addAssignee: anSPBAssignee toCard: anSPBCard
+addAssignee: aSPBAssignee toCard: aSPBCard 
 	
 	self subclassResponsibility.

@@ -1,0 +1,17 @@
+{
+	"category" : "Squello-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"api",
+		"projectId",
+		"boardNr",
+		"columnFieldId" ],
+	"name" : "SPBNewGithubBoardProvider",
+	"pools" : [
+		 ],
+	"super" : "SPBAbstractBoardProvider",
+	"type" : "normal" }

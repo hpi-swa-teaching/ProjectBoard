@@ -10,4 +10,5 @@ buildContent: aString
 		assignees: ((contentJson at: 'assignees') collect: 
 			[:assignee | SPBAssignee newFrom: assignee]) asOrderedCollection;
 		labels: ((contentJson at: 'labels') collect: 
-			[:label | SPBLabel newFrom: label]) asOrderedCollection.
+			[:label | SPBLabel newFrom: label]) asOrderedCollection;
+		isClosed: (contentJson at: 'closed_by') isNil not.

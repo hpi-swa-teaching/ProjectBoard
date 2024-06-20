@@ -13,6 +13,5 @@ buildPluggablePasteUpMorph: aSpec
 	
 	self setFrame: aSpec frame in: widget.
 	widget borderWidth: 0.
-	widget color: Color darkGray.
 	widget actionModel: aSpec model.
 	^ widget.

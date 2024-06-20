@@ -6,5 +6,5 @@ buildSidebarDescriptionSpecWith: aBuilder
 		name: #sidebarDescription;
 		setText: #updateActiveCardDescription:;
 		getText: #activeCardDescription;
-		frame: (0@0.4 corner: 1@1);
+		frame: (0@0.5 corner: 1@1);
 		yourself.

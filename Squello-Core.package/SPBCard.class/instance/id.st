@@ -1,5 +1,5 @@
 accessing
-id
-	
-	"card ID, not issue number"
-	^ id.
+id 
+
+	"just for backwards compatibility, do NOT use this"
+	^ self cardId.

@@ -1,0 +1,4 @@
+actions
+openAuthPanel
+
+	^ SPBAuthenticationForm open.

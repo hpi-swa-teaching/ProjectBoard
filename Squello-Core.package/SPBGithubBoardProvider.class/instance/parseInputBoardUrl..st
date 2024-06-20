@@ -1,10 +1,10 @@
 initialize-release
 parseInputBoardUrl: aString
 
-	| projects url boardNr |
+	| projects url|
 	url := aString asUrl.
 	projects := self getProjects: aString.
-	boardNr := url fileName asNumber.
-	(projects size < boardNr or: [boardNr < 1])
+	self boardNr: url fileName asNumber.
+	(projects size < self boardNr or: [self boardNr < 1])
 		ifTrue: [Error signal].
-	self projectId: ((projects at: boardNr) at: 'id').
+	self projectId: ((projects at: self boardNr) at: 'id').

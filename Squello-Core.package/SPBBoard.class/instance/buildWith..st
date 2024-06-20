@@ -5,11 +5,12 @@ buildWith: aBuilder
 	self usedBuilder: aBuilder.
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Squello Project Board';
+		label: self boardName;
 		minimumExtent: 1040@400;
 		children: 
 			{self buildColumnAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
+		closeAction: #saveBoard;
 		yourself.
 		
 	^ self

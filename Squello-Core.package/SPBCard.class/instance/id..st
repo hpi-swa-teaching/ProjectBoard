@@ -1,5 +1,5 @@
 accessing
-id: aNumber
+id: anObject
 	
-	"card ID, not issue number"
-	id := aNumber.
+	"just for backwards compatability, do NOT use this"
+	self cardId: anObject.

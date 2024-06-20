@@ -1,4 +1,4 @@
-api call post request
+api calls get request
 getUser: aString
 
 	| url |
