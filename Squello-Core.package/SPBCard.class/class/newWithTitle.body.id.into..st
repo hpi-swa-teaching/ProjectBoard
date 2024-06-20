@@ -2,7 +2,7 @@ instance creation
 newWithTitle: aString body: anotherString id: anObject into: anSPBColumn
 
 	^ self new
-		id: anObject;
+		cardId: anObject;
 		boardProvider: anSPBColumn boardProvider;
 		changeProvider: anSPBColumn changeProvider;
 		setupMouseEvents;

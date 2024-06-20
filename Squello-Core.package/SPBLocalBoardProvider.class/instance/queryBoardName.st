@@ -1,0 +1,4 @@
+board
+queryBoardName
+
+	^ self repo.
