@@ -8,6 +8,7 @@ updateLabelIcons
 	self labels 
 		do: [:label | newLabel := label asMorph.
 			self labelModels add: newLabel.
-			self addMorph: newLabel.
-			self alignLabels].
+			self addMorph: newLabel.].
+	
+	self alignLabels.
 	self column ifNotNil: [self resizeCard. self column resizeToFitCards].

@@ -1,4 +1,4 @@
-accessing
+constants
 labelBorderOffset
 
-	^ 4.
+	^ self padding.
