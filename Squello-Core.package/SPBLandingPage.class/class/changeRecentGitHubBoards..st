@@ -1,9 +1,9 @@
 recentboards
 changeRecentGitHubBoards: lastGitHubBoard
 	
-	RecentGitHubBoards removeAllSuchThat: [:each| each = lastGitHubBoard].
-	RecentGitHubBoards addFirst: lastGitHubBoard.
+	self RecentGitHubBoards removeAllSuchThat: [:each| each = lastGitHubBoard].
+	self RecentGitHubBoards addFirst: lastGitHubBoard.
 	
-	(RecentGitHubBoards size > self numberOfRecentGitHubBoards) 
-		ifTrue: [RecentGitHubBoards removeLast.].
+	(self RecentGitHubBoards size > self numberOfRecentGitHubBoards) 
+		ifTrue: [self RecentGitHubBoards removeLast.].
 		

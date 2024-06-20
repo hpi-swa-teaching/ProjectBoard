@@ -1,9 +1,9 @@
 recentboards
 changeRecentLocalBoards: lastLocalBoard
 
-	RecentLocalBoards removeAllSuchThat: [:each| each = lastLocalBoard].
-	RecentLocalBoards addFirst: lastLocalBoard.
-	
-	(RecentLocalBoards size > self numberOfRecentLocalBoards) 
-		ifTrue: [RecentLocalBoards removeLast.].
+	self RecentLocalBoards removeAllSuchThat: [:each| each = lastLocalBoard].
+ 	self RecentLocalBoards addFirst: lastLocalBoard.
+	 
+	(self RecentLocalBoards size > self numberOfRecentLocalBoards) 
+		ifTrue: [self RecentLocalBoards removeLast.].
 		
