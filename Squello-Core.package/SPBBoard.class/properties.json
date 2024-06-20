@@ -13,7 +13,8 @@
 		"window",
 		"sidebar",
 		"isLocal",
-		"boardName" ],
+		"boardName",
+		"addColumnColumn" ],
 	"name" : "SPBBoard",
 	"pools" : [
 		 ],
