@@ -1,8 +1,8 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
 	self cornerStyle: #rounded;
-		cornerRadius: 8;
-		margins: 4@2.
-	self applyUserInterfaceTheme.
+		cornerRadius: self defaultCornerRadius;
+		margins: self padding;
+		applyUserInterfaceTheme.
