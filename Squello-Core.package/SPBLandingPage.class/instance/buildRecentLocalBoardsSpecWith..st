@@ -4,7 +4,6 @@ buildRecentLocalBoardsSpecWith: aBuilder
 	^ aBuilder pluggablePanelSpec new
 			name: #RecentLocalBoards;
 			model: self;
-			children: #buildRecentLocalBoardsChildren;
+			children: self buildRecentLocalBoardsChildren;
 			layout: #horizontal;
 			yourself.
-	

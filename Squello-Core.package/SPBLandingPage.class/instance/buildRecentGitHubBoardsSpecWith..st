@@ -4,7 +4,6 @@ buildRecentGitHubBoardsSpecWith: aBuilder
 	^ aBuilder pluggablePanelSpec new
 			name: #RecentGitHubBoards;
 			model: self;
-			children: #buildRecentGitHubBoardsChildren;
+			children: self buildRecentGitHubBoardsChildren;
 			layout: #horizontal;
 			yourself.
-	

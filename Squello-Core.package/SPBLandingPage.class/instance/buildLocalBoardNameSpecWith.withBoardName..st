@@ -1,8 +1,8 @@
 toolbuilder-manage panel
 buildLocalBoardNameSpecWith: aBuilder withBoardName: aString
 	
-	^ "aBuilder build:" (aBuilder pluggableTextSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
-		setText: aString;
-		yourself).
-		
+		label: (aString copyFrom: SPBBoard localPrefix size + 1 to: aString size);
+		horizontalResizing: #shrinkWrap;
+		yourself.

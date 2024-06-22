@@ -1,4 +1,5 @@
 actions
 deleteAllLocal
 
-	Transcript showln: 'delete all'.
+	SPBBoardSaver defaultSaver clear.
+	self updateUI.

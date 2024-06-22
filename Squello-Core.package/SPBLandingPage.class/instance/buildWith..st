@@ -7,8 +7,8 @@ buildWith: aBuilder
 		model: self;
 		label: 'Squello Hub';
 		minimumExtent: 500px @200px;
-		children: 
-			{self buildMainLayoutPanelSpecWith: aBuilder.
+		children: {
+			self buildMainLayoutPanelSpecWith: aBuilder.
 		};
 		yourself.
 	^ aBuilder build: spec.
