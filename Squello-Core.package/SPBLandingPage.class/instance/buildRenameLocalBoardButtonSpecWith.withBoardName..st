@@ -1,8 +1,9 @@
 toolbuilder-manage panel
 buildRenameLocalBoardButtonSpecWith: aBuilder withBoardName: aString
 
-	^ "aBuilder build:" (aBuilder pluggableButtonSpec new
-		model: self;
+	^ aBuilder pluggableButtonSpec new
+		model: [self renameBoardFromButton: aString];
+		action: #value;
+		horizontalResizing: #shrinkWrap;
 		label: 'Rename';
-		yourself).
-		
+		yourself.

@@ -1,8 +1,9 @@
 toolbuilder-manage panel
 buildDeleteLocalBoardButtonSpecWith: aBuilder withBoardName: aString
 	
-	^ "aBuilder build:" (aBuilder pluggableButtonSpec new
-		model: self;
+	^ aBuilder pluggableButtonSpec new
+		model: [self deleteBoardFromButton: aString];
+		action: #value;
+		horizontalResizing: #shrinkWrap;
 		label: 'Delete';
-		yourself).
-		
+		yourself.

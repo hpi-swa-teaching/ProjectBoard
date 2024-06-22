@@ -1,9 +1,9 @@
 toolbuilder-manage panel
 buildDeleteAllLocalBoardsButtonSpecWith: aBuilder
 
-	^ aBuilder build: (aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
+		verticalResizing: #rigid;
 		action: #deleteAllLocal;
 		label: 'Delete All';
-		yourself).
-		
+		yourself.

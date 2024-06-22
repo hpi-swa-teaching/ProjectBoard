@@ -8,6 +8,7 @@
 		"setUp" : "FP 6/3/2024 11:18",
 		"tearDown" : "FP 6/3/2024 11:18",
 		"testClear" : "FP 6/3/2024 11:21",
+		"testContains" : "FP 6/20/2024 17:13",
 		"testDeleteReturnsNil" : "FP 6/3/2024 11:20",
 		"testLoadCreatesCopy" : "FP 6/3/2024 11:19",
 		"testLoadIsCopyOfSave" : "FP 6/3/2024 11:19",
