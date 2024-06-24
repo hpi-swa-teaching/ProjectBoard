@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        smalltalk: [Squeak64-5.3]
+        smalltalk: [Squeak64-6.0]
     env:
       prerelease: ${{ !contains(github.event.head_commit.message, '[release]') }}
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
