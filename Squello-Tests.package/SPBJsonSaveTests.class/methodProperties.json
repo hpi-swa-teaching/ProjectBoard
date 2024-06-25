@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"defaultAssignee" : "FP 6/25/2024 11:27",
+		"defaultAssignee2" : "FP 6/25/2024 11:32",
+		"defaultBoard" : "FP 6/25/2024 12:14",
+		"defaultCard" : "FP 6/25/2024 11:36",
+		"defaultCard2" : "FP 6/25/2024 11:36",
+		"defaultColumn" : "FP 6/25/2024 11:54",
+		"defaultColumn2" : "FP 6/25/2024 12:06",
+		"defaultLabel" : "FP 6/25/2024 11:28",
+		"defaultLabel2" : "FP 6/25/2024 11:32",
+		"testAssigneeToJson" : "FP 6/25/2024 11:29",
+		"testBoardToJson" : "FP 6/25/2024 12:17",
+		"testCardToJson" : "FP 6/25/2024 11:54",
+		"testColumnToJson" : "FP 6/25/2024 12:04",
+		"testLabelToJson" : "FP 6/25/2024 11:29" } }
