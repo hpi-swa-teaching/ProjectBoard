@@ -3,6 +3,6 @@ asJson
 
 	^ JsonObject fromAssociations: {
 		'id' -> self id.
-		'title' -> self title.
+		'name' -> self title.
 		'cards' -> (self cards collect: [:each| each asJson]).
 	}.

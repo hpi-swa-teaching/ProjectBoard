@@ -1,0 +1,4 @@
+accessing
+boardJson
+
+	^ boardJson.

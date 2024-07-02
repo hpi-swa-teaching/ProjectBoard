@@ -2,4 +2,6 @@ cards
 fetchCardsIntoColumns: anOrderedCollection
 
 	"anOrderedCollection => Collection of SPBColumn"
-	anOrderedCollection do: [:each | self createCardsFromColumn: each].
+	1 to: anOrderedCollection size do: [:i|
+			(((self boardJson at: 'columns') at: i) at: 'cards') do: [:cardJson | SPBCard buildFromLocal: cardJson into: (anOrderedCollection at: i)].
+		].

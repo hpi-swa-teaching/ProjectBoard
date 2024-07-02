@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPBJsonLoadTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"buildFromRemote:into:" : "mcr 8/3/2022 14:56",
+		"buildFromLocal:into:" : "FP 7/2/2024 11:34",
+		"buildFromRemote:into:" : "FP 7/2/2024 11:07",
 		"buildFromRemoteProject:intoColumns:" : "FP 6/19/2024 18:07",
 		"buildNew:into:" : "mcr 8/3/2022 14:53",
 		"buildNewFromRemote:into:" : "mcr 8/3/2022 14:56",
 		"defaultCardExtent" : "AH 6/16/2024 14:53",
 		"indicatorCardEdgeOffset" : "lo 8/1/2022 12:23",
 		"newFrom:with:" : "FP 6/19/2024 16:48",
+		"newFromLocal:with:" : "FP 7/2/2024 11:08",
 		"newWithTitle:body:id:into:" : "FP 6/19/2024 16:48" },
 	"instance" : {
 		"=" : "lo 7/31/2022 18:14",
@@ -30,6 +32,7 @@
 		"buildContent:" : "AH 6/1/2024 17:57",
 		"buildIndicatorDetection" : "tk 8/2/2022 23:23",
 		"buildIndicatorDetectionHalf" : "lo 8/1/2022 11:37",
+		"buildLocalCard:" : "FP 7/2/2024 11:29",
 		"buildNote:" : "FP 5/20/2024 20:02",
 		"buildStatusText" : "AH 5/25/2024 16:59",
 		"buildTitle" : "AH 6/14/2024 12:14",

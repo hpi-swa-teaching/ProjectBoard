@@ -10,7 +10,6 @@
 		"testClear" : "FP 6/3/2024 11:21",
 		"testContains" : "FP 6/20/2024 17:13",
 		"testDeleteReturnsNil" : "FP 6/3/2024 11:20",
-		"testLoadCreatesCopy" : "FP 6/3/2024 11:19",
+		"testLoad" : "FP 6/25/2024 14:34",
 		"testLoadIsCopyOfSave" : "FP 6/3/2024 11:19",
-		"testReadonlyLoad" : "FP 6/8/2024 11:58",
 		"testSaveIsSameAsLoad" : "FP 6/3/2024 11:19" } }
