@@ -1,5 +1,5 @@
 accessing
 boardName
 
-	boardName ifNil: [boardName := self boardProvider queryBoardName].
+	boardName ifNil: [self boardName: self boardProvider queryBoardName].
 	^ boardName.

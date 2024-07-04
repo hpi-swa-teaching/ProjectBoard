@@ -1,4 +1,4 @@
-startup
+local-boards
 localPrefix
 
 	^ 'local.'.

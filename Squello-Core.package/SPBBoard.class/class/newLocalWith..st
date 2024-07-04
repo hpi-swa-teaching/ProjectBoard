@@ -1,12 +1,7 @@
-startup
-newLocalWith: aString
-
-	| instance |
-	instance := self new.
-	instance makeLocal.
+local-boards
+newLocalWith: aSPBLocalBoardProvider
 	
-	[instance parseLocalRepoFromUrl: aString]
-		on: Error do: [self errorParsingUrl. ^ self].
-	
-	instance buildAndOpen.
-	^ instance.
+	^ self new
+		makeLocal: aSPBLocalBoardProvider;
+		buildAndOpen;
+		yourself.
