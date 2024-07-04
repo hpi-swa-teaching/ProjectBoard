@@ -1,5 +1,6 @@
-cards
+accessing
 nextId
 
-	currentId ifNil: [currentId := 10].
-	^ currentId := currentId + 1.
+	self currentID ifNil: [self currentID: 0].
+	self currentID: self currentID + 1.
+	^ self currentID.

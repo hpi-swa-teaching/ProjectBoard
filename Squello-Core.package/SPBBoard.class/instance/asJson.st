@@ -3,5 +3,6 @@ asJson
 
 	^ JsonObject fromAssociations: {
 		'title' -> self boardName.
-		'columns' -> (self columns collect: [:each| each asJson]).
+		'currentID' -> self boardProvider currentID.
+		'columns' -> (JsonObject fromAssociations: (self columns collect: [:each| each id -> each asJson])).
 	}.
