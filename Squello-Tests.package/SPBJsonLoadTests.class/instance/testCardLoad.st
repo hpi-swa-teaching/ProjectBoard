@@ -2,7 +2,7 @@ testing
 testCardLoad
 
 	| json card |
-	json := '{"closed":true,"assignees":[{"id":2,"login":"your cat"}],"title":"the title","id":11,"body":"the body","isNote":true,"labels":[{"id":2,"color":"0000FF","title":"Feature"}]}'  parseAsJson.
+	json := '{"closed":true,"assignees":[{"id":2,"login":"your cat"}],"title":"the title","id":11,"body":"the body","isNote":true,"labels":[{"id":2,"color":"0000FF","name":"Feature"}]}'  parseAsJson.
 	card := SPBCard new buildLocalCard: json.
 	self assert: card isClosed.
 	self assert: card title equals: 'the title'.
