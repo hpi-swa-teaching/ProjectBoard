@@ -1,7 +1,9 @@
-startup
+local-boards
 openLocal: aString
 	
-	| localFile |
+	| localFile provider |
 	localFile := SPBBoardSaver defaultSaver load: aString.
-	localFile ifNotNil: [:file|^ file buildAndOpen].
-	^ self newLocalWith: aString.
+	localFile
+		ifNil: [provider := SPBLocalBoardProvider newWithName: aString]
+		ifNotNil: [provider := SPBLocalBoardProvider withJson: localFile].
+	^ self newLocalWith: provider.

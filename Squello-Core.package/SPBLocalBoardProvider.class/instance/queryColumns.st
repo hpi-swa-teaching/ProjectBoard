@@ -1,5 +1,8 @@
 columns
 queryColumns
-
-	self board ifNotNil: [:board| ^ board columns].
-	^ self defaultColumns.
+	
+	^ (self boardJson at: 'columns') collect: 
+		[:each| 
+			(SPBColumn newFrom: each)
+			boardProvider: self; 
+			yourself].

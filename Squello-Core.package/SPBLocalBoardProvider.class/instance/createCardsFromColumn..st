@@ -1,7 +1,8 @@
 cards
 createCardsFromColumn: aSPBColumn 
 	
-	| cards |
-	cards := aSPBColumn cards.
-	aSPBColumn cards: OrderedCollection new.
-	cards do: [:card| card setCardColumn: aSPBColumn].
+	| cardsJson |
+	cardsJson := ((self boardJson at: 'columns') at: aSPBColumn id asString) at: 'cards'.
+	
+	cardsJson
+		do: [:cardJson | SPBCard buildFromLocal: cardJson into: aSPBColumn].
