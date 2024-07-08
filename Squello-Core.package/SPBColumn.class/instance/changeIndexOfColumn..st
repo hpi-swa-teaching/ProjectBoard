@@ -10,7 +10,7 @@ changeIndexOfColumn: aNumber
 	index < aNumber 
 		ifTrue: [columns 
 					removeAt: index;
-					add: self beforeIndex: aNumber - 1]
+					add: self beforeIndex: aNumber ]
 		ifFalse: [columns
 					removeAt: index;
 					add: self beforeIndex: aNumber].
