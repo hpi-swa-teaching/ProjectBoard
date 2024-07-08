@@ -14,6 +14,6 @@ testChangeIndexOfColumn
 		usedBuilder: usedBuilder.
 	column board: board.
 	
-	column changeIndexOfColumn: 3.
+	column changeIndexOfColumn: 2.
 	self assert: 2 equals: (column board columns indexOf: column).
 	self assert: 1 equals: (column board columns indexOf: otherColumn).
