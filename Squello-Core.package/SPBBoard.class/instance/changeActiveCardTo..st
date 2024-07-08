@@ -1,8 +1,8 @@
 update sidebar
 changeActiveCardTo: anSPBCard
 
-	self sidebar activeCard toggleIsHighlighted.
-	anSPBCard toggleIsHighlighted.
+	self sidebar activeCard isHighlighted: false.
+	anSPBCard isHighlighted: true.
 	self sidebar activeCard: anSPBCard.
 	(self usedBuilder widgetAt: #sidebarTitle) setText: anSPBCard title asText.
 	(self usedBuilder widgetAt: #sidebarDescription) setText: anSPBCard description asText.
