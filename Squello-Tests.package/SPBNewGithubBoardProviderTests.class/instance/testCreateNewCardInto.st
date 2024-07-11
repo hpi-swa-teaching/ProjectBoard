@@ -2,5 +2,5 @@ tests-cards
 testCreateNewCardInto
 
 	| dict |
-	dict := {'test' -> true} asDictionary.
+	dict := Dictionary newFromPairs: {'test'. true}.
 	self assert: (provider createNewCard: dict into: SPBColumn new).
