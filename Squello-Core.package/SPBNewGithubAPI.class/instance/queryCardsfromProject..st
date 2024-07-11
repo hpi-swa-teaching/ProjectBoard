@@ -1,10 +1,9 @@
 cards
-queryCardsfromProject: anotherString
+queryCardsfromProject: aString
 
-	"aString => Column ID"
-	"anotherString => Project ID"
+	"aString => Project ID"
 	| data response |
-	data := (self getQueryColumnQuery: anotherString) parseAsJson.
+	data := (self getQueryColumnQuery: aString) parseAsJson.
 	response := self postRequestwithData: data.
 	^ (((response at: 'data') at: 'node') at: 'items') at: 'nodes'.
 	

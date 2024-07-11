@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addAssignee:toIssue:" : "FP 7/11/2024 13:06",
+		"addLabel:toIssue:" : "FP 7/11/2024 13:06",
+		"deleteAssignee:fromIssue:" : "FP 7/11/2024 13:06",
+		"deleteLabel:fromIssue:" : "FP 7/11/2024 13:08",
+		"listPossibleAssigneesForProject:" : "FP 7/9/2024 11:31",
+		"listPossibleLabelsForProject:" : "FP 7/9/2024 11:50",
+		"moveCard:toColumn:fieldId:inProject:" : "FP 7/11/2024 12:42",
+		"queryCardsfromProject:" : "FP 7/11/2024 12:22",
+		"queryColumnFieldId:" : "FP 7/11/2024 12:54",
+		"queryColumns:" : "FP 7/11/2024 12:57",
+		"queryProject:" : "FP 7/9/2024 11:52",
+		"queryProjectID:user:" : "FP 7/11/2024 13:03",
+		"updateAssignees:fromDraft:" : "FP 7/11/2024 13:07",
+		"updateCardPosition:after:inProject:" : "FP 7/11/2024 12:38",
+		"updateDraft:" : "FP 7/11/2024 12:46",
+		"updateIssue:" : "FP 7/11/2024 12:49" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Squello-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SPBMockNewGithubAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
