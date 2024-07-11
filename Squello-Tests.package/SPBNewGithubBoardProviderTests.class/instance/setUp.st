@@ -1,5 +1,5 @@
 running
 setUp
 
-	provider := SPBGithubUserBoardProvider new.
+	provider := SPBMockNewGithubUserBoardProvider new.
 	

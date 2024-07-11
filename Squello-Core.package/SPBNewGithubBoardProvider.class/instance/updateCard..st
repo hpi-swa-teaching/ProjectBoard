@@ -3,8 +3,8 @@ updateCard: aSPBCard
 
 	aSPBCard isNote
 	ifTrue: [
-		self api updateDraft: aSPBCard.
+		^ self api updateDraft: aSPBCard.
 		]
 	ifFalse: [
-		self api updateIssue: aSPBCard.
+		^ self api updateIssue: aSPBCard.
 		].
