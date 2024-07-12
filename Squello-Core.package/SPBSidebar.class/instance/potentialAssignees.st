@@ -1,4 +1,5 @@
 accessing
 potentialAssignees
 	
-	^ potentialAssignees ifNil: [potentialAssignees := self boardProvider listPossibleAssignees].
+	^ potentialAssignees
+		ifNil: [potentialAssignees := self boardProvider listPossibleAssignees].

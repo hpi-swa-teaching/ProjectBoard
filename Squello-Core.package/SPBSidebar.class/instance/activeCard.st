@@ -1,4 +1,5 @@
 accessing
 activeCard
 
-	^ activeCard ifNil: [activeCard := SPBNullCard new].
+	^ activeCard
+		ifNil: [activeCard := SPBNullCard new].

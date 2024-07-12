@@ -7,4 +7,5 @@ potentialAssigneesList
 	(self activeCard isRealCard not or: [potentialAssignees isNil])
 		ifTrue: [^ self potentialAssigneesListHeader].
 	^ self potentialAssigneesListHeader, 
-		potentialAssignees select: [:potentialAssignee | (assignees includes: potentialAssignee) not].
+		potentialAssignees 
+			select: [:potentialAssignee | (assignees includes: potentialAssignee) not].
