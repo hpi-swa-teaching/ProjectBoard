@@ -1,10 +1,10 @@
-toolbuilder
+toolbuilder-sidebar
 buildSidebarPotentialLabelListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self sidebar;
-		name: #sidebarPotentialLabelList;
 		frame: (0.5@0 corner: 1@1);
+		name: #sidebarPotentialLabelList;
 		list: #potentialLabelsList;
 		getSelected: #potentialLabelSelected;
 		setSelected: #potentialLabelSelected:;

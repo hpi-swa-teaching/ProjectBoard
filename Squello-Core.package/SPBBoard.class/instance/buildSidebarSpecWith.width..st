@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-sidebar
 buildSidebarSpecWith: aBuilder width: aNumber
 
 	^ aBuilder pluggablePanelSpec new

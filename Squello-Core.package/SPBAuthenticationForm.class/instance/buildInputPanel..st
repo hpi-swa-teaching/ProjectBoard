@@ -3,7 +3,7 @@ buildInputPanel: aBuilder
 	
 	^ aBuilder pluggablePanelSpec new
 		model: self;
+		frame: (0@0 corner: 1@1);
 		layout: #vertical;
 		children: (self buildInputFields: aBuilder);
-		frame: (0@0 corner: 1@1);
 		yourself.

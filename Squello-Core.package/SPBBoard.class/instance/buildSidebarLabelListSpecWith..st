@@ -1,10 +1,10 @@
-toolbuilder
+toolbuilder-sidebar
 buildSidebarLabelListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self sidebar;
-		name: #sidebarLabelList;
 		frame: (0@0 corner: 0.5@1);
+		name: #sidebarLabelList;
 		list: #activeCardLabelList;
 		getSelected: #labelSelected;
 		setSelected: #labelSelected:;

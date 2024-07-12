@@ -7,10 +7,10 @@ buildWith: aBuilder
 		model: self;
 		label: self boardName;
 		minimumExtent: 1040@400;
+		closeAction: #saveBoard;
 		children: 
 			{self buildColumnAreaSpecWith: aBuilder.
 			self buildSidebarSpecWith: aBuilder};
-		closeAction: #saveBoard;
 		yourself.
 		
 	^ self

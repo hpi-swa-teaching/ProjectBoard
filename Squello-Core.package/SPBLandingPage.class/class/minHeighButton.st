@@ -1,4 +1,4 @@
 toolbuilder
-minHighButton
+minHeighButton
 
 	^ 50.

@@ -4,6 +4,6 @@ buildRenameLocalBoardButtonSpecWith: aBuilder withBoardName: aString
 	^ aBuilder pluggableButtonSpec new
 		model: [self renameBoardFromButton: aString];
 		action: #value;
-		horizontalResizing: #shrinkWrap;
 		label: 'Rename';
+		horizontalResizing: #shrinkWrap;
 		yourself.
