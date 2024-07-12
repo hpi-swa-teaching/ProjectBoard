@@ -24,3 +24,7 @@ Squello needs a *Personal Access Token (classic)* to access the Github api. The 
 - Columns can not be edited
 - Adding cards is not supported yet
 - Projects (classic) are supported until Github will sunset them. It is highly recommended to migrate any classic Project. 
+
+### Starting it manually
+
+Open the workspace and use `SPBLandingPage open.` to open the LandingPage. Follow the instructions above to obtain an GitHub access token. If you do not want to sync your board to GitHub, you can use a local board. For local boards, no access token is required.
