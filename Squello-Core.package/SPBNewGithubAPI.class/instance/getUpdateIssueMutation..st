@@ -2,7 +2,9 @@ mutations
 getUpdateIssueMutation: aSPBCard
 	
 	| state |
-	state := aSPBCard isClosed ifTrue: ['CLOSED'] ifFalse: ['OPEN'].
+	state := aSPBCard isClosed 
+		ifTrue: ['CLOSED'] 
+		ifFalse: ['OPEN'].
 	^ '{"query": "mutation{
 		updateIssue(input:{
 			clientMutationId:\"Squello\"

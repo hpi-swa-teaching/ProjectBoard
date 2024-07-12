@@ -11,8 +11,12 @@ buildResizeScrollPane: aSpec
 				model: aSpec model;
 				children: child;
 				layout: aSpec layout;
-				horizontalResizing: (aSpec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
-				verticalResizing: (aSpec layout == #proportional ifTrue: [#rigid] ifFalse: [#shrinkWrap]);
+				horizontalResizing: (aSpec layout == #proportional 
+					ifTrue: [#rigid] 
+					ifFalse: [#shrinkWrap]);
+				verticalResizing: (aSpec layout == #proportional 
+					ifTrue: [#rigid]
+					ifFalse: [#shrinkWrap]);
 				buildWith: self.
 			widget morph: panel]
 		ifNil: [aSpec morph
