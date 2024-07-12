@@ -9,5 +9,4 @@ saveBoard
 		SPBLandingPage changeRecentGitHubBoards: {
 			#name -> self boardName. 
 			#url -> self url. 
-			#repo -> self boardProvider repo} asDictionary.
-		].
+			#repo -> self boardProvider repo} asDictionary.].

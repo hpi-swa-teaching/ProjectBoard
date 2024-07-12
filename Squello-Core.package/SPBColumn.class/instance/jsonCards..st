@@ -1,4 +1,4 @@
 accessing
 jsonCards: anObject
 
-	jsonCards := anObject
+	jsonCards := anObject.

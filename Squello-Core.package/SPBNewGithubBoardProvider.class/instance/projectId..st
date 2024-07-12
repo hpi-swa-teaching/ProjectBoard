@@ -1,3 +1,4 @@
 accessing
 projectId: anObject
-	projectId := anObject
+
+	projectId := anObject.

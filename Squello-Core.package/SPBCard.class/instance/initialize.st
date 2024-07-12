@@ -11,4 +11,5 @@ initialize
 		buildIndicatorDetection;
 		isHighlighted: false.
 		
-	self isClosed ifNil: [self isClosed: false].
+	self isClosed
+		ifNil: [self isClosed: false].

@@ -1,8 +1,8 @@
 assignees
 getAssigneeString: anOrderedCollection
 
-	| str |
+	| assigneeString |
 	anOrderedCollection isEmpty ifTrue: [^ ''].
-	str := '\"', anOrderedCollection first, '\"'.
-	anOrderedCollection allButFirstDo: [:each| str := str , ', \"', each, '\"'].
-	^ str.
+	assigneeString := '\"', anOrderedCollection first, '\"'.
+	anOrderedCollection allButFirstDo: [:each| assigneeString := assigneeString , ', \"', each, '\"'].
+	^ assigneeString.

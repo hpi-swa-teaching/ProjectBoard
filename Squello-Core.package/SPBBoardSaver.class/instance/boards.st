@@ -1,5 +1,6 @@
 accessing
 boards
 	
-	boards ifNil: [self boards: Dictionary new].
+	boards
+		ifNil: [self boards: Dictionary new].
 	^ boards.

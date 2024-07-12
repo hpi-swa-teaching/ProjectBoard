@@ -1,4 +1,5 @@
 accessing
 pasteup
 
-	^ pasteup ifNil: [pasteup := SPBPluggablePasteUpMorph new].
+	^ pasteup
+		ifNil: [pasteup := SPBPluggablePasteUpMorph new.].
