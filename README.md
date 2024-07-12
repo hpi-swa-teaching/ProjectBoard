@@ -13,7 +13,7 @@ Download the latest `.sar` from the [releases section](https://github.com/hpi-sw
 
 ### Opening the Application
 
-Open the workspace and use `SPBLandingPage open.` to open the LandingPage. Follow the instructions above to obtain an GitHub access token. If you do not want to sync your board to GitHub, you can use a local board. For local boards, no access token is required.
+Open the workspace and use `SPBLandingPage open.` to open the LandingPage. Follow the instructions below to obtain an GitHub access token. If you do not want to sync your board to GitHub, you can use a local board. For local boards, no access token is required.
 
 ### Authentication-Token
 
