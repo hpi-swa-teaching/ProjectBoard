@@ -13,10 +13,14 @@ Download the latest `.sar` from the [releases section](https://github.com/hpi-sw
 
 ### Authentication-Token
 
-Squello needs a *Personal Access Token* to access the Github api. The scope of the token is dependent on your use case:
-- If you are using *only* public repositories / project boards, the `public_repo` scope is sufficient ([Click here to generate a token with the proper scope](https://github.com/settings/tokens/new?description=Squello&scopes=public_repo))
-- If you are using one or more private repositories / project boards, the `public_repo` scope is *not* sufficient. Instead you need to grant squello full access to your repositories (`repo` scope). ([Click here to generate a token with the proper scope](https://github.com/settings/tokens/new?description=Squello&scopes=repo))
+Squello needs a *Personal Access Token (classic)* to access the Github api. The scope of the token is dependent on your use case:
+- In any case you are going to need a token with the `project` scope (or `read:project` scope if you do not wish to edit the project). 
+- If you are using project boards that are *only* linked to public repositories, the `public_repo` scope is sufficient ([Click here to generate a token with the proper scope](https://github.com/settings/tokens/new?description=Squello&scopes=public_repo,project))
+- If you are using a project board linked to one or more private repositories, the `public_repo` scope is *not* sufficient. Instead you need to grant Squello full access to your repositories (`repo` scope). ([Click here to generate a token with the proper scope](https://github.com/settings/tokens/new?description=Squello&scopes=repo,project))
 
 ### please note:
 
-At the moment Squello can only display cards that are issues or pull requests. If you open a board that has notes on it, they won't be displayed in Squello. If you create a new card inside Squello, this will open an issue on GitHub.
+- At the moment Squello does only support projects that are linked to one repository only.
+- Columns can not be edited
+- Adding cards is not supported yet
+- Projects (classic) are supported until Github will sunset them. It is highly recommended to migrate any classic Project. 
