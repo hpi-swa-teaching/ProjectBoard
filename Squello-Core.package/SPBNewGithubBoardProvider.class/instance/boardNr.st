@@ -1,3 +1,4 @@
 accessing
 boardNr
-	^ boardNr
+
+	^ boardNr.

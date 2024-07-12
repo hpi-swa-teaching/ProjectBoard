@@ -1,3 +1,4 @@
 accessing
 boardNr: anObject
-	boardNr := anObject
+
+	boardNr := anObject.

@@ -1,4 +1,5 @@
 accessing
 title
 	
-	^ title ifNil: [title := ''].
+	^ title
+		ifNil: [title := ''].

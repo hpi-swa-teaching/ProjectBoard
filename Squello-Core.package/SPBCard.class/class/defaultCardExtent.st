@@ -1,4 +1,4 @@
 accessing
 defaultCardExtent
 
-	^ 270@100.
+	^ 270 @ 100.
