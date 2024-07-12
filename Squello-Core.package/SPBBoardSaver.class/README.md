@@ -1,0 +1,1 @@
+used for storing saved local boards
