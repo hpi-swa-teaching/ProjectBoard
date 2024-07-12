@@ -2,6 +2,6 @@ accessing
 labelSelected: anSPBLabel
 
 	anSPBLabel isLabel
-		ifFalse: [^ self].
+		ifFalse: [^ self.].
 	labelSelected := anSPBLabel.
 	self changed: #labelSelected.

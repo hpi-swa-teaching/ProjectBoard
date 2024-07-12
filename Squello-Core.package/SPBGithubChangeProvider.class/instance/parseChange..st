@@ -39,8 +39,8 @@ parseChange: aJsonObject
 				ifTrue: [change := self cardEdited: aJsonObject]].
 	
 	action = 'opened'
-		ifTrue: [^ self].
+		ifTrue: [^ self.].
 	change 
-		ifNil: [^ self].
+		ifNil: [^ self.].
 	
 	self changed: type with: change.

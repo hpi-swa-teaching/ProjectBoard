@@ -2,9 +2,9 @@ updating
 update: aSymbol with: aDictionary
 
 	aSymbol = #column 
-		ifFalse: [^ self].
+		ifFalse: [^ self.].
 	(self id = (aDictionary at: 'id')) 
-		ifFalse: [^ self].
+		ifFalse: [^ self.].
 	
 	((aDictionary at: 'action') = #move)
 		ifTrue: [((aDictionary at: 'after') isNil)

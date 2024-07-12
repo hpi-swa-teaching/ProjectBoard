@@ -6,5 +6,5 @@ calculateCardPositionFor: aNumber
 	previousCardPosition := self cardPositions at: aNumber - 1.
 	^ self pasteup position +
 		(self borderOffset @ 
-			(previousCardPosition y + previousCard height + self class defaultSpaceBetweenCards))
+			(previousCardPosition y + previousCard height + self class defaultSpaceBetweenCards)).
 		

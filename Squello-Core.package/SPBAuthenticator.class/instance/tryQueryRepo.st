@@ -4,5 +4,5 @@ tryQueryRepo
 	
 	| repo |
 	repo := self boardProvider getRepo.
-	^ (repo message = 'Not Found') not
+	^ (repo message = 'Not Found') not.
 	

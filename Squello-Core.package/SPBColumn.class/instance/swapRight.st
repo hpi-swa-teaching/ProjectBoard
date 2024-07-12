@@ -7,7 +7,7 @@ swapRight
 	size := columns size.
 
 	index = size
-		ifTrue:[^self]
+		ifTrue:[^self.]
 		ifFalse:[self changeIndexOfColumn: index+1.
 				self changeRemoteIndexOfColumn: index+1].	
 	self board updateColumns
