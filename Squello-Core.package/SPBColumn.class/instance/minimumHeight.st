@@ -1,4 +1,5 @@
 geometry
 minimumHeight
 	
-	^ minimumHeight ifNil: [minimumHeight := self defaultMinimumHeight].
+	^ minimumHeight
+		ifNil: [minimumHeight := self defaultMinimumHeight].

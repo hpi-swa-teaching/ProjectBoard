@@ -1,4 +1,4 @@
 accessing
 cardPositions: aCollection
 
-	cardPositions := aCollection
+	cardPositions := aCollection.

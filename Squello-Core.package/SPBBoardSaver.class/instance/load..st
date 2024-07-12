@@ -1,4 +1,5 @@
 save/load
 load: anObject
 
-	^ self boards at: anObject ifAbsent: nil.
+	^ self boards at: anObject
+		ifAbsent: nil.
