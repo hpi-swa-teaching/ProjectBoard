@@ -1,1 +1,0 @@
-SPBGithubChangeProvider is responsible for managing the changes from Github to Squello Board

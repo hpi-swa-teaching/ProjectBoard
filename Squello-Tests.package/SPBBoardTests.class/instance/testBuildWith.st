@@ -5,7 +5,6 @@ testBuildWith
 	builder := SPBMorphicToolBuilder new.
 	column1 := SPBColumn new 
 		boardProvider: board boardProvider;
-		changeProvider: board changeProvider;
 		id: 1337.
 	board columns: {column1}.
 	
