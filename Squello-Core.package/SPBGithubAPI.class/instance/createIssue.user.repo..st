@@ -9,6 +9,7 @@ createIssue: aDictionary user: aString repo: anotherString
 	
 	| stream url |
 	url := 'https://api.github.com/repos/' , aString , '/' , anotherString, '/issues'.
+	
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	

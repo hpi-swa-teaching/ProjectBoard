@@ -3,6 +3,5 @@ applyUserInterfaceTheme
 
 	super applyUserInterfaceTheme.
 	addColumnColumn
-		ifNotNil: [
-			addColumnColumn color: ((self userInterfaceTheme get: #color for: SystemWindow)
+		ifNotNil: [addColumnColumn color: ((self userInterfaceTheme get: #color for: SystemWindow)
 				ifNil: [Color lightGray]).].

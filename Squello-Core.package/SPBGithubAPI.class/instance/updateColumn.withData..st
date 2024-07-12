@@ -7,6 +7,7 @@ updateColumn: aNumber withData: aDictionary
 	
 	| stream url |
 	url := 'https://api.github.com/projects/columns/' , aNumber.
+	
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	

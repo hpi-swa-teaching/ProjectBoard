@@ -7,6 +7,7 @@ createColumn: aDictionary inProject: aNumber
 
 	| stream url |
 	url := 'https://api.github.com/projects/' , aNumber ,  '/columns'.
+	
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	

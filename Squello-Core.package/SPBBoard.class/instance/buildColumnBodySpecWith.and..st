@@ -7,8 +7,8 @@ buildColumnBodySpecWith: aBuilder and: anSPBColumn
 		name: #columnScrollPane;
 		hScrollBarPolicy: #never;
 		vScrollBarPolicy: #always;
-		children: {self buildColumnDropAreaWith: aBuilder and: anSPBColumn};
 		layout: #vertical;
+		children: {self buildColumnDropAreaWith: aBuilder and: anSPBColumn};
 		yourself. 
 	
 	

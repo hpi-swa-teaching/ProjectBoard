@@ -7,6 +7,6 @@ buildColumnAreaSpecWith: aBuilder width: aNumber
 		name: #columnArea;
 		scrollBarThickness: 20;
 		vScrollBarPolicy: #never;
-		children: #buildColumnAreaChildren;
 		layout: #horizontal;
+		children: #buildColumnAreaChildren;
 		yourself.
