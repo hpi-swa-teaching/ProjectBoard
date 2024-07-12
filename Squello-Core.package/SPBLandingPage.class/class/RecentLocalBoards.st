@@ -1,5 +1,6 @@
 accessing
 RecentLocalBoards
 
-	RecentLocalBoards ifNil: [RecentLocalBoards := OrderedCollection new.].
+	RecentLocalBoards
+		ifNil: [RecentLocalBoards := OrderedCollection new.].
 	^ RecentLocalBoards

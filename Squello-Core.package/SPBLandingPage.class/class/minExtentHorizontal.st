@@ -1,4 +1,4 @@
 toolbuilder
 minExtentHorizontal
 
-	^ 500
+	^ 500.

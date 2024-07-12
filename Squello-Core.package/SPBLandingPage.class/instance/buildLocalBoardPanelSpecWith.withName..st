@@ -5,7 +5,7 @@ buildLocalBoardPanelSpecWith: aBuilder withName: aName
 		model: self;
 		layout: #horizontal;
 		horizontalResizing: #rigid;
-		minimumHeight: (50px);
+		minimumHeight: (self class minHighButton px);
 		children: {
 			self buildOpenLocalBoardButtonSpecWith: aBuilder withBoardName: aName.
 			self buildRenameLocalBoardButtonSpecWith: aBuilder withBoardName: aName.

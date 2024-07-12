@@ -1,4 +1,4 @@
 toolbuilder
 minExtentVertical
 
-	^ 200
+	^ 200.
