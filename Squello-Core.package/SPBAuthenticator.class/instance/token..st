@@ -1,4 +1,4 @@
 accessing
 token: aString
 
-	token := aString.
+	self class token: aString.

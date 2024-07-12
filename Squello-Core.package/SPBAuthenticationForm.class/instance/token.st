@@ -1,4 +1,4 @@
 accessing
 token
 
-	^ token  ifNil: [token := SPBGithubAPI token].
+	^ token ifNil: [token := SPBAuthenticator token].

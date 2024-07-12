@@ -1,4 +1,4 @@
 accessing
 username
 
-	^ Username.
+	^ SPBAuthenticator username.

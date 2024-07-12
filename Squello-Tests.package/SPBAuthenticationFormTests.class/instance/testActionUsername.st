@@ -3,7 +3,7 @@ testActionUsername
 
 	| user |
 	
-	self assert: SPBGithubAPI username equals: auth username.
+	self assert: SPBAuthenticator username equals: auth username.
 	
 	user := 'Username'.
 	auth updateUsername: user.

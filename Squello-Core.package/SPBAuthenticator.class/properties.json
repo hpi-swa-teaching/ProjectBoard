@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Token",
+		"Username" ],
 	"commentStamp" : "mcr 8/2/2022 22:57",
 	"instvars" : [
 		"boardProvider",

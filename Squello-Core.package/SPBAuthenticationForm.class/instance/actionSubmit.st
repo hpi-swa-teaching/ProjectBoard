@@ -5,9 +5,9 @@ actionSubmit
 	areCredentialsNil := (self username isNil or: [self token isNil]).
 	areCredentialsNil ifTrue: [^ self errorEmptyField].
 	
-	SPBGithubAPI token: self token.
-	oldUsername := SPBGithubAPI username.
-	SPBGithubAPI username: self username.
+	SPBAuthenticator token: self token.
+	oldUsername := SPBAuthenticator username.
+	SPBAuthenticator username: self username.
 	
 	(self checkUserValid)
 		ifTrue: [self changed: #close]

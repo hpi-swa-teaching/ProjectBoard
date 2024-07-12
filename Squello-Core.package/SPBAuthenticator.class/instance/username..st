@@ -1,4 +1,4 @@
 accessing
 username: aString
 
-	username := aString.
+	self class username: aString.

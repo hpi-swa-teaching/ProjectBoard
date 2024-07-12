@@ -3,5 +3,5 @@ errorGarbageToken
 	
 	UserDialogBoxMorph 
 		inform: 'Not a valid token' title: 'Operation canceled'.
-	SPBGithubAPI token: nil.
+	SPBAuthenticator token: nil.
 	^ Error signal.

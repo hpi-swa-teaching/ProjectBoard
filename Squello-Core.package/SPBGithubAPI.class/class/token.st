@@ -1,4 +1,4 @@
 accessing
 token
 
-	^ Token.
+	^ SPBAuthenticator token.

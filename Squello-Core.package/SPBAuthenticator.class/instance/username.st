@@ -1,4 +1,4 @@
 accessing
 username
 
-	^ username.
+	^ self class username.

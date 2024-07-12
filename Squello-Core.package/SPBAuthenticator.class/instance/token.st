@@ -1,4 +1,4 @@
 accessing
 token
 
-	^ token.
+	^ self class token.

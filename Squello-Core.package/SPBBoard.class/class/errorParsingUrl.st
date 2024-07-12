@@ -2,4 +2,4 @@ startup
 errorParsingUrl
 	
 	UserDialogBoxMorph 
-		inform: 'Invalid repository Url' title: 'Error parsing Url'.
+		inform: 'An error occurred when parsing the url' title: 'Error parsing Url'.

@@ -6,5 +6,6 @@ authenticate
 	self checkIfCredentialsMissing 
 		ifTrue: [self errorAuthenticationCanceled. Error signal].
 	
-	[self checkIfTokenValid]
-		on: Error do: [Error signal].
+	"this is now handled by the boardProvider"
+	"[self checkIfTokenValid]
+		on: Error do: [Error signal]."

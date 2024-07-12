@@ -1,4 +1,4 @@
 accessing
 username
 
-	^ username ifNil: [username := SPBGithubAPI username].
+	^ username ifNil: [username := SPBAuthenticator username].

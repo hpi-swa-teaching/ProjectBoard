@@ -1,9 +1,7 @@
 {
 	"class" : {
-		"token" : "mcr 5/27/2022 23:06",
-		"token:" : "mcr 5/27/2022 23:06",
-		"username" : "mcr 5/28/2022 00:49",
-		"username:" : "mcr 5/27/2022 23:06" },
+		"token" : "FP 7/12/2024 13:02",
+		"username" : "FP 7/12/2024 13:02" },
 	"instance" : {
 		"addAssignee:toIssue:user:repo:" : "FP 6/15/2024 13:40",
 		"addIssue:toColumn:" : "lo 6/6/2022 12:51",
