@@ -3,9 +3,9 @@ update: aSymbol with: aDictionary
 
 	| label assignee |
 	aSymbol = #card
-		ifFalse: [^ self].
+		ifFalse: [^ self.].
 	(self id = (aDictionary at: 'id') or: [self issueId = (aDictionary at: 'id')])
-		ifFalse: [^ self].
+		ifFalse: [^ self.].
 	
 	((aDictionary at: 'action') = #move)
 		ifTrue: [self moveCardWith: aDictionary].

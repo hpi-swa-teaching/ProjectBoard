@@ -4,7 +4,6 @@ testCreateCardInto
 	| cardDictionary column card |
 	cardDictionary := Dictionary newFrom: {'title'->'Found a bug'}.
 	column := SPBColumn new 
-		changeProvider: SPBGithubChangeProvider new;
 		boardProvider: SPBMockGithubBoardProvider new.
 	
 	card := provider createNewCard: cardDictionary into: column.

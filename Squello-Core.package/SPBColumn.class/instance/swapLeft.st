@@ -6,7 +6,7 @@ swapLeft
 	index := columns indexOf: self.
 
 	index = 1
-		ifTrue:[^self]
+		ifTrue:[^self.]
 		ifFalse:[self changeIndexOfColumn: index-1.
 				self changeRemoteIndexOfColumn: index-1].	
 	self board updateColumns

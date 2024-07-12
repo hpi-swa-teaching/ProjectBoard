@@ -7,7 +7,6 @@
 	"commentStamp" : "tk 8/1/2022 16:13",
 	"instvars" : [
 		"boardProvider",
-		"changeProvider",
 		"usedBuilder",
 		"columns",
 		"window",

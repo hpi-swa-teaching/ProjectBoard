@@ -2,6 +2,6 @@ accessing
 potentialAssigneeSelected: anSPBAssignee
 	
 	anSPBAssignee isAssignee
-		ifFalse: [^ self].
+		ifFalse: [^ self.].
 	potentialAssigneeSelected := anSPBAssignee.
 	self changed: #potentialAssigneeSelected.

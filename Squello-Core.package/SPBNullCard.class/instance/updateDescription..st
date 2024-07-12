@@ -1,4 +1,4 @@
 updating-remote
 updateDescription: aString
 
-	^ self inform: 'No card selected!'
+	^ self inform: 'No card selected!'.

@@ -1,4 +1,4 @@
 initialize-release
 getTokenOAuthScopes
 	
-	^ self api queryScopeHeaderOnly: self user
+	^ self api queryScopeHeaderOnly: self user.

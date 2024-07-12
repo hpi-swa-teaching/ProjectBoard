@@ -6,7 +6,7 @@ changeIndexOfColumn: aNumber
 	index := columns indexOf: self.
 	
 	index = aNumber 
-		ifTrue: [^ self]. 
+		ifTrue: [^ self.]. 
 	columns 
 		removeAt: index;
 		add: self beforeIndex: aNumber.

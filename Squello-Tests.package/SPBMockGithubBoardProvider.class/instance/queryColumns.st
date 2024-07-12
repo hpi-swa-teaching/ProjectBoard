@@ -4,14 +4,12 @@ queryColumns
 	| column1 column2 |
 	column1 := SPBColumn new
 		boardProvider: self;
-		changeProvider: SPBGithubChangeProvider new;
 		id: 1234;
 		title: 'Hi squeak!';
 		pasteup: SPBPluggablePasteUpMorph new;
 		yourself.
 	column2 := SPBColumn new
 		boardProvider: self;
-		changeProvider: SPBGithubChangeProvider new;
 		id: 5678;
 		title: 'Hi smalltalk';
 		pasteup: SPBPluggablePasteUpMorph new;

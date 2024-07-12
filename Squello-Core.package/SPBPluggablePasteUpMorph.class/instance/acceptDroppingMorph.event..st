@@ -4,5 +4,5 @@ acceptDroppingMorph: aMorph event: anEvent
 	super acceptDroppingMorph: aMorph event: anEvent.
 	
 	self dropped 
-		ifNil: [^ self].
+		ifNil: [^ self.].
 	self dropped value: aMorph value: anEvent.
