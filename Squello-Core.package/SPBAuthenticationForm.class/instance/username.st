@@ -1,4 +1,5 @@
 accessing
 username
 
-	^ username ifNil: [username := SPBAuthenticator username].
+	^ username
+		ifNil: [username := SPBAuthenticator username].
