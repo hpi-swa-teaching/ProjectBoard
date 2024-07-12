@@ -9,7 +9,11 @@ Manage your GitHub Project Boards directly from Squeak!
 
 ### Installation
 
-Download the latest `.sar` from the [releases section](https://github.com/hpi-swa-teaching/ProjectBoard/releases), drag it onto your open Squeak image and press `install sar`. The shortcut from the apps menu will be installed automatically.
+Download the latest `.sar` from the [releases section](https://github.com/hpi-swa-teaching/ProjectBoard/releases), drag it onto your open Squeak image and press `install sar`. Follow the instructions below to open the application.
+
+### Opening the Application
+
+Open the workspace and use `SPBLandingPage open.` to open the LandingPage. Follow the instructions above to obtain an GitHub access token. If you do not want to sync your board to GitHub, you can use a local board. For local boards, no access token is required.
 
 ### Authentication-Token
 
@@ -24,7 +28,3 @@ Squello needs a *Personal Access Token (classic)* to access the Github api. The 
 - Columns can not be edited
 - Adding cards is not supported yet
 - Projects (classic) are supported until Github will sunset them. It is highly recommended to migrate any classic Project. 
-
-### Starting it manually
-
-Open the workspace and use `SPBLandingPage open.` to open the LandingPage. Follow the instructions above to obtain an GitHub access token. If you do not want to sync your board to GitHub, you can use a local board. For local boards, no access token is required.
