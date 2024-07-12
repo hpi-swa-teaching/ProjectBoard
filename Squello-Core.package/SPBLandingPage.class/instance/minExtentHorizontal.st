@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-variables
 minExtentHorizontal
 
 	^ 500.

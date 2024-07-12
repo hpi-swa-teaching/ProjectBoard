@@ -6,7 +6,7 @@ buildWith: aBuilder
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Squello Hub';
-		minimumExtent: self class minExtentHorizontal px @ self class minExtentVertical px;
+		minimumExtent: self minExtentHorizontal px @ self minExtentVertical px;
 		children: {
 			self buildMainLayoutPanelSpecWith: aBuilder.
 		};

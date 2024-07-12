@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-variables
 minHeighButton
 
 	^ 50.

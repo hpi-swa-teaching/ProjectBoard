@@ -3,7 +3,7 @@ buildSidebarAssigneePanelSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self sidebar;
-		frame: (0@0.1 corner: 1@0.25);
+		frame: (0@self endTitleSidebar corner: 1@self endAssigneeList);
 		name: #sidebarAssigneeList;
 		minimumHeight: 20;
 		children: {self buildSidebarAssigneeListSpecWith: aBuilder.

@@ -3,7 +3,7 @@ buildColumnBodySpecWith: aBuilder and: anSPBColumn
 	
 	^ aBuilder pluggableScrollPaneSpec new
 		model: self;
-		frame: (0@0.15 corner: 1@1);
+		frame: (0@self beginnColumnBody corner: 1@1);
 		name: #columnScrollPane;
 		hScrollBarPolicy: #never;
 		vScrollBarPolicy: #always;

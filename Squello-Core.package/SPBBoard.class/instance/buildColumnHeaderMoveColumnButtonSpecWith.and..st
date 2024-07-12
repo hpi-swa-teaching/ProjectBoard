@@ -3,7 +3,7 @@ buildColumnHeaderMoveColumnButtonSpecWith: aBuilder and: anSPBColumn
 
 	^ aBuilder pluggableActionButtonSpec new
 		model: anSPBColumn;
-		frame: (0.7@0.6 corner: 0.85@1);
+		frame: (self endMoveLeftButton@self endColumnHeaderTitle corner: self endMoveColumnButton@1);
 		action: #moveColumn;
 		label: '<->';
 		help: 'move the column to another place';

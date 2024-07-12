@@ -3,7 +3,7 @@ buildSidebarLabelPanelSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self sidebar;
-		frame: (0@0.25 corner: 1@0.4);
+		frame: (0@self endAssigneeList corner: 1@self endUpperPartSidebar);
 		name: #sidebarLabelList;
 		minimumHeight: 20;
 		children: {self buildSidebarLabelListSpecWith: aBuilder.

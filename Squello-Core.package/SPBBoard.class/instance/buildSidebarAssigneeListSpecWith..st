@@ -3,7 +3,7 @@ buildSidebarAssigneeListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self sidebar;
-		frame: (0@0 corner: 0.5@1);
+		frame: (0@0 corner: self midOfSidebar@1);
 		name: #sidebarAssigneeList;
 		list: #activeCardAssigneeList;
 		getSelected: #assigneeSelected;
