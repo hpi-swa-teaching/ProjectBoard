@@ -5,6 +5,6 @@ buildRecentGitHubBoardsButtonSpecWith: aBuilder withBoardInfo: aDictionary
 	name := (aDictionary at: #repo), ' : ' ,( aDictionary at: #name).
 	^ aBuilder pluggableButtonSpec new
 		model: [SPBBoard openFromPrompt: (aDictionary at: #url)];
-		label: name;
 		action: #value;
+		label: name;
 		yourself.

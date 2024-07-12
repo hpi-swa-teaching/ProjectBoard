@@ -1,12 +1,12 @@
-toolbuilder
+toolbuilder-colum
 buildColumnAreaSpecWith: aBuilder width: aNumber
 
 	^ aBuilder resizeScrollPaneSpec new
+		model: self;
 		frame: (0@0 corner: aNumber@1);
 		name: #columnArea;
-		model: self;
 		scrollBarThickness: 20;
 		vScrollBarPolicy: #never;
-		children: #buildColumnAreaChildren;
 		layout: #horizontal;
+		children: #buildColumnAreaChildren;
 		yourself.

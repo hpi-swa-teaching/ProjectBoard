@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-colum
 buildColumnSpecWith: aBuilder and: anSPBColumn
 
 	^ aBuilder pluggablePanelSpec new

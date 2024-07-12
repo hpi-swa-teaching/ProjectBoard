@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-colum
 buildColumnAreaSpecWith: aBuilder
 
 	^ self buildColumnAreaSpecWith: aBuilder width: 0.75.

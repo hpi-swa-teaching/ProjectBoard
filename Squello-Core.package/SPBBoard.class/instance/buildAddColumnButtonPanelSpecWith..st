@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-colum
 buildAddColumnButtonPanelSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new

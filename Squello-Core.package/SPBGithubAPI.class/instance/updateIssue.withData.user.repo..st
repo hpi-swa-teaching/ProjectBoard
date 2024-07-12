@@ -10,6 +10,7 @@ updateIssue: aNumber withData: aDictionary user: aString repo: anotherString
 	
 	| stream url |
 	url := 'https://api.github.com/repos/' , aString , '/' , anotherString , '/issues/', aNumber.
+	
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	

@@ -7,6 +7,7 @@ chooseProjectFromUrl: aString
 	projects isEmpty ifTrue: [self errorNoProjects].
 	
 	chosenProject := self chooseProjectFrom: projects.
-	chosenProject ifNil: [^ self].
+	chosenProject 
+		ifNil: [^ self].
 	self boardProvider boardNr: (chosenProject at: 'number').
 	self boardProvider projectId: (chosenProject at: 'id').

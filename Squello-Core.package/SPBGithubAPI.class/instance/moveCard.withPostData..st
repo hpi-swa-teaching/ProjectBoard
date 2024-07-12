@@ -8,6 +8,7 @@ moveCard: aNumber withPostData: aDictionary
 	
 	| stream url |
 	url := 'https://api.github.com/projects/columns/cards/' , aNumber , '/moves'.
+	
 	stream := WriteStream with: OrderedCollection new.
 	aDictionary jsonWriteOn: stream.
 	
